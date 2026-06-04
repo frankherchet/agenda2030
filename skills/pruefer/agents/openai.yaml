@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pruefer"
+  short_description: "Reformvorhaben kritisch gegenpruefen"
+  default_prompt: "Use $pruefer to independently review, recalculate, and challenge an agenda2030 reform proposal."

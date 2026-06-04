@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reformer"
+  short_description: "Reformvorhaben ausarbeiten und berechnen"
+  default_prompt: "Use $reformer to draft a sourced, calculated reform proposal for agenda2030."
