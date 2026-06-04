@@ -42,6 +42,9 @@ gesellschaftliche Ziele rentenwirksam fördern will, muss der zuständige
 öffentliche Träger entsprechende Beiträge zahlen. Bereits erworbene
 Anwartschaften bleiben geschützt; das neue System trennt Beitragsrente,
 staatlich bezahlte Sozialzeiten und allgemeine Haushaltsleistungen transparent.
+Die heutigen Bundeszuschüsse werden nicht abrupt gestrichen, sondern als
+Bestandsschutz-Finanzierung fortgeführt und mit den geschützten Altlasten
+schrittweise abgeschmolzen.
 Die demographische Begründung ist zentral: Der Altenquotient steigt nach
 Destatis von 33 im Jahr 2024 auf 43 bis 47 im Jahr 2038 und je nach Variante
 bis 2070 auf 43 bis 61.
@@ -59,6 +62,9 @@ bis 2070 auf 43 bis 61.
 - Gesellschaftlich gewünschte Rentenwirkungen werden nicht pauschal aus der
   Rentenkasse finanziert, sondern als echte Beitragszahlungen verbucht.
 - Bestandsschutz gilt für bereits erworbene Entgeltpunkte und laufende Renten.
+- Bestehende Bundeszuschüsse bleiben für Altlasten und geschützte Ansprüche
+  erhalten, werden aber als eigener Bestandsschutz-Zuschuss ausgewiesen und
+  mit dem Altbestand abgeschmolzen.
 - Die Demographieannahmen werden aus `demographie/` übernommen, damit Rente und
   spätere GKV-Reformen konsistent mit derselben Datenbasis rechnen.
 
@@ -160,7 +166,10 @@ Der Saldo 2025 lag damit bei rund -3,917 Mrd. Euro. Beitragseinnahmen deckten
 rund drei Viertel der Einnahmen, Bundesmittel rund ein Viertel. Für die
 Reform ist entscheidend, dass Bundesmittel künftig nicht als pauschale
 Vermischung, sondern als transparente Beitragszahlung oder als separat
-ausgewiesener Steuertransfer behandelt werden.
+ausgewiesener Steuertransfer behandelt werden. Für die Umstellung gilt
+Bestandsschutz: Die heutigen Zuschüsse werden nicht gestrichen, sondern in
+einen abschmelzenden Bestandsschutz-Zuschuss für Altansprüche und in echte
+laufende Beitragszahlungen für neue rentenwirksame Staatsleistungen getrennt.
 
 ## Unterjährige Lage 2026
 
@@ -182,7 +191,7 @@ Die Nachhaltigkeitsrücklage der allgemeinen Rentenversicherung sank von
 | Rentenrechtliche Zeiten | SGB VI §§ 54, 55, 56, 57, 58 | Beitragszeiten, beitragsfreie Zeiten und Berücksichtigungszeiten sind Kern der Zweckentfremdungsprüfung. |
 | Entgeltpunkte | SGB VI §§ 63, 66, 70, 71, 76g, 113, 114 | Entgeltpunkte müssen ab Reformstichtag an reale Beitragszahlung gekoppelt werden. |
 | Beiträge | SGB VI §§ 157-170 | Beitragssatz, Beitragsbemessungsgrenze, Bemessungsgrundlagen und Beitragstragung. |
-| Bundesmittel | SGB VI § 213, § 287h, § 291b | Bundeszuschüsse und Erstattungen müssen auf echte Beiträge oder separat ausgewiesene Steuerleistungen umgestellt werden. |
+| Bundesmittel | SGB VI § 213, § 287h, § 291b | Bundeszuschüsse und Erstattungen müssen in Bestandsschutz-Zuschuss, echte Beiträge und separat ausgewiesene Steuerleistungen getrennt werden. |
 | Nachhaltigkeitsrücklage | SGB VI §§ 158, 216, 217 | Puffer bleibt erlaubt, wird aber als Demografie- und Liquiditätspuffer definiert. |
 | Beitragsverfahren | SGB IV §§ 20-22, §§ 28a-28q | Einzug, Meldung, Zahlungspflicht und Prüfung für Arbeitgeber, Selbständige und staatliche Zahlungspflichtige. |
 | Verfassungsrecht | GG Art. 3, 6, 14, 20, 33 | Gleichbehandlung, Familie, Eigentumsschutz bestehender Anwartschaften, Sozialstaat und Beamtenstatus. |
@@ -203,8 +212,11 @@ Diese Vermischung erschwert politische Kontrolle. Die Rentenkasse wird zugleich
 Versicherung, Sozialausgleich und Haushaltsinstrument. Das Reformziel trennt
 diese Rollen: Versicherungsansprüche entstehen nur aus Beiträgen; staatliche
 Ziele werden durch echte Beitragszahlung oder außerhalb der Rentenversicherung
-finanziert. Gerade wegen des steigenden Altenquotienten muss jede neue
-rentenwirksame politische Leistung sofort zeigen, wer dafür Beiträge zahlt.
+finanziert. Bestehende Bundeszuschüsse bleiben als Übergangsfinanzierung für
+Altlasten erhalten, dürfen aber nicht zur verdeckten Finanzierung neuer
+Ansprüche genutzt werden. Gerade wegen des steigenden Altenquotienten muss
+jede neue rentenwirksame politische Leistung sofort zeigen, wer dafür Beiträge
+zahlt.
 
 ## Reformmodell
 
@@ -219,7 +231,23 @@ Jeder rentenwirksame Monat erhält eine Finanzierungsquelle:
 
 Ohne Zahlung entsteht ab Reformstichtag kein neuer Entgeltpunkt.
 
-### 2. Staatliche Beitragszahlung statt pauschaler Zuschüsse
+### 2. Bestandsschutz-Zuschuss plus staatliche Beitragszahlung
+
+Die heutigen Bundeszuschüsse werden zum Reformstichtag nicht abgeschafft,
+sondern in drei klare Finanzierungsarten zerlegt:
+
+- Bestandsschutz-Zuschuss: finanziert Altansprüche, Übergangsregeln und
+  bisher politisch zugesagte nicht beitragsgedeckte Lasten. Er bleibt erhalten,
+  wird jährlich separat ausgewiesen und sinkt mit dem Altbestand.
+- Laufende staatliche Beitragszahlung: finanziert ab Reformstichtag jede neue
+  rentenwirksame politische Entscheidung, die nicht aus Erwerbsbeiträgen
+  entsteht.
+- Separater Steuertransfer: finanziert allgemeine sozialpolitische Leistungen,
+  wenn der Gesetzgeber bewusst keine Rentenpunkte entstehen lassen will.
+
+Der Abschmelzpfad muss aktuarisch berechnet werden. Politisch gesetzte
+Kürzungen ohne Bezug zum Altbestand sind ausgeschlossen, weil sie
+Bestandsschutz und Vertrauen in bereits erworbene Ansprüche verletzen würden.
 
 Der Bund oder ein anderer öffentlicher Träger zahlt rentenwirksame Beiträge für
 politisch gewollte Zeiten. Beispiele:
@@ -272,8 +300,9 @@ Babyboomer-Jahre adressieren.
   Erwerbstätigengruppen vereinheitlichen.
 - SGB VI § 177: Kindererziehungszeiten als echte Beitragszahlung ausweisen und
   jährlich abrechnen.
-- SGB VI § 213: Bundeszuschuss in zweckgebundene Beitragszahlungen,
-  Erstattungen und separat ausgewiesene Steuertransfers aufteilen.
+- SGB VI § 213: Bundeszuschuss in abschmelzenden Bestandsschutz-Zuschuss,
+  zweckgebundene Beitragszahlungen, Erstattungen und separat ausgewiesene
+  Steuertransfers aufteilen.
 - SGB VI §§ 216-217: Nachhaltigkeitsrücklage als Demografie-Puffer neu
   dimensionieren.
 - SGB IV §§ 28a-28q: Melde-, Einzugs- und Prüfverfahren für Selbständige und
@@ -283,6 +312,8 @@ Babyboomer-Jahre adressieren.
 
 - Stichtag T: neue Rentenpunkte nur noch bei Beitragszahlung.
 - Altbestand: alle bis T erworbenen Entgeltpunkte bleiben erhalten.
+- Bestehende Bundeszuschüsse bleiben als Bestandsschutz-Zuschuss erhalten und
+  werden nur entsprechend der tatsächlich auslaufenden Altlasten abgeschmolzen.
 - Staatliche Sozialzeiten ab T: nur rentenwirksam, wenn der zuständige Träger
   Beiträge zahlt.
 - Neuzugänge in bislang externe Systeme: Einbeziehung ab T mit klarer
@@ -298,6 +329,8 @@ Babyboomer-Jahre adressieren.
   Selbständigen und Neubeamten.
 - Kosten der staatlichen Beitragszahlung für Kindererziehung, Pflege,
   Arbeitslosigkeit, Dienstzeiten und Übergangsregeln.
+- Aktuarischer Abschmelzpfad des Bestandsschutz-Zuschusses nach Kohorten,
+  Leistungsarten und Altlastdefinition.
 - Zielgröße des Demografie-Puffers in Monatsausgaben.
 - Feinere Altersjahre und Erwerbsquoten, um aus der Bevölkerung im Alter 20-66
   die tatsächliche beitragspflichtige Erwerbsbasis abzuleiten.
@@ -306,6 +339,8 @@ Babyboomer-Jahre adressieren.
 
 - Gesetzesänderungsskizze für SGB VI und SGB IV anlegen.
 - Finanzmodell erstellen: Status quo 2025/2026 gegen Reformmodell.
+- Abschmelzmodell für heutige Bundeszuschüsse erstellen:
+  Bestandsschutz-Zuschuss, neue staatliche Beiträge, echte Steuertransfers.
 - Sankey-Diagramm ergänzen: Beiträge, Bundesmittel und Ausgabenblöcke der
   Rentenversicherung.
 - Liste der nicht beitragsgedeckten Rentenwirkungen nach Normen und
