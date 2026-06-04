@@ -10,7 +10,7 @@
 - source_urls:
   - <amtliche URL oder Primärquelle>
 - ingest_refs:
-  - <repo-relativer Pfad zur passenden Eingang-Datei>
+  - <repo-relativer Pfad zur passenden Ingest-Datei>
 - Status: geltender Normstand
 
 ## Normtext
@@ -30,7 +30,7 @@
 ## Verknüpfte Artefakte
 
 - Ingests: <repo-relative Pfade oder keine>
-- Reports/Auswertungen: <repo-relative Pfade oder keine>
+- Analysen/Projektartefakte: <repo-relative Pfade oder keine>
 - Gesetzesänderungen: <repo-relative Pfade oder keine>
 
 ## Offene Fragen

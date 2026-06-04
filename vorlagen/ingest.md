@@ -6,7 +6,7 @@
 - Datum: <YYYY-MM-DD>
 - Quelle: <URL, Datei, Person oder eigener Gedanke>
 - Status: <neu | geprüft | zusammengefasst | in Maßnahme überführt | verworfen>
-- Index: `eingang/index/README.md`
+- Index: `ingest/index/README.md`
 
 ## Kurzfassung
 
@@ -36,16 +36,16 @@
 
 - Ministerien: <Pfade in `ministerien/`>
 - Gesetze/Gesetzbücher: <Pfade in `gesetzbuecher/`>
-- Bundestagsdrucksachen: <Pfade in `bundestag-drucksachen/`, falls relevant>
+- Bundestagsdrucksachen: <Ingest-Pfad oder Drucksachennummer, falls relevant>
 - Themen: <Schlagworte>
 
 ## Verknüpfte Wissensseiten
 
-- <Repo-relativer Pfad zu relevanter Wissensseite, Auswertung, Report oder Prüfbericht>
+- <Repo-relativer Pfad zu relevanter Wissensseite, Analyse, Projektdatei oder Prüfbericht>
 
 ## Mögliche Updates
 
-- <Konkrete Folgearbeit an bestehenden Wissensseiten oder Reports>
+- <Konkrete Folgearbeit an bestehenden Wissensseiten, Analysen oder Projektdateien>
 
 ## Widersprüche/Risiken
 

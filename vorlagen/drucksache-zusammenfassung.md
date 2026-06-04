@@ -18,7 +18,7 @@ related_laws: []
 - Datum: <Datum>
 - Urheber: <Fraktion, Bundesregierung, Ausschuss oder andere>
 - Dokumenttyp: <Gesetzentwurf, Antrag, Unterrichtung, Beschlussempfehlung, ...>
-- Original: `bundestag-drucksachen/originale/BT-<Wahlperiode>-<Nummer>.pdf`
+- Original: `ingest/originale/BT-<Wahlperiode>-<Nummer>.pdf`
 
 ## Kurzfassung
 

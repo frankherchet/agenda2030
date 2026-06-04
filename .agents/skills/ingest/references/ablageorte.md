@@ -2,10 +2,10 @@
 
 ## Standardfälle
 
-- Bundestagsdrucksache: `bundestag-drucksachen/zusammenfassungen/BT-<wahlperiode>-<nummer>.md`
-- Allgemeines Dokument: `eingang/dokumente/YYYY-MM-DD-<slug>.md`
-- Link: `eingang/links/YYYY-MM-DD-<slug>.md`
-- Idee oder Reformnotiz: `eingang/ideen/YYYY-MM-DD-<slug>.md`
+- Bundestagsdrucksache: `ingest/dokumente/YYYY-MM-DD-bt-<wahlperiode>-<nummer>-<slug>.md`
+- Allgemeines Dokument: `ingest/dokumente/YYYY-MM-DD-<slug>.md`
+- Link: `ingest/links/YYYY-MM-DD-<slug>.md`
+- Idee oder Reformnotiz: `ingest/ideen/YYYY-MM-DD-<slug>.md`
 
 ## Zuordnungen
 

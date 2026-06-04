@@ -5,14 +5,14 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 
 ## 2026-06-04 Ingest | Markus Lanz Sendung vom 2. Juni 2026
 
-- Ingest: `eingang/dokumente/2026-06-04-markus-lanz-sendung-2026-06-02.md`
-- Rohdatei: `eingang/originale/2026-06-04-markus-lanz-sendung-2026-06-02.json`
+- Ingest: `ingest/dokumente/2026-06-04-markus-lanz-sendung-2026-06-02.md`
+- Rohdatei: `ingest/originale/2026-06-04-markus-lanz-sendung-2026-06-02.json`
 - Wirkung: Debattenquelle zu Renteneintrittsalter, Rentenniveau,
   Generationengerechtigkeit, AfD-Abgrenzung und FDP-Richtungskonflikt erfasst.
 
-## 2026-06-04 Wissenspflege | Rohdateien im Eingang
+## 2026-06-04 Wissenspflege | Rohdateien im Ingest
 
-- Neue Struktur: `eingang/originale/README.md`
+- Neue Struktur: `ingest/originale/README.md`
 - Wirkung: Kleine Rohdateien wie JSON, CSV, TXT und kleinere PDFs erhalten eine
   versionierte Ablage; große Medien bleiben außerhalb des Repos.
 
@@ -23,7 +23,7 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 
 ## 2026-06-05 Wissenspflege | LLM-Wiki-Regeln für Ingest
 
-- Betroffene Regeln: `AGENTS.md`, `eingang/README.md`,
+- Betroffene Regeln: `AGENTS.md`, `ingest/README.md`,
   `.agents/skills/ingest/SKILL.md`
 - Neuer Index: `index.md`
 - Wirkung: Ingests prüfen künftig kontextabhängig relevante Wissensseiten,
@@ -40,8 +40,17 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 
 ## 2026-06-05 Wissenspflege | Ingest-Extraktion geschärft
 
-- Betroffene Regeln: `AGENTS.md`, `eingang/README.md`,
+- Betroffene Regeln: `AGENTS.md`, `ingest/README.md`,
   `.agents/skills/ingest/SKILL.md`, `vorlagen/ingest.md`
 - Wirkung: Ingests trennen künftig Inhaltsinventar der Quelle von aktuell
   extrahierten relevanten Informationen, um erneutes Nachschlagen im Original
   zu minimieren.
+
+## 2026-06-05 Struktur | Quellen, Analysen und Projekte getrennt
+
+- Neue Struktur: `ingest/`, `analysen/`, `projekte/rentenversicherung/`
+- Verschoben: Haushalts-, Demographie- und DRV-Quellen in `ingest/`,
+  zweckgebundene Auswertungen und Datenartefakte in `analysen/`, erstes
+  Reformkonzept samt Prüfbericht in `projekte/rentenversicherung/`.
+- Wirkung: Quellen werden unabhängig vom Thema einheitlich ingestiert;
+  Analysen brauchen einen Zweck und Reformarbeit läuft projektbezogen.

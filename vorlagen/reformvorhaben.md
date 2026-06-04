@@ -68,5 +68,5 @@ review_report: ""
 
 ## Nächste Schritte
 
-- Prüferbericht in `pruefberichte/` erstellen.
+- Prüferbericht unter `projekte/<projekt>/pruefberichte/` erstellen.
 - Erst nach Status `freigegeben` im Prüferbericht `publish: true` setzen.

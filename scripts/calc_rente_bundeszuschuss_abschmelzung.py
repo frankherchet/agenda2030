@@ -14,15 +14,15 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 STERBETAFEL = (
-    ROOT / "demographie/originale/2026-06-04-destatis-sterbetafeln-2022-2024.xlsx"
+    ROOT / "ingest/originale/2026-06-04-destatis-sterbetafeln-2022-2024.xlsx"
 )
-BESTAND_CSV = ROOT / "rentenversicherung/daten/2026-06-04-drv-rentenbestand-struktur.csv"
-BUNDESMITTEL_CSV = ROOT / "rentenversicherung/daten/2026-06-04-bundesmittel-zerlegung.csv"
+BESTAND_CSV = ROOT / "analysen/daten/2026-06-04-drv-rentenbestand-struktur.csv"
+BUNDESMITTEL_CSV = ROOT / "analysen/daten/2026-06-04-bundesmittel-zerlegung.csv"
 OUTPUT_MD = (
-    ROOT / "rentenversicherung/auswertungen/2026-06-04-bundeszuschuss-abschmelzung.md"
+    ROOT / "analysen/2026-06-04-bundeszuschuss-abschmelzung.md"
 )
 OUTPUT_CSV = (
-    ROOT / "rentenversicherung/daten/2026-06-04-bundeszuschuss-abschmelzung.csv"
+    ROOT / "analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv"
 )
 
 REFORM_YEAR = 2027
@@ -317,17 +317,23 @@ def write_markdown(
         "python3 scripts/calc_rente_bundeszuschuss_abschmelzung.py",
         "```",
         "",
+        "## Zweck",
+        "",
+        "Diese Analyse modelliert, wie ein Bestandsschutz-Zuschuss für bereits",
+        "erworbene Rentenansprüche anhand der erwarteten Überlebendenzahl der",
+        "Bestandskohorte abschmelzen kann.",
+        "",
         "## Eingaben",
         "",
         f"- Reformstichtag: {REFORM_YEAR}",
         f"- Abschmelzbarer Startwert Bundesmittel 2025: {de(start, '0.001')} Mrd. Euro",
         f"- Modellierte laufende Renten aus DRV-Rentenbestand 2024: {de_int(cohort.included_count)} Renten",
         f"- Nicht modellierte Restzeilen ohne Alter: {de_int(cohort.excluded_count)} Renten",
-        "- Rentenbestandsstruktur: `rentenversicherung/daten/2026-06-04-drv-rentenbestand-struktur.csv`",
-        "- Bundesmittel-Zerlegung: `rentenversicherung/daten/2026-06-04-bundesmittel-zerlegung.csv`",
+        "- Rentenbestandsstruktur: `analysen/daten/2026-06-04-drv-rentenbestand-struktur.csv`",
+        "- Bundesmittel-Zerlegung: `analysen/daten/2026-06-04-bundesmittel-zerlegung.csv`",
         (
             "- Quelle Sterblichkeit: "
-            "`demographie/originale/2026-06-04-destatis-sterbetafeln-2022-2024.xlsx`"
+            "`ingest/originale/2026-06-04-destatis-sterbetafeln-2022-2024.xlsx`"
         ),
         "- Verwendete Tabellen: `12613-b01` männlich, `12613-b02` weiblich",
         "- Verwendete Größen: `Überlebende - lx` und `Überlebenswahrscheinlichkeit - px` bei Alter 100",
@@ -377,7 +383,7 @@ def write_markdown(
             "",
             "Vollständige Jahreswerte:",
             "",
-            "`rentenversicherung/daten/2026-06-04-bundeszuschuss-abschmelzung.csv`",
+            "`analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv`",
             "",
             "## Interpretation",
             "",

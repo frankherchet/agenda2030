@@ -15,7 +15,7 @@ Ziel ist, erneutes Nachschlagen im Original zu minimieren.
 Der Ingest ist die Brücke zwischen Rohquelle und gepflegtem Wissensbestand.
 Rohquellen bleiben unverändert; das LLM pflegt daraus kompakte, verlinkte
 Markdown-Artefakte. Gute Analysen aus der Unterhaltung dürfen nicht nur im Chat
-bleiben, sondern werden als Ingest, Auswertung, Report, offene Frage oder
+bleiben, sondern werden als Ingest, Analyse, Projektdatei, offene Frage oder
 Wissensseiten-Update im Repo gesichert.
 
 ## Extraktionsziel
@@ -39,11 +39,11 @@ Detailprüfung, Zitate oder neue Fragestellungen öffnen müssen.
 
 Vor jedem Ingest:
 
-1. `index.md`, `log.md` und `eingang/index/README.md` lesen oder gezielt
+1. `index.md`, `log.md` und `ingest/index/README.md` lesen oder gezielt
    durchsuchen.
-2. Naheliegende Fachordner prüfen, zum Beispiel `rentenversicherung/`,
-   `demographie/`, `bundeshaushalt/`, `reports/`, `pruefberichte/`,
-   `ministerien/` und `gesetzbuecher/`.
+2. Naheliegende Analysen, Projekte, Ministerien und Gesetzbücher prüfen,
+   insbesondere `analysen/`, `projekte/`, `ministerien/` und
+   `gesetzbuecher/`.
 3. Prüfen, ob die Quelle neue Fakten liefert, bestehende Aussagen stützt,
    bestehende Aussagen widerspricht oder nur Kontext ohne spätere Relevanz ist.
 4. Bei fehlender fachlicher Relevanz die Quelle trotzdem sauber erfassen, aber
@@ -53,11 +53,10 @@ Vor jedem Ingest:
 
 1. Quelle identifizieren: Dokument, Link, Idee, Notiz oder Bundestagsdrucksache.
 2. Zielordner wählen:
-   - Bundestagsdrucksache: `bundestag-drucksachen/zusammenfassungen/`
-   - sonstiges Dokument oder Bericht: `eingang/dokumente/`
-   - URL ohne abgelegte Datei: `eingang/links/`
-   - eigener Gedanke oder Reformskizze: `eingang/ideen/`
-   - kleine Rohdatei zusätzlich unter `eingang/originale/`
+   - Bundestagsdrucksache, Dokument oder Bericht: `ingest/dokumente/`
+   - URL ohne abgelegte Datei: `ingest/links/`
+   - eigener Gedanke oder Reformskizze: `ingest/ideen/`
+   - kleine Rohdatei zusätzlich unter `ingest/originale/`
 3. Dateinamen bilden: `YYYY-MM-DD-kurzer-slug.md`.
 4. Markdown mit der passenden Vorlage erstellen:
    - allgemeiner Ingest: `vorlagen/ingest.md`
@@ -67,15 +66,15 @@ Vor jedem Ingest:
 6. Aktuell relevante Informationen extrahieren: konkrete Fakten, Zahlen,
    Fundstellen, Tabellenbezüge, Zeitmarken oder Aussagen.
 7. Zusammenfassung knapp halten: maximal 5 Sätze plus wenige Stichpunkte.
-8. Betroffene Ministerien, Gesetzbücher, Fachordner, Reports, Auswertungen,
-   Prüfberichte und Folgearbeiten als Repo-Pfade verlinken, wenn erkennbar.
-9. Ingest-Datei in `eingang/index/README.md` eintragen.
+8. Betroffene Ministerien, Gesetzbücher, Analysen, Projekte, Prüfberichte und
+   Folgearbeiten als Repo-Pfade verlinken, wenn erkennbar.
+9. Ingest-Datei in `ingest/index/README.md` eintragen.
 10. `index.md` aktualisieren, wenn eine dauerhaft relevante Wissensseite neu
    entsteht, wesentlich verändert wird oder erstmals zentral verknüpft werden
    sollte.
 11. `log.md` append-only ergänzen.
 12. In allen späteren Artefakten, die diese Quelle nutzen, `ingest_refs` auf
-   die Eingang-Datei setzen.
+   die Ingest-Datei setzen.
 13. Offene Fragen sichtbar lassen, statt unsichere Fakten zu glätten.
 
 ## Kontextverknüpfung
@@ -84,8 +83,8 @@ Jeder Ingest enthält oder ergänzt sinngemäß:
 
 - `Verknüpfte Wissensseiten`: repo-relative Pfade zu bestehenden Seiten, die
   durch die Quelle gestützt, ergänzt oder herausgefordert werden.
-- `Mögliche Updates`: konkrete Folgearbeiten an Reports, Auswertungen,
-  Fachordnern, Ministerien oder Gesetzbüchern.
+- `Mögliche Updates`: konkrete Folgearbeiten an Analysen, Projekten,
+  Ministerien oder Gesetzbüchern.
 - `Widersprüche/Risiken`: erkennbare Spannungen zu bestehenden Annahmen,
   veraltete Zahlen, unsichere Sprecherzuordnung, methodische Schwächen oder
   fehlende Primärquellen.
@@ -96,11 +95,11 @@ Unsicherheit wird ein TODO oder eine offene Frage im Ingest hinterlassen.
 ## Pflicht vor Quellenverwendung
 
 - Eine externe Quelle darf erst fachlich verwendet werden, nachdem sie unter
-  `eingang/<typ>/` erfasst und im Index vermerkt wurde.
+  `ingest/<typ>/` erfasst und im Index vermerkt wurde.
 - `source_urls` bleiben als externe Nachweise erhalten, ersetzen aber niemals
   `ingest_refs`.
-- Mehrere Reports oder Auswertungen dürfen dieselbe Ingest-Datei referenzieren.
-- Der globale `index.md` ersetzt nicht den Eingangsindex; beide sind bei einem
+- Mehrere Analysen oder Projektartefakte dürfen dieselbe Ingest-Datei referenzieren.
+- Der globale `index.md` ersetzt nicht den Ingest-Index; beide sind bei einem
   Ingest auf notwendige Updates zu prüfen.
 - `log.md` ist chronologisch und append-only.
 
@@ -124,15 +123,15 @@ Unsicherheit wird ein TODO oder eine offene Frage im Ingest hinterlassen.
 
 Vor Abschluss jedes Ingests kurz prüfen:
 
-- Wurden `index.md`, `log.md`, `eingang/index/README.md` und naheliegende
-  Fachordner berücksichtigt?
+- Wurden `index.md`, `log.md`, `ingest/index/README.md` und naheliegende
+  Analysen, Projekte, Ministerien oder Gesetzbücher berücksichtigt?
 - Sind Ministerien, Gesetze, Fachseiten und Folgearbeiten repo-relativ
   verlinkt?
 - Sind Inhaltsinventar und aktuell extrahierte relevante Informationen getrennt
   dokumentiert?
 - Sind mögliche Widersprüche, veraltete Aussagen oder ungesicherte Zahlen als
   offene Fragen sichtbar?
-- Wurden Eingangsindex, globaler Index und Log aktualisiert oder bewusst als
+- Wurden Ingest-Index, globaler Index und Log aktualisiert oder bewusst als
   nicht betroffen bewertet?
 - Bleibt die Rohquelle unverändert und traceable?
 

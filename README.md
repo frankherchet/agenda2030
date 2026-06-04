@@ -3,31 +3,25 @@
 Wie Deutschland wieder fit gemacht werden kann.
 
 Dieses Repo sammelt konkrete Maßnahmen, Reformvorschläge und notwendige
-Gesetzesänderungen für Deutschland. Die Struktur trennt fachliche
-Zuständigkeiten nach Bundesministerien und rechtliche Änderungen nach
-Gesetzbüchern beziehungsweise relevanten Stammgesetzen.
+Gesetzesänderungen für Deutschland. Quellen werden zuerst im Ingest erfasst,
+Analysen werden zweckgebunden abgelegt, und konkrete Reformvorhaben laufen als
+Projekte.
 
 ## Struktur
 
 - `ministerien/`: Maßnahmen nach Ressortzuständigkeit.
 - `gesetzbuecher/`: notwendige Änderungen nach Gesetzbuch oder Stammgesetz.
-- `bundestag-drucksachen/`: abgelegte Bundestagsdrucksachen und kompakte
-  Zusammenfassungen.
-- `bundeshaushalt/`: Haushaltsdaten, Einnahmen, Ausgaben und Auswertungen des
-  Bundes.
-- `demographie/`: Bevölkerungsdaten, Altersstruktur und Vorausberechnungen als
-  wiederverwendbare Inputquelle für Sozialversicherungen.
-- `eingang/`: neue Dokumente, Links und Ideen als Markdown für die weitere
-  Verarbeitung.
+- `ingest/`: Quellen, Links, Ideen und Rohdateien mit extrahierten relevanten
+  Informationen für spätere Nutzung.
+- `analysen/`: zweckgebundene Auswertungen, Modelle und Datenartefakte mit
+  Referenzen auf Ingests oder Normstände.
+- `projekte/`: konkrete Reformprojekte mit Konzepten, Prüfberichten und
+  Umsetzungsartefakten.
 - `index.md`: globaler Wissensindex für wiederverwendbare Wissensseiten,
-  Reports, Auswertungen und Prüfberichte.
+  Analysen, Projekte und Prüfberichte.
 - `log.md`: chronologisches Arbeitslog für Ingests, Wissenspflege, Analysen und
   Prüfungen.
 - `agenten/`: Rollen, Workflow und Freigaberegeln für Reformer und Prüfer.
-- `pruefberichte/`: unabhängige Prüfberichte zu Reformvorhaben.
-- `reports/`: ausgearbeitete, veröffentlichbare Reform- und Analyseberichte.
-- `rentenversicherung/`: Daten und Auswertungen zur gesetzlichen
-  Rentenversicherung.
 - `scripts/`: reproduzierbare Berechnungen für Reformberichte und
   Auswertungen.
 - `.agents/skills/`: repo-spezifische Codex-Skills für Codex CLI.
@@ -58,9 +52,10 @@ Jeder Vorschlag sollte nachvollziehbar beschreiben:
 - welche Kosten, Wirkungen und Risiken zu erwarten sind,
 - welche Abhängigkeiten zu anderen Reformen bestehen.
 
-Neue Inhalte sollten zunächst mit den Vorlagen in `vorlagen/` angelegt und
-anschließend dem passenden Ministeriums- und Gesetzbuchordner zugeordnet
-werden.
+Neue Quellen landen zuerst unter `ingest/`. Auswertungen mit einem klaren Zweck
+landen unter `analysen/`. Reformkonzepte und Prüfberichte werden im passenden
+Projekt unter `projekte/` geführt und verweisen repo-relativ auf Ingests,
+Analysen und Normstände.
 
 ## Stand der Ressortstruktur
 

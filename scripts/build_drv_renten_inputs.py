@@ -8,9 +8,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BESTAND_CSV = ROOT / "rentenversicherung/daten/2026-06-04-drv-rentenbestand-struktur.csv"
-BUNDESMITTEL_CSV = ROOT / "rentenversicherung/daten/2026-06-04-bundesmittel-zerlegung.csv"
-SUMMARY_MD = ROOT / "rentenversicherung/auswertungen/2026-06-04-drv-rentenbestand-inputs.md"
+BESTAND_CSV = ROOT / "analysen/daten/2026-06-04-drv-rentenbestand-struktur.csv"
+BUNDESMITTEL_CSV = ROOT / "analysen/daten/2026-06-04-bundesmittel-zerlegung.csv"
+SUMMARY_MD = ROOT / "analysen/2026-06-04-drv-rentenbestand-inputs.md"
 
 SOURCE = "DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024"
 STICHTAG = "2024-12-31"
@@ -414,7 +414,13 @@ def write_summary(bestand_rows: list[dict[str, str | int]]) -> None:
         "",
         "Stand: 2026-06-04",
         "",
-        "Quelle: `rentenversicherung/originale/2026-06-04-drv-statistikband-rente-2024.pdf`",
+        "Quelle: `ingest/originale/2026-06-04-drv-statistikband-rente-2024.pdf`",
+        "",
+        "## Zweck",
+        "",
+        "Diese Analyse extrahiert aus dem DRV-Statistikband die Rentenbestandsstruktur",
+        "und eine Reformklassifikation der Bundesmittel als Input für das",
+        "Abschmelzmodell des Bestandsschutz-Zuschusses.",
         "",
         "## Summen",
         "",

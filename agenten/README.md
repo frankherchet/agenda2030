@@ -21,7 +21,8 @@ Skill: `.agents/skills/pruefer/`
 ## Workflow
 
 1. Reformer erstellt ein Reformvorhaben mit `publish: false`.
-2. Prüfer erstellt einen separaten Prüfbericht in `pruefberichte/`.
+2. Prüfer erstellt einen separaten Prüfbericht im passenden Projekt unter
+   `projekte/<projekt>/pruefberichte/`.
 3. Der Prüfbericht erhält genau einen Status:
    - `freigegeben`
    - `blockiert`

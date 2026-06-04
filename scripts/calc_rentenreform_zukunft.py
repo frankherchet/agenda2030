@@ -11,16 +11,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ABSCHMELZUNG_CSV = (
-    ROOT / "rentenversicherung/daten/2026-06-04-bundeszuschuss-abschmelzung.csv"
+    ROOT / "analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv"
 )
 OUTPUT_CSV = (
-    ROOT / "rentenversicherung/daten/2026-06-04-rentenreform-zukunft-modell.csv"
+    ROOT / "analysen/daten/2026-06-04-rentenreform-zukunft-modell.csv"
 )
 ASSUMPTIONS_CSV = (
-    ROOT / "rentenversicherung/daten/2026-06-04-rentenreform-zukunft-annahmen.csv"
+    ROOT / "analysen/daten/2026-06-04-rentenreform-zukunft-annahmen.csv"
 )
 OUTPUT_MD = (
-    ROOT / "rentenversicherung/auswertungen/2026-06-04-rentenreform-zukunft.md"
+    ROOT / "analysen/2026-06-04-rentenreform-zukunft.md"
 )
 
 START_YEAR = 2027
@@ -304,14 +304,20 @@ def write_markdown(rows: list[dict[str, str]]) -> None:
         "python3 scripts/calc_rentenreform_zukunft.py",
         "```",
         "",
+        "## Zweck",
+        "",
+        "Diese Analyse modelliert die Finanzierungswirkung des Reformprojekts",
+        "Rentenversicherung bis 2070 und vergleicht Status quo, abschmelzende",
+        "Bundesmittel und erweiterte Erwerbstätigenbasis.",
+        "",
         "## Quellen und Ingests",
         "",
-        "- `eingang/links/2026-06-04-drv-finanzkennzahlen-rentenversicherung.md`",
-        "- `eingang/links/2026-06-04-destatis-bevoelkerungsvorausberechnung-16.md`",
-        "- `eingang/links/2026-06-04-destatis-arbeitsmarkt-eckzahlen-2025.md`",
-        "- `eingang/links/2026-06-04-destatis-oeffentlicher-dienst-2024.md`",
-        "- `eingang/links/2026-06-04-bmas-rentenversicherungsbericht-2025.md`",
-        "- `rentenversicherung/daten/2026-06-04-bundeszuschuss-abschmelzung.csv`",
+        "- `ingest/links/2026-06-04-drv-finanzkennzahlen-rentenversicherung.md`",
+        "- `ingest/links/2026-06-04-destatis-bevoelkerungsvorausberechnung-16.md`",
+        "- `ingest/links/2026-06-04-destatis-arbeitsmarkt-eckzahlen-2025.md`",
+        "- `ingest/links/2026-06-04-destatis-oeffentlicher-dienst-2024.md`",
+        "- `ingest/links/2026-06-04-bmas-rentenversicherungsbericht-2025.md`",
+        "- `analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv`",
         "",
         "## Modellcharakter",
         "",

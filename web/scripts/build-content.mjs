@@ -9,19 +9,9 @@ const outputFile = path.join(repoRoot, "web/public/reports.json");
 
 const contentRoots = [
   {
-    type: "bundeshaushalt",
-    dir: "bundeshaushalt/zusammenfassungen",
-    label: "Bundeshaushalt",
-  },
-  {
-    type: "bundestag-drucksache",
-    dir: "bundestag-drucksachen/zusammenfassungen",
-    label: "Bundestagsdrucksache",
-  },
-  {
-    type: "reform-report",
-    dir: "reports",
-    label: "Reformreport",
+    type: "reform-project",
+    dir: "projekte/rentenversicherung",
+    label: "Reformprojekt",
   },
 ];
 

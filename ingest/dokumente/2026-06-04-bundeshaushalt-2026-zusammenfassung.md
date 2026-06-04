@@ -1,0 +1,134 @@
+---
+title: Bundeshaushalt 2026
+date: 2026-06-04
+type: bundeshaushalt
+publish: true
+tags:
+  - Haushalt
+  - Steuern
+  - Nettokreditaufnahme
+  - Investitionen
+source_urls:
+  - https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2026/02/Inhalte/Kapitel-2-Analysen/2-3-sollbericht-2026.html
+  - https://www.bundesfinanzministerium.de/Web/DE/Themen/Oeffentliche_Finanzen/Bundeshaushalt/Bundeshaushalt-2026/bundeshaushalt-2026.html
+  - https://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/bundeshaushalt-2026.pdf?__blob=publicationFile&v=3
+  - https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2026/05/Inhalte/Kapitel-3-Wirtschafts-und-Finanzlage/3-3-entwicklung-bundeshaushalt-april-2026.html
+ingest_refs:
+  - ingest/links/2026-06-04-bmf-sollbericht-2026.md
+  - ingest/links/2026-06-04-bmf-bundeshaushalt-2026.md
+  - ingest/dokumente/2026-06-04-bmf-bundeshaushalt-2026-pdf.md
+  - ingest/links/2026-06-04-bmf-monatsbericht-haushalt-april-2026.md
+related_ministries:
+  - ministerien/finanzen/
+related_laws:
+  - gesetzbuecher/grundgesetz/
+  - gesetzbuecher/ao/
+  - gesetzbuecher/weitere-gesetze/
+---
+
+# Bundeshaushalt 2026
+
+## Metadaten
+
+- Haushaltsjahr: 2026
+- Stand: Soll 2026 und unterjährige Ist-Entwicklung bis April 2026
+- Stichtag: 2026-06-04
+- Quellen:
+  - BMF-Sollbericht 2026: https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2026/02/Inhalte/Kapitel-2-Analysen/2-3-sollbericht-2026.html
+  - BMF, Bundeshaushalt 2026: https://www.bundesfinanzministerium.de/Web/DE/Themen/Oeffentliche_Finanzen/Bundeshaushalt/Bundeshaushalt-2026/bundeshaushalt-2026.html
+  - BMF, Bundeshaushalt 2026 Fragen und Antworten: https://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/bundeshaushalt-2026.pdf?__blob=publicationFile&v=3
+  - BMF-Monatsbericht Mai 2026, Entwicklung bis April 2026: https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2026/05/Inhalte/Kapitel-3-Wirtschafts-und-Finanzlage/3-3-entwicklung-bundeshaushalt-april-2026.html
+
+## Kurzfassung
+
+Der Bundeshaushalt 2026 plant Ausgaben von rund 524,5 Mrd. Euro. Die Einnahmen
+ohne Nettokreditaufnahme liegen bei rund 426,6 Mrd. Euro, darunter rund
+387,2 Mrd. Euro Steuereinnahmen. Die geplante Nettokreditaufnahme liegt bei
+rund 98,0 Mrd. Euro. Bis einschließlich April 2026 lagen die Ist-Ausgaben bei
+168,370 Mrd. Euro und die Ist-Einnahmen bei 127,346 Mrd. Euro.
+
+## Kernzahlen Soll 2026
+
+- Ausgaben: 524,5 Mrd. Euro
+- Einnahmen ohne Nettokreditaufnahme: 426,6 Mrd. Euro
+- Steuereinnahmen: 387,2 Mrd. Euro
+- Verwaltungs-/Münzeinnahmen: 39,4 Mrd. Euro
+- Nettokreditaufnahme: 98,0 Mrd. Euro
+- Investitionen im Kernhaushalt: 58,4 Mrd. Euro
+
+## Sankey-Diagramm
+
+Das Sankey-Diagramm zeigt die geplanten Einnahmequellen inklusive
+Nettokreditaufnahme und die Ausgaben nach Aufgabenbereichen des
+Funktionenplans. Es stellt keine Zweckbindung einzelner Einnahmen dar, sondern
+ordnet den Gesamtzufluss dem Gesamtmittelabfluss des Kernhaushalts gegenüber.
+
+```json sankey
+{
+  "title": "Bundeshaushalt 2026: Einnahmen und Ausgaben",
+  "unit": "Mrd. Euro",
+  "centerLabel": "Bundeshaushalt 2026",
+  "note": "Soll 2026; Einnahmen ohne Kredite plus Nettokreditaufnahme und Münzeinnahmen fließen in den Kernhaushalt. Ausgaben rechts nach Aufgabenbereichen des Funktionenplans.",
+  "income": [
+    { "label": "Steuern", "value": 387.214 },
+    { "label": "Sonstige Einnahmen", "value": 39.217 },
+    { "label": "Münzeinnahmen", "value": 0.145 },
+    { "label": "Nettokreditaufnahme", "value": 97.965 }
+  ],
+  "spending": [
+    { "label": "Soziale Sicherung, Familie, Jugend, Arbeitsmarkt", "value": 245.090 },
+    { "label": "Allgemeine Dienste", "value": 153.140 },
+    { "label": "Finanzwirtschaft", "value": 38.025 },
+    { "label": "Bildung, Wissenschaft, Forschung, Kultur", "value": 30.156 },
+    { "label": "Energie, Wirtschaft, Gewerbe, Dienstleistungen", "value": 25.292 },
+    { "label": "Verkehr und Nachrichtenwesen", "value": 21.403 },
+    { "label": "Gesundheit, Umwelt, Sport und Erholung", "value": 5.104 },
+    { "label": "Wohnungswesen, Städtebau, Raumordnung", "value": 4.639 },
+    { "label": "Ernährung, Landwirtschaft und Forsten", "value": 1.692 }
+  ]
+}
+```
+
+## Unterjährige Ist-Entwicklung bis April 2026
+
+- Ausgaben: 168,370 Mrd. Euro
+- Einnahmen: 127,346 Mrd. Euro
+- Ausgabenveränderung gegenüber April 2025: +5,5 Prozent
+- Einnahmenveränderung gegenüber April 2025: -6,4 Prozent
+
+## Einordnung
+
+Für Reformarbeit ist die Trennung zwischen echten Einnahmen und
+Nettokreditaufnahme zentral. Das Haushaltsgesetz stellt Einnahmen und Ausgaben
+formal in gleicher Höhe fest; analytisch relevant ist aber, welcher Teil der
+Ausgaben durch Steuern und sonstige Einnahmen gedeckt wird und welcher Teil
+durch neue Kredite.
+
+## Relevanz für agenda2030
+
+- Priorisierung von Maßnahmen nach Finanzierungsbedarf und Einsparpotenzial.
+- Prüfung, welche Reformen strukturelle Ausgaben senken oder Einnahmenbasis
+  verbreitern können.
+- Vergleich von Ressortbudgets mit Zuständigkeiten in `ministerien/`.
+- Ableitung von Gesetzesänderungen mit Haushaltswirkung.
+
+## Zuordnung
+
+- Ministerien: `ministerien/finanzen/`
+- Gesetze/Gesetzbücher: `gesetzbuecher/grundgesetz/`, `gesetzbuecher/ao/`,
+  `gesetzbuecher/weitere-gesetze/`
+- Themen: Haushalt, Steuern, Nettokreditaufnahme, Investitionen,
+  Finanzierungsdefizit
+
+## Offene Fragen
+
+- Welche Einzelpläne sollen zuerst detailliert ausgewertet werden?
+- Sollen Bundeshaushalt, Sondervermögen, Länder und Sozialversicherungen
+  getrennt oder in einer konsolidierten Staatsübersicht betrachtet werden?
+
+## Nächste Schritte
+
+- Offizielle Haushaltsdaten als CSV oder exportierte Tabelle in `daten/`
+  ablegen.
+- Einzelpläne nach Ressorts auswerten und mit `ministerien/` verlinken.
+- Wiederkehrende Ausgabenblöcke und Reformhebel identifizieren.

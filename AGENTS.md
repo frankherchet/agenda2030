@@ -25,25 +25,26 @@ Ziel ist eine lückenlose, nachvollziehbare History.
 Zahlenbasierte Bewertungen und Modellrechnungen sollen nachvollziehbar im Repo
 reproduzierbar sein. Sobald ein Reformvorschlag mehr als einfache
 Quellenzitate verwendet, werden die Berechnungen bevorzugt als Skripte unter
-`scripts/` abgelegt und ihre Ergebnisse als Markdown, CSV oder JSON im
-passenden Fachordner gespeichert. Reports zitieren diese Rechenartefakte statt
-Ergebnisse nur im Fließtext herzuleiten.
+`scripts/` abgelegt und ihre Ergebnisse als Markdown, CSV oder JSON unter
+`analysen/` gespeichert. Analysen und Projektartefakte zitieren diese
+Rechenartefakte statt Ergebnisse nur im Fließtext herzuleiten.
 
 ## Quellen-Disziplin
 
-Jede externe Quelle muss vor ihrer fachlichen Nutzung zuerst im Eingang
+Jede externe Quelle muss vor ihrer fachlichen Nutzung zuerst im Ingest
 erfasst werden.
 
 Pflichtschritte:
 
-1. Quelle als kompakte Markdown-Datei unter `eingang/<typ>/` anlegen.
+1. Quelle als kompakte Markdown-Datei unter `ingest/<typ>/` anlegen.
    Gültige Typordner sind `dokumente/`, `links/` und `ideen/`.
-2. Den neuen Eingang in `eingang/index/README.md` vermerken.
-3. Erst danach darf die Quelle in Reports, Prüferberichten, Auswertungen,
-   Skripten, Datenartefakten, Quellenkatalogen oder Zusammenfassungen
+2. Den neuen Ingest in `ingest/index/README.md` vermerken.
+3. Erst danach darf die Quelle in Analysen, Projektartefakten,
+   Prüferberichten, Skripten, Datenartefakten, Quellenkatalogen oder
+   Zusammenfassungen
    verarbeitet oder zitiert werden.
 4. Dateien mit externen Quellen müssen zusätzlich zu `source_urls` auch
-   `ingest_refs` mit repo-relativen Pfaden zu den passenden Eingang-Dateien
+   `ingest_refs` mit repo-relativen Pfaden zu den passenden Ingest-Dateien
    führen.
 
 Ziel ist, dass jede verwendete Quelle token-sparend, auffindbar und
@@ -58,26 +59,27 @@ konkret herausgezogenen Fakten, Zahlen, Fundstellen oder Aussagen.
 
 Das Repo folgt einer LLM-Wiki-Logik: Rohquellen bleiben unverändert, kompakte
 Ingests machen sie auffindbar, und wiederverwendbares Wissen wird als
-Markdown-Artefakt in den passenden Fachordnern gepflegt.
+Markdown-Artefakt in `analysen/`, `projekte/`, `ministerien/` oder
+`gesetzbuecher/` gepflegt.
 
 Pflichtschritte bei jedem Ingest oder jeder Wissenspflege:
 
-1. Vor der Einordnung `index.md`, `log.md`, `eingang/index/README.md` und
-   naheliegende Fachordner prüfen.
-2. Kontextabhängig bewerten, welche bestehenden Wissensseiten, Reports,
-   Auswertungen, Ministerien, Gesetze oder offenen Fragen betroffen sind.
+1. Vor der Einordnung `index.md`, `log.md`, `ingest/index/README.md` und
+   naheliegende Analysen, Projekte, Ministerien oder Gesetzbücher prüfen.
+2. Kontextabhängig bewerten, welche bestehenden Wissensseiten, Analysen,
+   Projekte, Ministerien, Gesetze oder offenen Fragen betroffen sind.
 3. Relevante Verknüpfungen im Ingest oder Folgeartefakt repo-relativ angeben.
 4. `index.md` aktualisieren, wenn eine neue dauerhaft relevante Wissensseite
    entsteht oder eine bestehende Seite ihre Bedeutung ändert.
 5. `log.md` append-only ergänzen, wenn ein Ingest, eine Analyse, ein
    Prüfbericht oder eine größere Wissenspflege abgeschlossen wird.
 6. Wiederverwendbare Erkenntnisse aus Chats nicht nur in der Unterhaltung
-   belassen, sondern als Markdown-Artefakt, Ingest, Report, Auswertung oder
+   belassen, sondern als Markdown-Artefakt, Ingest, Analyse, Projektdatei oder
    offene Frage im Repo sichern.
 
 Bei jedem Ingest ist ein kleiner Lint verpflichtend: relevante vorhandene
 Seiten gesucht, Zuordnungen gesetzt, mögliche Widersprüche oder veraltete
-Aussagen notiert, Eingangsindex, globaler Index und Log geprüft. Ein tiefer
+Aussagen notiert, Ingest-Index, globaler Index und Log geprüft. Ein tiefer
 Lint auf Widersprüche, veraltete Claims und verwaiste Seiten läuft manuell bei
 Bedarf, nicht automatisch vor jedem Push.
 
@@ -93,15 +95,15 @@ Pflichtschritte:
 
 1. Amtliche oder primäre Quelle bevorzugen, insbesondere
    `gesetze-im-internet.de`, und Abrufdatum sowie Fassungsstand festhalten.
-   Die Rechtsquelle muss als Eingang erfasst oder über eine bestehende
-   Eingang-Datei referenziert sein.
+   Die Rechtsquelle muss als Ingest erfasst oder über eine bestehende
+   Ingest-Datei referenziert sein.
 2. Für jede konkret betroffene Norm eine Datei nach dem Schema
    `<gesetz>-<norm>-stand-YYYY-MM-DD.md` anlegen, zum Beispiel
    `gesetzbuecher/sgb/sgb-vi-paragraf-68-stand-2026-06-05.md`.
 3. Die Vorlage `vorlagen/normstand.md` verwenden.
 4. Normstand-Dateien führen `source_urls` und `ingest_refs`.
-5. Reports, Prüfberichte, Auswertungen und Gesetzesänderungen, die diese Norm
-   analysieren oder ändern, verweisen repo-relativ auf die Normstand-Datei.
+5. Analysen, Projektartefakte, Prüfberichte und Gesetzesänderungen, die diese
+   Norm analysieren oder ändern, verweisen repo-relativ auf die Normstand-Datei.
 6. Kontext- und Verweisnormen werden ebenfalls abgelegt, sobald sie tragend
    analysiert werden; bloße Randverweise lösen keine Ablagepflicht aus.
 7. Dauerhaft relevante Normstand-Dateien in `index.md` eintragen und die

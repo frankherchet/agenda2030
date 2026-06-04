@@ -9,8 +9,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "demographie/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv"
-OUTPUT = ROOT / "demographie/auswertungen/2026-06-04-rente-belastungsrechnung.md"
+INPUT = ROOT / "analysen/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv"
+OUTPUT = ROOT / "analysen/2026-06-04-rente-belastungsrechnung.md"
 
 
 def read_rows() -> list[dict[str, str]]:
@@ -158,6 +158,12 @@ def main() -> None:
         "```",
         "",
         f"Datenquelle: `{INPUT.relative_to(ROOT)}`",
+        "",
+        "## Zweck",
+        "",
+        "Diese Analyse berechnet aus den demographischen Eingangsdaten zentrale",
+        "Belastungskennzahlen für Rentenreformmodelle, damit Altenquotient und",
+        "Erwerbsbevölkerung nicht in jedem Konzept neu hergeleitet werden müssen.",
         "",
         "## Eingabewerte",
         "",

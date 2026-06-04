@@ -12,8 +12,8 @@ des Reformers nicht ungeprüft.
 
 ## Workflow
 
-1. Prüfgegenstand identifizieren: Report, Maßnahme, Gesetzesänderung oder
-   Rechenmodell.
+1. Prüfgegenstand identifizieren: Reformkonzept, Analyse, Maßnahme,
+   Gesetzesänderung oder Rechenmodell.
 2. Quellen neu prüfen: Amtliche/primäre Quellen bevorzugen; aktuelle Daten bei
    zeitabhängigen Themen verifizieren.
 3. Normstände prüfen: Für jede konkret analysierte oder geänderte Norm muss
@@ -24,7 +24,8 @@ des Reformers nicht ungeprüft.
    nachvollziehbar verwerfen.
 6. Rechts- und Vollzugsrisiken prüfen: Zuständigkeit, Grundrechte,
    Übergangsrecht, Verwaltungsvollzug, Haushaltswirkung.
-7. Prüfbericht in `pruefberichte/` mit `vorlagen/pruefbericht.md` erstellen.
+7. Prüfbericht unter `projekte/<projekt>/pruefberichte/` mit
+   `vorlagen/pruefbericht.md` erstellen.
 8. Genau einen Status vergeben: `freigegeben`, `blockiert` oder `offen`.
 
 ## Legal Text Standard
@@ -57,8 +58,8 @@ des Reformers nicht ungeprüft.
 
 ## Publishing Gate
 
-Ein Reformer-Report darf erst `publish: true` erhalten, wenn ein separater
-Prüferbericht denselben Report verlinkt und den Status `freigegeben` trägt.
+Ein Reformer-Artefakt darf erst `publish: true` erhalten, wenn ein separater
+Prüferbericht dasselbe Artefakt verlinkt und den Status `freigegeben` trägt.
 Bei `blockiert` oder `offen` bleibt das Vorhaben intern oder als Entwurf.
 
 ## Output Standard

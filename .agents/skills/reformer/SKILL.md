@@ -25,7 +25,8 @@ Zahl und Rechnung muss für den späteren Prüfer nachvollziehbar sein.
 5. Rechnen: Jede wesentliche Berechnung mit Datenquelle, Stichtag, Formel,
    Annahmen, Ergebnis und mindestens einer Gegenannahme dokumentieren.
 6. Artefakt erzeugen:
-   - veröffentlichbarer Reformreport: `reports/YYYY-MM-DD-<slug>.md`
+   - Reformkonzept: `projekte/<projekt>/reformkonzept.md`
+   - zweckgebundene Analyse: `analysen/YYYY-MM-DD-<zweck>-<slug>.md`
    - Maßnahme: passender Ordner unter `ministerien/`
    - Gesetzesänderung: passender Ordner unter `gesetzbuecher/`
 7. Veröffentlichung sperren: Neue Reformer-Artefakte mit Frontmatter
@@ -38,16 +39,16 @@ Zahl und Rechnung muss für den späteren Prüfer nachvollziehbar sein.
 - Dateischema: `gesetzbuecher/<buch>/<gesetz>-<norm>-stand-YYYY-MM-DD.md`,
   zum Beispiel `gesetzbuecher/sgb/sgb-vi-paragraf-68-stand-2026-06-05.md`.
 - Amtliche Quellen bevorzugen und Fassungsstand sowie Abrufdatum dokumentieren.
-- Rechtsquellen müssen als Eingang erfasst sein; Normstand-Dateien führen
+- Rechtsquellen müssen als Ingest erfasst sein; Normstand-Dateien führen
   `source_urls` und `ingest_refs`.
 - Änderungsvorschläge mit `vorlagen/gesetzesaenderung.md` müssen die
   Normstand-Datei im Feld `Normstand` referenzieren.
 - Kontextnormen werden abgelegt, sobald sie tragend analysiert werden; bloße
   Randverweise reichen als Link oder offene Frage.
 
-## Required Report Shape
+## Required Project Shape
 
-Verwende `vorlagen/reformvorhaben.md` für neue Reformreports. Kürze nur, wenn
+Verwende `vorlagen/reformvorhaben.md` für neue Reformkonzepte. Kürze nur, wenn
 ein Abschnitt wirklich nicht passt; entfernte Annahmen oder Datenlücken müssen
 als offene Punkte sichtbar bleiben.
 
@@ -78,7 +79,7 @@ Mindestinhalt:
 
 Der Reformer bereitet den besten vertretbaren Vorschlag vor, versucht aber
 nicht, den Prüfer vorwegzunehmen oder Kritik zu verstecken. Schwächen,
-Zielkonflikte und offene Datenpunkte gehören in den Report.
+Zielkonflikte und offene Datenpunkte gehören in das Projektartefakt.
 
 ## Output Standard
 
