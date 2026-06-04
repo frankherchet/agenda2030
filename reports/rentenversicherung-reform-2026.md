@@ -25,6 +25,7 @@ source_urls:
   - https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_446_12.html
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-altersgruppen-deutschland-absulut-basis-2022.html
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/_publikationen-innen-periodensterbetafel.html
+  - https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
   - https://statistik-rente.de/drv/extern/rente/rentenbestand/
 related_ministries:
   - ministerien/arbeit-soziales/
@@ -42,10 +43,10 @@ related_laws:
 - Prüferbericht: `pruefberichte/2026-06-04-rentenreform-abschmelzmodell-bundeszuschuss.md`
 - Status Abschmelzmodell Bundeszuschuss: offen
 - Konsequenz: Die Regel "Abschmelzen proportional zum Versterben der
-  Bestandsrentner" bleibt Reformvorgabe. Die aktuell berechneten Jahreswerte
-  sind aber nur ein reproduzierbares Arbeitsmodell und keine freigegebene
-  Haushaltsprojektion, bis die tatsächliche DRV-Bestandsstruktur nach Alter,
-  Geschlecht und Rentenart eingearbeitet ist.
+  Bestandsrentner" bleibt Reformvorgabe. Die DRV-Bestandsstruktur nach
+  Rentenart, Alter und Geschlecht ist eingearbeitet; offen bleibt vor allem,
+  dass die Bundesmittel-Zerlegung noch eine Reformklassifikation und keine
+  amtliche Zweckzerlegung ist.
 
 ## Kurzfassung
 
@@ -262,22 +263,30 @@ sondern in drei klare Finanzierungsarten zerlegt:
   wenn der Gesetzgeber bewusst keine Rentenpunkte entstehen lassen will.
 
 Der Abschmelzpfad wird mit `scripts/calc_rente_bundeszuschuss_abschmelzung.py`
-aus der Destatis-Sterbetafel 2022/2024 abgeleitet. Die Auswertung steht unter
+aus dem DRV-Rentenbestand 2024 und der Destatis-Sterbetafel 2022/2024
+abgeleitet. Die Auswertung steht unter
 `rentenversicherung/auswertungen/2026-06-04-bundeszuschuss-abschmelzung.md`.
 Politisch gesetzte Kürzungen ohne Bezug zum Versterben der Bestandsrentner sind
 ausgeschlossen, weil sie Bestandsschutz und Vertrauen in bereits erworbene
 Ansprüche verletzen würden.
 
-Der Prüfer bewertet diese Rechnung mit Status `offen`: Die technische
-Rechenregel ist nachvollziehbar und monoton, aber die Werte sind nicht
-freigegeben, weil die tatsächliche Alters- und Geschlechtsstruktur der
-Rentenbezieher am Reformstichtag sowie die Trennung nach Rentenarten noch
-fehlen. Im Arbeitsmodell bleibt der Bestandsschutz-Zuschuss 2027 vollständig
-erhalten und sinkt danach entsprechend der erwarteten Überlebendenquote: von
-97,858 Mrd. Euro im Startjahr auf 56,166 Mrd. Euro 2035, 37,031 Mrd. Euro 2040
-und 7,236 Mrd. Euro 2050. Diese Werte sind nur eine Sensitivität mit
-Ersatzverteilung der Bestandsrentner nach Alter und Geschlecht; die
-tatsächliche DRV-Bestandsstruktur muss das Modell ersetzen.
+Die neue Datenbasis liegt unter
+`rentenversicherung/daten/2026-06-04-drv-rentenbestand-struktur.csv`. Sie
+enthält 26.087.662 laufende Renten zum 31.12.2024: 18.919.641 Altersrenten,
+1.747.402 Erwerbsminderungsrenten und 5.420.619 Hinterbliebenenrenten.
+Alters- und Erwerbsminderungsrenten sind nach Geschlecht getrennt,
+Hinterbliebenenrenten nach Witwen-, Witwer-, Waisen- und Erziehungsrenten.
+Knappschaft-Bahn-See ist zusätzlich als eigene Trägergruppe mit 1.570.011
+Renten erfasst, wird aber im Abschmelzmodell nicht doppelt gezählt, weil diese
+Renten in `rv_gesamt` bereits enthalten sind.
+
+Im Arbeitsmodell bleibt der Bestandsschutz-Zuschuss 2027 vollständig erhalten
+und sinkt danach entsprechend der erwarteten Überlebendenquote der tatsächlichen
+DRV-Bestandsstruktur: von 97,858 Mrd. Euro im Startjahr auf 62,165 Mrd. Euro
+2035, 43,166 Mrd. Euro 2040 und 15,279 Mrd. Euro 2050. Offene Altersgruppen
+`100 und älter` und `105 und älter` werden mit einer expliziten Tail-Regel
+fortgeschrieben. 725 Renten ohne erfasstes Alter bleiben als Restzeilen
+ausgewiesen und werden nicht modelliert.
 
 Der Bund oder ein anderer öffentlicher Träger zahlt rentenwirksame Beiträge für
 politisch gewollte Zeiten. Beispiele:
@@ -360,16 +369,13 @@ Babyboomer-Jahre adressieren.
   Selbständigen und Neubeamten.
 - Kosten der staatlichen Beitragszahlung für Kindererziehung, Pflege,
   Arbeitslosigkeit, Dienstzeiten und Übergangsregeln.
-- Tatsächliche Alters- und Geschlechtsstruktur der Rentenbezieher am
-  Reformstichtag, um das Arbeitsmodell des Bestandsschutz-Zuschusses durch
-  DRV-Bestandsdaten zu ersetzen.
-- Trennung des Rentenbestands nach Altersrenten, Erwerbsminderungsrenten,
-  Hinterbliebenenrenten und Knappschaft, weil diese Bestände unterschiedlich
-  auslaufen.
-- Zerlegung der heutigen Bundeszuschüsse nach Altlasten, laufend neu
-  entstehenden Staatsbeiträgen und echten Steuertransfers.
-- Modellierung der Rentenbezieher ab Alter 100, weil die genutzte
-  Destatis-Altersjahrestabelle bei Alter 100 endet.
+- Amtliche Zweckzerlegung der heutigen Bundesmittel nach Altlasten, laufend
+  neu entstehenden Staatsbeiträgen und echten Steuertransfers; die aktuelle
+  CSV bildet die Reformklassifikation ab.
+- Alters- und Geschlechtsstruktur der Knappschaft-Bahn-See als eigener Träger,
+  falls sie später separat statt nur als Anteil von `rv_gesamt` simuliert
+  werden soll.
+- Behandlung der 725 DRV-Renten ohne erfasstes Alter.
 - Zielgröße des Demografie-Puffers in Monatsausgaben.
 - Feinere Altersjahre und Erwerbsquoten, um aus der Bevölkerung im Alter 20-66
   die tatsächliche beitragspflichtige Erwerbsbasis abzuleiten.
@@ -378,10 +384,8 @@ Babyboomer-Jahre adressieren.
 
 - Gesetzesänderungsskizze für SGB VI und SGB IV anlegen.
 - Finanzmodell erstellen: Status quo 2025/2026 gegen Reformmodell.
-- Abschmelzmodell für heutige Bundeszuschüsse mit tatsächlicher
-  DRV-Bestandsstruktur verfeinern.
-- DRV-Rentenbestand nach Alter, Geschlecht und Rentenart als neue Quelle
-  ingestieren und das Abschmelzmodell damit neu rechnen.
+- Amtliche oder gutachterliche Zweckzerlegung der heutigen Bundesmittel
+  beschaffen und die Reformklassifikation damit abgleichen.
 - Sankey-Diagramm ergänzen: Beiträge, Bundesmittel und Ausgabenblöcke der
   Rentenversicherung.
 - Liste der nicht beitragsgedeckten Rentenwirkungen nach Normen und

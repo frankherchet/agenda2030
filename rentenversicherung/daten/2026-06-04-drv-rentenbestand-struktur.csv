@@ -1,0 +1,190 @@
+stichtag,rentenart_gruppe,rentenart_detail,system,geschlecht,alter_label,alter_von,alter_bis,anzahl_renten,quelle,notiz
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,maennlich,unter 20,19,19,4,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,maennlich,20 - 24,20,24,424,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,maennlich,25 - 29,25,29,2616,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,maennlich,30 - 34,30,34,7405,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,maennlich,35 - 39,35,39,20183,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,maennlich,40 - 44,40,44,43739,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,maennlich,45 - 49,45,49,60414,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,maennlich,50 - 54,50,54,97275,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,maennlich,55 - 59,55,59,189268,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,maennlich,60 und älter,60,66,360565,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,weiblich,unter 20,19,19,3,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,weiblich,20 - 24,20,24,402,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,weiblich,25 - 29,25,29,2946,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,weiblich,30 - 34,30,34,9458,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,weiblich,35 - 39,35,39,25014,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,weiblich,40 - 44,40,44,51829,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,weiblich,45 - 49,45,49,76976,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,weiblich,50 - 54,50,54,128554,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,weiblich,55 - 59,55,59,244059,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,erwerbsminderungsrente,erwerbsminderungsrente_insgesamt,rv_gesamt,weiblich,60 und älter,60,66,426268,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Altersgruppe 60+ in v1 als 60-66 modelliert.
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,61,61,61,2383,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,62,62,62,13527,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,63,63,63,71733,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,64,64,64,186488,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,65,65,65,283591,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,66,66,66,468899,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,67,67,67,486570,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,68,68,68,469497,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,69,69,69,449345,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,70,70,70,432754,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,71,71,71,410649,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,72,72,72,403230,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,73,73,73,388869,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,74,74,74,381962,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,75,75,75,363181,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,76,76,76,327905,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,77,77,77,301379,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,78,78,78,256113,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,79,79,79,215935,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,80,80,80,269855,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,81,81,81,262187,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,82,82,82,243211,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,83,83,83,273278,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,84,84,84,265234,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,85,85,85,237811,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,86,86,86,199038,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,87,87,87,165100,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,88,88,88,137223,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,89,89,89,111365,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,90,90,90,84806,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,91,91,91,54745,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,92,92,92,41952,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,93,93,93,32226,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,94,94,94,24843,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,95,95,95,16766,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,96,96,96,11384,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,97,97,97,7004,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,98,98,98,4238,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,99,99,99,2498,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,100 und älter,100,,3021,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",100+ wird mit Tail-Regel ab Alter 100 modelliert.
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,maennlich,Alter nicht erfasst,,,81,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Nicht in Sterblichkeitsmodell einbezogen; als offener Rest ausgewiesen.
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,61,61,61,631,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,62,62,62,11801,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,63,63,63,93818,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,64,64,64,198520,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,65,65,65,283443,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,66,66,66,511244,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,67,67,67,534630,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,68,68,68,520648,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,69,69,69,505064,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,70,70,70,497961,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,71,71,71,482278,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,72,72,72,479094,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,73,73,73,466274,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,74,74,74,461469,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,75,75,75,439874,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,76,76,76,395570,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,77,77,77,367258,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,78,78,78,313328,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,79,79,79,270525,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,80,80,80,348106,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,81,81,81,342725,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,82,82,82,320838,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,83,83,83,375380,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,84,84,84,377526,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,85,85,85,350896,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,86,86,86,303756,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,87,87,87,260392,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,88,88,88,227285,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,89,89,89,193721,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,90,90,90,156439,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,91,91,91,105853,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,92,92,92,87290,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,93,93,93,72458,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,94,94,94,60467,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,95,95,95,44194,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,96,96,96,32549,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,97,97,97,22533,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,98,98,98,15600,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,99,99,99,10718,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,100 und älter,100,,15464,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",100+ wird mit Tail-Regel ab Alter 100 modelliert.
+2024-12-31,altersrente,altersrente_insgesamt,rv_gesamt,weiblich,Alter nicht erfasst,,,145,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Nicht in Sterblichkeitsmodell einbezogen; als offener Rest ausgewiesen.
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,unter 20,0,19,167765,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,vollwaisenrente,rv_gesamt,unbekannt,unter 20,0,19,2303,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,kleine_witwenrente,rv_gesamt,weiblich,20 bis 24,20,24,3,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,20 bis 24,20,24,9,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,20 bis 24,20,24,73312,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,vollwaisenrente,rv_gesamt,unbekannt,20 bis 24,20,24,1792,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,kleine_witwenrente,rv_gesamt,weiblich,25 bis 29,25,29,32,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,25 bis 29,25,29,227,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,kleine_witwerrente,rv_gesamt,maennlich,25 bis 29,25,29,10,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,25 bis 29,25,29,20,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,25 bis 29,25,29,21494,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,vollwaisenrente,rv_gesamt,unbekannt,25 bis 29,25,29,794,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,erziehungsrente,rv_gesamt,unbekannt,25 bis 29,25,29,5,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,kleine_witwenrente,rv_gesamt,weiblich,30 bis 34,30,34,91,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,30 bis 34,30,34,1258,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,kleine_witwerrente,rv_gesamt,maennlich,30 bis 34,30,34,32,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,30 bis 34,30,34,160,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,erziehungsrente,rv_gesamt,unbekannt,30 bis 34,30,34,118,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,kleine_witwenrente,rv_gesamt,weiblich,35 bis 39,35,39,188,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,35 bis 39,35,39,4393,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,kleine_witwerrente,rv_gesamt,maennlich,35 bis 39,35,39,82,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,35 bis 39,35,39,717,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,vollwaisenrente,rv_gesamt,unbekannt,35 bis 39,35,39,2,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,erziehungsrente,rv_gesamt,unbekannt,35 bis 39,35,39,576,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,kleine_witwenrente,rv_gesamt,weiblich,40 bis 44,40,44,604,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,40 bis 44,40,44,9438,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,kleine_witwerrente,rv_gesamt,maennlich,40 bis 44,40,44,93,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,40 bis 44,40,44,1501,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,erziehungsrente,rv_gesamt,unbekannt,40 bis 44,40,44,1442,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,kleine_witwenrente,rv_gesamt,weiblich,45 bis 49,45,49,310,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,45 bis 49,45,49,22204,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,kleine_witwerrente,rv_gesamt,maennlich,45 bis 49,45,49,39,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,45 bis 49,45,49,3292,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,45 bis 49,45,49,1,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,erziehungsrente,rv_gesamt,unbekannt,45 bis 49,45,49,1914,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,50 bis 54,50,54,51202,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,50 bis 54,50,54,8157,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,erziehungsrente,rv_gesamt,unbekannt,50 bis 54,50,54,1427,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,55 bis 59,55,59,119039,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,55 bis 59,55,59,20066,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,erziehungsrente,rv_gesamt,unbekannt,55 bis 59,55,59,755,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,60 bis 64,60,64,238466,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,60 bis 64,60,64,42346,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,60 bis 64,60,64,2,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,erziehungsrente,rv_gesamt,unbekannt,60 bis 64,60,64,329,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,65 bis 69,65,69,384883,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,65 bis 69,65,69,74113,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,65 bis 69,65,69,4,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,erziehungsrente,rv_gesamt,unbekannt,65 bis 69,65,69,30,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,70 bis 74,70,74,565035,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,70 bis 74,70,74,103952,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,70 bis 74,70,74,8,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,75 bis 79,75,79,647331,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,75 bis 79,75,79,111569,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,75 bis 79,75,79,5,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,80 bis 84,80,84,899634,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,80 bis 84,80,84,157776,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,80 bis 84,80,84,11,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,85 bis 89,85,89,914935,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,85 bis 89,85,89,153530,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,85 bis 89,85,89,5,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,vollwaisenrente,rv_gesamt,unbekannt,85 bis 89,85,89,2,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,90 bis 94,90,94,407384,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,90 bis 94,90,94,61783,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,90 bis 94,90,94,6,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,95 bis 99,95,99,112081,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,95 bis 99,95,99,13274,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,95 bis 99,95,99,7,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,vollwaisenrente,rv_gesamt,unbekannt,95 bis 99,95,99,1,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,100 bis 104,100,104,13235,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,100 bis 104,100,104,882,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,100 bis 104,100,104,3,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,105 und älter,105,,606,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwerrente,rv_gesamt,maennlich,105 und älter,105,,24,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,105 und älter,105,,1,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,kleine_witwenrente,rv_gesamt,weiblich,Alter nicht erfasst,,,57,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,grosse_witwenrente,rv_gesamt,weiblich,Alter nicht erfasst,,,165,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,kleine_witwerrente,rv_gesamt,maennlich,Alter nicht erfasst,,,7,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",
+2024-12-31,hinterbliebenenrente,halbwaisenrente,rv_gesamt,unbekannt,Alter nicht erfasst,,,266,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,hinterbliebenenrente,vollwaisenrente,rv_gesamt,unbekannt,Alter nicht erfasst,,,4,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Geschlecht bei Waisen/Erziehungsrenten im Tabellenband nicht getrennt ausgewiesen.
+2024-12-31,alle_renten,knappschaft_aggregate_alle_renten,knappschaft_bahn_see,gesamt,alle,,,1570011,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Nur aggregierte Trennung nach Träger; keine Alters-/Geschlechtsstruktur im Tabellenband.
+2024-12-31,erwerbsminderungsrente,knappschaft_aggregate_erwerbsminderungsrente,knappschaft_bahn_see,gesamt,alle,,,75424,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Nur aggregierte Trennung nach Träger; keine Alters-/Geschlechtsstruktur im Tabellenband.
+2024-12-31,altersrente,knappschaft_aggregate_altersrente,knappschaft_bahn_see,gesamt,alle,,,942690,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Nur aggregierte Trennung nach Träger; keine Alters-/Geschlechtsstruktur im Tabellenband.
+2024-12-31,hinterbliebenenrente,knappschaft_aggregate_witwenrente,knappschaft_bahn_see,gesamt,alle,,,518894,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Nur aggregierte Trennung nach Träger; keine Alters-/Geschlechtsstruktur im Tabellenband.
+2024-12-31,hinterbliebenenrente,knappschaft_aggregate_witwerrente,knappschaft_bahn_see,gesamt,alle,,,20050,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Nur aggregierte Trennung nach Träger; keine Alters-/Geschlechtsstruktur im Tabellenband.
+2024-12-31,hinterbliebenenrente,knappschaft_aggregate_waisenrente,knappschaft_bahn_see,gesamt,alle,,,12801,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Nur aggregierte Trennung nach Träger; keine Alters-/Geschlechtsstruktur im Tabellenband.
+2024-12-31,hinterbliebenenrente,knappschaft_aggregate_erziehungsrente,knappschaft_bahn_see,gesamt,alle,,,152,"DRV Statistikband Rente 2024, Rentenbestand am 31.12.2024",Nur aggregierte Trennung nach Träger; keine Alters-/Geschlechtsstruktur im Tabellenband.

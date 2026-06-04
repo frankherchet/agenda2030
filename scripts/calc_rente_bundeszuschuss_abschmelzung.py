@@ -7,6 +7,7 @@ import csv
 import re
 import zipfile
 import xml.etree.ElementTree as ET
+from dataclasses import dataclass
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
@@ -15,6 +16,8 @@ ROOT = Path(__file__).resolve().parents[1]
 STERBETAFEL = (
     ROOT / "demographie/originale/2026-06-04-destatis-sterbetafeln-2022-2024.xlsx"
 )
+BESTAND_CSV = ROOT / "rentenversicherung/daten/2026-06-04-drv-rentenbestand-struktur.csv"
+BUNDESMITTEL_CSV = ROOT / "rentenversicherung/daten/2026-06-04-bundesmittel-zerlegung.csv"
 OUTPUT_MD = (
     ROOT / "rentenversicherung/auswertungen/2026-06-04-bundeszuschuss-abschmelzung.md"
 )
@@ -24,14 +27,24 @@ OUTPUT_CSV = (
 
 REFORM_YEAR = 2027
 END_YEAR = 2070
-START_ZUSCHUSS_BN = Decimal("97.858")
-MALE_SHARE = Decimal("0.45")
-FEMALE_SHARE = Decimal("0.55")
 
 NS = {
     "m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
     "r": "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
 }
+
+
+@dataclass(frozen=True)
+class LifeTable:
+    lx_by_age: dict[int, Decimal]
+    px_at_100: Decimal
+
+
+@dataclass(frozen=True)
+class Cohort:
+    counts_by_sex_age: dict[tuple[str, int], Decimal]
+    included_count: Decimal
+    excluded_count: Decimal
 
 
 def q(value: Decimal, places: str = "0.001") -> Decimal:
@@ -40,6 +53,10 @@ def q(value: Decimal, places: str = "0.001") -> Decimal:
 
 def de(value: Decimal, places: str = "0.1") -> str:
     return str(q(value, places)).replace(".", ",")
+
+
+def de_int(value: Decimal) -> str:
+    return f"{int(q(value, '1')):,}".replace(",", ".")
 
 
 def colnum(ref: str) -> int:
@@ -108,77 +125,142 @@ def sheet_rows(
     return result
 
 
-def read_lx(sheet_name: str) -> dict[int, Decimal]:
+def read_life_table(sheet_name: str) -> LifeTable:
     with zipfile.ZipFile(STERBETAFEL) as zip_file:
         strings = shared_strings(zip_file)
         paths = sheet_paths(zip_file)
         rows = sheet_rows(zip_file, paths[sheet_name], strings)
 
     lx_by_age: dict[int, Decimal] = {}
+    px_at_100: Decimal | None = None
     for row in rows:
         age_raw = row.get(1)
+        px_raw = row.get(3)
         lx_raw = row.get(4)
         if age_raw is None or lx_raw is None:
             continue
         try:
             age = int(Decimal(age_raw))
             lx = Decimal(lx_raw)
+            px = Decimal(px_raw) if px_raw is not None else None
         except Exception:
             continue
         lx_by_age[age] = lx
+        if age == 100 and px is not None:
+            px_at_100 = px
 
-    if 67 not in lx_by_age or 100 not in lx_by_age:
+    if 20 not in lx_by_age or 100 not in lx_by_age or px_at_100 is None:
         raise ValueError(f"Unexpected life table shape in {sheet_name}")
-    return lx_by_age
+    return LifeTable(lx_by_age=lx_by_age, px_at_100=px_at_100)
 
 
-def age_weights() -> dict[int, Decimal]:
-    """Arbeitsannahme bis echte DRV-Bestandsstruktur vorliegt.
-
-    Die Bestandsrentner-Kohorte wird auf Altersjahre 67 bis 100 verteilt. Die
-    Altersjahre 67 bis 79 erhalten zusammen 70 %, die Altersjahre 80 bis 100
-    zusammen 30 %. Innerhalb der beiden Gruppen wird gleich gewichtet.
-    """
-
-    weights: dict[int, Decimal] = {}
-    younger_weight = Decimal("0.70") / Decimal("13")
-    older_weight = Decimal("0.30") / Decimal("21")
-    for age in range(67, 80):
-        weights[age] = younger_weight
-    for age in range(80, 101):
-        weights[age] = older_weight
-    return weights
+def parse_decimal(value: str) -> Decimal:
+    return Decimal(value.replace(",", "."))
 
 
-def survival_for_age(lx_by_age: dict[int, Decimal], age: int, years: int) -> Decimal:
-    target_age = age + years
-    if target_age > max(lx_by_age):
-        return Decimal("0")
-    return lx_by_age[target_age] / lx_by_age[age]
-
-
-def cohort_survival(
-    male_lx: dict[int, Decimal], female_lx: dict[int, Decimal], years: int
-) -> Decimal:
+def start_zuschuss() -> Decimal:
     total = Decimal("0")
-    for age, weight in age_weights().items():
-        male_survival = survival_for_age(male_lx, age, years)
-        female_survival = survival_for_age(female_lx, age, years)
-        blended = MALE_SHARE * male_survival + FEMALE_SHARE * female_survival
-        total += weight * blended
+    with BUNDESMITTEL_CSV.open(encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            if row["abschmelzbar"] == "ja":
+                total += parse_decimal(row["betrag_mrd_euro"])
+    if total <= 0:
+        raise ValueError("No abschmelzbare Bundesmittel found")
     return total
 
 
-def build_rows() -> list[dict[str, Decimal | int]]:
-    male_lx = read_lx("12613-b01")
-    female_lx = read_lx("12613-b02")
+def expand_age_range(age_from: str, age_to: str) -> list[int]:
+    start = int(age_from)
+    if age_to == "":
+        return [start]
+    end = int(age_to)
+    return list(range(start, end + 1))
+
+
+def add_count(
+    counts: dict[tuple[str, int], Decimal], sex: str, age: int, count: Decimal
+) -> None:
+    key = (sex, age)
+    counts[key] = counts.get(key, Decimal("0")) + count
+
+
+def read_cohort() -> Cohort:
+    counts: dict[tuple[str, int], Decimal] = {}
+    included = Decimal("0")
+    excluded = Decimal("0")
+
+    with BESTAND_CSV.open(encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            if row["system"] != "rv_gesamt":
+                continue
+
+            count = parse_decimal(row["anzahl_renten"])
+            if row["alter_von"] == "":
+                excluded += count
+                continue
+
+            ages = expand_age_range(row["alter_von"], row["alter_bis"])
+            count_per_age = count / Decimal(len(ages))
+            sex = row["geschlecht"]
+            for age in ages:
+                if sex == "unbekannt":
+                    # Waisen- und Erziehungsrenten sind im DRV-Tabellenband nicht
+                    # geschlechtsspezifisch ausgewiesen; der konservative Split
+                    # verhindert eine implizite Ein-Geschlecht-Annahme.
+                    add_count(counts, "maennlich", age, count_per_age / Decimal("2"))
+                    add_count(counts, "weiblich", age, count_per_age / Decimal("2"))
+                else:
+                    add_count(counts, sex, age, count_per_age)
+            included += count
+
+    if included <= 0:
+        raise ValueError("No modeled DRV cohort found")
+    return Cohort(
+        counts_by_sex_age=counts,
+        included_count=included,
+        excluded_count=excluded,
+    )
+
+
+def survival_for_age(table: LifeTable, age: int, years: int) -> Decimal:
+    if years == 0:
+        return Decimal("1")
+
+    lx = table.lx_by_age
+    max_age = max(lx)
+    if age > max_age:
+        return table.px_at_100**years
+
+    target_age = age + years
+    if target_age <= max_age:
+        return lx[target_age] / lx[age]
+
+    years_after_table = target_age - max_age
+    return (lx[max_age] / lx[age]) * (table.px_at_100**years_after_table)
+
+
+def cohort_survival(
+    cohort: Cohort, male_table: LifeTable, female_table: LifeTable, years: int
+) -> Decimal:
+    total_survivors = Decimal("0")
+    for (sex, age), count in cohort.counts_by_sex_age.items():
+        table = male_table if sex == "maennlich" else female_table
+        total_survivors += count * survival_for_age(table, age, years)
+    return total_survivors / cohort.included_count
+
+
+def build_rows() -> tuple[list[dict[str, Decimal | int]], Cohort, Decimal]:
+    male_table = read_life_table("12613-b01")
+    female_table = read_life_table("12613-b02")
+    cohort = read_cohort()
+    start = start_zuschuss()
     rows: list[dict[str, Decimal | int]] = []
     previous_zuschuss: Decimal | None = None
 
     for year in range(REFORM_YEAR, END_YEAR + 1):
         years_since_start = year - REFORM_YEAR
-        survival = cohort_survival(male_lx, female_lx, years_since_start)
-        zuschuss = START_ZUSCHUSS_BN * survival
+        survival = cohort_survival(cohort, male_table, female_table, years_since_start)
+        zuschuss = start * survival
         if previous_zuschuss is not None and zuschuss > previous_zuschuss:
             raise ValueError("Bestandsschutz-Zuschuss must not increase")
         annual_decline = (
@@ -194,13 +276,15 @@ def build_rows() -> list[dict[str, Decimal | int]]:
                 "jaehrliche_abschmelzung_mrd_euro": annual_decline,
             }
         )
-    return rows
+    return rows, cohort, start
 
 
 def write_csv(rows: list[dict[str, Decimal | int]]) -> None:
     OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT_CSV.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(
+            handle, fieldnames=list(rows[0].keys()), lineterminator="\n"
+        )
         writer.writeheader()
         for row in rows:
             writer.writerow(
@@ -216,7 +300,9 @@ def milestone_rows(rows: list[dict[str, Decimal | int]]) -> list[dict[str, Decim
     return [row for row in rows if row["jahr"] in milestones]
 
 
-def write_markdown(rows: list[dict[str, Decimal | int]]) -> None:
+def write_markdown(
+    rows: list[dict[str, Decimal | int]], cohort: Cohort, start: Decimal
+) -> None:
     OUTPUT_MD.parent.mkdir(parents=True, exist_ok=True)
 
     lines = [
@@ -227,34 +313,43 @@ def write_markdown(rows: list[dict[str, Decimal | int]]) -> None:
         "Reproduzierbar mit:",
         "",
         "```bash",
+        "python3 scripts/build_drv_renten_inputs.py",
         "python3 scripts/calc_rente_bundeszuschuss_abschmelzung.py",
         "```",
         "",
         "## Eingaben",
         "",
         f"- Reformstichtag: {REFORM_YEAR}",
-        f"- Startwert Bundesmittel 2025: {de(START_ZUSCHUSS_BN, '0.001')} Mrd. Euro",
+        f"- Abschmelzbarer Startwert Bundesmittel 2025: {de(start, '0.001')} Mrd. Euro",
+        f"- Modellierte laufende Renten aus DRV-Rentenbestand 2024: {de_int(cohort.included_count)} Renten",
+        f"- Nicht modellierte Restzeilen ohne Alter: {de_int(cohort.excluded_count)} Renten",
+        "- Rentenbestandsstruktur: `rentenversicherung/daten/2026-06-04-drv-rentenbestand-struktur.csv`",
+        "- Bundesmittel-Zerlegung: `rentenversicherung/daten/2026-06-04-bundesmittel-zerlegung.csv`",
         (
             "- Quelle Sterblichkeit: "
             "`demographie/originale/2026-06-04-destatis-sterbetafeln-2022-2024.xlsx`"
         ),
         "- Verwendete Tabellen: `12613-b01` männlich, `12613-b02` weiblich",
-        "- Verwendete Größe: `Überlebende - lx` nach vollendetem Alter",
-        "- Arbeitsannahme Geschlecht: 45 % männlich, 55 % weiblich",
+        "- Verwendete Größen: `Überlebende - lx` und `Überlebenswahrscheinlichkeit - px` bei Alter 100",
         (
-            "- Arbeitsannahme Alter: 70 % der Bestandsrentner in Altersjahren "
-            "67-79, 30 % in Altersjahren 80-100, jeweils gleich verteilt"
+            "- Offene Altersgruppen: `100 und älter` und `105 und älter` werden ab "
+            "dem Gruppenstart mit der Destatis-Überlebenswahrscheinlichkeit bei "
+            "Alter 100 fortgeschrieben."
         ),
         (
-            "- Tabellenende: Die Destatis-Altersjahrestabelle endet bei Alter 100; "
-            "Überleben oberhalb dieses Alters wird in v1 nicht fortgeschrieben"
+            "- Waisen- und Erziehungsrenten: mangels Geschlechtstrennung im "
+            "DRV-Tabellenband je hälftig männlich/weiblich modelliert."
+        ),
+        (
+            "- Knappschaft-Bahn-See: als eigene aggregierte Trägergruppe erfasst; "
+            "nicht zusätzlich modelliert, weil ihre Renten bereits in `rv_gesamt` enthalten sind."
         ),
         "",
         "## Modellregel",
         "",
         (
-            "`Bestandsschutz-Zuschuss(t) = Startwert * erwartete Überlebendenzahl "
-            "Bestandskohorte(t) / Bestandskohorte(2027)`"
+            "`Bestandsschutz-Zuschuss(t) = abschmelzbarer Startwert * erwartete "
+            "Überlebendenzahl Bestandskohorte(t) / Bestandskohorte(2027)`"
         ),
         "",
         "Politische Sonderkürzungen sind in diesem Modell ausgeschlossen. Der Zuschuss",
@@ -289,12 +384,12 @@ def write_markdown(rows: list[dict[str, Decimal | int]]) -> None:
             "- Der Zuschuss bleibt im Reformjahr vollständig erhalten.",
             "- Danach sinkt er nur mit der erwarteten Überlebendenquote des Altbestands.",
             "- Neue rentenwirksame Staatsleistungen ab 2027 sind zusätzlich als echte Beiträge zu finanzieren.",
+            "- Die frühere 70/30-Ersatzverteilung wurde durch DRV-Rentenbestandsdaten ersetzt.",
             "",
-            "## Offene Punkte",
+            "## Restunsicherheiten",
             "",
-            "- Tatsächliche Alters- und Geschlechtsstruktur der laufenden Renten fehlt noch.",
-            "- Die v1-Altersverteilung ist eine Arbeitsannahme und muss durch DRV-Daten ersetzt werden.",
-            "- Der 100+-Tail muss in einer Prüffassung explizit modelliert werden.",
+            "- Die Zerlegung der Bundesmittel ist in dieser Fassung eine Reformklassifikation, keine amtliche Zweckzerlegung.",
+            "- Für Knappschaft-Bahn-See liegt im DRV-Tabellenband nur eine aggregierte Trägertrennung vor.",
             "- Sterblichkeitsverbesserungen nach 2022/2024 sind noch nicht als Sensitivität modelliert.",
             "",
         ]
@@ -303,9 +398,9 @@ def write_markdown(rows: list[dict[str, Decimal | int]]) -> None:
 
 
 def main() -> None:
-    rows = build_rows()
+    rows, cohort, start = build_rows()
     write_csv(rows)
-    write_markdown(rows)
+    write_markdown(rows, cohort, start)
 
 
 if __name__ == "__main__":
