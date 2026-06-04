@@ -22,6 +22,8 @@ Gesetzbüchern beziehungsweise relevanten Stammgesetzen.
 - `agenten/`: Rollen, Workflow und Freigaberegeln für Reformer und Prüfer.
 - `pruefberichte/`: unabhängige Prüfberichte zu Reformvorhaben.
 - `reports/`: ausgearbeitete, veröffentlichbare Reform- und Analyseberichte.
+- `rentenversicherung/`: Daten und Auswertungen zur gesetzlichen
+  Rentenversicherung.
 - `scripts/`: reproduzierbare Berechnungen für Reformberichte und
   Auswertungen.
 - `skills/`: repo-spezifische Codex-Skills.

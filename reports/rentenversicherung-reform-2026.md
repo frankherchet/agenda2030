@@ -21,6 +21,7 @@ source_urls:
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsvorausberechnung/annahmen_ergebnisse_16te_kBv.html
   - https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_446_12.html
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-altersgruppen-deutschland-absulut-basis-2022.html
+  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/_publikationen-innen-periodensterbetafel.html
 related_ministries:
   - ministerien/arbeit-soziales/
   - ministerien/finanzen/
@@ -238,16 +239,27 @@ sondern in drei klare Finanzierungsarten zerlegt:
 
 - Bestandsschutz-Zuschuss: finanziert Altansprüche, Übergangsregeln und
   bisher politisch zugesagte nicht beitragsgedeckte Lasten. Er bleibt erhalten,
-  wird jährlich separat ausgewiesen und sinkt mit dem Altbestand.
+  wird jährlich separat ausgewiesen und sinkt proportional zum erwarteten
+  Versterben der geschützten Bestandsrentner-Kohorte.
 - Laufende staatliche Beitragszahlung: finanziert ab Reformstichtag jede neue
   rentenwirksame politische Entscheidung, die nicht aus Erwerbsbeiträgen
   entsteht.
 - Separater Steuertransfer: finanziert allgemeine sozialpolitische Leistungen,
   wenn der Gesetzgeber bewusst keine Rentenpunkte entstehen lassen will.
 
-Der Abschmelzpfad muss aktuarisch berechnet werden. Politisch gesetzte
-Kürzungen ohne Bezug zum Altbestand sind ausgeschlossen, weil sie
-Bestandsschutz und Vertrauen in bereits erworbene Ansprüche verletzen würden.
+Der Abschmelzpfad wird mit `scripts/calc_rente_bundeszuschuss_abschmelzung.py`
+aus der Destatis-Sterbetafel 2022/2024 abgeleitet. Die Auswertung steht unter
+`rentenversicherung/auswertungen/2026-06-04-bundeszuschuss-abschmelzung.md`.
+Politisch gesetzte Kürzungen ohne Bezug zum Versterben der Bestandsrentner sind
+ausgeschlossen, weil sie Bestandsschutz und Vertrauen in bereits erworbene
+Ansprüche verletzen würden.
+
+Im Arbeitsmodell bleibt der Bestandsschutz-Zuschuss 2027 vollständig erhalten
+und sinkt danach entsprechend der erwarteten Überlebendenquote: von 97,858 Mrd.
+Euro im Startjahr auf 56,166 Mrd. Euro 2035, 37,031 Mrd. Euro 2040 und
+7,236 Mrd. Euro 2050. Diese Werte sind noch mit einer Ersatzverteilung der
+Bestandsrentner nach Alter und Geschlecht gerechnet; die tatsächliche
+DRV-Bestandsstruktur muss das Modell ersetzen.
 
 Der Bund oder ein anderer öffentlicher Träger zahlt rentenwirksame Beiträge für
 politisch gewollte Zeiten. Beispiele:
@@ -313,7 +325,8 @@ Babyboomer-Jahre adressieren.
 - Stichtag T: neue Rentenpunkte nur noch bei Beitragszahlung.
 - Altbestand: alle bis T erworbenen Entgeltpunkte bleiben erhalten.
 - Bestehende Bundeszuschüsse bleiben als Bestandsschutz-Zuschuss erhalten und
-  werden nur entsprechend der tatsächlich auslaufenden Altlasten abgeschmolzen.
+  werden nur proportional zum erwarteten Versterben der geschützten
+  Bestandsrentner-Kohorte abgeschmolzen.
 - Staatliche Sozialzeiten ab T: nur rentenwirksam, wenn der zuständige Träger
   Beiträge zahlt.
 - Neuzugänge in bislang externe Systeme: Einbeziehung ab T mit klarer
@@ -329,8 +342,11 @@ Babyboomer-Jahre adressieren.
   Selbständigen und Neubeamten.
 - Kosten der staatlichen Beitragszahlung für Kindererziehung, Pflege,
   Arbeitslosigkeit, Dienstzeiten und Übergangsregeln.
-- Aktuarischer Abschmelzpfad des Bestandsschutz-Zuschusses nach Kohorten,
-  Leistungsarten und Altlastdefinition.
+- Tatsächliche Alters- und Geschlechtsstruktur der Rentenbezieher am
+  Reformstichtag, um das Arbeitsmodell des Bestandsschutz-Zuschusses durch
+  DRV-Bestandsdaten zu ersetzen.
+- Modellierung der Rentenbezieher ab Alter 100, weil die genutzte
+  Destatis-Altersjahrestabelle bei Alter 100 endet.
 - Zielgröße des Demografie-Puffers in Monatsausgaben.
 - Feinere Altersjahre und Erwerbsquoten, um aus der Bevölkerung im Alter 20-66
   die tatsächliche beitragspflichtige Erwerbsbasis abzuleiten.
@@ -339,8 +355,8 @@ Babyboomer-Jahre adressieren.
 
 - Gesetzesänderungsskizze für SGB VI und SGB IV anlegen.
 - Finanzmodell erstellen: Status quo 2025/2026 gegen Reformmodell.
-- Abschmelzmodell für heutige Bundeszuschüsse erstellen:
-  Bestandsschutz-Zuschuss, neue staatliche Beiträge, echte Steuertransfers.
+- Abschmelzmodell für heutige Bundeszuschüsse mit tatsächlicher
+  DRV-Bestandsstruktur verfeinern.
 - Sankey-Diagramm ergänzen: Beiträge, Bundesmittel und Ausgabenblöcke der
   Rentenversicherung.
 - Liste der nicht beitragsgedeckten Rentenwirkungen nach Normen und

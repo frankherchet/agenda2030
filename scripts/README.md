@@ -15,3 +15,6 @@ Aktuelle Skripte:
 
 - `calc_demographie_rente.py`: erzeugt die demographische Belastungsrechnung
   fuer die Rentenreform aus `demographie/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv`.
+- `calc_rente_bundeszuschuss_abschmelzung.py`: erzeugt den Abschmelzpfad des
+  Bestandsschutz-Zuschusses proportional zur erwarteten Überlebendenzahl der
+  geschützten Bestandsrentner-Kohorte.
