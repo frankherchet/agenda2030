@@ -13,6 +13,8 @@ Gesetzbüchern beziehungsweise relevanten Stammgesetzen.
 - `gesetzbuecher/`: notwendige Änderungen nach Gesetzbuch oder Stammgesetz.
 - `bundestag-drucksachen/`: abgelegte Bundestagsdrucksachen und kompakte
   Zusammenfassungen.
+- `bundeshaushalt/`: Haushaltsdaten, Einnahmen, Ausgaben und Auswertungen des
+  Bundes.
 - `eingang/`: neue Dokumente, Links und Ideen als Markdown für die weitere
   Verarbeitung.
 - `skills/`: repo-spezifische Codex-Skills.
