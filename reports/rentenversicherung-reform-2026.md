@@ -10,6 +10,9 @@ tags:
   - Beitragsklarheit
   - SGB VI
   - Demographie
+review_status: offen
+review_reports:
+  - pruefberichte/2026-06-04-rentenreform-abschmelzmodell-bundeszuschuss.md
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/
   - https://www.gesetze-im-internet.de/sgb_4/
@@ -22,6 +25,7 @@ source_urls:
   - https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_446_12.html
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-altersgruppen-deutschland-absulut-basis-2022.html
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/_publikationen-innen-periodensterbetafel.html
+  - https://statistik-rente.de/drv/extern/rente/rentenbestand/
 related_ministries:
   - ministerien/arbeit-soziales/
   - ministerien/finanzen/
@@ -32,6 +36,16 @@ related_laws:
 ---
 
 # Rentenversicherung reformieren: Beitragsklarheit und reine Umlage
+
+## Prüfstatus
+
+- Prüferbericht: `pruefberichte/2026-06-04-rentenreform-abschmelzmodell-bundeszuschuss.md`
+- Status Abschmelzmodell Bundeszuschuss: offen
+- Konsequenz: Die Regel "Abschmelzen proportional zum Versterben der
+  Bestandsrentner" bleibt Reformvorgabe. Die aktuell berechneten Jahreswerte
+  sind aber nur ein reproduzierbares Arbeitsmodell und keine freigegebene
+  Haushaltsprojektion, bis die tatsächliche DRV-Bestandsstruktur nach Alter,
+  Geschlecht und Rentenart eingearbeitet ist.
 
 ## Kurzfassung
 
@@ -254,12 +268,16 @@ Politisch gesetzte Kürzungen ohne Bezug zum Versterben der Bestandsrentner sind
 ausgeschlossen, weil sie Bestandsschutz und Vertrauen in bereits erworbene
 Ansprüche verletzen würden.
 
-Im Arbeitsmodell bleibt der Bestandsschutz-Zuschuss 2027 vollständig erhalten
-und sinkt danach entsprechend der erwarteten Überlebendenquote: von 97,858 Mrd.
-Euro im Startjahr auf 56,166 Mrd. Euro 2035, 37,031 Mrd. Euro 2040 und
-7,236 Mrd. Euro 2050. Diese Werte sind noch mit einer Ersatzverteilung der
-Bestandsrentner nach Alter und Geschlecht gerechnet; die tatsächliche
-DRV-Bestandsstruktur muss das Modell ersetzen.
+Der Prüfer bewertet diese Rechnung mit Status `offen`: Die technische
+Rechenregel ist nachvollziehbar und monoton, aber die Werte sind nicht
+freigegeben, weil die tatsächliche Alters- und Geschlechtsstruktur der
+Rentenbezieher am Reformstichtag sowie die Trennung nach Rentenarten noch
+fehlen. Im Arbeitsmodell bleibt der Bestandsschutz-Zuschuss 2027 vollständig
+erhalten und sinkt danach entsprechend der erwarteten Überlebendenquote: von
+97,858 Mrd. Euro im Startjahr auf 56,166 Mrd. Euro 2035, 37,031 Mrd. Euro 2040
+und 7,236 Mrd. Euro 2050. Diese Werte sind nur eine Sensitivität mit
+Ersatzverteilung der Bestandsrentner nach Alter und Geschlecht; die
+tatsächliche DRV-Bestandsstruktur muss das Modell ersetzen.
 
 Der Bund oder ein anderer öffentlicher Träger zahlt rentenwirksame Beiträge für
 politisch gewollte Zeiten. Beispiele:
@@ -345,6 +363,11 @@ Babyboomer-Jahre adressieren.
 - Tatsächliche Alters- und Geschlechtsstruktur der Rentenbezieher am
   Reformstichtag, um das Arbeitsmodell des Bestandsschutz-Zuschusses durch
   DRV-Bestandsdaten zu ersetzen.
+- Trennung des Rentenbestands nach Altersrenten, Erwerbsminderungsrenten,
+  Hinterbliebenenrenten und Knappschaft, weil diese Bestände unterschiedlich
+  auslaufen.
+- Zerlegung der heutigen Bundeszuschüsse nach Altlasten, laufend neu
+  entstehenden Staatsbeiträgen und echten Steuertransfers.
 - Modellierung der Rentenbezieher ab Alter 100, weil die genutzte
   Destatis-Altersjahrestabelle bei Alter 100 endet.
 - Zielgröße des Demografie-Puffers in Monatsausgaben.
@@ -357,6 +380,8 @@ Babyboomer-Jahre adressieren.
 - Finanzmodell erstellen: Status quo 2025/2026 gegen Reformmodell.
 - Abschmelzmodell für heutige Bundeszuschüsse mit tatsächlicher
   DRV-Bestandsstruktur verfeinern.
+- DRV-Rentenbestand nach Alter, Geschlecht und Rentenart als neue Quelle
+  ingestieren und das Abschmelzmodell damit neu rechnen.
 - Sankey-Diagramm ergänzen: Beiträge, Bundesmittel und Ausgabenblöcke der
   Rentenversicherung.
 - Liste der nicht beitragsgedeckten Rentenwirkungen nach Normen und
