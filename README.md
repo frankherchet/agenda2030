@@ -19,6 +19,10 @@ Gesetzbüchern beziehungsweise relevanten Stammgesetzen.
   wiederverwendbare Inputquelle für Sozialversicherungen.
 - `eingang/`: neue Dokumente, Links und Ideen als Markdown für die weitere
   Verarbeitung.
+- `index.md`: globaler Wissensindex für wiederverwendbare Wissensseiten,
+  Reports, Auswertungen und Prüfberichte.
+- `log.md`: chronologisches Arbeitslog für Ingests, Wissenspflege, Analysen und
+  Prüfungen.
 - `agenten/`: Rollen, Workflow und Freigaberegeln für Reformer und Prüfer.
 - `pruefberichte/`: unabhängige Prüfberichte zu Reformvorhaben.
 - `reports/`: ausgearbeitete, veröffentlichbare Reform- und Analyseberichte.

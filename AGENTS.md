@@ -48,3 +48,30 @@ Pflichtschritte:
 
 Ziel ist, dass jede verwendete Quelle token-sparend, auffindbar und
 nachvollziehbar vorgeschaltet ist.
+
+## Wissens-Disziplin
+
+Das Repo folgt einer LLM-Wiki-Logik: Rohquellen bleiben unverändert, kompakte
+Ingests machen sie auffindbar, und wiederverwendbares Wissen wird als
+Markdown-Artefakt in den passenden Fachordnern gepflegt.
+
+Pflichtschritte bei jedem Ingest oder jeder Wissenspflege:
+
+1. Vor der Einordnung `index.md`, `log.md`, `eingang/index/README.md` und
+   naheliegende Fachordner prüfen.
+2. Kontextabhängig bewerten, welche bestehenden Wissensseiten, Reports,
+   Auswertungen, Ministerien, Gesetze oder offenen Fragen betroffen sind.
+3. Relevante Verknüpfungen im Ingest oder Folgeartefakt repo-relativ angeben.
+4. `index.md` aktualisieren, wenn eine neue dauerhaft relevante Wissensseite
+   entsteht oder eine bestehende Seite ihre Bedeutung ändert.
+5. `log.md` append-only ergänzen, wenn ein Ingest, eine Analyse, ein
+   Prüfbericht oder eine größere Wissenspflege abgeschlossen wird.
+6. Wiederverwendbare Erkenntnisse aus Chats nicht nur in der Unterhaltung
+   belassen, sondern als Markdown-Artefakt, Ingest, Report, Auswertung oder
+   offene Frage im Repo sichern.
+
+Bei jedem Ingest ist ein kleiner Lint verpflichtend: relevante vorhandene
+Seiten gesucht, Zuordnungen gesetzt, mögliche Widersprüche oder veraltete
+Aussagen notiert, Eingangsindex, globaler Index und Log geprüft. Ein tiefer
+Lint auf Widersprüche, veraltete Claims und verwaiste Seiten läuft manuell bei
+Bedarf, nicht automatisch vor jedem Push.

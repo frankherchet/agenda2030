@@ -29,6 +29,18 @@
 - Bundestagsdrucksachen: <Pfade in `bundestag-drucksachen/`, falls relevant>
 - Themen: <Schlagworte>
 
+## Verknüpfte Wissensseiten
+
+- <Repo-relativer Pfad zu relevanter Wissensseite, Auswertung, Report oder Prüfbericht>
+
+## Mögliche Updates
+
+- <Konkrete Folgearbeit an bestehenden Wissensseiten oder Reports>
+
+## Widersprüche/Risiken
+
+- <Möglicher Widerspruch, veraltete Aussage, ungesicherte Zahl oder methodisches Risiko>
+
 ## Offene Fragen
 
 - <Frage 1>
