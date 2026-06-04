@@ -28,3 +28,12 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 - Neuer Index: `index.md`
 - Wirkung: Ingests prüfen künftig kontextabhängig relevante Wissensseiten,
   verknüpfen Quellen mit bestehenden Artefakten und führen Index sowie Log.
+
+## 2026-06-05 Wissenspflege | Normstände vor Rechtsanalyse
+
+- Neue Vorlage: `vorlagen/normstand.md`
+- Betroffene Regeln: `AGENTS.md`, `gesetzbuecher/README.md`,
+  `.agents/skills/reformer/SKILL.md`, `.agents/skills/pruefer/SKILL.md`
+- Wirkung: Konkret analysierte oder geänderte Paragraphen und Artikel müssen
+  künftig vorab als geltender Normstand unter `gesetzbuecher/<buch>/`
+  abgelegt und von Folgeartefakten referenziert werden.

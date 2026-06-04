@@ -16,16 +16,34 @@ Zahl und Rechnung muss für den späteren Prüfer nachvollziehbar sein.
    Datenlage und betroffene Akteure.
 2. Quellen nutzen: Bevorzugt amtliche oder primäre Quellen; bei aktuellen
    Zahlen im Zweifel nachprüfen.
-3. Reformmodell ausarbeiten: Maßnahmen, Übergangslogik, Rechtsänderungen,
+3. Normstände sichern: Wenn Paragraphen oder Artikel gesichtet, analysiert oder
+   geändert werden, zuerst passende Normstand-Dateien unter `gesetzbuecher/`
+   suchen. Fehlt ein aktueller Stand, vor der Analyse mit
+   `vorlagen/normstand.md` anlegen.
+4. Reformmodell ausarbeiten: Maßnahmen, Übergangslogik, Rechtsänderungen,
    Finanzierung, Wirkungen, Risiken und offene Punkte.
-4. Rechnen: Jede wesentliche Berechnung mit Datenquelle, Stichtag, Formel,
+5. Rechnen: Jede wesentliche Berechnung mit Datenquelle, Stichtag, Formel,
    Annahmen, Ergebnis und mindestens einer Gegenannahme dokumentieren.
-5. Artefakt erzeugen:
+6. Artefakt erzeugen:
    - veröffentlichbarer Reformreport: `reports/YYYY-MM-DD-<slug>.md`
    - Maßnahme: passender Ordner unter `ministerien/`
    - Gesetzesänderung: passender Ordner unter `gesetzbuecher/`
-6. Veröffentlichung sperren: Neue Reformer-Artefakte mit Frontmatter
+7. Veröffentlichung sperren: Neue Reformer-Artefakte mit Frontmatter
    `publish: false` anlegen, bis ein separater Prüferbericht freigibt.
+
+## Legal Text Standard
+
+- Keine Rechtsanalyse und kein Änderungsvorschlag zu einer konkreten Norm ohne
+  vorher abgelegte Normstand-Datei.
+- Dateischema: `gesetzbuecher/<buch>/<gesetz>-<norm>-stand-YYYY-MM-DD.md`,
+  zum Beispiel `gesetzbuecher/sgb/sgb-vi-paragraf-68-stand-2026-06-05.md`.
+- Amtliche Quellen bevorzugen und Fassungsstand sowie Abrufdatum dokumentieren.
+- Rechtsquellen müssen als Eingang erfasst sein; Normstand-Dateien führen
+  `source_urls` und `ingest_refs`.
+- Änderungsvorschläge mit `vorlagen/gesetzesaenderung.md` müssen die
+  Normstand-Datei im Feld `Normstand` referenzieren.
+- Kontextnormen werden abgelegt, sobald sie tragend analysiert werden; bloße
+  Randverweise reichen als Link oder offene Frage.
 
 ## Required Report Shape
 
@@ -67,6 +85,7 @@ Zielkonflikte und offene Datenpunkte gehören in den Report.
 Nach der Arbeit knapp melden:
 
 - erstellte/geänderte Datei
+- angelegte oder verwendete Normstand-Dateien
 - Kern der Reform
 - wichtigste offene Prüfungspunkte
 - Hinweis, dass `publish: false` bis zum Prüferbericht gilt

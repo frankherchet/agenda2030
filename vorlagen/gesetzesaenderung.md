@@ -4,6 +4,7 @@
 
 - Gesetz: <Gesetz>
 - Paragraph/Artikel: <Norm>
+- Normstand: <Pfad zu `gesetzbuecher/<buch>/<gesetz>-<norm>-stand-YYYY-MM-DD.md`>
 
 ## Geltende Rechtslage
 

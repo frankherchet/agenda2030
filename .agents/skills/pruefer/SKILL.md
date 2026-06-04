@@ -16,13 +16,27 @@ des Reformers nicht ungeprüft.
    Rechenmodell.
 2. Quellen neu prüfen: Amtliche/primäre Quellen bevorzugen; aktuelle Daten bei
    zeitabhängigen Themen verifizieren.
-3. Kernannahmen extrahieren: Was muss wahr sein, damit der Vorschlag trägt?
-4. Gegenrechnen: Zentrale Rechnungen unabhängig rekonstruieren oder
+3. Normstände prüfen: Für jede konkret analysierte oder geänderte Norm muss
+   eine Normstand-Datei unter `gesetzbuecher/` vorliegen. Fehlt sie oder ist der
+   Stand unklar, ist das ein Prüfpunkt und vor einer Freigabe zu beheben.
+4. Kernannahmen extrahieren: Was muss wahr sein, damit der Vorschlag trägt?
+5. Gegenrechnen: Zentrale Rechnungen unabhängig rekonstruieren oder
    nachvollziehbar verwerfen.
-5. Rechts- und Vollzugsrisiken prüfen: Zuständigkeit, Grundrechte,
+6. Rechts- und Vollzugsrisiken prüfen: Zuständigkeit, Grundrechte,
    Übergangsrecht, Verwaltungsvollzug, Haushaltswirkung.
-6. Prüfbericht in `pruefberichte/` mit `vorlagen/pruefbericht.md` erstellen.
-7. Genau einen Status vergeben: `freigegeben`, `blockiert` oder `offen`.
+7. Prüfbericht in `pruefberichte/` mit `vorlagen/pruefbericht.md` erstellen.
+8. Genau einen Status vergeben: `freigegeben`, `blockiert` oder `offen`.
+
+## Legal Text Standard
+
+- Keine Freigabe einer Rechtsanalyse oder Gesetzesänderung ohne referenzierte
+  Normstand-Datei für jede konkret betroffene Norm.
+- Normstand-Dateien folgen
+  `gesetzbuecher/<buch>/<gesetz>-<norm>-stand-YYYY-MM-DD.md`.
+- Prüfe Fassungsstand, Abrufdatum, `source_urls` und `ingest_refs` der
+  Normstand-Datei gegen die behauptete Rechtslage.
+- Wenn eine Kontextnorm tragend für die Bewertung ist, muss auch sie als
+  Normstand-Datei abgelegt oder als offene Vorarbeit markiert werden.
 
 ## Status Rules
 
@@ -53,5 +67,6 @@ Nach der Prüfung knapp melden:
 
 - geprüfte Datei
 - Prüfberichtspfad
+- geprüfte Normstand-Dateien
 - Status
 - wichtigste Blocker oder Restpunkte

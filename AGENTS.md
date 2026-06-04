@@ -75,3 +75,29 @@ Seiten gesucht, Zuordnungen gesetzt, mögliche Widersprüche oder veraltete
 Aussagen notiert, Eingangsindex, globaler Index und Log geprüft. Ein tiefer
 Lint auf Widersprüche, veraltete Claims und verwaiste Seiten läuft manuell bei
 Bedarf, nicht automatisch vor jedem Push.
+
+## Normen-Disziplin
+
+Wenn ein Agent einen Paragraphen oder Artikel sichtet, analysiert oder eine
+Änderung daran vorschlägt, muss der geltende Normstand vorher im passenden
+Ordner unter `gesetzbuecher/` abgelegt werden. So bleibt der Rechtskontext
+lokal nachvollziehbar und muss nicht bei jeder Folgearbeit neu recherchiert
+werden.
+
+Pflichtschritte:
+
+1. Amtliche oder primäre Quelle bevorzugen, insbesondere
+   `gesetze-im-internet.de`, und Abrufdatum sowie Fassungsstand festhalten.
+   Die Rechtsquelle muss als Eingang erfasst oder über eine bestehende
+   Eingang-Datei referenziert sein.
+2. Für jede konkret betroffene Norm eine Datei nach dem Schema
+   `<gesetz>-<norm>-stand-YYYY-MM-DD.md` anlegen, zum Beispiel
+   `gesetzbuecher/sgb/sgb-vi-paragraf-68-stand-2026-06-05.md`.
+3. Die Vorlage `vorlagen/normstand.md` verwenden.
+4. Normstand-Dateien führen `source_urls` und `ingest_refs`.
+5. Reports, Prüfberichte, Auswertungen und Gesetzesänderungen, die diese Norm
+   analysieren oder ändern, verweisen repo-relativ auf die Normstand-Datei.
+6. Kontext- und Verweisnormen werden ebenfalls abgelegt, sobald sie tragend
+   analysiert werden; bloße Randverweise lösen keine Ablagepflicht aus.
+7. Dauerhaft relevante Normstand-Dateien in `index.md` eintragen und die
+   Ablage in `log.md` append-only dokumentieren.

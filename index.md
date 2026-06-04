@@ -41,4 +41,5 @@ Prüfarbeitsstände.
 | Log | `log.md` | Chronologisches Arbeitslog für Ingests, Wissenspflege, Analysen und Prüfungen. | Verlauf |
 | Agentenrollen | `agenten/README.md` | Rollen und Freigaberegeln für Reformer und Prüfer. | Agenten |
 | Skripte | `scripts/README.md` | Reproduzierbare Berechnungen und erzeugte Artefakte. | Rechenartefakte |
+| Normstand-Vorlage | `vorlagen/normstand.md` | Vorlage für lokal abgelegte geltende Paragraphen- und Artikelstände. | Recht, Normtexte |
 | Web | `web/` | Vite-React-App für GitHub Pages und interaktive Reports. | Veröffentlichung |
