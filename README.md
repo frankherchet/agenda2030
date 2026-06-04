@@ -17,6 +17,7 @@ Gesetzbüchern beziehungsweise relevanten Stammgesetzen.
   Bundes.
 - `eingang/`: neue Dokumente, Links und Ideen als Markdown für die weitere
   Verarbeitung.
+- `reports/`: ausgearbeitete, veröffentlichbare Reform- und Analyseberichte.
 - `skills/`: repo-spezifische Codex-Skills.
 - `web/`: Vite-React-App für GitHub Pages und interaktive Reports.
 - `vorlagen/`: einheitliche Arbeitsvorlagen für neue Vorschläge.

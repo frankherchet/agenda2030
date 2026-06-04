@@ -45,6 +45,7 @@ const typeLabels: Record<string, string> = {
   all: "Alle",
   bundeshaushalt: "Bundeshaushalt",
   "bundestag-drucksache": "Drucksachen",
+  "reform-report": "Reformreports",
 };
 
 function getHashReportId() {

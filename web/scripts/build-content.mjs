@@ -18,6 +18,11 @@ const contentRoots = [
     dir: "bundestag-drucksachen/zusammenfassungen",
     label: "Bundestagsdrucksache",
   },
+  {
+    type: "reform-report",
+    dir: "reports",
+    label: "Reformreport",
+  },
 ];
 
 marked.use({
