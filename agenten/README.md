@@ -8,7 +8,7 @@ Der Reformer arbeitet Reformvorhaben aus. Er recherchiert Rechtsgrundlagen,
 sammelt aktuelle Zahlen, beschreibt Maßnahmen und berechnet finanzielle
 Wirkungen. Seine Artefakte sind Vorschläge, keine Freigaben.
 
-Skill: `skills/reformer/`
+Skill: `.agents/skills/reformer/`
 
 ## Prüfer
 
@@ -16,7 +16,7 @@ Der Prüfer arbeitet unabhängig im Red-Team-Stil. Er prüft Quellen,
 rekonstruiert Rechnungen, sucht Gegenargumente und dokumentiert Blocker oder
 Freigabe in einem separaten Prüfbericht.
 
-Skill: `skills/pruefer/`
+Skill: `.agents/skills/pruefer/`
 
 ## Workflow
 

@@ -26,7 +26,7 @@ Gesetzbüchern beziehungsweise relevanten Stammgesetzen.
   Rentenversicherung.
 - `scripts/`: reproduzierbare Berechnungen für Reformberichte und
   Auswertungen.
-- `skills/`: repo-spezifische Codex-Skills.
+- `.agents/skills/`: repo-spezifische Codex-Skills für Codex CLI.
 - `web/`: Vite-React-App für GitHub Pages und interaktive Reports.
 - `vorlagen/`: einheitliche Arbeitsvorlagen für neue Vorschläge.
 
