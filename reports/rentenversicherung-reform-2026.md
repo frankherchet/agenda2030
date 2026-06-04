@@ -9,6 +9,7 @@ tags:
   - Umlageverfahren
   - Beitragsklarheit
   - SGB VI
+  - Demographie
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/
   - https://www.gesetze-im-internet.de/sgb_4/
@@ -17,6 +18,9 @@ source_urls:
   - https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/das-aendert-sich-im-neuen-jahr.html
   - https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/bundeskabinett-beschliesst-rentenanpassung-2026.html
   - https://www.deutsche-rentenversicherung.de/SharedDocs/Glossareintraege/DE/B/bundeszuschuss.html
+  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsvorausberechnung/annahmen_ergebnisse_16te_kBv.html
+  - https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_446_12.html
+  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-altersgruppen-deutschland-absulut-basis-2022.html
 related_ministries:
   - ministerien/arbeit-soziales/
   - ministerien/finanzen/
@@ -38,6 +42,9 @@ gesellschaftliche Ziele rentenwirksam fördern will, muss der zuständige
 öffentliche Träger entsprechende Beiträge zahlen. Bereits erworbene
 Anwartschaften bleiben geschützt; das neue System trennt Beitragsrente,
 staatlich bezahlte Sozialzeiten und allgemeine Haushaltsleistungen transparent.
+Die demographische Begründung ist zentral: Der Altenquotient steigt nach
+Destatis von 33 im Jahr 2024 auf 43 bis 47 im Jahr 2038 und je nach Variante
+bis 2070 auf 43 bis 61.
 
 ## Reformziel
 
@@ -52,6 +59,8 @@ staatlich bezahlte Sozialzeiten und allgemeine Haushaltsleistungen transparent.
 - Gesellschaftlich gewünschte Rentenwirkungen werden nicht pauschal aus der
   Rentenkasse finanziert, sondern als echte Beitragszahlungen verbucht.
 - Bestandsschutz gilt für bereits erworbene Entgeltpunkte und laufende Renten.
+- Die Demographieannahmen werden aus `demographie/` übernommen, damit Rente und
+  spätere GKV-Reformen konsistent mit derselben Datenbasis rechnen.
 
 ## Aktuelle Kernzahlen
 
@@ -68,6 +77,52 @@ staatlich bezahlte Sozialzeiten und allgemeine Haushaltsleistungen transparent.
 
 Quellen: BMAS zu Beitragssatz und Rechengrößen 2026; BMAS zur
 Rentenanpassung 2026.
+
+## Demographischer Rahmen
+
+Die Rentenversicherung ist umlagefinanziert. Entscheidend ist daher nicht nur
+die absolute Zahl der Rentenbeziehenden, sondern das Verhältnis von Personen im
+Erwerbsalter zu Personen im Rentenalter. Als gemeinsame Quelle für diesen
+Report und spätere GKV-Reformen dient:
+
+- `demographie/quellen/2026-06-04-destatis-demographie.md`
+- `demographie/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv`
+
+### Kernwerte
+
+| Jahr | Variante | Kennzahl | Wert |
+| --- | --- | --- | ---: |
+| 2024 | Ausgangswert | Bevölkerung insgesamt | 83,577 Mio. |
+| 2024 | Ausgangswert | Personen im Erwerbsalter 20-66 | 51,2 Mio. |
+| 2024 | Ausgangswert | Anteil 67 Jahre und älter | 20 % |
+| 2024 | Ausgangswert | Altenquotient 20-66 / 67+ | 33 |
+| 2035 | alle Varianten | Anteil 67 Jahre und älter | 25 % |
+| 2038 | Variante 5 G3L1W3 | Altenquotient 20-66 / 67+ | 43 |
+| 2038 | Variante 2 G2L2W2 | Altenquotient 20-66 / 67+ | 45 |
+| 2038 | Variante 4 G1L3W1 | Altenquotient 20-66 / 67+ | 47 |
+| 2070 | Variante 5 G3L1W3 | Altenquotient 20-66 / 67+ | 43 |
+| 2070 | Variante 2 G2L2W2 | Altenquotient 20-66 / 67+ | 51 |
+| 2070 | Variante 4 G1L3W1 | Altenquotient 20-66 / 67+ | 61 |
+
+Bis 2038 steigt die Zahl der Menschen ab 67 Jahren nach Destatis auf 20,5 bis
+21,3 Mio. Das sind 3,8 bis 4,5 Mio. mehr als 2024. Bis 2070 liegt die Zahl der
+20- bis 66-Jährigen je nach Variante nur noch bei 37,1 bis 45,3 Mio.
+
+### Demographische Belastungsrechnung
+
+- Datenquelle: `demographie/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv`
+- Stichtage: 2024, 2038, 2070
+- Formel Altenquotient-Veränderung: `(Altenquotient Zieljahr - Altenquotient 2024) / Altenquotient 2024`
+- Ergebnis 2038, moderate Variante: `(45 - 33) / 33 = 36,4 %`
+- Ergebnis 2070, moderate Variante: `(51 - 33) / 33 = 54,5 %`
+- Formel Erwerbsbevölkerung 2070: `(Personen 20-66 in 2070 - 51,2 Mio.) / 51,2 Mio.`
+- Ergebnis 2070, günstigerer Randwert: `(45,3 - 51,2) / 51,2 = -11,5 %`
+- Ergebnis 2070, ungünstigerer Randwert: `(37,1 - 51,2) / 51,2 = -27,5 %`
+
+Gegenannahme: Selbst bei relativ junger Altersstruktur bleibt der
+Altenquotient 2070 mit 43 deutlich über dem Ausgangswert 2024 von 33. Hohe
+Zuwanderung oder günstigere Geburtenannahmen entlasten das Umlageverfahren,
+heben den demographischen Druck aber nicht auf.
 
 ## Einnahmen und Ausgaben 2025
 
@@ -137,12 +192,15 @@ Das heutige System vermischt drei Finanzierungslogiken:
   Arbeitslosigkeit oder Bewertungszuschläge.
 - Bundeszuschüsse, die pauschal nicht beitragsgedeckte Leistungen abgelten und
   Beitragssatzstabilisierung unterstützen.
+- Demographische Lastverschiebung, weil weniger Personen im Erwerbsalter für
+  mehr Personen im Rentenalter aufkommen müssen.
 
 Diese Vermischung erschwert politische Kontrolle. Die Rentenkasse wird zugleich
 Versicherung, Sozialausgleich und Haushaltsinstrument. Das Reformziel trennt
 diese Rollen: Versicherungsansprüche entstehen nur aus Beiträgen; staatliche
 Ziele werden durch echte Beitragszahlung oder außerhalb der Rentenversicherung
-finanziert.
+finanziert. Gerade wegen des steigenden Altenquotienten muss jede neue
+rentenwirksame politische Leistung sofort zeigen, wer dafür Beiträge zahlt.
 
 ## Reformmodell
 
@@ -191,7 +249,11 @@ Alle neuen Erwerbstätigen werden einbezogen. Für Bestandsgruppen gelten
 Das Umlageverfahren bleibt. Die Nachhaltigkeitsrücklage wird gesetzlich als
 Demografie- und Liquiditätspuffer fortentwickelt. Der Puffer darf keine
 Kapitaldeckung ersetzen, muss aber Beitragssatzsprünge abfedern und
-unterjährige Zahlungsfähigkeit sichern.
+unterjährige Zahlungsfähigkeit sichern. Seine Zielgröße wird künftig an der
+demographischen Belastung ausgerichtet: Wenn der Altenquotient in der
+moderaten Variante bis 2038 um gut ein Drittel steigt, muss die Reserve nicht
+nur Monatsliquidität, sondern auch vorhersehbare Übergangsbelastungen der
+Babyboomer-Jahre adressieren.
 
 ## Gesetzlicher Änderungsbedarf
 
@@ -233,6 +295,8 @@ unterjährige Zahlungsfähigkeit sichern.
 - Kosten der staatlichen Beitragszahlung für Kindererziehung, Pflege,
   Arbeitslosigkeit, Dienstzeiten und Übergangsregeln.
 - Zielgröße des Demografie-Puffers in Monatsausgaben.
+- Feinere Altersjahre und Erwerbsquoten, um aus der Bevölkerung im Alter 20-66
+  die tatsächliche beitragspflichtige Erwerbsbasis abzuleiten.
 
 ## Nächste Schritte
 
@@ -242,3 +306,5 @@ unterjährige Zahlungsfähigkeit sichern.
   Rentenversicherung.
 - Liste der nicht beitragsgedeckten Rentenwirkungen nach Normen und
   Zahlungspflichtigem aufbauen.
+- Demographie-Szenarien Variante 5, Variante 2 und Variante 4 in das
+  Renten-Finanzmodell übernehmen.
