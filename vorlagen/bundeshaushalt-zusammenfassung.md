@@ -5,6 +5,7 @@ type: bundeshaushalt
 publish: false
 tags: []
 source_urls: []
+ingest_refs: []
 related_ministries: []
 related_laws: []
 ---

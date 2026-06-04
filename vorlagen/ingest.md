@@ -6,6 +6,7 @@
 - Datum: <YYYY-MM-DD>
 - Quelle: <URL, Datei, Person oder eigener Gedanke>
 - Status: <neu | geprüft | zusammengefasst | in Maßnahme überführt | verworfen>
+- Index: `eingang/index/README.md`
 
 ## Kurzfassung
 

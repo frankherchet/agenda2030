@@ -7,6 +7,12 @@
 - Status: zitierfähige Inputquelle
 - Relevanz: Rentenversicherung, gesetzliche Krankenversicherung,
   Pflegeversicherung, Arbeitsmarkt und Bundeshaushalt
+- Ingest-Referenzen:
+  - `eingang/links/2026-06-04-destatis-bevoelkerung-altersgruppen-2024.md`
+  - `eingang/links/2026-06-04-destatis-bevoelkerungsvorausberechnung-16.md`
+  - `eingang/links/2026-06-04-destatis-presse-16-bevoelkerungsvorausberechnung.md`
+  - `eingang/links/2026-06-04-destatis-demografischer-wandel.md`
+  - `eingang/links/2026-06-04-destatis-population-projection-en.md`
 
 ## Quellen
 

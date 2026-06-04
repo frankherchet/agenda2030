@@ -9,6 +9,10 @@
 - Status: zitierfähige Inputquelle
 - Relevanz: Rentenversicherung, Pflegeversicherung, Krankenversicherung,
   Versicherungsbarwerte und Bestandsschutzmodelle
+- Ingest-Referenzen:
+  - `eingang/links/2026-06-04-destatis-periodensterbetafeln-publikationen.md`
+  - `eingang/links/2026-06-04-destatis-sterbefaelle-lebenserwartung-thema.md`
+  - `eingang/links/2026-06-04-destatis-entwicklung-lebenserwartung.md`
 
 ## Quellen
 
@@ -36,13 +40,12 @@ Sterblichkeitsverbesserungen.
   einer geschützten Bestandsrentner-Kohorte abgeschmolzen werden.
 - Für v1 werden die `lx`-Werte der Tabellen `12613-b01` und `12613-b02`
   genutzt.
-- Eine spätere Prüffassung sollte die tatsächliche Alters- und
-  Geschlechtsstruktur der Rentenbezieher ergänzen.
+- Die tatsächliche DRV-Alters- und Geschlechtsstruktur der Rentenbezieher ist
+  in `rentenversicherung/daten/2026-06-04-drv-rentenbestand-struktur.csv`
+  ergänzt.
 
 ## Offene Punkte
 
-- Tatsächliche DRV-Alters- und Geschlechtsstruktur der laufenden Renten am
-  Reformstichtag fehlt noch.
 - Das Arbeitsmodell nutzt die aktuelle Periodensterbetafel; eine
   Kohortensterbetafel oder Sterblichkeitsverbesserung kann später als
   Sensitivität ergänzt werden.

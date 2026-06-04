@@ -27,6 +27,20 @@ source_urls:
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/_publikationen-innen-periodensterbetafel.html
   - https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
   - https://statistik-rente.de/drv/extern/rente/rentenbestand/
+ingest_refs:
+  - eingang/links/2026-06-04-gesetze-im-internet-sgb-vi.md
+  - eingang/links/2026-06-04-gesetze-im-internet-sgb-iv.md
+  - eingang/links/2026-06-04-gesetze-im-internet-grundgesetz.md
+  - eingang/links/2026-06-04-drv-finanzkennzahlen-rentenversicherung.md
+  - eingang/links/2026-06-04-bmas-rechengroessen-2026.md
+  - eingang/links/2026-06-04-bmas-rentenanpassung-2026.md
+  - eingang/links/2026-06-04-drv-bundeszuschuss-glossar.md
+  - eingang/links/2026-06-04-destatis-bevoelkerungsvorausberechnung-16.md
+  - eingang/links/2026-06-04-destatis-presse-16-bevoelkerungsvorausberechnung.md
+  - eingang/links/2026-06-04-destatis-bevoelkerung-altersgruppen-2024.md
+  - eingang/links/2026-06-04-destatis-periodensterbetafeln-publikationen.md
+  - eingang/dokumente/2026-06-04-drv-statistikband-rente-2024.md
+  - eingang/links/2026-06-04-statistik-rente-rentenbestand.md
 related_ministries:
   - ministerien/arbeit-soziales/
   - ministerien/finanzen/

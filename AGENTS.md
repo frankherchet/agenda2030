@@ -28,3 +28,23 @@ Quellenzitate verwendet, werden die Berechnungen bevorzugt als Skripte unter
 `scripts/` abgelegt und ihre Ergebnisse als Markdown, CSV oder JSON im
 passenden Fachordner gespeichert. Reports zitieren diese Rechenartefakte statt
 Ergebnisse nur im Fließtext herzuleiten.
+
+## Quellen-Disziplin
+
+Jede externe Quelle muss vor ihrer fachlichen Nutzung zuerst im Eingang
+erfasst werden.
+
+Pflichtschritte:
+
+1. Quelle als kompakte Markdown-Datei unter `eingang/<typ>/` anlegen.
+   Gültige Typordner sind `dokumente/`, `links/` und `ideen/`.
+2. Den neuen Eingang in `eingang/index/README.md` vermerken.
+3. Erst danach darf die Quelle in Reports, Prüferberichten, Auswertungen,
+   Skripten, Datenartefakten, Quellenkatalogen oder Zusammenfassungen
+   verarbeitet oder zitiert werden.
+4. Dateien mit externen Quellen müssen zusätzlich zu `source_urls` auch
+   `ingest_refs` mit repo-relativen Pfaden zu den passenden Eingang-Dateien
+   führen.
+
+Ziel ist, dass jede verwendete Quelle token-sparend, auffindbar und
+nachvollziehbar vorgeschaltet ist.

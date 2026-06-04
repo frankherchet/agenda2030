@@ -28,5 +28,13 @@ Beispiel:
 
 1. Neues Material als Markdown mit `vorlagen/ingest.md` erfassen.
 2. Quelle, Kernaussage und Relevanz knapp dokumentieren.
-3. Betroffene Ministerien, Gesetze und mögliche nächste Schritte verlinken.
-4. Nur die für die weitere Arbeit notwendigen Details aufnehmen.
+3. In `eingang/index/README.md` eintragen.
+4. Betroffene Ministerien, Gesetze und mögliche nächste Schritte verlinken.
+5. Nur die für die weitere Arbeit notwendigen Details aufnehmen.
+
+## Pflicht
+
+Externe Quellen müssen vor ihrer Nutzung in Reports, Auswertungen,
+Prüferberichten, Skripten oder Quellenkatalogen hier erfasst werden.
+Nachgelagerte Artefakte verweisen über `ingest_refs` auf die jeweilige
+Eingang-Datei.

@@ -9,6 +9,10 @@ source_urls:
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/_publikationen-innen-periodensterbetafel.html
   - https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
   - https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Zahlen-und-Fakten/Kennzahlen-zur-Finanzentwicklung/kennzahlen-zur-finanzentwicklung_node.html?https=1
+ingest_refs:
+  - eingang/links/2026-06-04-destatis-periodensterbetafeln-publikationen.md
+  - eingang/dokumente/2026-06-04-drv-statistikband-rente-2024.md
+  - eingang/links/2026-06-04-drv-finanzkennzahlen-rentenversicherung.md
 ---
 
 # Prüfung: Rentenreform Abschmelzmodell Bundeszuschuss

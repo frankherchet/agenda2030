@@ -26,7 +26,18 @@ Quelle, Kernaussage, Relevanz, Zuordnung und nächste Schritte enthalten.
 5. Zusammenfassung knapp halten: maximal 5 Sätze plus wenige Stichpunkte.
 6. Betroffene Ministerien, Gesetzbücher und Folgearbeiten als Repo-Pfade
    verlinken, wenn erkennbar.
-7. Offene Fragen sichtbar lassen, statt unsichere Fakten zu glätten.
+7. Ingest-Datei in `eingang/index/README.md` eintragen.
+8. In allen späteren Artefakten, die diese Quelle nutzen, `ingest_refs` auf
+   die Eingang-Datei setzen.
+9. Offene Fragen sichtbar lassen, statt unsichere Fakten zu glätten.
+
+## Pflicht vor Quellenverwendung
+
+- Eine externe Quelle darf erst fachlich verwendet werden, nachdem sie unter
+  `eingang/<typ>/` erfasst und im Index vermerkt wurde.
+- `source_urls` bleiben als externe Nachweise erhalten, ersetzen aber niemals
+  `ingest_refs`.
+- Mehrere Reports oder Auswertungen dürfen dieselbe Ingest-Datei referenzieren.
 
 ## Token-Sparing Rules
 
@@ -49,6 +60,7 @@ unclear.
 After creating or updating files, respond with:
 
 - created/updated file paths,
+- updated index path,
 - one-sentence summary of what was ingested,
 - unresolved metadata or follow-up work.
 

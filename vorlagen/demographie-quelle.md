@@ -6,6 +6,8 @@
 - Quelle: <Institution>
 - Dokument/Datensatz: <Titel>
 - URL: <URL>
+- Ingest-Referenzen:
+  - `eingang/<typ>/<datei>.md`
 - Status: <neu | geprüft | ersetzt>
 
 ## Kurzfassung
