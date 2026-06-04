@@ -4,7 +4,7 @@ Zentraler Index aller eingegangenen Dokumente, Links und Ideen.
 
 | Datum | Typ | Titel | Ingest | Originalquelle | Status | Themen |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2026-06-04 | Dokument | Markus Lanz Sendung vom 2. Juni 2026 | `eingang/dokumente/2026-06-04-markus-lanz-sendung-2026-06-02.md` | `/home/frank/lanz.json` | zusammengefasst | Rente, AfD-Abgrenzung, FDP |
+| 2026-06-04 | Dokument | Markus Lanz Sendung vom 2. Juni 2026 | `eingang/dokumente/2026-06-04-markus-lanz-sendung-2026-06-02.md` | `eingang/originale/2026-06-04-markus-lanz-sendung-2026-06-02.json` | zusammengefasst | Rente, AfD-Abgrenzung, FDP |
 | 2026-06-04 | Link | SGB VI bei Gesetze im Internet | `eingang/links/2026-06-04-gesetze-im-internet-sgb-vi.md` | https://www.gesetze-im-internet.de/sgb_6/ | geprüft | Rente, SGB VI |
 | 2026-06-04 | Link | SGB IV bei Gesetze im Internet | `eingang/links/2026-06-04-gesetze-im-internet-sgb-iv.md` | https://www.gesetze-im-internet.de/sgb_4/ | geprüft | Sozialversicherung, Beitragsverfahren |
 | 2026-06-04 | Link | Grundgesetz bei Gesetze im Internet | `eingang/links/2026-06-04-gesetze-im-internet-grundgesetz.md` | https://www.gesetze-im-internet.de/gg/ | geprüft | Verfassung, Bestandsschutz |

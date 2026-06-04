@@ -4,7 +4,8 @@
 
 - Typ: Dokument
 - Datum: 2026-06-04
-- Quelle: `/home/frank/lanz.json` (ASR-Transkript zu `lanz.mp4`)
+- Quelle: `eingang/originale/2026-06-04-markus-lanz-sendung-2026-06-02.json`
+  (ASR-Transkript zu lokalem `lanz.mp4`)
 - Sendungsdatum: 2026-06-02
 - Status: zusammengefasst
 - Index: `eingang/index/README.md`

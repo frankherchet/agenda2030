@@ -1,0 +1,2595 @@
+{
+  "metadata": {
+    "source_file": "lanz.mp4",
+    "model": "microsoft/VibeVoice-ASR",
+    "quantization": "4bit",
+    "duration_seconds": 4594.12,
+    "chunking": {
+      "enabled": true,
+      "markers_seconds": [
+        1574.0,
+        2733.0,
+        4010.0
+      ]
+    },
+    "hotwords": [],
+    "context_provided": true,
+    "warnings": []
+  },
+  "segments": [
+    {
+      "id": 1,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 0.0,
+      "end": 12.29,
+      "text": "Karl Lauterbach ist heute bei uns zu Gast, genauso wie Robin Alexander, Bernd Raffelhüschen und zugeschaltet aus Brüssel Marie-Agnes Strack-Zimmermann. Sie alle sind jetzt unsere Gäste."
+    },
+    {
+      "id": 2,
+      "speaker": "chunk0:UNKNOWN",
+      "speaker_local": "UNKNOWN",
+      "chunk_index": 0,
+      "start": 12.29,
+      "end": 25.51,
+      "text": "[Music]"
+    },
+    {
+      "id": 3,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 25.51,
+      "end": 54.88,
+      "text": "Einen schönen guten Abend, freue mich sehr, dass Sie dabei sind. Herzlich willkommen zu unserer Sendung. Ja, es gibt, und darauf weist Bernd Raffelhüschen, einer der profilierten deutschen Ökonomen, heute, glaube ich, erstmals überhaupt unser Gast. Herzlich willkommen, seit langer Zeit hin. Es gibt eine beeindruckende Zahl, die jedem sofort klar macht, wie sehr der deutsche Sozialstaat jetzt gerade unter Druck kommt. In den nächsten Jahren, sagt er, wird jedes Jahr ungefähr eine Million Menschen in"
+    },
+    {
+      "id": 4,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 54.88,
+      "end": 88.3,
+      "text": "Rente gehen und es gibt einen weiteren spannenden Zusammenhang, auf den insbesondere er seit langer Zeit hinweist, der aber auf seltsame Weise ungehört bleibt, zumindest in meiner Wahrnehmung. Während frühere Generationen im Schnitt ungefähr 45 Jahre lang gearbeitet haben, um dann etwa 10 Jahre lang ihre Rente zu genießen, arbeiten Rentner heute im Schnitt, glaube ich, etwas mehr als 40 Jahre, um dann aber 20 Jahre lang in Rente zu sein. Das, sagt er, kann nicht funktionieren, das versteht auch jeder und schiebt gleich noch eine Botschaft hinterher, die auch nicht schön klingt."
+    },
+    {
+      "id": 5,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 88.3,
+      "end": 122.41,
+      "text": "Jedem, der glaubt, dass wir schon mitten drin stecken in dieser gigantischen Transformation, sagt er, muss man deutlich sagen, wir haben in Wahrheit noch gar nicht richtig angefangen. Herzlich willkommen, schön, dass Sie bei uns sind. Ja, trotz dieses Befundes schrieb Karl Lauterbach vor einiger Zeit, Bernd Raffelhüschen fordert wieder Rente ab 70. Für Beamte wie ihn und mich lässt sich das leicht fordern. Und erteilt der Rente mit 70 eine klare Absage. Rente mit 70 für alle, sagt er, das wäre ein herrlicher Schmaus für die AfD."
+    },
+    {
+      "id": 6,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 122.41,
+      "end": 149.5,
+      "text": "Und fordert, im Gegenteil, gerade für Geringverdiener in Zukunft bei der Rente sogar noch etwas mehr zu tun, sie also besser zu stellen, also mehr Geld auszugeben. Die Frage ist, wie genau wollen wir das eigentlich bezahlen und überhaupt, Stichwort AfD. Wie fand er eigentlich die Forderung aus seiner eigenen Partei, in dem Fall vom ehemaligen SPD-Ministerpräsidenten Albig, die Brandmauer zu überdenken, respektive gleich einzureißen? Herzlich willkommen, freue mich sehr."
+    },
+    {
+      "id": 7,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 149.62,
+      "end": 186.06,
+      "text": "Gleich zu Beginn aber wollen wir unter anderem mit Robin Alexander über einen, wie ich finde, ziemlich bemerkenswerten Parteitag der FDP am Wochenende sprechen, über den er sagt, ich frage mich seitdem die ganze Zeit, was das jetzt eigentlich genau für ein Kurs ist, den Wolfgang Kubicki da einschlagen will. Und er weist darauf hin, interessant, wie sich die Liberalen schon zweimal, nämlich 2017 und 2021, gewissermaßen als Überlaufbecken für bürgerliche Wut neu inszenieren konnten. Einmal nach der ersten großen Migrationswelle, wir erinnern uns, und das zweite Mal dann als Gegenstimme in der Corona-Zeit."
+    },
+    {
+      "id": 8,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 186.06,
+      "end": 224.62,
+      "text": "Wolfgang Kubicki sagt, er hat diesen Sound voll drauf, den mürrischen alten Mann, diese Wut. Die Frage ist nur, gibt es für all das noch einen Markt? Weil die AfD ist ja schon längst da. Herzlich willkommen, freue mich sehr. Ja, und dann ist da noch Marie-Agnes Strack-Zimmermann, die uns jetzt, glaube ich, aus Brüssel, da sehen wir, wie sie schon aus ihrem Büro zugeschaltet ist, und die am Wochenende für viele überraschend plötzlich ebenfalls kandidiert hat, weil sie offenbar Angst hat, so habe ich das zumindest gedeutet, dass genau das passiert, nämlich dass die FDP sich deutlich nach rechts orientiert. Schönen guten Abend, Frau Strack-Zimmermann, freue mich sehr, dass das klappt."
+    },
+    {
+      "id": 9,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 224.8,
+      "end": 226.47,
+      "text": "Guten Abend, Herr Lanz."
+    },
+    {
+      "id": 10,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 226.47,
+      "end": 231.52,
+      "text": "Frau Strack-Zimmermann, aus aktuellem Anlass vorweg die Frage, wissen Sie jetzt eigentlich genau, wo der Hammer hängt?"
+    },
+    {
+      "id": 11,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 232.58,
+      "end": 242.03,
+      "text": "Ja, ich wusste, wo er hängt, deswegen habe ich ihn abgenommen. Ich habe ihn weggelegt, damit sich hier keiner verletzt. Insofern liegt der Hammer da, wo er hingehört, in der Werkzeugschublade."
+    },
+    {
+      "id": 12,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 242.03,
+      "end": 256.84,
+      "text": "Wie fanden Sie diesen Satz? Muss man kurz einordnen. Wolfgang Kubicki sagte nach der Wahl, Marie-Agnes, du hast nur 40 Prozent und ich 60 und jetzt weißt du, wo der Hammer hängt. Das klingt so nach so einer, wie soll man sagen, Silberrückenansage. Etch-a-Betch."
+    },
+    {
+      "id": 13,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 257.72,
+      "end": 276.32,
+      "text": "Nein, ich glaube, es klingt eher nach einem langen Tag, der sehr anstrengend war, weil ich natürlich mit meiner Kandidatur Wolfgang Kubicki überrascht habe. Der Spruch, wo der Hammer hängt, ist jetzt nicht ganz neu, aber wie gesagt, damit es keine Verletzten gibt, habe ich den Hammer entsorgt."
+    },
+    {
+      "id": 14,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 276.32,
+      "end": 296.34,
+      "text": "Lassen Sie uns einmal politisch werden. Ich fand das ziemlich heftig, was da abgelaufen ist. Sie versuchen das jetzt gerade so ein bisschen wieder zu beruhigen, merkt man auch deutlich. Wolfgang Kubicki hat in ihre Richtung gesagt, wenn du die FDP, meinte sie, in die Bedeutungslosigkeit führen willst, dann mach genau so weiter. Was könnte er damit gemeint haben?"
+    },
+    {
+      "id": 15,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 297.22,
+      "end": 335.55,
+      "text": "Ja, das ist eine gute Frage, denn meine spontane Kandidatur kam natürlich nicht völlig aus der hohlen Hand. Es gibt eine kleine Vorgeschichte. Dahingehend, dass bis zwei Wochen vorher Henning Höne, der Chef der FDP in Nordrhein-Westfalen und Fraktionsvorsitzender, angestrebt hat, Kubicki herauszufordern. Er hat dann 14 Tage später, als gewissermaßen der interne Wahlkampf beendet war, gesagt, dass er es doch nicht macht und sich an Wolfgang Kubicki anschließt. Daraufhin hat sich, und das hat sich nicht nur daran entzündet, sondern nachdem Wolfgang Kubicki auch Martin Hagen, ehemaliger bayerischer FDP- und Oppositionspolitiker im bayerischen Landtag,"
+    },
+    {
+      "id": 16,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 335.55,
+      "end": 360.37,
+      "text": "geäußert hat, beziehungsweise aufgestellt hat, gab es eine schwere Bewegung, ich sag das mal so, in der Partei dahingehend, dass es viel Unruhe gab. Wohin marschiert die FDP? Aus dieser Lage heraus habe ich mich dann kurzfristig entschlossen anzutreten, weil ich von sehr vielen hörte, sie wollen eine Wahl haben. Sie wollen also nicht nur ja oder nein sagen, sondern sie wollen eine Wahl haben und das habe ich dann eben."
+    },
+    {
+      "id": 17,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 360.37,
+      "end": 361.71,
+      "text": "Wenn Sie so wollen, übernommen."
+    },
+    {
+      "id": 18,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 361.71,
+      "end": 373.46,
+      "text": "Okay, wir machen sofort die Runde auf, weil ich sehe, da gibt es auch schon Bewegung auf den Sesseln hier. Aber noch eine kurze Nachfrage. Sie sagen, das war spontan. So haben Sie es zumindest kurz danach versucht, medial zu verkaufen."
+    },
+    {
+      "id": 19,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 373.5,
+      "end": 381.86,
+      "text": "Ich habe diese Rede gehört, die war so geschliffen. Niemals schreibt man so etwas spontan und redet das auch nicht spontan. Wie lange haben Sie das wirklich vorbereitet?"
+    },
+    {
+      "id": 20,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 382.36,
+      "end": 390.31,
+      "text": "Ich habe das nicht lange vorbereitet, aber ich freue mich, dass Ihnen die Rede gefallen hat. Das habe ich auch nicht gesagt. Ach, so schade."
+    },
+    {
+      "id": 21,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 390.31,
+      "end": 399.46,
+      "text": "Ich fand es einigermaßen irritierend, dass Sie zwischenzeitlich sogar über die SPD gesprochen haben und dachte, meine Güte, wie traurig ist es jetzt um die Sozialdemokraten gestern."
+    },
+    {
+      "id": 22,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 399.46,
+      "end": 431.08,
+      "text": "Herr Lanz, vielleicht können wir das jetzt mal etwas seriös einordnen dahingehend, ich habe mich auf die Aussprache vorbereitet und ich habe dann, ich kann Ihnen das präzise sagen, am Freitagmorgen, nachdem ich mich besprochen habe mit einigen Freunden, entschlossen, wenn man einen, für mich, einen individuellen Kompass hat, dann reichen 24 Stunden, eine solche Rede zu schreiben. Das habe ich gemacht. Denn, wie gesagt, im Vorfeld wollte ich das gar nicht, um das nochmal zu betonen. Also, insofern habe ich mich damit beschäftigt und das war mir schon wichtig."
+    },
+    {
+      "id": 23,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 431.08,
+      "end": 453.13,
+      "text": "Wissen Sie, das habe ich nicht gemacht, weil ich mal Lust hatte auf Rambazamba, sondern, und das war Rambazamba, das war ja nun eine große Bewegung und richtig was los, sondern um klar zu machen, dass es in der FDP Menschen gibt, die beunruhigt sind über eine mögliche Ausrichtung. Dem habe ich etwas entgegengesetzt. Und, ähm, ich finde, das ist in einer Demokratie das Mindeste, dass man sich dann zu Wort meldet."
+    },
+    {
+      "id": 24,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 453.13,
+      "end": 459.02,
+      "text": "So, nochmal ganz kurz mit der Bitte um kurze Antwort. Haben Sie Wolfgang Kubicki vorab darüber informiert, dass Sie antreten werden?"
+    },
+    {
+      "id": 25,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 459.42,
+      "end": 464.55,
+      "text": "Nein, ich habe außer denen, die ich ins Vertrauen gezogen habe, überhaupt keinen informiert."
+    },
+    {
+      "id": 26,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 464.55,
+      "end": 474.86,
+      "text": "Das heißt, Sie kennen sich so lange, Sie sind Parteifreunde und Sie reden nicht vorher einen Satz darüber, dass Sie plötzlich mit der Kandidatur um die Ecke kommen?"
+    },
+    {
+      "id": 27,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 475.13,
+      "end": 505.21,
+      "text": "Nein, ich kam um die Ecke und das sah man ja auch Wolfgang Kubicki, während ich sprach, war er ja nicht wirklich amüsiert, er ist davon ausgegangen, dass er in einem Rutsch gewählt wird und er war sichtlich überrascht, übrigens nicht nur er, auch Christian Dörr, auch die anderen. Nein, ich habe ihm das nicht gesagt, das war eine Überraschung, wie gesagt, kurzfristig und deswegen war er auch, um auf den Hammer zurückzukommen, natürlich letztendlich überrascht und ich glaube auch abends bei den Tages-Themen war,"
+    },
+    {
+      "id": 28,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 505.21,
+      "end": 517.77,
+      "text": "hat sich das auch etwas gelöst, aber, ähm, wie gesagt, ähm, ich, äh, es war, wie es war und, ähm, äh, es geht jetzt darum, wie wir zusammenfinden und wie wir die Partei zusammenfügen."
+    },
+    {
+      "id": 29,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 517.77,
+      "end": 519.02,
+      "text": "Ja, ich würde das schon noch mal gerne verstehen."
+    },
+    {
+      "id": 30,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 519.02,
+      "end": 520.66,
+      "text": "Ja, aber das ist ja, das ist ja wesentlich."
+    },
+    {
+      "id": 31,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 520.66,
+      "end": 526.36,
+      "text": "Ja, ja, das ist wesentlich, aber die Art und Weise, wie man miteinander umgeht, ist ja auch irgendwie nicht ganz unwichtig. Herr Lauterbach."
+    },
+    {
+      "id": 32,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 526.36,
+      "end": 566.13,
+      "text": "Ja, der Zirkus, ehrlich gesagt, erinnert mich an das Lügengerede von Christian Lindner. Als wir all die Zeit gedacht haben, wir machen weiter in der Koalition. Und es war aber lange schon geplant, dass er die Koalition platzen lässt. Das war auch dann plötzlich, also, da wurde dann im Hintergrund, also, ein Torpedo vorbereitet und so weiter und so weiter. Also, das ist einfach der unseriöse Charakter dieser Partei, ehrlich gesagt, also, der sich hier aufdrängt. Also, das, äh, jetzt sind sie nicht in der Regierung und streiten untereinander. Aber genau diesen Zirkus haben wir in der Ampel all die Zeit erlebt. Das war einfach ganz schrecklich."
+    },
+    {
+      "id": 33,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 566.13,
+      "end": 580.69,
+      "text": "Und von daher bin ich wirklich der Meinung, also, zumindest, also, jetzt sind ja schwierige wirtschaftliche Zeiten und alles. In der jetzigen schwierigen wirtschaftlichen Zeit brauchen wir so eine halbseidene Partei wie die FDP zumindest in der Regierung nicht."
+    },
+    {
+      "id": 34,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 580.69,
+      "end": 581.41,
+      "text": "Wow, wow."
+    },
+    {
+      "id": 35,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 581.41,
+      "end": 597.75,
+      "text": "Also, die Theorie, dass... Spontane Gegenkandidaturen auf einem Parteitag ein Ausweis von Unseriösität wären. Ich erinnere, es gab mal einen SPD-Parteitag, wo sich Oskar Lafontaine spontan entschloss, weil er sagte, die Richtung stimmt mir nicht, ich sage jetzt, ich will eine andere Richtung."
+    },
+    {
+      "id": 36,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 597.75,
+      "end": 599.03,
+      "text": "Aber da war es ja auch spontan."
+    },
+    {
+      "id": 37,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 599.03,
+      "end": 600.01,
+      "text": "Ja, aber Moment."
+    },
+    {
+      "id": 38,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 600.01,
+      "end": 601.1,
+      "text": "Hier ist es ja nicht spontan."
+    },
+    {
+      "id": 39,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 601.1,
+      "end": 602.39,
+      "text": "Das unterstellen Sie doch."
+    },
+    {
+      "id": 40,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 602.39,
+      "end": 606.36,
+      "text": "Nee, das hat sie auch gerade gesagt. Nein. Frau Strack-Zimmermann hat doch gerade gesagt."
+    },
+    {
+      "id": 41,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 606.36,
+      "end": 607.68,
+      "text": "Hans-Meyer Lauterbach."
+    },
+    {
+      "id": 42,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 607.68,
+      "end": 611.02,
+      "text": "Frau Strack-Zimmermann, der Eindruck entsteht doch."
+    },
+    {
+      "id": 43,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 611.02,
+      "end": 614.75,
+      "text": "Hören Sie sich eigentlich reden? Hören Sie sich eigentlich reden?"
+    },
+    {
+      "id": 44,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 614.75,
+      "end": 617.72,
+      "text": "Ja, der könnte schon mal ganz kurz aussprechen."
+    },
+    {
+      "id": 45,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 618.54,
+      "end": 635.45,
+      "text": "Ja, was Sie sich gerade hier erlauben, finde ich völlig überflüssig. Sie waren mal Gesundheitsminister, sind es auch nicht mehr. Ich käme nie auf die Idee, Ihnen vorzuwerfen, dass man Sie schlichtweg nicht mehr als Minister wollte, weil Sie allen auf den Geist gegangen sind."
+    },
+    {
+      "id": 46,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 635.45,
+      "end": 638.52,
+      "text": "Kein Problem, kein Problem, kein Problem mit Sprache."
+    },
+    {
+      "id": 47,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 638.52,
+      "end": 671.38,
+      "text": "Es ist völlig unstatthaft und vielleicht. Überrascht es Sie, dass ich von einigen Ihrer Kolleginnen und Kollegen eine E-Mail bekommen haben, Sie würden sich wünschen, dass in einem Parteitag sich auch mal so deftig ausgetauscht wird und eben nicht Stromlinienförmig alles vorbereitet wird und dann die, die, ein, ein Teil nicht zu Worte kommen. Die Resonanz derer, die über die FDP hinaus das angeschaut haben, war groß und ich bin sichtlich irritiert darüber. Was Sie für ein Demokratieverständnis haben."
+    },
+    {
+      "id": 48,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 671.38,
+      "end": 693.28,
+      "text": "Nein, ich hätte mich ja sogar gefreut, wenn Sie gewonnen hätten. Es geht hier lediglich, es geht hier nur um den Stil. Es geht hier nur um den Stil. Also der Stil, das, was Herr Lauterbach gerade gesagt hat, das macht auf mich den Eindruck, wie wir es auch in der Regierung erlebt haben, dass sie etwas Spontanes vortäuschen, was in Wirklichkeit geplant gewesen ist. Nur darum geht es ja."
+    },
+    {
+      "id": 49,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 693.28,
+      "end": 701.66,
+      "text": "Ganz kurz einmal die Redaktion und dann Robin Alexander und danach Herr Raffelhüschen. Frau Strack-Zimmermann, Sie wollten gerade eben nochmal?"
+    },
+    {
+      "id": 50,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 702.8,
+      "end": 742.95,
+      "text": "Ja, ich bin ein bisschen überrascht, weil ich mir ja nicht anlassen würde, darüber zu urteilen, was Herr Lauterbach gut und schlecht gemacht hat. Ich habe Ihnen da etwas mehr Seriosität, zumal die Rheinländer ja diesbezüglich auch etwas entspannter sind, mit umgehen. Ich kann Ihnen nur sagen, wie es ist. Ich habe eine Bewegung erlebt und gesehen und sehr viele Mitglieder haben sich an mich gewandt. Ich wurde ja häufiger gefragt, ob ich bereit wäre, die Partei zu übernehmen, schon vor einem Jahr. Das habe ich nicht gemacht, weil ich hier in Brüssel angesichts meiner Aufgabe als Vorsitzende des Verteidigungsausschusses extrem eingebunden bin."
+    },
+    {
+      "id": 51,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 742.95,
+      "end": 779.89,
+      "text": "Das kam für mich nicht in Frage. Ich habe auf Henning Höne gesetzt. Ich habe ihn wie sehr, sehr viele unterstützt in diesem internen Wahlkampf. Und die, die enttäuscht waren, dass er nicht nur zurückzog, sondern auch 14 Tage vorher, also relativ knapp, da kam diese Bewegung im Gange und dann kam hinzu, dass Herr Kubicki, ohne das jetzt vertiefen zu wollen, denn ich muss vorher Lauterbach, auch wenn er Arzt ist, jetzt hier nicht die Hose runterlassen, dass Martin Hagen nominiert wurde und das hat diese interne Diskussion ausgelöst und ich maße mir nicht an, über die Sozialdemokraten, über die Sozialdemokratie zu urteilen."
+    },
+    {
+      "id": 52,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 779.89,
+      "end": 802.18,
+      "text": "Aber ich maße mir an, wenn bei uns nichts passiert, heißt es, die FDP ist weg vom Fenster, tote Hose, One-Man-Show. Das begleitet uns ja auch seit Dekaden. Und jetzt kommt eine Kampfkandidatur und dann wird das so beurteilt. Also, ihr Kompass ist inzwischen auch irgendwo verloren gegangen. Ich bedauere das, Herr Lauterbach, weil ich Sie persönlich nämlich schätze."
+    },
+    {
+      "id": 53,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 802.18,
+      "end": 803.71,
+      "text": "Herr Robin Alexander."
+    },
+    {
+      "id": 54,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 803.71,
+      "end": 824.64,
+      "text": "Wir sollten das mal sortieren. Das steht doch im Raum, der Vorwurf. Das wäre ein Hinterhalt gewesen, eine große Tücke. So, A, finde ich den Vorwurf ein bisschen wohlfeil, weil das Parteengesetz gibt das her. Man kann auf dem Parteitag, wenn man genug Leute hat, kann man kandidieren. Die demokratische Normalität gab es auch schon bei der SPD."
+    },
+    {
+      "id": 55,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 824.64,
+      "end": 827.04,
+      "text": "Und hat auch was Erfrischendes und Belebendes."
+    },
+    {
+      "id": 56,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 827.04,
+      "end": 829.12,
+      "text": "Aber, aber, und, und, was?"
+    },
+    {
+      "id": 57,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 829.12,
+      "end": 830.4,
+      "text": "Hier geht es ja um was anderes."
+    },
+    {
+      "id": 58,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 830.4,
+      "end": 831.8,
+      "text": "Ja, und was spricht jetzt für die These?"
+    },
+    {
+      "id": 59,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 831.8,
+      "end": 833.74,
+      "text": "Karl Lauterbach hat ja den Punkt gemacht, genau, die These."
+    },
+    {
+      "id": 60,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 833.74,
+      "end": 834.74,
+      "text": "Was spricht für die These?"
+    },
+    {
+      "id": 61,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 834.74,
+      "end": 837.83,
+      "text": "Dass es spontan aussehen soll, aber nicht spontan ist. Das ist der Punkt."
+    },
+    {
+      "id": 62,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 837.83,
+      "end": 852.36,
+      "text": "Ja, das wäre der Vorwurf des Hinterhalts. Was spricht dagegen? Es gab im Kubicki-Lager auf den letzten Metern eine Positionsveränderung. Nee, jetzt darf ich mal zu Ende reden, weil wir gehen so in den dritten Versuch, ja? Aber Sie waren schon, ich kenne das schon bei Ihnen."
+    },
+    {
+      "id": 63,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 852.36,
+      "end": 888.55,
+      "text": "Ich sehe, wo das so zuckt und dann. Also, nochmal, es gab im Kubicki-Lager, also, Kubicki ist in diesen parteiinternen Wahlkampf gegangen mit einer Ansage, erste Interview bei uns im Machtwechsel-Podcast, keine Zusammenarbeit mit der AfD, machen wir alles nicht, steht uns fern. Und in der letzten Woche vor dem Parteitag gibt es Kubicki ein anderes Interview, wo er sagt, es ist eine Selbstverständlichkeit, dass die Brandmauer fällt und der schon angesprochene Martin Hagen, sein designierter Generalsekretär, sagt, die Brandmauer ist ein Popanz. Und daraufhin gibt es Leute in der FDP, die sagen, Moment, gibt es hier eine Veränderung der Position, die wir nicht wollen?"
+    },
+    {
+      "id": 64,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 888.55,
+      "end": 911.4,
+      "text": "Und dann kommt es zu einem Treffen von einem Dutzend Leuten in einer Berliner Anwaltskanzlei, die beraten, müssen wir ein Signal dagegen setzen? Und ein Indikator, dass es tatsächlich nicht von langer Hand geplant war, ist, dass der Mann, der auf dem Parteitag Frau Strack-Zimmermann vorschlägt, Joachim Stamm, sich eine Nacht Bedenkzeit erbittet."
+    },
+    {
+      "id": 65,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 911.4,
+      "end": 912.18,
+      "text": "Wow."
+    },
+    {
+      "id": 66,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 912.18,
+      "end": 914.44,
+      "text": "Der wird von diesen Dutzend Leuten gezogen."
+    },
+    {
+      "id": 67,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 914.44,
+      "end": 926.82,
+      "text": "Darf ich noch mal einen kurzen, kurzen Anpassen, Herr Alexander, ganz kurz, Konstantin Kuhle, war der auch so in dieser Anwaltskanzlei dabei? Weil ich habe die Einlassung von ihm für den Parteitag gehört, das war bemerkenswert und es zieht genau in diese Richtung."
+    },
+    {
+      "id": 68,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 926.98,
+      "end": 928.42,
+      "text": "Naja, also."
+    },
+    {
+      "id": 69,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 928.42,
+      "end": 930.71,
+      "text": "Ja, er war dabei, das können Sie sicher sagen."
+    },
+    {
+      "id": 70,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 930.71,
+      "end": 931.15,
+      "text": "Okay."
+    },
+    {
+      "id": 71,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 931.15,
+      "end": 950.61,
+      "text": "Aber ich meine, egal wie man das sieht, es ist doch erkennbar, dass Kubicki anders in diesen parteiinternen Wahlkampf gegangen ist, als er noch einen Gegenkandidaten hatte. Und dann auf den letzten Metern hat sich etwas verändert in einer nicht trivialen Frage. Und dass Leute in der Partei darauf reagieren, dafür ist das am Parteitag auch da."
+    },
+    {
+      "id": 72,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 950.61,
+      "end": 976.92,
+      "text": "Klar, das ist richtig. Darum habe ich ja gesagt, dass ich mir sogar gewünscht hätte, es war ehrlich gemeint, dass Frau Strack-Zimmermann gewonnen hätte, weil ich diese Rechtsverschiebung der FDP und von Herrn Kubicki für sehr gefährlich halte. Trotzdem wäre der ganze Vorgang in meiner bescheidenen Einschätzung... Würdiger gewesen, wenn man angekündigt hätte, hey, wir kandidieren, wir sind damit nicht einverstanden, wir wollen nicht, dass die Bandmauer fällt und so weiter und so fort dann wäre."
+    },
+    {
+      "id": 73,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 976.92,
+      "end": 981.61,
+      "text": "Deswegen habe ich ja gefragt, ob man zumindest vorher einmal einen Satz darüber kriegen hat."
+    },
+    {
+      "id": 74,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 981.61,
+      "end": 983.28,
+      "text": "Es geht nur um den Stil, Sie konnten darüber reden."
+    },
+    {
+      "id": 75,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 983.28,
+      "end": 1011.68,
+      "text": "Natürlich, die konstatiere ich und das ist der Grund, weshalb ich mich gefreut hätte, wenn sie gewonnen hätte. Aber es ist nicht der Stil. Der mir hier so gefällt. Der Stil ist einfach das, was, ich bin da auch gebrandmarkt. Wir haben unter der, also sagen wir mal, Situation mit Lindner sehr stark gelitten. Und wenn ich so etwas sehe, angekündigt, angeblich spontan und so weiter und so fort, da bin ich einfach, bitte ich auch Sie um Verständnis, Frau Strack-Zimmermann, da bin ich einfach sehr empfindlich."
+    },
+    {
+      "id": 76,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 1011.68,
+      "end": 1016.44,
+      "text": "Ich sage nur, ich habe es schon mal gesagt, Lafontaine, Scharping. Ist alles bei Ihnen genauso passiert?"
+    },
+    {
+      "id": 77,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 1016.44,
+      "end": 1022.74,
+      "text": "Ja, aber ich bin nicht Lafontaine, Scharping und das liegt auch lange zurück, aber dieser Stil hat mich jetzt gestört."
+    },
+    {
+      "id": 78,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 1022.74,
+      "end": 1061.16,
+      "text": "Herr Lauterbach, also wenn Sie schon gefragt werden zu einer anderen Partei, dann kann man sich dazu äußern. Ich werde ja auch immer zu dieser Bundesregierung und dieser wahnsinnigen Performance, die seit 13 Monaten viel verspricht und überhaupt nichts macht, werde ich auch gefragt. Aber in diesem Kontext finde ich das schon ziemlich vermessen. Ich darf übrigens auch sagen, das war von Kubicki, 2012 auch mal spontan regierter Bund ins Präsidium zu kommen, also kandidiert hat ins Präsidium zu kommen, hat zwei Minister, nämlich den Entwicklungshilfeminister Herrn Niebel und Herrn Bahr, Gesundheitsminister, ihr Vorvorgänger, aus dem Präsidium rausgehalten."
+    },
+    {
+      "id": 79,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 1061.16,
+      "end": 1097.39,
+      "text": "Ich finde, wenn wir in der Demokratie, und das ist übrigens etwas, was den Leuten in Deutschland auf den Geist geht, Stromlinienförmig nicht mehr diskutieren, wie Lemminge hinterherlaufen. Ich habe das gemacht und der Anteil dessen, und das ist doch relevant, dass nämlich 40 Prozent meine Meinung geteilt haben, wir jetzt aber gesagt haben, so, das war eine sehr klare Ansage. Ich habe in meiner Vorbereitungsrede inhaltlich auch reüssiert auf das, was passiert und jetzt werden wir gemeinsam in die Wahlkämpfe gehen. Und alte Kamellen rausholen. Ich meine, Herr Lauterbach, wir sind ja so ungefähr eine Generation."
+    },
+    {
+      "id": 80,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 1097.39,
+      "end": 1127.68,
+      "text": "Auch das wollen vor allen Dingen junge Menschen nicht mehr hören, was mal war vor den Freiheitskriegen und ob die Ampel reüssiert hat. Übrigens war der Streit in der Ampel deutlich später. Wir haben relativ lange ausgehalten, bevor der Krach kam. Was ich gerade sehe, hat jetzt Herr Merz und Herr Klingbeil und Sie deutlich an Tempo gedrückt. Also ich finde, wir sollten der Beurteilung dessen, was in anderen Parteien passiert, sehr vorsichtig sein. Das steht Ihnen auch nicht zu. Aber Sie können sicher sein, das war natürlich ein Gewitter in der Partei."
+    },
+    {
+      "id": 81,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 1127.68,
+      "end": 1166.75,
+      "text": "Wir hatten, in dem Moment haben sich Menschen für einen Parteitag interessiert, weil sie gesagt haben, da passiert gerade was, weil sonst nämlich Parteitage öde sind, sie werden vorbereitet, Delegierte haben keine Chance mehr, sich zu Wort zu melden. Noch ein Satz war ja dann eine Aussprache war, wo 60 Leute in die Aussprache gingen, zweieinhalb Stunden und da war das sehr unterschiedlich, das Bild. Und dass wir uns Gedanken machen, wie wir in Zukunft, Und ich will ja das Problem der FDP nicht kleinreden, reüssieren, wie wir auftreten, dass das eine gute Diskussion war, das was nicht mehr von keinem ausreden und bei allem Respekt, Herr Lauterbach, von Ihnen schon gar nicht."
+    },
+    {
+      "id": 82,
+      "speaker": "chunk0:1",
+      "speaker_local": "1",
+      "chunk_index": 0,
+      "start": 1166.75,
+      "end": 1176.66,
+      "text": "Sie wurden Minister, nicht weil der Bundeskanzler das wollte, sondern weil man im Internet... eine Aktion gestartet hat, wir wollen Heiner. War das, war das inspiriert?"
+    },
+    {
+      "id": 83,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1176.66,
+      "end": 1185.51,
+      "text": "Aua, Aua, Aua, äh, also, äh, ich sag mal, ich weiß auch nicht, soll ich mal den Therapeuten anrufen? Ich habe das Gefühl, gerade ampelmäßig ist hier noch einiges aufzuarbeiten."
+    },
+    {
+      "id": 84,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 1185.51,
+      "end": 1187.36,
+      "text": "Nein, nein, nein, also, ich bin einverstanden."
+    },
+    {
+      "id": 85,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1187.36,
+      "end": 1189.61,
+      "text": "Ja, es geht offenbar tief."
+    },
+    {
+      "id": 86,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 1189.61,
+      "end": 1203.36,
+      "text": "Nee, nee, aber mal ehrlich, also, diese Story, die Ampel wäre super gelaufen, bis Christian Lindner tückisch alles in die Luft gesprengt hat. Ich meine, da möchte ich jetzt nicht auf Bücher verweisen, aber da setze ich ein Fragezeichen. Da habe ich schon vorher Probleme gehabt."
+    },
+    {
+      "id": 87,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1203.36,
+      "end": 1222.22,
+      "text": "Ich habe leider für Frau Strack-Zimmermann noch eine schlechte Nachricht, nämlich in der Gestalt von Bernd Raffelhüschen, der sagte im Vorfeld irgendwie, das, was Sie da gemacht haben, Frau Strack-Zimmermann, geht jetzt leider nochmal gegen Sie, war unter aller Kanone. Können Sie das mal kurz begründen? Und danach freue ich mich auf die Replik."
+    },
+    {
+      "id": 88,
+      "speaker": "chunk0:4",
+      "speaker_local": "4",
+      "chunk_index": 0,
+      "start": 1222.22,
+      "end": 1252.03,
+      "text": "Naja, gut, der Punkt ist ja der, dass ich doch, und das darf ich auch wohl äußern, auch als Wirtschaftsliberaler, sehr viel Sympathie hege für eine FDP, und zwar für eine wirtschaftsliberale FDP. Und an der Anhängerschaft zwischen Frau Strack-Zimmermann und Herrn Lauterbach kann man ja schon sehen, dass die Gräben eben halt genau dort laufen. Und eine Partei, die, sagen wir mal, Liberalismus prägt, und wirklich Liberalismus prägt, freiheitlich prägt."
+    },
+    {
+      "id": 89,
+      "speaker": "chunk0:4",
+      "speaker_local": "4",
+      "chunk_index": 0,
+      "start": 1252.03,
+      "end": 1291.03,
+      "text": "äh, äh, die nicht Lügen auftischt, das ist völliger Blödsinn, was Herr Lauterbach da erzählt, äh, sondern die im Prinzip, ähm, eigenverantwortung, Freiheitlichkeit, das zum Ziel setzt und die Wirtschaft zum Ziel setzt, die Partei, die, die soziale Marktwirtschaft gefunden hat, äh, mit, äh, Hayek, mit, mit, mit Eucken, äh, die, das Deutschland, was wir jetzt haben, zum reichsten Deutschland gemacht hat, das wir jemals waren. Ja, äh, die also wirklich mit den sozialen Marktwirtschaftskonzepten erfolgreich war. Diese Partei hat durch den Flügelkampf, äh, der zwischen den eher Sozialliberalen und Sozial haben wir wirklich in allen anderen Parteien genug, das merkt man eben halt an der Unterstützung ja auch gerade."
+    },
+    {
+      "id": 90,
+      "speaker": "chunk0:4",
+      "speaker_local": "4",
+      "chunk_index": 0,
+      "start": 1291.03,
+      "end": 1316.46,
+      "text": "Der hat durch den Konflikt der Sozialliberalen mit den Wirtschaftsliberalen im Grunde genommen es geschafft, äh, im Stammland Baden-Württemberg von 13 Prozent in der vorherigen Wahl. auf unter 5% zu laufen. Und wenn man so einen Konflikt, der das Ausmaß dann so zeigt in den entsprechenden Wählerstimmen, auch noch auf den Parteitag trägt, dann muss man sich nicht wundern, dass das alles unter aller Kanone ist."
+    },
+    {
+      "id": 91,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1316.46,
+      "end": 1319.62,
+      "text": "Ein berühmten Ökonomen zu zitieren. Ganz kurz, und dann sollten wir..."
+    },
+    {
+      "id": 92,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 1319.62,
+      "end": 1356.86,
+      "text": "Also, ich kann da nur vor Wahn zu glauben, wir hätten dort den Konflikt gesehen zwischen Wirtschafts- und Sozialliberalen. Wenn es einen Sozialliberalen gab, war es immer Kubicki. Das war der Mann, der geweint hat, als die FDP von Helmut Schmidt zurück zu Helmut Kohl gegangen ist. Das war der Mann, der gesagt hat, wir müssen aus der Kernenergie raus, wir müssen weiter mit den Russen reden, wir müssen auf den Sozialstaat achten. Und auch sein Adlatus, dieser Martin Hagen, ist eigentlich ein Sozialliberaler. Das war ein Ziehkind von Lothar Scharrenberger. Also das sind Sozialliberale, die jetzt einen populistischen Ton ausführen. Das ist die interessante Übung."
+    },
+    {
+      "id": 93,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1356.86,
+      "end": 1357.55,
+      "text": "Exakt."
+    },
+    {
+      "id": 94,
+      "speaker": "chunk0:4",
+      "speaker_local": "4",
+      "chunk_index": 0,
+      "start": 1357.55,
+      "end": 1397.04,
+      "text": "So, das mag ja sein. Aber dennoch, nochmal, ideologisch brauchen wir Leute, die Wirtschaftsliberalität hat sich irgendwo verlaufen. Die Stammwählerschaft der FDP stammt aus den Unternehmern. Die Unternehmer sind enttäuscht und zwar komplett enttäuscht. Die Stammwählerschaft kommt aus den kleinen Selbstständigen. Sie sind komplett enttäuscht worden. Und zwar genau in dem Kampf, der bei der Ampel stattfand, wo irgendwelche komischen Leute irgendwelche Geschlechtsumwandlungen auf Kasse machen wollten und die anderen dann im Prinzip deutlich mehr auf die Wirtschaftsliberalen angesetzt wurden."
+    },
+    {
+      "id": 95,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1397.04,
+      "end": 1403.7,
+      "text": "Sorry, Herr Lauterbach, aber er ist gerade mal geschluckt. Sie dürfen sich aber..."
+    },
+    {
+      "id": 96,
+      "speaker": "chunk0:4",
+      "speaker_local": "4",
+      "chunk_index": 0,
+      "start": 1403.7,
+      "end": 1411.56,
+      "text": "Es gab genau diese Flanken, die immer wieder aneinander gefahren sind. Und sorry, das sagen zu müssen, ich habe das auch intern mitbekommen, ja."
+    },
+    {
+      "id": 97,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 1411.56,
+      "end": 1429.53,
+      "text": "Aber erstmal, der Transparenz wegen, der ein oder andere Zuschauer wird das ja gar nicht wissen. Dass Ihre Ehefrau jetzt bis vor kurzem im Bundestag für die FDP gesessen hat, muss ja auch bedacht werden. Ihre Position ist ja nicht neutral. Und wir haben in der Ampel viele, wir haben, wir haben, wir haben, also."
+    },
+    {
+      "id": 98,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1429.53,
+      "end": 1430.97,
+      "text": "Kommen jetzt, nee, nee, bitte."
+    },
+    {
+      "id": 99,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 1430.97,
+      "end": 1432.9,
+      "text": "Wir haben in der Ampel haben wir sehr viele."
+    },
+    {
+      "id": 100,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1432.9,
+      "end": 1435.06,
+      "text": "Hör jetzt hier nicht, ich schaue gerade zu Robin Alexander."
+    },
+    {
+      "id": 101,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 1435.06,
+      "end": 1436.2,
+      "text": "Seine Ehefrau, nicht meine."
+    },
+    {
+      "id": 102,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1436.2,
+      "end": 1436.86,
+      "text": "Ja, ja, ja."
+    },
+    {
+      "id": 103,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 1436.86,
+      "end": 1440.53,
+      "text": "Wir haben sehr viele Konflikte in der Ampel, ja. Aber wir haben uns nicht."
+    },
+    {
+      "id": 104,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1440.53,
+      "end": 1446.26,
+      "text": "Was ist das für ein Impuls? Nein, Herr Lauterbach, bitte. Sie werfen ihm jetzt nicht vor, dass seine Frau für die FDP gewählt hat."
+    },
+    {
+      "id": 105,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 1446.26,
+      "end": 1452.3,
+      "text": "Nein, ich habe es ihm ein geordnet. Ich habe es ihm nicht vor, ich werfe ihm das gar nicht vor, sondern aus meiner Sicht, ich bin der FDP."
+    },
+    {
+      "id": 106,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1452.3,
+      "end": 1455.05,
+      "text": "Meine eigenständige Frau, die macht genau das, was sie möchte."
+    },
+    {
+      "id": 107,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 1455.05,
+      "end": 1456.52,
+      "text": "Ich verstehe das jetzt gar nicht."
+    },
+    {
+      "id": 108,
+      "speaker": "chunk0:2",
+      "speaker_local": "2",
+      "chunk_index": 0,
+      "start": 1456.52,
+      "end": 1478.53,
+      "text": "Ich habe ja nur von Transparenz gesprochen, aber es ist doch hier nicht ein Vorwurf. Und ich will nur sagen, wir haben uns in der Ampel über vieles gestellt, wir haben uns auch in einigen Dingen sehr gut verstanden, mit Herrn Wissing beispielsweise, mit Herrn Buschmann. Und nur gut sagen, es ist zeitweise auch sehr gut gelaufen, aber Sie haben es gerade so dargestellt, als wenn dort Geschlechtsumwandlungen eine Riesenrolle gespielt hätte. Das ist doch nicht wahr, Herr Raffelhüschen."
+    },
+    {
+      "id": 109,
+      "speaker": "chunk0:4",
+      "speaker_local": "4",
+      "chunk_index": 0,
+      "start": 1478.53,
+      "end": 1498.68,
+      "text": "Nochmal, wir haben, wir haben in der Ampel, äh, wichtige Entscheidungen getroffen und das waren wichtige Entscheidungen, die tatsächlich später gefallen sind. Nochmal, Herr Lindner, dieser Lügenbaron, den Sie da so nennen, er hat mindestens ja geschafft, die Schuldenbremse zu halten, äh, die dann nachgekippt worden ist. Er hat es mindestens geschafft, eine Steuererhöhung zu verhindern."
+    },
+    {
+      "id": 110,
+      "speaker": "chunk0:3",
+      "speaker_local": "3",
+      "chunk_index": 0,
+      "start": 1498.68,
+      "end": 1502.68,
+      "text": "Er versucht direkt, also eine Haushalte. Abgeordnete schon mitgekriegt, ne?"
+    },
+    {
+      "id": 111,
+      "speaker": "chunk0:4",
+      "speaker_local": "4",
+      "chunk_index": 0,
+      "start": 1502.68,
+      "end": 1517.05,
+      "text": "Die Haushaltsführung des gesamten Finanzministeriums und der allen Finanzministern ist sehr, sehr heikel, denn die Haushaltsführung in Deutschland gleicht eher dem Bilanzierungskonzept einer Frittenbude als einer echten Haushaltsführung."
+    },
+    {
+      "id": 112,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1517.05,
+      "end": 1518.02,
+      "text": "Sehr kläglich."
+    },
+    {
+      "id": 113,
+      "speaker": "chunk0:4",
+      "speaker_local": "4",
+      "chunk_index": 0,
+      "start": 1518.02,
+      "end": 1520.65,
+      "text": "Und das werde ich immer wieder aufmachen."
+    },
+    {
+      "id": 114,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1520.65,
+      "end": 1548.66,
+      "text": "Ich würde gerne noch einmal auf das eingehen. Sie haben am Anfang schon ein bisschen her. Ich wollte jetzt irgendwie keinen Schwerpunkt FDP heute in dieser Sendung machen, aber jetzt sind wir mitten drin und es war offenbar ein Stich ins Wespennest. War mir so gar nicht klar. Aber Sie haben ganz am Anfang immer wieder von dieser Angst, von dieser Befürchtung gesprochen, wo sozusagen die FDP hinrutscht. Und Robin Alexander hat auch schon darauf hingewiesen gerade, dass da was passiert ist, inhaltlich."
+    },
+    {
+      "id": 115,
+      "speaker": "chunk0:0",
+      "speaker_local": "0",
+      "chunk_index": 0,
+      "start": 1548.84,
+      "end": 1574.0,
+      "text": "Sie sagten bei dieser Frage, blinzelt man da mal so ein bisschen Richtung AfD? Ich bin da sehr konsequent, niemals mit mir. Und ob man das jetzt Brandmauer, Gartenhecke oder Schutzwall nennt, meine Haltung ist klar, ich werde weder mit der AfD noch mit Linksradikalen jemals zusammenarbeiten. Mit anderen Worten, Sie sind sich nicht sicher, ob das Wolfgang Kubicki möglicherweise macht?"
+    },
+    {
+      "id": 116,
+      "speaker": "chunk2:0",
+      "speaker_local": "0",
+      "chunk_index": 2,
+      "start": 2733.0,
+      "end": 2752.22,
+      "text": "So, jetzt nehme ich den zweiten Fall, die Wehrpflicht. Die Union hätte gerne eine Wehrpflicht gehabt. Ich finde mit guten Gründen. Die SPD hat gesagt, wir machen keine Wehrpflicht, wir schalten eine Freiwilligkeit vor. Frau Weidel hatte in ihrer eigenen Fraktion keine Mehrheit für die Wehrpflicht. Weil Björn Höcke Plakate drucken möchte, keine Jungs für die Ukraine."
+    },
+    {
+      "id": 117,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2752.22,
+      "end": 2754.58,
+      "text": "Jetzt kann ich weitergehen, wie Sie ursprünglich mal wollten."
+    },
+    {
+      "id": 118,
+      "speaker": "chunk2:0",
+      "speaker_local": "0",
+      "chunk_index": 2,
+      "start": 2754.58,
+      "end": 2775.56,
+      "text": "Ich kann weitergehen, ich kann zu Gaza gehen. In der Union gab es großen Ärger, dass Friedrich Merz irgendwann gesagt hat, keine Waffen mehr für Gaza. Aber das ist auch die AfD-Position. Also, Sie können das alles durchgehen. Also, die Idee, dass die AfD eine konsequentere CDU wäre, die gibt das Programm jedenfalls nicht her."
+    },
+    {
+      "id": 119,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 2775.56,
+      "end": 2780.44,
+      "text": "Aber lassen Sie uns bitte, ich rede da ja den Punkt ab, die babylonische Gefangenschaft."
+    },
+    {
+      "id": 120,
+      "speaker": "chunk2:UNKNOWN",
+      "speaker_local": "UNKNOWN",
+      "chunk_index": 2,
+      "start": 2780.44,
+      "end": 2783.14,
+      "text": "Wenn es eine Koalition gibt."
+    },
+    {
+      "id": 121,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 2783.14,
+      "end": 2789.72,
+      "text": "Ja, wenn es eine Koalition gibt, also dann ist es keine Gefangenschaft, sondern wir haben uns auf einen Koalitionsvertrag geeinigt."
+    },
+    {
+      "id": 122,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2789.72,
+      "end": 2794.32,
+      "text": "Ja, aber Sie verstehen doch ganz genau, was ich sagen will und Sie verstehen doch ganz genau, was er sagen will."
+    },
+    {
+      "id": 123,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 2794.32,
+      "end": 2795.8,
+      "text": "Könnten Sie das mal zu konkreten Punkten?"
+    },
+    {
+      "id": 124,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2795.8,
+      "end": 2798.43,
+      "text": "So, bitte. Lass uns einfach mal über die Rente sprechen."
+    },
+    {
+      "id": 125,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 2798.43,
+      "end": 2800.86,
+      "text": "30. 30."
+    },
+    {
+      "id": 126,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2800.86,
+      "end": 2807.15,
+      "text": "Nein, nein, nein, nein, nein. Bitte, einmal bald real für alle kommen. Robin Alexander, die Frage."
+    },
+    {
+      "id": 127,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 2807.15,
+      "end": 2808.08,
+      "text": "30."
+    },
+    {
+      "id": 128,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2808.96,
+      "end": 2823.04,
+      "text": "Juni. Ist der Tag der Tage. Der Tag, an dem Deutschland gerettet werden soll. Der Reformationstag, hätte ich jetzt fast gesagt. Der Reformierungstag, der Reformtag, der was auch immer. Da geht es dann nach vorne."
+    },
+    {
+      "id": 129,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2823.34,
+      "end": 2829.66,
+      "text": "Was ist das für ein Tag? Was wird da alles entschieden? Der Eindruck entsteht, da geht es jetzt wirklich um alles."
+    },
+    {
+      "id": 130,
+      "speaker": "chunk2:0",
+      "speaker_local": "0",
+      "chunk_index": 2,
+      "start": 2829.66,
+      "end": 2849.02,
+      "text": "Also, das ist noch die Frage, weil der 30. Juni kam in die Welt, weil ein Mann namens Steffen Bilger ausgeplaudert hat, das ist der parlamentarische Geschäftsführer der Union. Der hat gesagt, am 30. Juni machen wir wieder einen Koalitionsanschluss, dann schnüren wir ein großes Paket. Seitdem haben aber mehrere Leute, unter anderem Lars Klingbeil, gesagt, ich habe es nicht im Kalender."
+    },
+    {
+      "id": 131,
+      "speaker": "chunk2:0",
+      "speaker_local": "0",
+      "chunk_index": 2,
+      "start": 2849.54,
+      "end": 2852.8,
+      "text": "Und auch die Ansage, wir machen ein großes..."
+    },
+    {
+      "id": 132,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2852.8,
+      "end": 2855.62,
+      "text": "Was denn jetzt? Also, es gibt den Tag gar nicht?"
+    },
+    {
+      "id": 133,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 2855.62,
+      "end": 2856.64,
+      "text": "Wahrscheinlich nicht."
+    },
+    {
+      "id": 134,
+      "speaker": "chunk2:0",
+      "speaker_local": "0",
+      "chunk_index": 2,
+      "start": 2856.64,
+      "end": 2871.06,
+      "text": "Also, Lars Klingbeil hat bei uns im Podcast On the Record gesagt, bei mir steht er nicht im Kalender. Das kann ich ja nur wiederholen. Ich bin ja Journalist und... Und, also, das ist die Frage des Datums. Und die andere Frage ist, macht man ein großes Reformpaket?"
+    },
+    {
+      "id": 135,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2871.06,
+      "end": 2872.94,
+      "text": "So, das ist die entscheidende Frage."
+    },
+    {
+      "id": 136,
+      "speaker": "chunk2:0",
+      "speaker_local": "0",
+      "chunk_index": 2,
+      "start": 2872.94,
+      "end": 2889.7,
+      "text": "Verschiedene Reformen. Und wenn man heute Friedrich Merz gehört hat bei einem Auftritt in Ostdeutschland, sagte er, man soll besser nicht mit dem Big Bang rechnen. Da klang es schon wieder nach Relativieren. Also, ich habe den Verdacht, die sind in der Phase eher abzuspecken, das Reformpaket."
+    },
+    {
+      "id": 137,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2889.7,
+      "end": 2891.06,
+      "text": "Okay. Herr Lauterbach."
+    },
+    {
+      "id": 138,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 2891.06,
+      "end": 2913.22,
+      "text": "Zunächst einmal muss man klar in den Vordergrund stellen, das sind ja riesige Reformen, die jetzt kommen, die tatsächlich die Höhe der Rente, also den Umfang der Krankenversicherung und den Umfang der Pflegeversicherung und auch die Eingliederungshilfe, also was behinderte Menschen bekommen, für viele, viele Jahre bestimmen. Und wenn man sich da drängen lässt, hetzen lässt, nach dem Motto, das muss jetzt..."
+    },
+    {
+      "id": 139,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2913.22,
+      "end": 2914.6,
+      "text": "Nicht zwei Wochen, dass der Tag weg ist, egal."
+    },
+    {
+      "id": 140,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 2914.6,
+      "end": 2939.53,
+      "text": "Ja, okay, aber somit, somit, ich glaube, ich glaube, dass wir tatsächlich nachher ein großes Paket bekommen, dass wir tatsächlich ein großes Paket bekommen und dann wird es eine riesen Debatte geben, weil das ist ein... Paket. Wir haben ja das Problem, das stimmt ja, dass unsere Sozialbeiträge bis 2040, wenn wir nichts ändern, auf 50 Prozent Beitragssatzpunkt zulaufen."
+    },
+    {
+      "id": 141,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2939.53,
+      "end": 2939.92,
+      "text": "Unfassbar."
+    },
+    {
+      "id": 142,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 2939.92,
+      "end": 2944.66,
+      "text": "Das kann niemand wollen. Das wollen auch wir nicht, Herr Raffelhüschen. Auch wir sind..."
+    },
+    {
+      "id": 143,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 2944.66,
+      "end": 2945.8,
+      "text": "Da bin ich mir nicht so ganz sicher."
+    },
+    {
+      "id": 144,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 2945.8,
+      "end": 2960.54,
+      "text": "Ja, Sie können sich, ich kann Ihnen sagen, ich kann Ihnen sagen, das wollen auch wir nicht. Das ist einfach für die Wirtschaft Gift. Und daher brauchen wir ein großes Paket. Das muss aber auch gerecht sein. Und was gerecht bedeutet, darüber können wir gleich... Aber das Paket wird kommen."
+    },
+    {
+      "id": 145,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2960.54,
+      "end": 2975.86,
+      "text": "Lass uns das bitte einmal diskutieren, Herr Raffelhüschen. Rente. Was ist das Problem bei der Rente? Riesiges Thema. Wir geben zwischen 130, 140 Milliarden aus dem Bundeshaushalt mittlerweile rein in die Rente. Es ist eine, jedes Jahr, es ist eine gigantische Position."
+    },
+    {
+      "id": 146,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 2976.12,
+      "end": 2980.69,
+      "text": "Was ist zu tun bei der Rente in Ihren Augen, um das Ding noch zu drehen?"
+    },
+    {
+      "id": 147,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 2980.69,
+      "end": 3011.54,
+      "text": "Das Problem ist, dass ich die Befürchtung habe, dass das, was kommt, immer zu spät kommt. Also, wenn wir die Gerüchteküche mal um die Kommission nehmen, die da vorschlägt, die Rente mit 70, kann ja sein, aber dann machen wir 68 bis 2040, 69 bis 2050 und 2060 sind wir dann pleite. So, ist das dann, sagen wir mal, gerecht? Und da würde ich jetzt sagen, Herr Lauterbach benutzt dieses Wort sehr oft, ich selten. Aber eins kann ich Ihnen sagen, verursachergerecht wäre das nicht."
+    },
+    {
+      "id": 148,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3011.54,
+      "end": 3043.71,
+      "text": "Denn der Punkt ist ja der, wir hatten das vorhin bei der Einladung, da haben Sie gesagt, die Rente, die heute Rentner sind, haben als erwerbstätige damals, von denen, die Sie finanziert haben, erwartet, dass sie für jedes Jahr Rentenbezug seit viereinhalb Jahren arbeiten. Sie selbst arbeiten für jedes Jahr Rentenbezug seit nur zwei Jahren. So, ist das gerecht? Da kann ich Ihnen als Statistiker sagen, ich habe keine Ahnung, ob es gerecht ist. Ich kann Ihnen aber sagen, gleich ist es nicht. Denn wenn man Gleichheit anstreben würde, dann hätten wir, und das haben wir beide auch schon damals so beschlossen, er hat es bloß vergessen."
+    },
+    {
+      "id": 149,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3043.71,
+      "end": 3044.25,
+      "text": "Wann war das?"
+    },
+    {
+      "id": 150,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3044.25,
+      "end": 3046.62,
+      "text": "Das war 2003 in der Rürup-Kommission."
+    },
+    {
+      "id": 151,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3046.62,
+      "end": 3052.08,
+      "text": "Da haben Sie beide zusammengesessen, weil schon klar war, wir brauchen eine breitere Säule."
+    },
+    {
+      "id": 152,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3052.08,
+      "end": 3061.05,
+      "text": "Die gesetzliche Zugangsalter wollten wir erhöhen. Wir haben damals nicht den Mut gehabt, das mit dem skandinavischen System auf die Lebenserwartung wirklich zu verknüpfen."
+    },
+    {
+      "id": 153,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3061.05,
+      "end": 3063.44,
+      "text": "Ist das irre? Sie beide das damals, entschuldigen Sie."
+    },
+    {
+      "id": 154,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3063.44,
+      "end": 3067.58,
+      "text": "Sondern wir haben damals ganz, oh ja, da waren wir ein bisschen jung."
+    },
+    {
+      "id": 155,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3067.58,
+      "end": 3068.94,
+      "text": "Entschuldigung, ich unterbreche."
+    },
+    {
+      "id": 156,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3068.94,
+      "end": 3092.22,
+      "text": "Und das hat ja Münterfehen nachher umgesetzt. Wir haben vier Jahre Lebenserwartung zusätzlich damals nach den Stapeltafeln, zwei Jahre dann bitteschön zusätzliche Lebenserwartung in der Rente und zwei Jahre in erwerbstätigen Zeit. So war unser Kompromiss damals. Waren wir allerdings, Axel Borchsupan und ich, das weißt du ganz genau, waren bei 68 schon damals, die Mehrheit bei 67, aber das war natürlich nicht das Ende."
+    },
+    {
+      "id": 157,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3092.22,
+      "end": 3128.01,
+      "text": "Wir wollten, dass die Lebenserwartung tatsächlich zum bestimmten Faktor des Lebenserwartungszugangsalters wäre und hätten wir uns damals durchgesetzt, wären wir heute schon bei 69 und würden 2030 bei 70 sein und das wäre auch gerecht insofern, als dass dann ja die geburtenstarken Jahrgänge mindestens noch fünf Jahre einbezogen werden in die entsprechende Lösung des Problems, dass diese geburtenstarken Jahrgänge selber verursacht haben. Denn sie sind ja nicht nur die, die glauben, sie haben ein Problem, die haben ja gar keins. Wir sind das Problem. Und wir sind die Verursacher des Problems."
+    },
+    {
+      "id": 158,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3128.01,
+      "end": 3129.7,
+      "text": "Weil wir keine Kinder bekommen haben."
+    },
+    {
+      "id": 159,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3129.7,
+      "end": 3160.68,
+      "text": "Wir sind die, die zu wenig Kinder in die Welt gesetzt haben. Und deshalb wäre Verursacher gerecht die Anbindung des Rentenzugangsalters ganz schnell auf die 70 und gleichzeitig die Verminderung des Rentenniveaus, auf das wir beide damals beschlossen haben, nämlich auf die 42 Prozent. Das war die Halte Linie, die wir gesetzt haben, damit die Beiträge für die jungen Menschen konstant bleiben. Weil auch das ist die verursacher gerechte Lösung der Agenda 2010 gewesen. Wir waren beide in einer sozialdemokratischen Kommission und haben beide für das..."
+    },
+    {
+      "id": 160,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3160.68,
+      "end": 3162.87,
+      "text": "Nur ihre Frauen der FDP, wie wir gerade gesagt haben."
+    },
+    {
+      "id": 161,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3162.87,
+      "end": 3163.84,
+      "text": "Naja, die war damals."
+    },
+    {
+      "id": 162,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3163.84,
+      "end": 3164.64,
+      "text": "Spaß."
+    },
+    {
+      "id": 163,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3164.64,
+      "end": 3182.52,
+      "text": "Aber lassen wir die Frauen mal jetzt langsam außen vor der Tür. Aber das war das, was wir beschlossen haben. Er hat dann in den Jahren mit Merkel diese Halte Linie, nämlich die Halte Linie des Beitrags, dieses System hat er torpediert."
+    },
+    {
+      "id": 164,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3182.52,
+      "end": 3186.1,
+      "text": "Sie meinen den Nachhaltigkeitsfaktor?"
+    },
+    {
+      "id": 165,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3186.1,
+      "end": 3213.12,
+      "text": "Den Nachhaltigkeitsfaktor. Wir sind die, die für den Nachhaltigkeitsfaktor eingetreten sind und dieser Nachhaltigkeitsfaktor wurde von einer ununterbrochenen Serie von Arbeitsministern, beginnend mit Scholz, mit Frau Nahles, mit Herrn Heil und das Unheil kommt jetzt mit Frau Baas auch noch daher, letztlich torpediert. Das war Generationengerechtigkeit hoch minus eins, nämlich exakt das Gegenteil dessen, was wir in der Agenda 2010 damals wollten und die, die war wirklich die vernünftige Reform."
+    },
+    {
+      "id": 166,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3213.12,
+      "end": 3233.81,
+      "text": "Und ganz kurz, Sie dürfen sofort, nur ein kurzes Gedankenspiel, wir hätten das damals so gemacht. Und wir erinnern uns ja alle, wir sind ja alle hier in dem Alter, dass wir uns erinnern, dass Norbert Blüm schon, wann war das? In den 80ern. 86, glaube ich, plakatiert hat, die Rente ist sicher, weil es ja offenkundig damals schon dieses ungute Gefühl gab, sie ist vielleicht doch nicht so sicher."
+    },
+    {
+      "id": 167,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3233.81,
+      "end": 3234.52,
+      "text": "Das wussten wir doch alle."
+    },
+    {
+      "id": 168,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3234.52,
+      "end": 3266.51,
+      "text": "Und ich habe hier mal riesen Ärger gekriegt mit Norbert Blüm, weil er mich, er war wahnsinnig sauer, der konnte unfassbar wütend werden darüber, weil ich das in Zweifel gezogen habe. Ich mochte den sehr, weil er so dafür gekämpft hat und gebrannt hat, aber ich hatte auch das Gefühl, ich habe ihn erwischt. Er hatte nämlich selber in Wahrheit die Erkenntnis, das wird wahrscheinlich so nicht funktionieren. Warum haben wir das dann anders gemacht, Herr Lauterbach, wenn Ihnen beiden doch sitzen zwei hervorragende Statistiker, Mathematiker, die das ganz genau verstehen? Warum haben wir dann diese Linie verlassen, um Wahlen zu gewinnen?"
+    },
+    {
+      "id": 169,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3266.51,
+      "end": 3267.21,
+      "text": "Was ist das Thema?"
+    },
+    {
+      "id": 170,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3267.21,
+      "end": 3302.22,
+      "text": "Nee, nein, nein, nicht um Wahlen zu gewinnen. Also, nicht alles, was in der Politik läuft, läuft platt, das sind Wahlgeschenke oder so, sondern das hatte schon eine Gerechtigkeitsüberlegung. Was wir damals beschlossen haben, das war im Großen und Ganzen damals auch richtig. Wir hätten die Riester-Rente sogar obligatorisch machen müssen und wir hätten die Riester-Rente so ähnlich machen sollen, wie in Schweden hätten wir weitergekommen. Aber, und ich will auch noch einen Punkt sagen, nur als Randbemerkung, weil ich eben von Ihrer Frau, das war eine sehr nette Kollegin im Bundestag, das muss man nicht falsch verstehen, also wollte ich, muss ich einmal gesagt haben, darf hier nicht..."
+    },
+    {
+      "id": 171,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3302.22,
+      "end": 3304.06,
+      "text": "Einmal der miese Ausfallspunkt."
+    },
+    {
+      "id": 172,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3304.06,
+      "end": 3305.24,
+      "text": "Das muss nicht sein, das muss nicht sein."
+    },
+    {
+      "id": 173,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3305.24,
+      "end": 3344.71,
+      "text": "Jetzt will ich hier wirklich mal, also, aber jetzt zum Punkt zurück. Tatsächlich ist es auch heute noch so, dass die Leute, also, dass ein Teil der Leute tatsächlich vier bis fünf Jahre arbeitet und einzahlt, um ein Rentenjahr zu bekommen. Nämlich die Einkommensschwäche. Und die fangen mit 16, 17, 18 an, arbeiten bis 65 und leben dann lumpige zehn Jahre in Rente. Das heißt, die zahlen immer noch vier Jahre für ein Rentenjahr und die zahlen daher netto mehr ein, als sie je rausbekommen. Wir, die Akademiker,"
+    },
+    {
+      "id": 174,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3344.71,
+      "end": 3375.46,
+      "text": "fangen an mit 30, wir zahlen dann vielleicht 30 Jahre ein und bekommen dann aber 20 Jahre Rente oder 25 Jahre Rente. Somit das gesamte System ist ungerecht. Das System wirkt für Gutverdiener und Beamte, weil wir zahlen nicht so lange ein, bekommen aber lange Rente und die ärmeren, die zahlen lange ein und wenn sie nicht durchhalten, dann sterben sie. 20 Prozent sterben, bevor sie irgendeine Rente bekommen."
+    },
+    {
+      "id": 175,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3375.46,
+      "end": 3377.45,
+      "text": "Punkt gemacht, Herr Lauterbach. Das ist der richtige Punkt."
+    },
+    {
+      "id": 176,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3377.45,
+      "end": 3378.76,
+      "text": "Und da wollen wir das verändern."
+    },
+    {
+      "id": 177,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3378.76,
+      "end": 3405.6,
+      "text": "Herr Alexander, weil er sich jetzt hier gerade als Robin Hood der Rente aufspielt, eine kurze Frage. Wenn es diese schlimme, fürchterliche Ungerechtigkeit gibt und das ganze System dringend vom Kopf auf die Füße gestellt werden muss und das alles so nicht weitergeht, weil Geringverdiener leider Gottes früher sterben als andere, da muss man sagen, war doch das, was an Rententhemen drin war im Koalitionsvertrag, verdammt unambitioniert. Wenn man das doch alles weiß."
+    },
+    {
+      "id": 178,
+      "speaker": "chunk2:0",
+      "speaker_local": "0",
+      "chunk_index": 2,
+      "start": 3405.6,
+      "end": 3407.36,
+      "text": "Verdammt unambitioniert wäre noch gut."
+    },
+    {
+      "id": 179,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3407.36,
+      "end": 3409.19,
+      "text": "Also, das ist richtig."
+    },
+    {
+      "id": 180,
+      "speaker": "chunk2:0",
+      "speaker_local": "0",
+      "chunk_index": 2,
+      "start": 3409.19,
+      "end": 3424.73,
+      "text": "Also, und das ist auch so interessant. Man dachte eigentlich, die Reformen in dieser Legislaturperiode, wenn sie denn kommen, sind bei Gesundheit, bei Pflege, bei Steuern und Rente wird aufgeschoben, weil es gab das Wahlgeschenk der Mütterrente für die CSU. Kommt das in die falsche Richtung, CSU eingetütet."
+    },
+    {
+      "id": 181,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3424.73,
+      "end": 3426.19,
+      "text": "20 Milliarden in vier Jahren."
+    },
+    {
+      "id": 182,
+      "speaker": "chunk2:0",
+      "speaker_local": "0",
+      "chunk_index": 2,
+      "start": 3426.19,
+      "end": 3439.03,
+      "text": "Dann gab es die beschriebene Idee der Halte Linie, ein Punkt für die SPD und die CDU hatte diese Aktivrente sich ausgedacht. Und man dachte, das macht man und dann in vier Jahren ruft man bei ihm an."
+    },
+    {
+      "id": 183,
+      "speaker": "chunk2:0",
+      "speaker_local": "0",
+      "chunk_index": 2,
+      "start": 3439.03,
+      "end": 3468.42,
+      "text": "Und nur dieser Rentenaufstand der jungen Rebellen in der Union, die die Halte Linie in Frage gestellt haben, die ihre Erwachsenen in den Koalitionsverhandlungen schon zugestanden hatte, die hat dazu geführt, dass überhaupt diese Kommission eingesetzt wurde, die jetzt den großen Aufschlag plant. Aber es kann auch eine List der Geschichte sein, weil wir haben ja gerade gehört, dieses immer weiter Aufschieben ist keine gute Idee. Also, dass sich jetzt eine Kommission Gedanken macht, ist ja noch nicht falsch. Es kann ja gut, könnte ja gut ausgehen."
+    },
+    {
+      "id": 184,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3468.42,
+      "end": 3487.44,
+      "text": "Ja gut, aber es ist auch, Entschuldigung, nochmal ganz kurz, weil wir dann immer sagen, ja, nee, da geht es nicht um Wahlgeschenke und da gibt es einen ernsten Hintergrund und wir wollen hier tiefe Ungerechtigkeiten beseitigen. Ich meine, wo stünden wir denn heute, wenn wir das damals so gemacht hätten, wie Sie es vorgeschlagen haben? Wäre das System dann heute fit für die Zukunft?"
+    },
+    {
+      "id": 185,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3487.44,
+      "end": 3500.29,
+      "text": "Ja, absolut. Der Punkt ist, die Agenda 2010 hat im Grunde genommen mit der Erhöhung des gesetzlichen Rentenzugangsalters schon mal eine Menge gemacht. Münterfehen war da sehr mutig, das war ja auch schon die große Koalition im Nachgang."
+    },
+    {
+      "id": 186,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3500.29,
+      "end": 3501.16,
+      "text": "Und der hat es auch durchgehalten."
+    },
+    {
+      "id": 187,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3501.16,
+      "end": 3508.68,
+      "text": "Und der Nachhaltigkeitsfaktor war, wenn man es genau nimmt, die größte Rentenkürzung, die wir in der deutschen Geschichte jemals durchgezogen haben. So, dann wurde allerdings..."
+    },
+    {
+      "id": 188,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3508.68,
+      "end": 3511.0,
+      "text": "Was sagte der Nachhaltigkeitsfaktor genau?"
+    },
+    {
+      "id": 189,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3511.0,
+      "end": 3530.43,
+      "text": "Der Nachhaltigkeitsfaktor macht, dass die Beitragszahler mit gleichem Beitragssatz durchs Leben gehen, also gleich behandelt werden und dass die demografische Last sukzessive auf dem Rücken derjenigen liegt, die für das Problem selber verantwortlich sind, die die Verursacher sind."
+    },
+    {
+      "id": 190,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3530.43,
+      "end": 3531.25,
+      "text": "Also die Boomer."
+    },
+    {
+      "id": 191,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3531.25,
+      "end": 3544.04,
+      "text": "Also wir hätten die Babyboomer im Grunde genommen mit einem sinkenden Rentenniveau in die Rente geschickt. Und wir hätten dann natürlich aufstocken müssen, da hat er völlig recht, die niedrigen Renten, die müssen wir aufstocken, wir brauchen natürlich den Sozialausgleich da. Völlig klar."
+    },
+    {
+      "id": 192,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3544.04,
+      "end": 3562.6,
+      "text": "Aber das war natürlich auch beschlossene Sache. Und gleichzeitig hätten wir parallel eine private ersetzende oder betrieblich ersetzende Altersvorsorge, die meisten von uns waren eher für betrieblich ersetzende Altersvorsorge damals, flankierend einbringen müssen, um die Kapitaldeckung reinzubringen, so wie in den skandinavischen Systemen das gemacht worden ist."
+    },
+    {
+      "id": 193,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3562.6,
+      "end": 3567.04,
+      "text": "Was die vor 20, 30 Jahren gemacht haben. Und die Früchte."
+    },
+    {
+      "id": 194,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3567.04,
+      "end": 3567.75,
+      "text": "Die haben das gemacht."
+    },
+    {
+      "id": 195,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3567.75,
+      "end": 3568.52,
+      "text": "So, das heißt."
+    },
+    {
+      "id": 196,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3568.52,
+      "end": 3571.16,
+      "text": "Nein, das ist in unterschiedlichen Ländern, die haben das in unterschiedlichen Jahren gemacht."
+    },
+    {
+      "id": 197,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3571.16,
+      "end": 3576.69,
+      "text": "Was haben die gemacht? Weil Sie sagen, die haben auf Kapitalerträge gesetzt. Was haben die gemacht?"
+    },
+    {
+      "id": 198,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3576.69,
+      "end": 3614.0,
+      "text": "Nur die haben gesagt, die Umlage ist ja schön und gut für eine Basisversorgung. Und genau das ist sie bei uns ja auch. Der Merz wurde ja angegangen, ich glaube, von Ihrer Partei, weil er gesagt hätte, die Rente in Zukunft wird nur eine Basisversorgung sein. Wir kriegen seit mehr als einem Jahrzehnt Rentenbescheide. Auf den Rentenbescheiden steht das drauf. Offensichtlich können in Ihrer Partei und in manchen anderen die Leute nicht lesen. Denn wenn sie den Rentenbescheid lesen würden, dann steht das, was Herr Merz sagt, da genau drin. Aber, ähm, die Basisversorgung durch die Umlage, das war das skandinavische Konzept und dann supplementiert über kapitalgedeckte Systeme. In Dänemark haben wir die ATP-Pensionen, in Schweden."
+    },
+    {
+      "id": 199,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3614.0,
+      "end": 3615.08,
+      "text": "Was heißt das? Was heißt das?"
+    },
+    {
+      "id": 200,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3615.08,
+      "end": 3631.98,
+      "text": "Die Dänen sind ja hoch auf allgemeine Zuschlagspensionen, die Arbeitsmarktrelativiert sind, so wie bei uns auch, Lebensleistungsprinziprelativiert sind, aber kapitalgedeckt in einer Refinanzierungsstruktur. Das heißt, da sind Aktien. Portfolios drin, so wie in skandinavischen Systemen."
+    },
+    {
+      "id": 201,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3631.98,
+      "end": 3633.16,
+      "text": "Pensionsfonds auf dem."
+    },
+    {
+      "id": 202,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3633.16,
+      "end": 3650.91,
+      "text": "Also wirklich, ja, es sind ganz, ganz große Fonds, den norwegischen Generationenfonds, da sind 70 Prozent Aktien minimal drin. Wenn Sie die Skandinavischen, das schwedisches SOFA-Modell war ja bei einer Ampel so ein bisschen angedacht. Auch da sind massiv Aktienanteile drin."
+    },
+    {
+      "id": 203,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3650.91,
+      "end": 3661.74,
+      "text": "Das heißt, die profitieren heute davon, dass sie das vor 30 Jahren, fast 30 Jahren gemacht haben. Das heißt aber mit anderen Worten, Entschuldigung, es ist ja wichtig, das zu verstehen. Wenn wir das heute anfangen, zu spät."
+    },
+    {
+      "id": 204,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3661.74,
+      "end": 3666.36,
+      "text": "Für die, für unsere Generation. Für die Jungen ist es nie zu spät. Denn die haben genügend Zeit."
+    },
+    {
+      "id": 205,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3666.36,
+      "end": 3666.93,
+      "text": "Ist schon klar."
+    },
+    {
+      "id": 206,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3666.93,
+      "end": 3705.58,
+      "text": "Aber die Restlaufzeit der Babyboomer, wie meine Restlaufzeit oder die von Kollegen Lauterbach, die ist nun mal nicht sehr lang. Und ein Kapitaldeckungsverfahren ausgereift braucht 30 Jahre. So, im skandinavischen System waren Sie, wenn Sie für Kapitaldeckung waren, was ganz anders als in Deutschland. Also in Deutschland, Sie müssen bedenken, seit 2003 kriegen wir hier Morddrohungen und Briefe ohne Ende und tun nichts dagegen. Das macht die Frau Strack-Zimmermann dann. Aber wir haben damals gesagt, macht mehr Kapitaldeckung rein, egal ob BAV oder sonst irgendwas. Und in Deutschland war man, wenn man für Kapitaldeckung war, Bestochener der Versicherungswirtschaft. Kann ich Ihnen einige Zettel hinzugeben. In Skandinavien waren Sie gestandener Sozialdemokrat."
+    },
+    {
+      "id": 207,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3705.58,
+      "end": 3710.72,
+      "text": "Denn das war die Sozialdemokratie, die es in Schweden gemacht hat. Die Sozialdemokratie, die es in Dänemark gemacht hat."
+    },
+    {
+      "id": 208,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3710.72,
+      "end": 3713.7,
+      "text": "In Dänemark, ja auch. In Dänemark, Alexander Maas ja jetzt auch die Sozialdemokratie."
+    },
+    {
+      "id": 209,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3713.7,
+      "end": 3733.2,
+      "text": "Da waren wir ja auf einer Meinung. Da waren wir ja so einer, ich war ja sogar für die obligatorische Riester-Rente. Das Problem ist, wir haben damals die Chance verpasst. Also in den, in den, also zehner Jahren bis 15 so, hat tatsächlich dieser schwedische Fond eine jährliche Rendite von fast 10 Prozent pro Jahr gehabt."
+    },
+    {
+      "id": 210,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3733.2,
+      "end": 3735.14,
+      "text": "Ja, der Norwegische hat eine von 15."
+    },
+    {
+      "id": 211,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3735.2,
+      "end": 3772.74,
+      "text": "Und wir hätten das auch haben können. Wenn wir das damals gemacht hätten, wären wir heute nicht komplett raus, aber wären wir wesentlich besser da. Das ist aber, jetzt müssen wir schauen, was ist jetzt möglich und nicht warnen davor. Also einfach schlicht und ergreifend das Rentenalter für alle hochzusetzen. Weil wenn ich für drei Jahre das Rentenalter hochsetze, dann nehme ich denjenigen, die nur bis 75 leben, denen nehme ich 30, 40 Prozent der Rente weg. Auf einen Schlag. Das sind übrigens oft Leute in den neuen Bundesländern. Sachsen-Anhalt, Mecklenburg-Vorpommern. Dort steigt die Lebenserwartung überhaupt nicht, sondern ist dort niedrig und hängt."
+    },
+    {
+      "id": 212,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3772.74,
+      "end": 3786.64,
+      "text": "Und wenn ich jetzt sage, ich mache drei Jahre mehr für alle, dann mache ich ein Problem, was ich jetzt schon habe, größer. Wenn ich drei Jahre länger arbeite, aber erwarte meinetwegen 20 Rentenjahre, dann verliere ich 15 Prozent."
+    },
+    {
+      "id": 213,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3786.64,
+      "end": 3791.76,
+      "text": "Sie wenden doch jetzt, Herr Lauterbach, exakt wieder dorthin, wo Sie Ihre Klientel vermuten."
+    },
+    {
+      "id": 214,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3791.76,
+      "end": 3795.63,
+      "text": "Nee, es geht mir gar nicht um die Klientel, sondern es geht mir um Gerechtigkeit."
+    },
+    {
+      "id": 215,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3795.63,
+      "end": 3829.64,
+      "text": "Nee, was ist daran gerecht? Darf ich Sie mal fragen? Wenn Sie sagen, da ist jetzt jemand, der fängt mit 15, 16 an Ausbildung und dann zur Arbeit, darum geht es Ihnen. Das muss man machen nach Beitragsjahren sozusagen, ja? Und nicht für alle gleich. Und Akademiker haben Sie vorhin gesagt, der mit 30 dann anfängt zu arbeiten, der zahlt ja viel später ein. Ich muss ehrlich sagen, ich bin kein Akademiker, aber Sie haben, weil ich nie das Geld und die Gelegenheit hatte, ausführlich zu studieren. Aber ich finde es wichtig, dass es diese Leute gibt. Und ich habe einen riesen Respekt."
+    },
+    {
+      "id": 216,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3829.64,
+      "end": 3847.32,
+      "text": "Vor einem Arzt, der ein jahrelanges Studium durchzieht oder vor einem Physiker, vor echter Exzellenz, die dieses Land so weit vorangebracht hat. Ich kenne Ärzte, die haben studiert und nebenbei gehen sie kellnern und arbeiten hart. Ja, aber was ist das für eine Respektlosigkeit vor einem seriös durchgezogenen Studium?"
+    },
+    {
+      "id": 217,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3847.32,
+      "end": 3849.12,
+      "text": "Nein, ich habe keine Respektlosigkeit."
+    },
+    {
+      "id": 218,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3849.12,
+      "end": 3854.22,
+      "text": "Was ist das? Wenn Sie sagen, Sie müssten anders behandelt werden als jemand, der mit 16 anfängt seine Ausbildung zu machen."
+    },
+    {
+      "id": 219,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3854.22,
+      "end": 3854.72,
+      "text": "Nein, nein, nein, nein, nicht anders behandelt."
+    },
+    {
+      "id": 220,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3854.72,
+      "end": 3855.17,
+      "text": "Was sagen Sie?"
+    },
+    {
+      "id": 221,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3855.17,
+      "end": 3856.88,
+      "text": "Nein, das sage ich nicht. Ich sage nur..."
+    },
+    {
+      "id": 222,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3856.88,
+      "end": 3858.78,
+      "text": "Aber Sie sagen, die dürfen nicht alle gleich behandelt werden."
+    },
+    {
+      "id": 223,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3858.78,
+      "end": 3869.28,
+      "text": "Na, wenn ich jetzt, wenn ich jetzt meinetwegen 30 Jahre einzahle oder 20 Jahre einzahle, 25 Jahre einzahle, da kann ich nicht so viel Geld verlangen, als wenn jemand 45 Jahre eingezahlt hat."
+    },
+    {
+      "id": 224,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3869.28,
+      "end": 3873.24,
+      "text": "Entschuldigung, der verdient damit 30 deutlich mehr, der zahlt dann auch deutlich mehr ein."
+    },
+    {
+      "id": 225,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3873.24,
+      "end": 3874.94,
+      "text": "Das kriegt er ja auch."
+    },
+    {
+      "id": 226,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3874.94,
+      "end": 3886.35,
+      "text": "Das hängt ja ja auch, und damit hat sich das gehabt. Das war mein Lebensleistungsprinzip. Und die Lebensleistung bestimmt, was man bekommt. Und daran will ich auch nichts ändern. Ich will aber noch mal ganz kurz auf die Frage."
+    },
+    {
+      "id": 227,
+      "speaker": "chunk2:2",
+      "speaker_local": "2",
+      "chunk_index": 2,
+      "start": 3886.35,
+      "end": 3887.72,
+      "text": "Ja, das wollen Sie ausschneiden."
+    },
+    {
+      "id": 228,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3887.72,
+      "end": 3920.83,
+      "text": "Sie wollen das komplett ausschneiden. Aber ich will noch mal kurz auf die Frage der Kapitaldeckung von damals. Damals waren wir eben nicht einer Meinung. Also, die kollektive Kapitaldeckung, die bei allen Sozialdemokraten immer im Vordergrund steht, die kollektive Kapitaldeckung ist ja eine Kapitaldeckung, die im Grunde genommen in Staatshand passiert. In Deutschland eine Kapitaldeckung in Staatshand. Also, sorry, dass ich da vielleicht dem Kollegen zu nahe trete, aber einem Politiker Geld in die Hand zu geben, damit er darauf aufpasst, Ist so ähnlich, als ob Sie Ihrem Hund zwei Knochen hinschmeißen und Sie sagen, einer ist für morgen."
+    },
+    {
+      "id": 229,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3920.83,
+      "end": 3961.08,
+      "text": "Das heißt, der Schutz, der Schutz eines Kapitalstocks in Staatshand kann ich nur, den kann ich nur garantieren durch zwei Dinge und die haben wir im skandinavischen System. Erstens, indem ich wie in Norwegen sowieso immer Überschüsse mache, dann habe ich keine Begehrlichkeit auf den Fond. Oder ich habe das in Schweden als individualisierte Kontoführung, die im Prinzip natürlich jedem jederzeit den Einblick in seinen Stand gibt. So, diese beiden Dinge schützen. Was haben wir in Deutschland? Wir haben, wir haben Rücklagen gehabt, Kapitalstock für die Postbeamten, ist Abwrackprämie 2008 für Merkel gewesen. Wir haben Versorgungsfonds für die Beamten. In Schleswig-Holstein hat Günther das ganze Zeug jetzt gerade in seinen Landeshaushalt wieder integriert."
+    },
+    {
+      "id": 230,
+      "speaker": "chunk2:3",
+      "speaker_local": "3",
+      "chunk_index": 2,
+      "start": 3961.08,
+      "end": 3972.38,
+      "text": "Das heißt, ein Fond wird sofort aufgelöst, sobald Begehrlichkeiten da irgendwie stattfinden. Und da waren wir eben halt absolut nicht einer Meinung. Ich wollte immer die individualisierte Form der Kapitaldeckung und nicht..."
+    },
+    {
+      "id": 231,
+      "speaker": "chunk2:1",
+      "speaker_local": "1",
+      "chunk_index": 2,
+      "start": 3972.38,
+      "end": 4010.0,
+      "text": "Ich kann Robin Alexander an dem Punkt fangen. Alexander, warum ist das so schwer? Warum, wenn ich Dänemark ist jetzt mehrfach gefallen als Beispiel, hat man sich parteiübergreifend geeinigt und hat gesagt, wir machen das. Mit 70, da gab es wütende Proteste. Und ich bin mir sicher, da haben Leute auch entsprechende Drohungen bekommen und so weiter. Man hat es gemacht, äh, interessanterweise sogar noch begründet, teilweise mit der Hilfe für die Ukraine. Das wäre das Konstrukt hier politisch niemals verkauft. Wäre absolut unmöglich. Die Dänen haben das so gemacht, weil sie sozusagen ein Einsehen ins Argument hatten. Warum geht das hier nicht?"
+    },
+    {
+      "id": 232,
+      "speaker": "chunk3:0",
+      "speaker_local": "0",
+      "chunk_index": 3,
+      "start": 4010.0,
+      "end": 4017.1,
+      "text": "Also, ob die Dänen politisch cleverer sind als wir, das weiß ich nicht. So viele Dänen kenne ich ehrlich gesagt gar nicht."
+    },
+    {
+      "id": 233,
+      "speaker": "chunk3:0",
+      "speaker_local": "0",
+      "chunk_index": 3,
+      "start": 4017.32,
+      "end": 4038.04,
+      "text": "Bei uns ist ja das Tragische, dass die Erkenntnis im Prinzip da ist. Also, sie haben ja auch den Politikern vor 20 Jahren vorgetragen. Das ist ja jetzt nicht Geheimwissen. Aber man hat immer wieder gehabt, dass eine Partei davon abgegangen ist. Also beispielsweise schon Kohl und Schäuble haben ja mit so einem Nachhaltigkeitsfaktor, der hieß damals noch anders, operiert. Dann kam Oskar Lafontaine."
+    },
+    {
+      "id": 234,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4038.04,
+      "end": 4039.01,
+      "text": "Biografiefaktor."
+    },
+    {
+      "id": 235,
+      "speaker": "chunk3:0",
+      "speaker_local": "0",
+      "chunk_index": 3,
+      "start": 4039.01,
+      "end": 4054.72,
+      "text": "Dann kam Lafontaine, machte eine populistische Kampagne, wurde wieder alles eingesammelt. Dann hat Gerhard Schröder das Steuern gesehen, hat es wieder eingeführt. Dann hat aber auch die Union in den Merkel-Jahren mit der Haltelinie operiert. Also sozusagen die Schuld ist im Parteisystem ziemlich gleich verteilt."
+    },
+    {
+      "id": 236,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4054.72,
+      "end": 4067.34,
+      "text": "Nein, nur eine Ausnahme. Und das war tatsächlich Schröder. Da muss man ihm wirklich, egal wie man dazu steht, der mutigste Reformkanzler war tatsächlich er. Und zwar nicht bei der Rente, sondern auch bei Steuern und bei Arbeitslosigkeit."
+    },
+    {
+      "id": 237,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4067.34,
+      "end": 4068.58,
+      "text": "Ja, ja, da gibt es keinen Dissens."
+    },
+    {
+      "id": 238,
+      "speaker": "chunk3:0",
+      "speaker_local": "0",
+      "chunk_index": 3,
+      "start": 4068.58,
+      "end": 4087.66,
+      "text": "So, also, so, und jetzt ist die Frage, irgendwann muss man, aber früher hätte man gesagt, jetzt regiert eine große Koalition, die können auch eine Lösung bringen. So, und es ist ja, also, sie heben auf die Generationengerechtigkeit ab, sie heben eher auf innerhalb der Generationen Gerechtigkeit ab. Ist ja naheliegend, dass die einen Kompromiss versuchen."
+    },
+    {
+      "id": 239,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4087.66,
+      "end": 4090.88,
+      "text": "Das kriegen wir auch nachher hin. Wir werden zum Schluss..."
+    },
+    {
+      "id": 240,
+      "speaker": "chunk3:0",
+      "speaker_local": "0",
+      "chunk_index": 3,
+      "start": 4090.88,
+      "end": 4092.03,
+      "text": "Aber nicht am 30. Juni."
+    },
+    {
+      "id": 241,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4092.03,
+      "end": 4108.27,
+      "text": "Weiß ich nicht, aber wir kriegen auf jeden, ich glaube, also zunächst einmal, ich glaube, dass wir einen Kompromiss hinbekommen und ich glaube, dass wir nachher ein Gesamtpaket haben über Pflege, Gesundheit, Rente zusammen und dass hier zu intensiv gestritten wird, das finde ich noch nicht mal schlecht."
+    },
+    {
+      "id": 242,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4108.27,
+      "end": 4145.94,
+      "text": "Das ist das, was ich nicht verstehe in der politischen Kommunikation. Ich habe neulich gehört, habe ich es, Monika Schnitzer, die mal darauf hingewiesen hat, wie der Mechanismus eigentlich sein könnte. Und hat gesagt, sozusagen pro Jahr höherer Lebenserwartung, acht Monate länger arbeiten. Das ist die Idee. Jetzt steigt die Lebenserwartung, glaube ich, im Schnitt ungefähr alle zehn Jahre um ein Jahr. Das heißt, alle zehn Jahre acht Monate länger. In dieser Rechnung, das ist sehr interessant, würde das bedeuten, ab 2050, das ist jetzt noch ein bisschen hin, gäbe es eine Rente mit 68."
+    },
+    {
+      "id": 243,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4145.94,
+      "end": 4162.12,
+      "text": "Ab 2070 noch deutlich weiterhin eine Rente mit 69 und ab 2090 eine Rente mit 70. 2090. Das heißt, die, die sich jetzt gerade wahnsinnig darüber echauffieren, die betrifft das dann in der Rechnung gar nicht."
+    },
+    {
+      "id": 244,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4162.12,
+      "end": 4163.04,
+      "text": "Das stimmt."
+    },
+    {
+      "id": 245,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4163.04,
+      "end": 4165.17,
+      "text": "Ist das eine Rechnung, die so aufgehen könnte?"
+    },
+    {
+      "id": 246,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4165.17,
+      "end": 4183.4,
+      "text": "Ja, die Rechnung ist natürlich von Frau Schnitzer eine Rechnung, die prospektiv läuft. Tatsache ist ja, dass wir eine degressive Zunahme der Lebenserwartung haben. Er sagte gerade, in manchen Regionen ja auch gar keine, aber die Zunahme ist nicht mehr stark wachsend. Diese Degression hat dazu geführt, dass wir die wichtigsten..."
+    },
+    {
+      "id": 247,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4183.4,
+      "end": 4187.38,
+      "text": "Das heißt, Lebenserwartung steigt nicht linear, einfach nicht linear, sondern so ein Bogen."
+    },
+    {
+      "id": 248,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4187.38,
+      "end": 4212.85,
+      "text": "Und das Wichtigste, das Wichtigste ist, wo haben wir stark gewonnen? In der Lebenserwartung. Eben nicht jetzt in den nächsten Jahrzehnten, sondern in den letzten 30 Jahren. Und deshalb hätten wir den Lebenserwartungsfaktor die letzten Jahre instandhalten müssen. Und dann hätten wir jetzt schon die Lösung für das, was Sie adressierte, nämlich die Beteiligung der geburtenstarken Jahrgänge an ihrem eigenen Problem."
+    },
+    {
+      "id": 249,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4212.85,
+      "end": 4236.68,
+      "text": "Genau, das hätten wir machen können. Die Lebenserwartung ist stark gestiegen, sie wird jetzt langsam steigen. Aber ich kann nicht hingehen und sage, nur weil jetzt seine Lebenserwartung stark steigt und meine steigt nicht, muss ich für ihn bezahlen. Wir haben in den Einkommensgruppen, die schwach sind und in den Bereichen, wo die Leute wenig verdienen, haben wir eben keine steigende Lebenserwartung."
+    },
+    {
+      "id": 250,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4236.68,
+      "end": 4247.84,
+      "text": "Sie kommen ja immer wieder mit dem, was Alexander sagte, immer wieder die Verteilung innerhalb. Die Rentenversicherung will nicht verteilen. Die Rentenversicherung will überhaupt nicht unter Einkommen schwachen."
+    },
+    {
+      "id": 251,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4248.62,
+      "end": 4265.57,
+      "text": "Die Rentenversicherung friert eine relative Einkommensposition ein. Das ist das Lebensleistungsprinzip. Und deshalb muss man, diejenigen, die damit dann nicht auskommen, bitteschön nicht über die Rente, sondern über die steuerfinanzierten Grundsicherungsmechanismen bezahlen und nicht über Beitragszinsen."
+    },
+    {
+      "id": 252,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4265.57,
+      "end": 4274.86,
+      "text": "Ich würde gerne die letzten Minuten nochmal dafür nutzen, um Sie alle drei oder insbesondere die beiden Experten sozusagen zu fragen, was sagen wir eigentlich an der jungen Generation?"
+    },
+    {
+      "id": 253,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4275.22,
+      "end": 4308.78,
+      "text": "Die unfassbar frustriert ist mittlerweile, die sich in Scharen abwendet von Politik. Wir verlieren jedes Jahr drei, vierhunderttausend top ausgebildete junge Leute, die wir hier dringend bräuchten. Die gehen in die Schweiz, die gehen in die USA, die sagen, da zahle ich deutlich weniger Abgaben, da zahle ich deutlich weniger Steuern, die verlassen dieses Land. Die sind frustriert, die sind durch mit diesem System und mit dieser Politik. Ich finde, das muss man nicht so sehen, aber die sehen es ganz offensichtlich so. Und die haben das Gefühl, wir sagen denen jetzt, pass mal auf, ihr arbeitet bitte alle deutlich mehr."
+    },
+    {
+      "id": 254,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4308.78,
+      "end": 4348.12,
+      "text": "Dann kommt der Kanzler und sagt, Arbeit ist hier nicht irgendwie die gelegentliche Unterbrechung von Tagesfreizeit. Dann sagen wir denen, bitte zum Wehrdienst, hätten wir euch auch gerne, das Vaterland zu verteidigen, für den Fall, dass Putin kommt. Ihr solltet bitte Kinder kriegen und dann solltet ihr bitte dafür sorgen, dass diese Kinder auch vernünftig ausgebildet werden, weil die brauchen wir. Stichwort KI und so weiter. Und was wir verschweigen ist, dass wir unsererseits zu nichts bereit sind. Wir sind noch nicht mal bereit, eine Rente mit 63 aufzugeben. Wir sind noch nicht mal bereit, auf den Tankrabatt zu verzichten, weil wir in den großen Autos sitzen, die die sich gar nicht leisten können. Und so weiter."
+    },
+    {
+      "id": 255,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4348.12,
+      "end": 4360.1,
+      "text": "Ich könnte die Liste endlos fortschüren. Was sagen wir denen eigentlich? Wie halten wir die bei der Stange? Wie erklären wir denen, dass wir immer nur ein bisschen hier, ein bisschen da, ein bisschen dort, aber an das große Rad trauen wir uns offensichtlich nicht ran."
+    },
+    {
+      "id": 256,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4360.1,
+      "end": 4377.0,
+      "text": "Ja, ich glaube, dass tatsächlich wir hier auf wesentlich mehr machen müssten, das werde ich ja nicht müde zu betonen, dass wir mehr Geld in die Hand nehmen sollten für Bildung. Unser Bildungssystem ist unterfinanziert. Wir sollten beispielsweise auch mehr Leuten..."
+    },
+    {
+      "id": 257,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4377.0,
+      "end": 4378.79,
+      "text": "Das erzählen Sie uns seit 20 Jahren, Herr Lauterbach."
+    },
+    {
+      "id": 258,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4378.79,
+      "end": 4384.14,
+      "text": "Ja, aber ich kämpfe ja auch tatsächlich für diese Jugendlichen, nicht nur, sondern ich bin ja dafür auch im Bundestag."
+    },
+    {
+      "id": 259,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4384.14,
+      "end": 4384.81,
+      "text": "Ganz kurz."
+    },
+    {
+      "id": 260,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4384.81,
+      "end": 4385.98,
+      "text": "Erzählen Sie das nicht einfach noch mal."
+    },
+    {
+      "id": 261,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4385.98,
+      "end": 4399.55,
+      "text": "Die erleben, dass wir Billionen für Rüstungen in die Hand nehmen und in der Schule blättert der Putz von der Decke. Das ist das, was die erleben. Und im Bildungsranking stehen wir mittlerweile hinter Rumänien und der Slowakei. Nichts gegen Rumänien und die Slowakei."
+    },
+    {
+      "id": 262,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4399.55,
+      "end": 4403.24,
+      "text": "Aber ich bin nicht derjenige, der das abstattet. Ich sage das doch genauso. Und ich habe daher..."
+    },
+    {
+      "id": 263,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4403.24,
+      "end": 4405.33,
+      "text": "Aber da musst du doch immer mal sagen, wie man es macht."
+    },
+    {
+      "id": 264,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4405.33,
+      "end": 4440.99,
+      "text": "Ja, also, es kommen ja auch stetig Vorschläge. Wir machen nicht ständig Vorschläge. Aber in der Bildungspolitik haben wir in dieser Legislaturperiode aus meiner Sicht bisher viel zu wenig unternommen. Und Bildung, Forschung, also das müsste eine ganz andere Bedeutung haben. Daran hängt die nächste Generation und deren Möglichkeiten. Und wir fallen zurück im Vergleich zu China, wir fallen zurück im Vergleich zur Schweiz, wir fallen zurück im Vergleich zu den Vereinigten Staaten. Da müssen wir mehr machen. Daher finde ich es auch falsch, dass wir sagen, also was weiß ich, der Tankrabatt soll bezahlt werden fürs Bafög, es kann Geld da, das ist falsch."
+    },
+    {
+      "id": 265,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4440.99,
+      "end": 4443.42,
+      "text": "Haben wir gerade in dieser Woche, haben das gerade wieder."
+    },
+    {
+      "id": 266,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4443.42,
+      "end": 4444.91,
+      "text": "Das ist falsch, das ist falsch."
+    },
+    {
+      "id": 267,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4444.91,
+      "end": 4451.12,
+      "text": "Wir brechen Versprechen und was wir machen ist, wir kämpfen hier die ganze Zeit und erhalten Boomer-Wohlstand."
+    },
+    {
+      "id": 268,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4451.12,
+      "end": 4453.9,
+      "text": "Ja, Boomer, ich würde, Boomer, also."
+    },
+    {
+      "id": 269,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4453.9,
+      "end": 4456.55,
+      "text": "Ich spreche es jetzt mal bewusst zu aus der Sicht der jungen Leute."
+    },
+    {
+      "id": 270,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4456.55,
+      "end": 4457.99,
+      "text": "Boomer-Hetze ist nicht richtig."
+    },
+    {
+      "id": 271,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4457.99,
+      "end": 4460.36,
+      "text": "Hetzeh, keine Hetze, ich bin selber Teil davon."
+    },
+    {
+      "id": 272,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4460.36,
+      "end": 4461.33,
+      "text": "Nee, aber alles gut."
+    },
+    {
+      "id": 273,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4461.33,
+      "end": 4463.15,
+      "text": "Und viele aus meiner Generation sehen das genauso."
+    },
+    {
+      "id": 274,
+      "speaker": "chunk3:1",
+      "speaker_local": "1",
+      "chunk_index": 3,
+      "start": 4463.15,
+      "end": 4478.77,
+      "text": "Wir machen viel zu wenig für die junge Generation bei Bildung, bei Schule. Möglichkeiten, von daher, da sind wir auch, glaube ich, zusammen. Da müssen wir möglichst weitergehen. Und daher bin ich übrigens auch diesbezüglich für eine Aktienrente, weil die jungen Leute würden davon noch stark profitieren, die brauchen es."
+    },
+    {
+      "id": 275,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4478.77,
+      "end": 4482.38,
+      "text": "Herr Raffelhüschen, nochmal ganz kurz Sie. Was sagen Sie an der jungen Generation? Was sagen Sie?"
+    },
+    {
+      "id": 276,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4482.38,
+      "end": 4484.5,
+      "text": "Also nochmal, ich erlebe das jeden Tag, wenn ich in Freiburg bin."
+    },
+    {
+      "id": 277,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4484.5,
+      "end": 4487.33,
+      "text": "Aber habe ich schlecht, habe ich schlecht, habe ich falsch mit meinem Befund?"
+    },
+    {
+      "id": 278,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4487.33,
+      "end": 4494.84,
+      "text": "Um sieben Uhr morgens, der ICE in der Bahn, der ist vollgepackt mit Leuten, die ich hier brauche und nicht drüben. Wir erleben diesen..."
+    },
+    {
+      "id": 279,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4494.84,
+      "end": 4495.78,
+      "text": "Sie sind in Freiburg leben, ne?"
+    },
+    {
+      "id": 280,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4495.78,
+      "end": 4501.25,
+      "text": "Wir haben, wir haben eine Akzeptanz. Das Problem mit den Generationenverträgen bei den jungen Menschen. Das ist doch ganz klar. Das ist das, was Sie sagten."
+    },
+    {
+      "id": 281,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4501.25,
+      "end": 4518.51,
+      "text": "Die wollen das nicht so. Die können das auch nicht so. Was wir machen müssen, ist Glaubwürdigkeit und Akzeptanz wieder herzustellen. Und das können wir nur durch das Gegenteil von dem machen, was Herr Lauterbach die ganze Zeit tut. Denn wir brauchen den konstanten Beitragssatz in der Rente. Fertig."
+    },
+    {
+      "id": 282,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4518.51,
+      "end": 4555.0,
+      "text": "Wenn dann zu wenig da sind, die Zahlen, dann müssen diejenigen, die so viele sind, mit dem auskommen. Sie zahlen den gleichen Beitragssatz, wie wir es getan haben. Wir müssen den jungen Menschen in der Gesundheit den gleichen Beitragssatz garantieren, wie das, was wir gemacht haben. Dadurch können wir dann nicht alles medizinisch Notwendige für alle Menschen finanzieren. Das geht nun mal nicht. Also müssen wir selber ran. Und wir können auch bei der Pflege leider nicht alles für uns schultern, denn da ist die Luft raus. Und da müssen wir auch den Beitragssatz einfrieren. Das war ja die Idee, die wir damals in der Röder-Kommission hatten. Beiträge einfrieren und Leistungen nach Maßgabe des demografischen Prozesses."
+    },
+    {
+      "id": 283,
+      "speaker": "chunk3:2",
+      "speaker_local": "2",
+      "chunk_index": 3,
+      "start": 4555.0,
+      "end": 4561.41,
+      "text": "Abfahren und das möglichst mit einer langen Ankündigung, dass sich Menschen darauf einstellen können. Das war die Idee."
+    },
+    {
+      "id": 284,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4561.41,
+      "end": 4577.12,
+      "text": "Gut, also, auch wenn der Termin bei Klingbeil nicht im Kalender steht, wir warten jetzt auf den 30. Juni, der Tag, an dem Deutschland gerettet wird, bedanken wir uns sehr. Es war eine gute Diskussion. Jetzt die Kollegen vom Heute Journal Update und wir sind morgen wieder für Sie da."
+    },
+    {
+      "id": 285,
+      "speaker": "chunk3:3",
+      "speaker_local": "3",
+      "chunk_index": 3,
+      "start": 4577.12,
+      "end": 4578.52,
+      "text": "Bis dahin. Dankeschön."
+    },
+    {
+      "id": 286,
+      "speaker": "chunk3:UNKNOWN",
+      "speaker_local": "UNKNOWN",
+      "chunk_index": 3,
+      "start": 4578.52,
+      "end": 4594.11,
+      "text": "[Music]"
+    }
+  ]
+}

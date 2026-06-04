@@ -8,6 +8,7 @@ Gesetzesänderungen oder Drucksachen-Zusammenfassungen entstehen.
 - `dokumente/`: externe Dokumente, Artikel, Studien, Berichte oder Auszüge.
 - `links/`: Weblinks mit kurzer Einordnung.
 - `ideen/`: eigene Ideen, Hypothesen, Reformskizzen und lose Notizen.
+- `originale/`: kleine Rohdateien wie JSON, CSV, TXT oder kleinere PDFs.
 - `index/`: Übersichten und thematische Register.
 
 ## Namensschema
@@ -30,7 +31,9 @@ Beispiel:
 2. Quelle, Kernaussage und Relevanz knapp dokumentieren.
 3. In `eingang/index/README.md` eintragen.
 4. Betroffene Ministerien, Gesetze und mögliche nächste Schritte verlinken.
-5. Nur die für die weitere Arbeit notwendigen Details aufnehmen.
+5. Kleine Rohdateien bei Bedarf unter `eingang/originale/` ablegen und im
+   Ingest repo-relativ referenzieren.
+6. Nur die für die weitere Arbeit notwendigen Details aufnehmen.
 
 ## Pflicht
 
