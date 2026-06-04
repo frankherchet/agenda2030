@@ -18,7 +18,15 @@ Gesetzbüchern beziehungsweise relevanten Stammgesetzen.
 - `eingang/`: neue Dokumente, Links und Ideen als Markdown für die weitere
   Verarbeitung.
 - `skills/`: repo-spezifische Codex-Skills.
+- `web/`: Vite-React-App für GitHub Pages und interaktive Reports.
 - `vorlagen/`: einheitliche Arbeitsvorlagen für neue Vorschläge.
+
+## GitHub Pages
+
+Freigegebene Reports werden aus Markdown gebaut. Dafür muss eine
+Zusammenfassung im Frontmatter `publish: true` setzen. GitHub Actions erzeugt
+daraus die Datenbasis für die Vite-React-App und veröffentlicht `web/dist` auf
+GitHub Pages.
 
 ## Arbeitsregeln
 

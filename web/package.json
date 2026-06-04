@@ -1,0 +1,25 @@
+{
+  "name": "agenda2030-pages",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "content:build": "node scripts/build-content.mjs",
+    "dev": "npm run content:build && vite",
+    "build": "npm run content:build && tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "marked": "^15.0.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11"
+  }
+}

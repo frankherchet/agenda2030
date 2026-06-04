@@ -1,3 +1,14 @@
+---
+title: Bundestagsdrucksache BT-<Wahlperiode>-<Nummer>
+date: <YYYY-MM-DD>
+type: bundestag-drucksache
+publish: false
+tags: []
+source_urls: []
+related_ministries: []
+related_laws: []
+---
+
 # Bundestagsdrucksache: BT-<Wahlperiode>-<Nummer>
 
 ## Metadaten
