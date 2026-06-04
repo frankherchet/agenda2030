@@ -15,6 +15,8 @@ Gesetzbüchern beziehungsweise relevanten Stammgesetzen.
   Zusammenfassungen.
 - `bundeshaushalt/`: Haushaltsdaten, Einnahmen, Ausgaben und Auswertungen des
   Bundes.
+- `demographie/`: Bevölkerungsdaten, Altersstruktur und Vorausberechnungen als
+  wiederverwendbare Inputquelle für Sozialversicherungen.
 - `eingang/`: neue Dokumente, Links und Ideen als Markdown für die weitere
   Verarbeitung.
 - `agenten/`: Rollen, Workflow und Freigaberegeln für Reformer und Prüfer.

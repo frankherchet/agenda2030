@@ -1,0 +1,30 @@
+stichtag,quelle,variante,kennzahl,wert,einheit,altersbezug,notiz
+2024-12-31,Destatis Bevölkerungsfortschreibung,,Bevölkerung insgesamt,83577140,Personen,alle Altersgruppen,Ergebnisse auf Grundlage Zensus 2022
+2024-12-31,Destatis Bevölkerungsfortschreibung,,unter 20 Jahre,15585942,Personen,unter 20,
+2024-12-31,Destatis Bevölkerungsfortschreibung,,20 bis unter 40 Jahre,20261235,Personen,20 bis unter 40,
+2024-12-31,Destatis Bevölkerungsfortschreibung,,40 bis unter 60 Jahre,22245996,Personen,40 bis unter 60,
+2024-12-31,Destatis Bevölkerungsfortschreibung,,60 bis unter 80 Jahre,19429128,Personen,60 bis unter 80,
+2024-12-31,Destatis Bevölkerungsfortschreibung,,80 bis unter 100 Jahre,6036938,Personen,80 bis unter 100,
+2024-12-31,Destatis Bevölkerungsfortschreibung,,100 Jahre und mehr,17901,Personen,100+,
+2024,Destatis 16. koordinierte Bevölkerungsvorausberechnung,,Personen im Erwerbsalter 20 bis 66,51.2,Mio. Personen,20 bis 66,Ausgangswert 2024
+2024,Destatis 16. koordinierte Bevölkerungsvorausberechnung,,Anteil 67 Jahre und älter,20,Prozent,67+,jede fünfte Person im Rentenalter
+2024,Destatis 16. koordinierte Bevölkerungsvorausberechnung,,Altenquotient 20-66 zu 67+,33,Personen 67+ je 100 Personen 20-66,20 bis 66 / 67+,Ausgangswert 2024
+2035,Destatis 16. koordinierte Bevölkerungsvorausberechnung,alle Varianten,Anteil 67 Jahre und älter,25,Prozent,67+,jede vierte Person 67+
+2038,Destatis 16. koordinierte Bevölkerungsvorausberechnung,Spannweite Varianten,Zahl 67 Jahre und älter Minimum,20.5,Mio. Personen,67+,je nach Entwicklung Lebenserwartung
+2038,Destatis 16. koordinierte Bevölkerungsvorausberechnung,Spannweite Varianten,Zahl 67 Jahre und älter Maximum,21.3,Mio. Personen,67+,je nach Entwicklung Lebenserwartung
+2038,Destatis 16. koordinierte Bevölkerungsvorausberechnung,Variante 5 G3L1W3,Altenquotient 20-66 zu 67+,43,Personen 67+ je 100 Personen 20-66,20 bis 66 / 67+,relativ junge Altersstruktur
+2038,Destatis 16. koordinierte Bevölkerungsvorausberechnung,Variante 2 G2L2W2,Altenquotient 20-66 zu 67+,45,Personen 67+ je 100 Personen 20-66,20 bis 66 / 67+,moderate Entwicklung
+2038,Destatis 16. koordinierte Bevölkerungsvorausberechnung,Variante 4 G1L3W1,Altenquotient 20-66 zu 67+,47,Personen 67+ je 100 Personen 20-66,20 bis 66 / 67+,relativ alte Altersstruktur
+2050,Destatis 16. koordinierte Bevölkerungsvorausberechnung,Spannweite Varianten,Zahl 80 Jahre und älter Minimum,8.5,Mio. Personen,80+,Pflegerelevante Hochaltrigkeit
+2050,Destatis 16. koordinierte Bevölkerungsvorausberechnung,Spannweite Varianten,Zahl 80 Jahre und älter Maximum,9.8,Mio. Personen,80+,Pflegerelevante Hochaltrigkeit
+2070,Destatis 16. koordinierte Bevölkerungsvorausberechnung,alle 27 Varianten,Bevölkerung insgesamt Minimum,63.9,Mio. Personen,alle Altersgruppen,Gesamtspannweite aller Vorausberechnungsvarianten
+2070,Destatis 16. koordinierte Bevölkerungsvorausberechnung,alle 27 Varianten,Bevölkerung insgesamt Maximum,86.5,Mio. Personen,alle Altersgruppen,Gesamtspannweite aller Vorausberechnungsvarianten
+2070,Destatis Population projection,Spannweite ausgewählte Varianten,Bevölkerung insgesamt Minimum,68.7,Mio. Personen,alle Altersgruppen,Destatis EN Themenseite
+2070,Destatis Population projection,Spannweite ausgewählte Varianten,Bevölkerung insgesamt Maximum,80.7,Mio. Personen,alle Altersgruppen,Destatis EN Themenseite
+2070,Destatis 16. koordinierte Bevölkerungsvorausberechnung,Variante 5 G3L1W3,Altenquotient 20-66 zu 67+,43,Personen 67+ je 100 Personen 20-66,20 bis 66 / 67+,relativ junge Altersstruktur
+2070,Destatis 16. koordinierte Bevölkerungsvorausberechnung,Variante 2 G2L2W2,Altenquotient 20-66 zu 67+,51,Personen 67+ je 100 Personen 20-66,20 bis 66 / 67+,moderate Entwicklung
+2070,Destatis 16. koordinierte Bevölkerungsvorausberechnung,Variante 4 G1L3W1,Altenquotient 20-66 zu 67+,61,Personen 67+ je 100 Personen 20-66,20 bis 66 / 67+,relativ alte Altersstruktur
+2070,Destatis Population projection,Spannweite Varianten,Personen im Erwerbsalter 20 bis 66 Minimum,37.1,Mio. Personen,20 bis 66,Destatis EN Themenseite
+2070,Destatis Population projection,Spannweite Varianten,Personen im Erwerbsalter 20 bis 66 Maximum,45.3,Mio. Personen,20 bis 66,Destatis EN Themenseite
+2070,Destatis Population projection,Spannweite Varianten,Personen 67 Jahre und älter Minimum,20.1,Mio. Personen,67+,Destatis EN Themenseite
+2070,Destatis Population projection,Spannweite Varianten,Personen 67 Jahre und älter Maximum,21.8,Mio. Personen,67+,Destatis EN Themenseite
