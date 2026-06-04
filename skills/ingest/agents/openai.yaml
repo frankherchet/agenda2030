@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ingest"
+  short_description: "Dokumente, Links und Ideen strukturiert ablegen"
+  default_prompt: "Use $ingest to add this document, link, or idea to the agenda2030 repository as a compact Markdown ingest item."
