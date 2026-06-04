@@ -37,3 +37,11 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 - Wirkung: Konkret analysierte oder geänderte Paragraphen und Artikel müssen
   künftig vorab als geltender Normstand unter `gesetzbuecher/<buch>/`
   abgelegt und von Folgeartefakten referenziert werden.
+
+## 2026-06-05 Wissenspflege | Ingest-Extraktion geschärft
+
+- Betroffene Regeln: `AGENTS.md`, `eingang/README.md`,
+  `.agents/skills/ingest/SKILL.md`, `vorlagen/ingest.md`
+- Wirkung: Ingests trennen künftig Inhaltsinventar der Quelle von aktuell
+  extrahierten relevanten Informationen, um erneutes Nachschlagen im Original
+  zu minimieren.

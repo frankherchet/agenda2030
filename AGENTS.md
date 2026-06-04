@@ -49,6 +49,11 @@ Pflichtschritte:
 Ziel ist, dass jede verwendete Quelle token-sparend, auffindbar und
 nachvollziehbar vorgeschaltet ist.
 
+Ein Ingest muss das erneute Nachschlagen im Original minimieren. Dazu trennt er
+sichtbar zwischen `Enthaltene Informationen` als Inhaltsinventar der Quelle und
+`Jetzt extrahierte relevante Informationen` als den für die aktuelle Aufgabe
+konkret herausgezogenen Fakten, Zahlen, Fundstellen oder Aussagen.
+
 ## Wissens-Disziplin
 
 Das Repo folgt einer LLM-Wiki-Logik: Rohquellen bleiben unverändert, kompakte

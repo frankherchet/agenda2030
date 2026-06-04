@@ -10,12 +10,30 @@ description: Fügt neue Dokumente, Links, Notizen, Bundestagsdrucksachen und Ide
 Neue Quellen token-sparend erfassen: nicht den Volltext in die Unterhaltung
 ziehen, sondern eine kompakte Markdown-Datei im Repo anlegen. Jede Datei muss
 Quelle, Kernaussage, Relevanz, Zuordnung und nächste Schritte enthalten.
+Ziel ist, erneutes Nachschlagen im Original zu minimieren.
 
 Der Ingest ist die Brücke zwischen Rohquelle und gepflegtem Wissensbestand.
 Rohquellen bleiben unverändert; das LLM pflegt daraus kompakte, verlinkte
 Markdown-Artefakte. Gute Analysen aus der Unterhaltung dürfen nicht nur im Chat
 bleiben, sondern werden als Ingest, Auswertung, Report, offene Frage oder
 Wissensseiten-Update im Repo gesichert.
+
+## Extraktionsziel
+
+Jeder Ingest trennt zwei Ebenen:
+
+- `Enthaltene Informationen`: Inhaltsinventar der Quelle. Welche Tabellen,
+  Kapitel, Abschnitte, Datenfelder, Akteure, Zeiträume, Normen oder Themen sind
+  enthalten, damit spätere Agenten wissen, ob sich ein erneuter Blick ins
+  Original lohnt.
+- `Jetzt extrahierte relevante Informationen`: die für die aktuelle Aufgabe
+  tatsächlich herausgezogenen Fakten, Zahlen, Aussagen, Tabellenbezüge,
+  Zeitmarken oder Textstellen. Diese Informationen müssen mit Einheit,
+  Stichtag, Kontext und Fundort benannt werden, soweit verfügbar.
+
+Der Ingest ist kein Volltextarchiv. Er enthält aber genug Struktur, Fundstellen
+und ausgewählte Werte, dass spätere Arbeiten das Original nur noch für
+Detailprüfung, Zitate oder neue Fragestellungen öffnen müssen.
 
 ## Vorarbeit
 
@@ -44,17 +62,21 @@ Vor jedem Ingest:
 4. Markdown mit der passenden Vorlage erstellen:
    - allgemeiner Ingest: `vorlagen/ingest.md`
    - Bundestagsdrucksache: `vorlagen/drucksache-zusammenfassung.md`
-5. Zusammenfassung knapp halten: maximal 5 Sätze plus wenige Stichpunkte.
-6. Betroffene Ministerien, Gesetzbücher, Fachordner, Reports, Auswertungen,
+5. Inhaltsinventar der Quelle erfassen: enthaltene Tabellen, Kapitel,
+   Abschnitte, Datenfelder, Zeiträume, Normen, Akteure oder Themen.
+6. Aktuell relevante Informationen extrahieren: konkrete Fakten, Zahlen,
+   Fundstellen, Tabellenbezüge, Zeitmarken oder Aussagen.
+7. Zusammenfassung knapp halten: maximal 5 Sätze plus wenige Stichpunkte.
+8. Betroffene Ministerien, Gesetzbücher, Fachordner, Reports, Auswertungen,
    Prüfberichte und Folgearbeiten als Repo-Pfade verlinken, wenn erkennbar.
-7. Ingest-Datei in `eingang/index/README.md` eintragen.
-8. `index.md` aktualisieren, wenn eine dauerhaft relevante Wissensseite neu
+9. Ingest-Datei in `eingang/index/README.md` eintragen.
+10. `index.md` aktualisieren, wenn eine dauerhaft relevante Wissensseite neu
    entsteht, wesentlich verändert wird oder erstmals zentral verknüpft werden
    sollte.
-9. `log.md` append-only ergänzen.
-10. In allen späteren Artefakten, die diese Quelle nutzen, `ingest_refs` auf
+11. `log.md` append-only ergänzen.
+12. In allen späteren Artefakten, die diese Quelle nutzen, `ingest_refs` auf
    die Eingang-Datei setzen.
-11. Offene Fragen sichtbar lassen, statt unsichere Fakten zu glätten.
+13. Offene Fragen sichtbar lassen, statt unsichere Fakten zu glätten.
 
 ## Kontextverknüpfung
 
@@ -87,8 +109,12 @@ Unsicherheit wird ein TODO oder eine offene Frage im Ingest hinterlassen.
 - Do not paste long source text into the answer.
 - Store extracted or user-provided substance in Markdown and summarize only the
   working-relevant points.
+- Record the source inventory separately from the currently extracted
+  information.
 - Preserve exact source URL, filename, Drucksachennummer, author and date when
   available.
+- Preserve useful locators such as table numbers, page numbers, section names,
+  timestamps, segment IDs or paragraph numbers.
 - Quote only short excerpts when exact wording matters.
 - Prefer bullets over prose for later machine processing.
 - Use `TODO:` markers for missing metadata instead of inventing details.
@@ -102,6 +128,8 @@ Vor Abschluss jedes Ingests kurz prüfen:
   Fachordner berücksichtigt?
 - Sind Ministerien, Gesetze, Fachseiten und Folgearbeiten repo-relativ
   verlinkt?
+- Sind Inhaltsinventar und aktuell extrahierte relevante Informationen getrennt
+  dokumentiert?
 - Sind mögliche Widersprüche, veraltete Aussagen oder ungesicherte Zahlen als
   offene Fragen sichtbar?
 - Wurden Eingangsindex, globaler Index und Log aktualisiert oder bewusst als
@@ -130,6 +158,7 @@ Keep the final response short; the Markdown file is the durable artifact.
 ## Quality Bar
 
 - The ingest file must be useful without reopening the original source.
+- It must say what the source contains and what was extracted now.
 - The original source must remain traceable.
 - Zuordnungen must use existing repo folders where possible.
 - Relevant existing knowledge pages must be checked and linked when applicable.

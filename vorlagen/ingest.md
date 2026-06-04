@@ -18,6 +18,16 @@
 - <Punkt 2>
 - <Punkt 3>
 
+## Enthaltene Informationen
+
+- <Welche Tabellen, Kapitel, Abschnitte, Datenfelder, Zeiträume, Normen, Akteure oder Themen enthält die Quelle?>
+- <Fundstellen wie Seiten, Tabellen, Abschnitte, Timestamps oder Segment-IDs nennen, soweit verfügbar>
+
+## Jetzt extrahierte relevante Informationen
+
+- <Für die aktuelle Aufgabe extrahierte Zahl, Aussage oder Fundstelle mit Einheit, Stichtag und Kontext>
+- <Nur relevante Informationen aufnehmen; keine Volltextablage>
+
 ## Relevanz für agenda2030
 
 <Warum ist das Material relevant?>

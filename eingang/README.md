@@ -36,15 +36,21 @@ Beispiel:
    lesen, bevor neues Material eingeordnet wird.
 2. Neues Material als Markdown mit `vorlagen/ingest.md` erfassen.
 3. Quelle, Kernaussage und Relevanz knapp dokumentieren.
-4. In `eingang/index/README.md` eintragen.
-5. Betroffene Ministerien, Gesetze, Wissensseiten, Reports, Auswertungen und
+4. Als `Enthaltene Informationen` erfassen, welche Tabellen, Kapitel,
+   Abschnitte, Datenfelder, Zeiträume, Normen, Akteure oder Themen die Quelle
+   enthält.
+5. Als `Jetzt extrahierte relevante Informationen` dokumentieren, welche
+   Fakten, Zahlen, Fundstellen oder Aussagen für die aktuelle Aufgabe
+   herausgezogen wurden.
+6. In `eingang/index/README.md` eintragen.
+7. Betroffene Ministerien, Gesetze, Wissensseiten, Reports, Auswertungen und
    mögliche nächste Schritte verlinken.
-6. Kleine Rohdateien bei Bedarf unter `eingang/originale/` ablegen und im
+8. Kleine Rohdateien bei Bedarf unter `eingang/originale/` ablegen und im
    Ingest repo-relativ referenzieren.
-7. `index.md` aktualisieren, wenn eine dauerhaft relevante Wissensseite
+9. `index.md` aktualisieren, wenn eine dauerhaft relevante Wissensseite
    entsteht oder neu verknüpft werden muss.
-8. `log.md` append-only ergänzen.
-9. Nur die für die weitere Arbeit notwendigen Details aufnehmen.
+10. `log.md` append-only ergänzen.
+11. Nur die für die weitere Arbeit notwendigen Details aufnehmen.
 
 ## Pflicht
 
