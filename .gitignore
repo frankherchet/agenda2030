@@ -1,4 +1,6 @@
 node_modules/
+__pycache__/
+*.py[cod]
 web/dist/
 web/public/reports.json
 web/tsconfig.tsbuildinfo

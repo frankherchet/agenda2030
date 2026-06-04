@@ -22,6 +22,8 @@ Gesetzbüchern beziehungsweise relevanten Stammgesetzen.
 - `agenten/`: Rollen, Workflow und Freigaberegeln für Reformer und Prüfer.
 - `pruefberichte/`: unabhängige Prüfberichte zu Reformvorhaben.
 - `reports/`: ausgearbeitete, veröffentlichbare Reform- und Analyseberichte.
+- `scripts/`: reproduzierbare Berechnungen für Reformberichte und
+  Auswertungen.
 - `skills/`: repo-spezifische Codex-Skills.
 - `web/`: Vite-React-App für GitHub Pages und interaktive Reports.
 - `vorlagen/`: einheitliche Arbeitsvorlagen für neue Vorschläge.

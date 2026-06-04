@@ -87,6 +87,8 @@ Report und spätere GKV-Reformen dient:
 
 - `demographie/quellen/2026-06-04-destatis-demographie.md`
 - `demographie/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv`
+- Rechenskript: `scripts/calc_demographie_rente.py`
+- Rechenergebnis: `demographie/auswertungen/2026-06-04-rente-belastungsrechnung.md`
 
 ### Kernwerte
 
@@ -110,14 +112,16 @@ Bis 2038 steigt die Zahl der Menschen ab 67 Jahren nach Destatis auf 20,5 bis
 
 ### Demographische Belastungsrechnung
 
-- Datenquelle: `demographie/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv`
-- Stichtage: 2024, 2038, 2070
-- Formel Altenquotient-Veränderung: `(Altenquotient Zieljahr - Altenquotient 2024) / Altenquotient 2024`
-- Ergebnis 2038, moderate Variante: `(45 - 33) / 33 = 36,4 %`
-- Ergebnis 2070, moderate Variante: `(51 - 33) / 33 = 54,5 %`
-- Formel Erwerbsbevölkerung 2070: `(Personen 20-66 in 2070 - 51,2 Mio.) / 51,2 Mio.`
-- Ergebnis 2070, günstigerer Randwert: `(45,3 - 51,2) / 51,2 = -11,5 %`
-- Ergebnis 2070, ungünstigerer Randwert: `(37,1 - 51,2) / 51,2 = -27,5 %`
+Die folgenden Werte werden mit `scripts/calc_demographie_rente.py` aus der
+Demographie-CSV erzeugt und unter
+`demographie/auswertungen/2026-06-04-rente-belastungsrechnung.md` abgelegt:
+
+| Rechnung | Formel | Ergebnis |
+| --- | --- | ---: |
+| Altenquotient 2038, moderate Variante | `(45 - 33) / 33` | 36,4 % |
+| Altenquotient 2070, moderate Variante | `(51 - 33) / 33` | 54,5 % |
+| Erwerbsbevölkerung 2070, günstigerer Randwert | `(45,3 - 51,2) / 51,2` | -11,5 % |
+| Erwerbsbevölkerung 2070, ungünstigerer Randwert | `(37,1 - 51,2) / 51,2` | -27,5 % |
 
 Gegenannahme: Selbst bei relativ junger Altersstruktur bleibt der
 Altenquotient 2070 mit 43 deutlich über dem Ausgangswert 2024 von 33. Hohe

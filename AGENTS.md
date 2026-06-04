@@ -19,3 +19,12 @@ geänderte Konzepte, Dokumentation, Skills, Strukturänderungen,
 Zusammenfassungen, Gesetzesvorschläge oder sonstige Inhalte.
 
 Ziel ist eine lückenlose, nachvollziehbare History.
+
+## Rechen-Disziplin
+
+Zahlenbasierte Bewertungen und Modellrechnungen sollen nachvollziehbar im Repo
+reproduzierbar sein. Sobald ein Reformvorschlag mehr als einfache
+Quellenzitate verwendet, werden die Berechnungen bevorzugt als Skripte unter
+`scripts/` abgelegt und ihre Ergebnisse als Markdown, CSV oder JSON im
+passenden Fachordner gespeichert. Reports zitieren diese Rechenartefakte statt
+Ergebnisse nur im Fließtext herzuleiten.
