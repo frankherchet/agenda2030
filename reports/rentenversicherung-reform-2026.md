@@ -27,6 +27,9 @@ source_urls:
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/_publikationen-innen-periodensterbetafel.html
   - https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
   - https://statistik-rente.de/drv/extern/rente/rentenbestand/
+  - https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/bundeskabinett-beschliesst-rentenversicherungsbericht-2025.html
+  - https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/eckwerttabelle.html?trk=public_post_comment-text
+  - https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/beschaeftigungsbereiche.html
 ingest_refs:
   - eingang/links/2026-06-04-gesetze-im-internet-sgb-vi.md
   - eingang/links/2026-06-04-gesetze-im-internet-sgb-iv.md
@@ -41,6 +44,9 @@ ingest_refs:
   - eingang/links/2026-06-04-destatis-periodensterbetafeln-publikationen.md
   - eingang/dokumente/2026-06-04-drv-statistikband-rente-2024.md
   - eingang/links/2026-06-04-statistik-rente-rentenbestand.md
+  - eingang/links/2026-06-04-bmas-rentenversicherungsbericht-2025.md
+  - eingang/links/2026-06-04-destatis-arbeitsmarkt-eckzahlen-2025.md
+  - eingang/links/2026-06-04-destatis-oeffentlicher-dienst-2024.md
 related_ministries:
   - ministerien/arbeit-soziales/
   - ministerien/finanzen/
@@ -302,6 +308,41 @@ DRV-Bestandsstruktur: von 97,858 Mrd. Euro im Startjahr auf 62,165 Mrd. Euro
 fortgeschrieben. 725 Renten ohne erfasstes Alter bleiben als Restzeilen
 ausgewiesen und werden nicht modelliert.
 
+### 2a. Zukunftswirkung bis 2070
+
+Die langfristige Finanzwirkung wird in v1 mit
+`scripts/calc_rentenreform_zukunft.py` berechnet. Das Modell vergleicht drei
+Varianten:
+
+- Status quo als Referenz: Bundesmittel behalten ihren Ausgabenanteil von 2025.
+- Reform ohne erweiterte Beitragsbasis: heutige Bundesmittel schmelzen nur mit
+  dem Altbestand ab.
+- Reform mit Erwerbstätigenbasis: Selbstständige und Neuzugänge im öffentlichen
+  Dienst erhöhen schrittweise die Beitragsbasis.
+
+Die Ergebnisse stehen unter
+`rentenversicherung/auswertungen/2026-06-04-rentenreform-zukunft.md`, die
+Jahreswerte unter
+`rentenversicherung/daten/2026-06-04-rentenreform-zukunft-modell.csv`.
+
+| Szenario | Jahr | Status quo | Reform ohne neue Basis | Reform mit Erwerbstätigenbasis |
+| --- | ---: | ---: | ---: | ---: |
+| jung | 2050 | 23,2 % | 29,7 % | 27,5 % |
+| jung | 2070 | 22,8 % | 29,6 % | 26,9 % |
+| moderat | 2050 | 25,1 % | 32,1 % | 29,8 % |
+| moderat | 2070 | 26,1 % | 33,9 % | 30,9 % |
+| alt | 2050 | 27,2 % | 34,7 % | 32,2 % |
+| alt | 2070 | 30,2 % | 39,2 % | 35,7 % |
+
+Interpretation: Die Erwerbstätigenbasis dämpft den Beitragssatzanstieg, kann
+den demographischen Druck aber allein nicht neutralisieren. Eine langfristig
+stabile Rente braucht deshalb zusätzlich echte staatliche Beiträge für
+politisch gewünschte Rentenwirkungen, eine klare Leistungsindexierung und eine
+separat ausgewiesene Entscheidung darüber, welcher Beitragssatz politisch
+maximal tragbar sein soll. Einsparungen aus künftig wegfallenden unbezahlten
+Rentenpunkten sind in v1 noch nicht quantifiziert und würden eine eigene
+Normen- und Volumenzerlegung benötigen.
+
 Der Bund oder ein anderer öffentlicher Träger zahlt rentenwirksame Beiträge für
 politisch gewollte Zeiten. Beispiele:
 
@@ -386,6 +427,9 @@ Babyboomer-Jahre adressieren.
 - Amtliche Zweckzerlegung der heutigen Bundesmittel nach Altlasten, laufend
   neu entstehenden Staatsbeiträgen und echten Steuertransfers; die aktuelle
   CSV bildet die Reformklassifikation ab.
+- Vollständiges Neurentner-Kohortenmodell für die Jahre 2027 bis 2070.
+- Quantifizierung der künftig wegfallenden unbezahlten Rentenpunkte nach Norm
+  und jährlichem Volumen.
 - Alters- und Geschlechtsstruktur der Knappschaft-Bahn-See als eigener Träger,
   falls sie später separat statt nur als Anteil von `rv_gesamt` simuliert
   werden soll.
@@ -397,9 +441,11 @@ Babyboomer-Jahre adressieren.
 ## Nächste Schritte
 
 - Gesetzesänderungsskizze für SGB VI und SGB IV anlegen.
-- Finanzmodell erstellen: Status quo 2025/2026 gegen Reformmodell.
+- Finanzmodell von v1 zu einer Kohortenrechnung weiterentwickeln.
 - Amtliche oder gutachterliche Zweckzerlegung der heutigen Bundesmittel
   beschaffen und die Reformklassifikation damit abgleichen.
+- Zukunftsmodell durch Neurentner-Kohorten, Einkommensverteilungen der
+  Selbstständigen und Neuzugangsstruktur des öffentlichen Dienstes verfeinern.
 - Sankey-Diagramm ergänzen: Beiträge, Bundesmittel und Ausgabenblöcke der
   Rentenversicherung.
 - Liste der nicht beitragsgedeckten Rentenwirkungen nach Normen und

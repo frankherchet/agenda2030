@@ -21,3 +21,5 @@ Aktuelle Skripte:
 - `calc_rente_bundeszuschuss_abschmelzung.py`: erzeugt den Abschmelzpfad des
   Bestandsschutz-Zuschusses proportional zur erwarteten Überlebendenzahl der
   geschützten Bestandsrentner-Kohorte auf Basis des DRV-Rentenbestands.
+- `calc_rentenreform_zukunft.py`: erzeugt ein v1-Zukunftsmodell 2027-2070 für
+  Status quo, abschmelzende Bundesmittel und erweiterte Erwerbstätigenbasis.
