@@ -143,3 +143,19 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 - Wirkung: Der Content-Builder liest nun veröffentlichte Analysen unter
   `analysen/`, spiegelt referenzierte Diagramm-Assets in die GitHub-Pages-App
   und erzeugt einen Report mit Diagrammen für die Rentenproblem-Analyse.
+
+## 2026-06-05 Reformer | Rentenreform Stabilitätskorridor
+
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`
+- Neue Analyse:
+  `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md`
+- Neue Daten:
+  `analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor.csv`,
+  `analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor-annahmen.csv`
+- Neues Skript:
+  `scripts/calc_rentenreform_stabilitaetskorridor.py`
+- Wirkung: Das Reformkonzept ist auf das Ziel "möglichst hohe Rente bei
+  stabilen Beitragsraten" geschärft. Neue Entgeltpunkte entstehen nur noch
+  durch Einzahlung; der Rentenwert folgt einer Budgetregel innerhalb eines
+  Beitragssatzkorridors.

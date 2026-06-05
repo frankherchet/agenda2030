@@ -10,6 +10,7 @@ tags:
   - Beitragsklarheit
   - SGB VI
   - Demographie
+  - Beitragssatzstabilitaet
 review_status: offen
 review_reports:
   - projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md
@@ -60,6 +61,20 @@ related_laws:
   - gesetzbuecher/sgb/
   - gesetzbuecher/grundgesetz/
   - gesetzbuecher/weitere-gesetze/
+data_artifacts:
+  - analysen/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv
+  - analysen/daten/2026-06-04-rentenreform-zukunft-modell.csv
+  - analysen/daten/2026-06-05-rentenproblem-finanzierungsluecke.csv
+  - analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor.csv
+  - analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor-annahmen.csv
+scripts:
+  - scripts/calc_demographie_rente.py
+  - scripts/calc_rentenreform_zukunft.py
+  - scripts/calc_rentenproblem_finanzierungsluecke.py
+  - scripts/calc_rentenreform_stabilitaetskorridor.py
+related_analyses:
+  - analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md
+  - analysen/2026-06-05-rentenreform-stabilitaetskorridor.md
 ---
 
 # Rentenversicherung reformieren: Beitragsklarheit und reine Umlage
@@ -96,9 +111,25 @@ Die demographische Begründung ist zentral: Der Altenquotient steigt nach
 Destatis von 33 im Jahr 2024 auf 43 bis 47 im Jahr 2038 und je nach Variante
 bis 2070 auf 43 bis 61.
 
+Aus der Analyse `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md`
+folgt: Ein bloßes Festhalten am Beitragssatz von 18,6 % und am heutigen
+Renteneintrittsalter erzeugt im moderaten Szenario bis 2039 eine jährliche
+Finanzierungslücke von rund 198,7 Mrd. Euro und bis 2070 von rund
+550,1 Mrd. Euro. Das Reformziel wird deshalb präzisiert: Die Rente soll
+innerhalb eines stabilen Beitragssatzkorridors so hoch wie möglich ausfallen.
+Der Rentenwert wird nicht durch ungedeckte politische Versprechen garantiert,
+sondern über eine Budgetregel aus Beiträgen, echten staatlichen Beiträgen und
+Bestandsschutz-Zuschuss finanziert.
+
 ## Reformziel
 
 - Umlageverfahren bleibt das Finanzierungsprinzip.
+- Ziel ist die höchste dauerhaft finanzierbare Rente innerhalb eines stabilen
+  Beitragssatzkorridors, nicht eine ungedeckte Fortschreibung jedes heutigen
+  Leistungsversprechens.
+- Arbeitskorridor v2: Zielwert 20 %, Stabilitätskorridor 22 %, harte
+  politische Obergrenze 24 %. Der konkrete Korridor bleibt prüf- und
+  entscheidungsbedürftig.
 - Die Beitragsbemessungsgrenze bleibt in v1 bestehen.
 - Altersrenten, Erwerbsminderung und Hinterbliebenenleistungen bleiben im
   System.
@@ -106,6 +137,9 @@ bis 2070 auf 43 bis 61.
   abhängig Beschäftigte, Selbständige, neu eintretende Beamte und Abgeordnete.
 - Rentenpunkte gibt es künftig nur für Zeiträume, in denen Beiträge tatsächlich
   gezahlt werden.
+- Der Rentenwert folgt einer Umlage-Budgetregel: Innerhalb des Korridors wird
+  das verfügbare Beitrags- und Zuschussvolumen vollständig für das maximal
+  finanzierbare Rentenvolumen genutzt.
 - Gesellschaftlich gewünschte Rentenwirkungen werden nicht pauschal aus der
   Rentenkasse finanziert, sondern als echte Beitragszahlungen verbucht.
 - Bestandsschutz gilt für bereits erworbene Entgeltpunkte und laufende Renten.
@@ -265,7 +299,40 @@ Ansprüche genutzt werden. Gerade wegen des steigenden Altenquotienten muss
 jede neue rentenwirksame politische Leistung sofort zeigen, wer dafür Beiträge
 zahlt.
 
+Die neue Rentenproblem-Analyse quantifiziert den Zielkonflikt: Ohne
+Gegenmaßnahmen entsteht bei 18,6 % Beitragssatz im moderaten Szenario bis 2070
+eine jährliche Lücke von rund 550,1 Mrd. Euro. Eine Reform kann deshalb nicht
+gleichzeitig den Beitragssatz einfrieren, das Renteneintrittsalter unverändert
+lassen, die Beitragsbasis nur begrenzt erweitern und den bisherigen
+Leistungspfad vollständig garantieren. Das belastbare Ziel lautet:
+
+- keine neuen Entgeltpunkte ohne Einzahlung,
+- möglichst breite Beitragsbasis,
+- stabile und vorab sichtbare Beitragssatzgrenzen,
+- höchstmöglicher Rentenwert innerhalb des tatsächlich finanzierten
+  Umlagebudgets,
+- offene Entscheidung, welche Sozialzeiten durch echte öffentliche Beiträge
+  rentenwirksam werden.
+
 ## Reformmodell
+
+### 0. Stabilitätsarchitektur: Korridor vor Leistungsversprechen
+
+Die Reform legt zuerst die tragfähige Beitragsseite fest und leitet daraus das
+maximal finanzierbare Rentenvolumen ab. Der Beitragssatz wird nicht jedes Jahr
+passiv aus dem Ausgabenpfad abgeleitet, sondern politisch als Korridor
+definiert:
+
+- 20 %: Zielkorridor bei günstiger Demographie und hoher Erwerbsbasis.
+- 22 %: Stabilitätskorridor für das Basisszenario.
+- 24 %: harte Obergrenze, ab der automatische Dämpfungsregeln greifen müssen.
+
+Innerhalb dieses Korridors wird der Rentenwert so hoch wie möglich gesetzt.
+Wenn das verfügbare Umlagebudget nicht reicht, wird nicht verdeckt über
+Bundeszuschüsse oder spätere Schulden finanziert. Stattdessen werden
+Rentenwertanpassung, Demografie-Puffer und echte öffentliche Beiträge
+transparent aktiviert. Diese Regel ist hart: Wer einen rentenwirksamen
+Entgeltpunkt politisch schaffen will, muss dafür Beiträge zahlen.
 
 ### 1. Beitragskonto als Grundprinzip
 
@@ -353,6 +420,44 @@ separat ausgewiesene Entscheidung darüber, welcher Beitragssatz politisch
 maximal tragbar sein soll. Einsparungen aus künftig wegfallenden unbezahlten
 Rentenpunkten sind in v1 noch nicht quantifiziert und würden eine eigene
 Normen- und Volumenzerlegung benötigen.
+
+### 2b. Stabilitätskorridor: maximale Rente bei gedeckeltem Beitrag
+
+Die v2-Stabilitätsrechnung steht unter
+`analysen/2026-06-05-rentenreform-stabilitaetskorridor.md` und wird mit
+`scripts/calc_rentenreform_stabilitaetskorridor.py` erzeugt. Sie berechnet,
+welches Ausgabenvolumen finanzierbar ist, wenn der Beitragssatz bei 20 %, 22 %
+oder 24 % gedeckelt wird, die Erwerbstätigenbasis schrittweise greift und der
+Bestandsschutz-Zuschuss für Altlasten abschmilzt.
+
+| Korridor | 2035 Leistungsfaktor | 2039 Leistungsfaktor | 2050 Leistungsfaktor | 2070 Leistungsfaktor |
+| --- | ---: | ---: | ---: | ---: |
+| 20 % | 82,2 % | 73,4 % | 68,0 % | 65,1 % |
+| 22 % | 89,4 % | 80,1 % | 74,5 % | 71,5 % |
+| 24 % | 96,5 % | 86,7 % | 81,1 % | 77,9 % |
+
+Die Werte beziehen sich auf das moderate Szenario und messen das leistbare
+Ausgabenvolumen gegenüber dem Referenz-Ausgabenpfad des bisherigen Modells.
+Ein Wert unter 100 % bedeutet nicht automatisch Rentenkürzung gegenüber dem
+heutigen Rentenwert, sondern dass der fortgeschriebene Referenzpfad ohne
+zusätzliche Finanzierung nicht vollständig tragbar ist.
+
+Reformfolgerung: Für "möglichst hohe Rente bei stabilen Beitragsraten" muss
+der Rentenwert als Ergebnis der Budgetregel berechnet werden. Die höchste
+vertretbare Rente ist die Rente, die aus
+
+```text
+Beitragsbasis x Beitragssatzkorridor
++ echte staatliche Beiträge für neue Sozialzeiten
++ abschmelzender Bestandsschutz-Zuschuss
++ sonstige Einnahmen
+```
+
+finanziert werden kann. Zusätzliche Leistungsversprechen sind zulässig, aber
+nur bei gleichzeitig benannter Einzahlung. Der 22-%-Korridor ist in v2 der
+Arbeitskompromiss: Er stabilisiert die Beitragssätze gegenüber den
+Reformvarianten ohne Budgetregel, erzwingt aber ab Ende der 2030er-Jahre eine
+gedämpfte Rentenwertdynamik oder zusätzliche echte Staatsbeiträge.
 
 Der Bund oder ein anderer öffentlicher Träger zahlt rentenwirksame Beiträge für
 politisch gewollte Zeiten. Beispiele:
@@ -443,6 +548,10 @@ Babyboomer-Jahre adressieren.
 - Vollständiges Neurentner-Kohortenmodell für die Jahre 2027 bis 2070.
 - Quantifizierung der künftig wegfallenden unbezahlten Rentenpunkte nach Norm
   und jährlichem Volumen.
+- Politische Festlegung des Beitragssatzkorridors: 20/22/24 % ist eine
+  Arbeitsannahme, keine freigegebene Zielmarke.
+- Konkrete Rentenwertformel für die Budgetregel, einschließlich Schutz gegen
+  nominale Rentenkürzungen, Übergangsphasen und Härtefallregeln.
 - Alters- und Geschlechtsstruktur der Knappschaft-Bahn-See als eigener Träger,
   falls sie später separat statt nur als Anteil von `rv_gesamt` simuliert
   werden soll.
@@ -465,3 +574,6 @@ Babyboomer-Jahre adressieren.
   Zahlungspflichtigem aufbauen.
 - Demographie-Szenarien Variante 5, Variante 2 und Variante 4 in das
   Renten-Finanzmodell übernehmen.
+- Gesetzesänderungsskizze für die Rentenwert-Budgetregel und den
+  Beitragssatzkorridor vorbereiten; dabei die bereits abgelegten Normstände zu
+  SGB VI §§ 63, 66, 70, 157-170, 213, 216 und 217 heranziehen.

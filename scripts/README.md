@@ -30,3 +30,6 @@ Aktuelle Skripte:
   jährlichen Renten-Finanzierungslücke, wenn Beitragssatz und
   Renteneintrittsalter unverändert bleiben, inklusive CSV-Artefakten und
   SVG-Diagrammen.
+- `calc_rentenreform_stabilitaetskorridor.py`: berechnet das maximal
+  finanzierbare Rentenvolumen bei Beitragssatz-Korridoren von 20 %, 22 % und
+  24 %, Erwerbstätigenbasis und abschmelzendem Bestandsschutz-Zuschuss.

@@ -26,13 +26,14 @@ Prüfarbeitsstände.
 | Strukturumbau-Prüfung | `analysen/2026-06-05-strukturumbau-quellen-analysen-projekte-pruefung.md` | Prüfung, welche Quellen-, Dokument-, Analyse- und Projektartefakte nach dem Umbau nachgepflegt werden müssen. | Workflow, Prüfung |
 | Bundesmittel-Zweckzerlegung Rente | `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md` | Beschaffte Quellen und Einordnung zu Bundeszuschüssen und nicht beitragsgedeckten Leistungen. | Bundesmittel, Rente |
 | Rentenproblem Deutschland | `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md` | Quellenbasierter Problemaufriss mit eigener Hochrechnung der Finanzierungslücke bei fixem Beitragssatz und unveränderter Altersgrenze. | Rente, Demographie, Bundeshaushalt |
+| Rentenreform Stabilitätskorridor | `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md` | Reproduzierbare Berechnung des maximal finanzierbaren Rentenvolumens bei Beitragssatz-Korridoren von 20 %, 22 % und 24 %. | Rente, Beitragssatz, Reformmodell |
 
 ## Projekte und Prüfung
 
 | Bereich | Pfad | Inhalt | Themen |
 | --- | --- | --- | --- |
 | Reformprojekt Rente | `projekte/rentenversicherung/README.md` | Projektüberblick für das Reformkonzept gesetzliche Rentenversicherung. | Reform, Rente |
-| Reformkonzept Rente | `projekte/rentenversicherung/reformkonzept.md` | Ausgearbeitetes Reformkonzept zur Rentenversicherung 2026. | Reform, Rente |
+| Reformkonzept Rente | `projekte/rentenversicherung/reformkonzept.md` | Ausgearbeitetes Reformkonzept zur Rentenversicherung mit Beitragsklarheit, Erwerbstätigenbasis und Stabilitätskorridor. | Reform, Rente |
 | Prüfbericht Rente | `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md` | Unabhängiger Prüfbericht zum Abschmelzmodell. | Prüfung, Bundesmittel |
 | Normstand-Bedarf Rente | `projekte/rentenversicherung/normstand-bedarf.md` | Matrix der vor Rechtsanalyse und Freigabe lokal abzulegenden Normstände. | Recht, Rente |
 | SGB-Normstände Rente | `gesetzbuecher/sgb/README.md` | Normstand-Paket zu SGB VI und SGB IV für das Rentenprojekt. | Recht, SGB, Rente |

@@ -44,3 +44,6 @@ Analysen referenziert werden.
   Quellenbasierter Problemaufriss zu Ursachen und Folgen steigender
   Rentenbelastung ohne Gegenmaßnahmen, inklusive Hochrechnung der
   Finanzierungslücke bei fixem Beitragssatz und unveränderter Altersgrenze.
+- `2026-06-05-rentenreform-stabilitaetskorridor.md`: Hochrechnung des maximal
+  finanzierbaren Rentenvolumens bei Beitragssatz-Korridoren von 20 %, 22 %
+  und 24 %.
