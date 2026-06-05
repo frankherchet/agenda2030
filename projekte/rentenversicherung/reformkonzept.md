@@ -1,5 +1,5 @@
 ---
-title: Rentenversicherung reformieren: Beitragsklarheit und reine Umlage
+title: "Rentenversicherung reformieren: Beitragsklarheit und reine Umlage"
 date: 2026-06-04
 type: reform-report
 publish: false
