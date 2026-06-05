@@ -267,3 +267,19 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   die fehlende öffentliche Zweckzerlegung 2024-2026 bleibt als
   Negativbeschaffung dokumentiert und wird durch künftige gesetzliche Trennung
   ersetzt, nicht rückwirkend behauptet.
+
+## 2026-06-06 Prüfer | Zweitnachprüfung Rentenreformkonzept
+
+- Neuer Prüfbericht:
+  `projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md`
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `projekte/rentenversicherung/README.md`,
+  `index.md`
+- Status: offen
+- Wirkung: Die §-68-Rentenwert-Budgetregel, die doppelfreie
+  Haushaltsbrücke und die Normstand-Textglättung werden positiv bewertet.
+  Keine arithmetischen Blocker und kein Normstand-Blocker für die geprüften
+  Kernnormen. Die Freigabe bleibt offen wegen synthetischer
+  Rentenalterrechnung, fehlender Folgeänderungen zur §-68-Skizze und nur
+  negativ belegter Bundesmittel-Zweckzerlegung 2024-2026.

@@ -16,6 +16,7 @@ review_reports:
   - projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md
   - projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md
   - projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md
+  - projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/
   - https://www.gesetze-im-internet.de/sgb_4/
@@ -120,7 +121,8 @@ related_analyses:
 - Prüferberichte:
   `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md`,
   `projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md`,
-  `projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md`
+  `projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md`,
+  `projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md`
 - Status Gesamtprüfung: offen
 - Normstände: `projekte/rentenversicherung/normstand-bedarf.md`; das
   ursprüngliche Normstand-Paket wurde am 2026-06-06 um SGB VI §§ 34-38, 77,
@@ -134,8 +136,10 @@ related_analyses:
   veroeffentlichungsfaehig, solange kein freigegebener Prueferbericht vorliegt.
   Die Nachpruefung vom 2026-06-06 bewertet die nachgereichten Rechnungen als
   arithmetisch nachvollziehbar, laesst die Freigabe aber wegen noch offener
-  Rechts-, Kohorten- und Haushaltsabgrenzungen offen. Nicht vollstaendig
-  aufloesbar bleibt, dass
+  Rechts-, Kohorten- und Haushaltsabgrenzungen offen. Die Zweitnachpruefung
+  bewertet §-68-Skizze, doppelfreie Haushaltsbruecke und Normstandglaettung
+  positiv, laesst die Freigabe aber wegen synthetischer Rentenalterrechnung
+  und fehlender Folgeaenderungen weiter offen. Nicht vollstaendig aufloesbar bleibt, dass
   fuer 2024 bis 2026 keine oeffentliche amtliche Zweckzerlegung der
   Bundesmittel vorliegt; das Konzept ersetzt sie durch eine prueffaehige
   Reformklassifikation.
