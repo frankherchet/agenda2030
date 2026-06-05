@@ -1,3 +1,20 @@
+---
+title: DRV-Rentenbestand Inputs fuer Abschmelzmodell
+date: 2026-06-04
+type: analyse
+status: arbeitsfassung
+source_urls:
+  - https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
+ingest_refs:
+  - ingest/dokumente/2026-06-04-drv-statistikband-rente-2024.md
+  - ingest/dokumente/2026-06-04-drv-statistikband-rente-2024-quellenmetadaten.md
+data_artifacts:
+  - analysen/daten/2026-06-04-drv-rentenbestand-struktur.csv
+  - analysen/daten/2026-06-04-bundesmittel-zerlegung.csv
+scripts:
+  - scripts/build_drv_renten_inputs.py
+---
+
 # DRV-Rentenbestand Inputs für Abschmelzmodell
 
 Stand: 2026-06-04

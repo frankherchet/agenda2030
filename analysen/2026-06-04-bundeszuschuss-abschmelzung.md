@@ -1,3 +1,26 @@
+---
+title: Abschmelzmodell Bestandsschutz-Zuschuss Rentenversicherung
+date: 2026-06-04
+type: analyse
+status: offen
+source_urls:
+  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/_publikationen-innen-periodensterbetafel.html
+  - https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
+  - https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Zahlen-und-Fakten/Kennzahlen-zur-Finanzentwicklung/kennzahlen-zur-finanzentwicklung_node.html?https=1
+ingest_refs:
+  - ingest/links/2026-06-04-destatis-periodensterbetafeln-publikationen.md
+  - ingest/dokumente/2026-06-04-destatis-sterbetafeln-2022-2024.md
+  - ingest/dokumente/2026-06-04-drv-statistikband-rente-2024.md
+  - ingest/links/2026-06-04-drv-finanzkennzahlen-rentenversicherung.md
+data_artifacts:
+  - analysen/daten/2026-06-04-drv-rentenbestand-struktur.csv
+  - analysen/daten/2026-06-04-bundesmittel-zerlegung.csv
+  - analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv
+scripts:
+  - scripts/build_drv_renten_inputs.py
+  - scripts/calc_rente_bundeszuschuss_abschmelzung.py
+---
+
 # Abschmelzmodell Bestandsschutz-Zuschuss Rentenversicherung
 
 Stand: 2026-06-04

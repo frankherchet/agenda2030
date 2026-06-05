@@ -1,3 +1,29 @@
+---
+title: Zukunftsmodell Rentenreform 2027-2070
+date: 2026-06-04
+type: analyse
+status: offen
+source_urls:
+  - https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Zahlen-und-Fakten/Kennzahlen-zur-Finanzentwicklung/kennzahlen-zur-finanzentwicklung_node.html?https=1
+  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsvorausberechnung/annahmen_ergebnisse_16te_kBv.html
+  - https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/eckwerttabelle.html?trk=public_post_comment-text
+  - https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/beschaeftigungsbereiche.html
+  - https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/bundeskabinett-beschliesst-rentenversicherungsbericht-2025.html
+ingest_refs:
+  - ingest/links/2026-06-04-drv-finanzkennzahlen-rentenversicherung.md
+  - ingest/links/2026-06-04-destatis-bevoelkerungsvorausberechnung-16.md
+  - ingest/links/2026-06-04-destatis-arbeitsmarkt-eckzahlen-2025.md
+  - ingest/links/2026-06-04-destatis-oeffentlicher-dienst-2024.md
+  - ingest/links/2026-06-04-bmas-rentenversicherungsbericht-2025.md
+  - ingest/dokumente/2026-06-04-destatis-demographie.md
+data_artifacts:
+  - analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv
+  - analysen/daten/2026-06-04-rentenreform-zukunft-modell.csv
+  - analysen/daten/2026-06-04-rentenreform-zukunft-annahmen.csv
+scripts:
+  - scripts/calc_rentenreform_zukunft.py
+---
+
 # Zukunftsmodell Rentenreform 2027-2070
 
 Stand: 2026-06-04

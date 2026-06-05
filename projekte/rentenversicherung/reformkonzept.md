@@ -2,7 +2,7 @@
 title: Rentenversicherung reformieren: Beitragsklarheit und reine Umlage
 date: 2026-06-04
 type: reform-report
-publish: true
+publish: false
 tags:
   - Rente
   - Sozialversicherung
@@ -62,7 +62,9 @@ related_laws:
 
 - Prüferbericht: `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md`
 - Status Abschmelzmodell Bundeszuschuss: offen
-- Konsequenz: Die Regel "Abschmelzen proportional zum Versterben der
+- Konsequenz: Das Konzept bleibt interne Arbeitsfassung und ist nicht
+  veroeffentlichungsfaehig, solange kein freigegebener Prueferbericht vorliegt.
+  Die Regel "Abschmelzen proportional zum Versterben der
   Bestandsrentner" bleibt Reformvorgabe. Die DRV-Bestandsstruktur nach
   Rentenart, Alter und Geschlecht ist eingearbeitet; offen bleibt vor allem,
   dass die Bundesmittel-Zerlegung noch eine Reformklassifikation und keine

@@ -23,6 +23,7 @@ Prüfarbeitsstände.
 | Rentenreform Zukunft | `analysen/2026-06-04-rentenreform-zukunft.md` | Modell- und Auswertungsergebnisse für Status quo, Bundesmittel und Erwerbstätigenbasis. | Rente, Beitragssatz |
 | Bundeszuschuss-Abschmelzung | `analysen/2026-06-04-bundeszuschuss-abschmelzung.md` | Auswertung zum Abschmelzpfad des Bestandsschutz-Zuschusses. | Bundesmittel, Rente |
 | Demographie und Rente | `analysen/2026-06-04-demographie-rente-gkv.md` | Zusammenfassung demographischer Belastungsfaktoren für Sozialversicherungen. | Alterung, Sozialversicherung |
+| Strukturumbau-Prüfung | `analysen/2026-06-05-strukturumbau-quellen-analysen-projekte-pruefung.md` | Prüfung, welche Quellen-, Dokument-, Analyse- und Projektartefakte nach dem Umbau nachgepflegt werden müssen. | Workflow, Prüfung |
 
 ## Projekte und Prüfung
 

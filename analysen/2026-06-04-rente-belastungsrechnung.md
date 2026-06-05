@@ -1,3 +1,23 @@
+---
+title: Demographische Belastungsrechnung Rentenversicherung
+date: 2026-06-04
+type: analyse
+status: arbeitsfassung
+source_urls:
+  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsvorausberechnung/annahmen_ergebnisse_16te_kBv.html
+  - https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_446_12.html
+  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-altersgruppen-deutschland-absulut-basis-2022.html
+ingest_refs:
+  - ingest/dokumente/2026-06-04-destatis-demographie.md
+  - ingest/links/2026-06-04-destatis-bevoelkerungsvorausberechnung-16.md
+  - ingest/links/2026-06-04-destatis-presse-16-bevoelkerungsvorausberechnung.md
+  - ingest/links/2026-06-04-destatis-bevoelkerung-altersgruppen-2024.md
+data_artifacts:
+  - analysen/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv
+scripts:
+  - scripts/calc_demographie_rente.py
+---
+
 # Demographische Belastungsrechnung Rentenversicherung
 
 Stand: 2026-06-04

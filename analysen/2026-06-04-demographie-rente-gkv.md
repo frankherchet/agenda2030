@@ -1,3 +1,25 @@
+---
+title: Demographie als Input fuer Rente und GKV
+date: 2026-06-04
+type: analyse
+status: arbeitsfassung
+source_urls:
+  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-altersgruppen-deutschland-absulut-basis-2022.html
+  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsvorausberechnung/annahmen_ergebnisse_16te_kBv.html
+  - https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_446_12.html
+  - https://www.destatis.de/DE/Themen/Querschnitt/Demografischer-Wandel/demografie-mitten-im-wandel.html
+  - https://www.destatis.de/EN/Themes/Society-Environment/Population/Population-Projection/_node.html
+ingest_refs:
+  - ingest/dokumente/2026-06-04-destatis-demographie.md
+  - ingest/links/2026-06-04-destatis-bevoelkerung-altersgruppen-2024.md
+  - ingest/links/2026-06-04-destatis-bevoelkerungsvorausberechnung-16.md
+  - ingest/links/2026-06-04-destatis-presse-16-bevoelkerungsvorausberechnung.md
+  - ingest/links/2026-06-04-destatis-demografischer-wandel.md
+  - ingest/links/2026-06-04-destatis-population-projection-en.md
+data_artifacts:
+  - analysen/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv
+---
+
 # Demographie als Input für Rente und GKV
 
 ## Kurzfassung

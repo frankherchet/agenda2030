@@ -54,3 +54,14 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   Reformkonzept samt Prüfbericht in `projekte/rentenversicherung/`.
 - Wirkung: Quellen werden unabhängig vom Thema einheitlich ingestiert;
   Analysen brauchen einen Zweck und Reformarbeit läuft projektbezogen.
+
+## 2026-06-05 Prüfung | Strukturumbau nachgezogen
+
+- Prüfvermerk:
+  `analysen/2026-06-05-strukturumbau-quellen-analysen-projekte-pruefung.md`
+- Betroffene Dateien: Analyse-Frontmatter, Rentenprojekt-Status,
+  DRV-Quellenmetadaten, `index.md`, `analysen/README.md`
+- Wirkung: Bestehende Analysen führen jetzt maschinenlesbare `source_urls` und
+  `ingest_refs`; das offene Rentenkonzept ist nicht mehr als veröffentlicht
+  markiert. Offene Nachpflege: Ingests um die neuen Extraktionsabschnitte und
+  Rentennormstände ergänzen.

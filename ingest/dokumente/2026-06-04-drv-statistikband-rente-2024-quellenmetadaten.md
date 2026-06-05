@@ -4,7 +4,8 @@ date: 2026-06-04
 type: quelle
 source_type: pdf
 publisher: Deutsche Rentenversicherung Bund
-source_url: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
+source_urls:
+  - https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
 ingest_refs:
   - ingest/dokumente/2026-06-04-drv-statistikband-rente-2024.md
 local_original: ingest/originale/2026-06-04-drv-statistikband-rente-2024.pdf
