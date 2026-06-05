@@ -7,11 +7,15 @@ source_urls:
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/_publikationen-innen-periodensterbetafel.html
   - https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
   - https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Zahlen-und-Fakten/Kennzahlen-zur-Finanzentwicklung/kennzahlen-zur-finanzentwicklung_node.html?https=1
+  - https://rentenupdate.drv-bund.de/SharedDocs/Dokumente/2025/10_Bundeszuschuesse_nbL/rentenupdate_10_Bundeszuschuesse_nbL_lang.pdf?__blob=publicationFile&v=4
+  - https://dserver.bundestag.de/btd/21/014/2101419.pdf
 ingest_refs:
   - ingest/links/2026-06-04-destatis-periodensterbetafeln-publikationen.md
   - ingest/dokumente/2026-06-04-destatis-sterbetafeln-2022-2024.md
   - ingest/dokumente/2026-06-04-drv-statistikband-rente-2024.md
   - ingest/links/2026-06-04-drv-finanzkennzahlen-rentenversicherung.md
+  - ingest/dokumente/2026-06-05-drv-rentenupdate-bundeszuschuesse-nicht-beitragsgedeckte-leistungen-2025.md
+  - ingest/dokumente/2026-06-05-bundestag-drs-21-1419-nicht-beitragsgedeckte-leistungen.md
 data_artifacts:
   - analysen/daten/2026-06-04-drv-rentenbestand-struktur.csv
   - analysen/daten/2026-06-04-bundesmittel-zerlegung.csv
@@ -88,5 +92,7 @@ Vollständige Jahreswerte:
 ## Restunsicherheiten
 
 - Die Zerlegung der Bundesmittel ist in dieser Fassung eine Reformklassifikation, keine amtliche Zweckzerlegung.
+- Öffentliche amtliche Fortschreibungen nicht beitragsgedeckter Leistungen für
+  2024 bis 2026 liegen nach Bundestagsdrucksache 21/1419 nicht vor.
 - Für Knappschaft-Bahn-See liegt im DRV-Tabellenband nur eine aggregierte Trägertrennung vor.
 - Sterblichkeitsverbesserungen nach 2022/2024 sind noch nicht als Sensitivität modelliert.

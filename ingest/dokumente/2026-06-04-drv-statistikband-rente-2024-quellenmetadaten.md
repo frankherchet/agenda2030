@@ -28,6 +28,19 @@ Amtliche DRV-Quelle für den Rentenbestand am 31.12.2024.
   Geschlecht.
 - Tabelle `50.00 G`: Renten wegen Todes nach Alter und Rentenart.
 
+## Enthaltene Informationen
+
+- Metadaten- und Tabelleninventar zum DRV-Statistikband Rente 2024.
+- Enthält die für die lokale CSV-Extraktion genutzten Tabellenverweise und
+  den Pfad zur Roh-PDF.
+
+## Jetzt extrahierte relevante Informationen
+
+- Für die Modellrechnung wurden Tabellen zu Trägern, Erwerbsminderungsrenten,
+  Altersrenten und Renten wegen Todes identifiziert.
+- Die normalisierte Struktur steht in
+  `analysen/daten/2026-06-04-drv-rentenbestand-struktur.csv`.
+
 ## Extrahierte Struktur
 
 Die Werte werden in

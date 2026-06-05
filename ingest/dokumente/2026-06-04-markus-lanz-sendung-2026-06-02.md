@@ -43,6 +43,19 @@ Drucks jüngerer Unionsabgeordneter auf die Haltelinie ein.
   betont, dass politische Überschneidungen in Einzelfragen keine strategische
   Annäherung an die AfD rechtfertigen.
 
+## Enthaltene Informationen
+
+- Lokale Segment-/Transkriptquelle zur Markus-Lanz-Sendung vom 2. Juni 2026
+  mit politischer Debatte zu Rente, AfD-Abgrenzung und FDP-Richtungskonflikt.
+- Enthält Debattenaussagen, keine amtliche Datengrundlage.
+
+## Jetzt extrahierte relevante Informationen
+
+- Für das Repo wurden Debattenpunkte zu Renteneintrittsalter, Rentenniveau,
+  Generationengerechtigkeit und politischer Positionierung extrahiert.
+- Die Quelle ist als Debattenkontext verwendbar, aber nicht als Primärquelle
+  für Zahlen oder Rechtsbehauptungen.
+
 ## Relevanz für agenda2030
 
 Das Transkript liefert politische Argumentationsmuster und prüfbare Hypothesen

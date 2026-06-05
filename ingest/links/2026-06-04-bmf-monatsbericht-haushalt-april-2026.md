@@ -21,6 +21,20 @@ bewertet werden.
 - Ergänzt Sollwerte durch Ist-Stand bis April 2026.
 - Zeitlich instabil; spätere Monatsberichte können abweichen.
 
+## Enthaltene Informationen
+
+- BMF-Monatsbericht Mai 2026 mit unterjähriger Entwicklung des
+  Bundeshaushalts bis April 2026.
+- Enthält Ist-Werte für Einnahmen und Ausgaben, die vom Soll-Haushalt zu
+  unterscheiden sind.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle wurde genutzt, um die Haushaltszusammenfassung um
+  Ist-Entwicklung bis April 2026 zu ergänzen.
+- Für spätere unterjährige Bewertungen ist der jeweils neueste Monatsbericht
+  maßgeblich.
+
 ## Relevanz für agenda2030
 
 Input für aktuelle Haushaltslage und Reformspielräume.

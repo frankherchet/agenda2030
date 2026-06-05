@@ -74,3 +74,17 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   `Enthaltene Informationen` und `Jetzt extrahierte relevante Informationen`.
   Der verbleibende Rechtsblock ist als priorisierte Normstand-Matrix
   dokumentiert.
+
+## 2026-06-05 Nachpflege | TODO-Liste abgearbeitet
+
+- Gelöscht: `analysen/2026-06-05-todo-strukturumbau-nachpflege.md`
+- Neue Ingests:
+  `ingest/dokumente/2026-06-05-bmas-rentenversicherungsbericht-2025.md`,
+  `ingest/dokumente/2026-06-05-drv-rentenupdate-bundeszuschuesse-nicht-beitragsgedeckte-leistungen-2025.md`,
+  `ingest/dokumente/2026-06-05-bundestag-drs-21-1419-nicht-beitragsgedeckte-leistungen.md`
+- Neue Analyse:
+  `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md`
+- Normstände: 63 Dateien unter `gesetzbuecher/sgb/` und
+  `gesetzbuecher/grundgesetz/` für das Rentenprojekt angelegt.
+- Wirkung: Die alte TODO-Liste ist in dauerhafte Ingest-, Analyse- und
+  Normstand-Artefakte überführt.

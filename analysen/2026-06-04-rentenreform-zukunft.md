@@ -9,12 +9,14 @@ source_urls:
   - https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/eckwerttabelle.html?trk=public_post_comment-text
   - https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/beschaeftigungsbereiche.html
   - https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/bundeskabinett-beschliesst-rentenversicherungsbericht-2025.html
+  - https://www.bmas.de/SharedDocs/Downloads/DE/Rente/rentenversicherungsbericht-2025.pdf?__blob=publicationFile&v=3
 ingest_refs:
   - ingest/links/2026-06-04-drv-finanzkennzahlen-rentenversicherung.md
   - ingest/links/2026-06-04-destatis-bevoelkerungsvorausberechnung-16.md
   - ingest/links/2026-06-04-destatis-arbeitsmarkt-eckzahlen-2025.md
   - ingest/links/2026-06-04-destatis-oeffentlicher-dienst-2024.md
   - ingest/links/2026-06-04-bmas-rentenversicherungsbericht-2025.md
+  - ingest/dokumente/2026-06-05-bmas-rentenversicherungsbericht-2025.md
   - ingest/dokumente/2026-06-04-destatis-demographie.md
 data_artifacts:
   - analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv
@@ -100,5 +102,7 @@ aber eine eigene Normen- und Volumenzerlegung.
 
 - Keine vollständige Neurentner-Kohortenrechnung.
 - Keine amtliche Zweckzerlegung der nicht beitragsgedeckten Leistungen.
+- BMAS-Rentenversicherungsbericht 2025 reicht als amtliche Vergleichsbasis
+  nur bis 2039; das Modell läuft bis 2070.
 - Einkommen von Selbstständigen und Neubeamten nur als Bemessungsfaktor modelliert.
 - Sterblichkeitsverbesserungen nach 2022/2024 sind nicht enthalten.

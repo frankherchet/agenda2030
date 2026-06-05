@@ -104,6 +104,20 @@ formal in gleicher Höhe fest; analytisch relevant ist aber, welcher Teil der
 Ausgaben durch Steuern und sonstige Einnahmen gedeckt wird und welcher Teil
 durch neue Kredite.
 
+## Enthaltene Informationen
+
+- Zusammenfassung der BMF-Quellen zum Bundeshaushalt 2026 mit Soll-Werten,
+  Ist-Entwicklung bis April 2026 und Sankey-Datenblock.
+- Enthält Einnahmen, Ausgaben, Nettokreditaufnahme, Investitionen und
+  Ausgabenbereiche des Kernhaushalts.
+
+## Jetzt extrahierte relevante Informationen
+
+- Für das Repo extrahiert wurden zentrale Haushaltskennzahlen und ein
+  Sankey-Modell des Bundeshaushalts 2026.
+- Die Datei ist bereits ein Wissensartefakt und verweist auf die zugrunde
+  liegenden Ingests.
+
 ## Relevanz für agenda2030
 
 - Priorisierung von Maßnahmen nach Finanzierungsbedarf und Einsparpotenzial.

@@ -24,7 +24,7 @@ Prüfarbeitsstände.
 | Bundeszuschuss-Abschmelzung | `analysen/2026-06-04-bundeszuschuss-abschmelzung.md` | Auswertung zum Abschmelzpfad des Bestandsschutz-Zuschusses. | Bundesmittel, Rente |
 | Demographie und Rente | `analysen/2026-06-04-demographie-rente-gkv.md` | Zusammenfassung demographischer Belastungsfaktoren für Sozialversicherungen. | Alterung, Sozialversicherung |
 | Strukturumbau-Prüfung | `analysen/2026-06-05-strukturumbau-quellen-analysen-projekte-pruefung.md` | Prüfung, welche Quellen-, Dokument-, Analyse- und Projektartefakte nach dem Umbau nachgepflegt werden müssen. | Workflow, Prüfung |
-| Strukturumbau-TODO | `analysen/2026-06-05-todo-strukturumbau-nachpflege.md` | Umsetzungsstand und Restaufgaben nach der Strukturumbau-Prüfung. | Workflow, TODO |
+| Bundesmittel-Zweckzerlegung Rente | `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md` | Beschaffte Quellen und Einordnung zu Bundeszuschüssen und nicht beitragsgedeckten Leistungen. | Bundesmittel, Rente |
 
 ## Projekte und Prüfung
 
@@ -34,6 +34,8 @@ Prüfarbeitsstände.
 | Reformkonzept Rente | `projekte/rentenversicherung/reformkonzept.md` | Ausgearbeitetes Reformkonzept zur Rentenversicherung 2026. | Reform, Rente |
 | Prüfbericht Rente | `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md` | Unabhängiger Prüfbericht zum Abschmelzmodell. | Prüfung, Bundesmittel |
 | Normstand-Bedarf Rente | `projekte/rentenversicherung/normstand-bedarf.md` | Matrix der vor Rechtsanalyse und Freigabe lokal abzulegenden Normstände. | Recht, Rente |
+| SGB-Normstände Rente | `gesetzbuecher/sgb/README.md` | Normstand-Paket zu SGB VI und SGB IV für das Rentenprojekt. | Recht, SGB, Rente |
+| GG-Normstände Rente | `gesetzbuecher/grundgesetz/README.md` | Normstand-Paket zu Art. 3, 6, 14, 20 und 33 GG für das Rentenprojekt. | Recht, Grundgesetz |
 
 ## Arbeitsregeln und Automatisierung
 

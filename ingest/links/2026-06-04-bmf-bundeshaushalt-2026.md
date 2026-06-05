@@ -20,6 +20,19 @@ Haushaltsdaten und weiterführende Dokumente.
 - Hilft, PDF- und Detailquellen einzuordnen.
 - Für konkrete Zahlen immer die jeweilige Detailquelle zitieren.
 
+## Enthaltene Informationen
+
+- BMF-Themenseite zum Bundeshaushalt 2026 mit Materialien, Überblick und
+  weiterführenden Dokumenten.
+- Einstiegspunkt, aber nicht alleinige Detailquelle für konkrete Zahlen.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle ordnet die Haushaltsmaterialien für 2026 ein und verweist auf
+  Detaildokumente.
+- Konkrete Kennzahlen werden aus Sollbericht, PDF und Monatsbericht-Ingests
+  übernommen.
+
 ## Relevanz für agenda2030
 
 Einstiegspunkt für Haushaltsdaten und Reformfinanzierung.

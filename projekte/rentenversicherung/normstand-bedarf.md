@@ -2,7 +2,7 @@
 title: Normstand-Bedarf Rentenversicherung
 date: 2026-06-05
 type: normstand-bedarf
-status: offen
+status: erledigt
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/
   - https://www.gesetze-im-internet.de/sgb_4/
@@ -24,6 +24,14 @@ Normstand-Aufgaben. Sie verhindert, dass das Rentenprojekt als rechtlich
 freigabefähig erscheint, bevor die tragenden Normtexte lokal unter
 `gesetzbuecher/` abgelegt sind.
 
+## Status
+
+Die konkret benannten Normstände wurden am 2026-06-05 angelegt. `SGB IV
+§ 28j` existiert in der amtlichen SGB-IV-Einzelnormstruktur nicht und wurde
+daher nicht erzeugt. Der unbestimmte Verweis `SGB VI § 230 ff.` wurde als
+`SGB VI § 230` abgelegt; weitere Übergangsnormen folgen erst aus einer
+konkreten Änderungsskizze.
+
 ## Priorität A: vor Gesetzesänderungsskizze erforderlich
 
 | Norm | Grund | Zielpfad |
@@ -39,7 +47,7 @@ freigabefähig erscheint, bevor die tragenden Normtexte lokal unter
 | SGB VI § 213 | Bundeszuschüsse | `gesetzbuecher/sgb/sgb-vi-paragraf-213-stand-2026-06-05.md` |
 | SGB VI §§ 216, 217 | Nachhaltigkeitsrücklage | `gesetzbuecher/sgb/sgb-vi-paragraf-216-stand-2026-06-05.md` usw. |
 | SGB IV §§ 20-22 | Beitragsgrundsätze und Fälligkeit | `gesetzbuecher/sgb/sgb-iv-paragraf-20-stand-2026-06-05.md` usw. |
-| SGB IV §§ 28a-28q | Melde-, Einzugs- und Prüfverfahren | `gesetzbuecher/sgb/sgb-iv-paragraf-28a-stand-2026-06-05.md` usw. |
+| SGB IV §§ 28a-28i, 28k-28q | Melde-, Einzugs- und Prüfverfahren | `gesetzbuecher/sgb/sgb-iv-paragraf-28a-stand-2026-06-05.md` usw.; § 28j existiert amtlich nicht |
 
 ## Priorität B: vor Prüffreigabe erforderlich
 
@@ -56,7 +64,7 @@ freigabefähig erscheint, bevor die tragenden Normtexte lokal unter
 
 ## Umsetzungshinweis
 
-Jede Normstand-Datei nutzt `vorlagen/normstand.md`, führt `source_urls` und
-`ingest_refs` und dokumentiert Abrufdatum sowie Fassungsstand. Erst danach darf
-eine konkrete Rechtsanalyse oder Gesetzesänderungsskizze für diese Norm
-erstellt oder freigegeben werden.
+Jede Normstand-Datei nutzt die Struktur von `vorlagen/normstand.md`, führt
+`source_urls` und `ingest_refs` und dokumentiert Abrufdatum sowie
+Fassungsstand. Eine konkrete Rechtsanalyse oder Gesetzesänderungsskizze muss
+weiterhin prüfen, ob zusätzliche Verweisnormen tragend werden.

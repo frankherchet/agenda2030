@@ -20,6 +20,20 @@ für narrative Einordnung, nicht als alleinige Berechnungsgrundlage.
 - Nützlich für ressortübergreifende Begründungen.
 - Für Zahlen immer Detailtabellen ergänzen.
 
+## Enthaltene Informationen
+
+- Destatis-Querschnittsseite zum demografischen Wandel mit Themenzugängen zu
+  Alterung, Bevölkerungsentwicklung und gesellschaftlichen Folgen.
+- Kontextquelle für ressortübergreifende Reformen, nicht primär für einzelne
+  Modellwerte.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle stützt die Querschnittsrelevanz der Demographie für Rente, GKV,
+  Pflege, Arbeitsmarkt und Bundeshaushalt.
+- Konkrete Zahlen für das Rentenmodell sind in
+  `ingest/dokumente/2026-06-04-destatis-demographie.md` abgelegt.
+
 ## Relevanz für agenda2030
 
 Querschnittsbegründung für Renten-, GKV-, Pflege- und Arbeitsmarktreformen.

@@ -21,6 +21,20 @@ die Primärquelle.
 - Nützlich für Übersetzungen oder internationale Vergleiche.
 - Keine eigene deutsche Rechts- oder Haushaltsgrundlage.
 
+## Enthaltene Informationen
+
+- Englische Destatis-Themenseite zur Bevölkerungsvorausberechnung mit
+  international nutzbarer Begrifflichkeit und Zugriff auf Projektionsthemen.
+- Ergänzt die deutschsprachigen Destatis-Seiten, ersetzt sie aber nicht als
+  primäre Arbeitsquelle.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle dient vor allem zur englischen Einordnung und Wiederauffindbarkeit
+  der Destatis-Projektionsdaten.
+- Für die deutschen Reformartefakte werden die deutschsprachigen Ingests und
+  die lokale Demographie-CSV verwendet.
+
 ## Relevanz für agenda2030
 
 Unterstützt spätere englische Fassungen oder Vergleiche.

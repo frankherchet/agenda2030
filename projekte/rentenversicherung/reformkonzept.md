@@ -30,6 +30,9 @@ source_urls:
   - https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/bundeskabinett-beschliesst-rentenversicherungsbericht-2025.html
   - https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/eckwerttabelle.html?trk=public_post_comment-text
   - https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/beschaeftigungsbereiche.html
+  - https://rentenupdate.drv-bund.de/SharedDocs/Dokumente/2025/10_Bundeszuschuesse_nbL/rentenupdate_10_Bundeszuschuesse_nbL_lang.pdf?__blob=publicationFile&v=4
+  - https://dserver.bundestag.de/btd/21/014/2101419.pdf
+  - https://www.bmas.de/SharedDocs/Downloads/DE/Rente/rentenversicherungsbericht-2025.pdf?__blob=publicationFile&v=3
 ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
@@ -47,6 +50,9 @@ ingest_refs:
   - ingest/links/2026-06-04-bmas-rentenversicherungsbericht-2025.md
   - ingest/links/2026-06-04-destatis-arbeitsmarkt-eckzahlen-2025.md
   - ingest/links/2026-06-04-destatis-oeffentlicher-dienst-2024.md
+  - ingest/dokumente/2026-06-05-drv-rentenupdate-bundeszuschuesse-nicht-beitragsgedeckte-leistungen-2025.md
+  - ingest/dokumente/2026-06-05-bundestag-drs-21-1419-nicht-beitragsgedeckte-leistungen.md
+  - ingest/dokumente/2026-06-05-bmas-rentenversicherungsbericht-2025.md
 related_ministries:
   - ministerien/arbeit-soziales/
   - ministerien/finanzen/
@@ -62,6 +68,9 @@ related_laws:
 
 - Prüferbericht: `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md`
 - Status Abschmelzmodell Bundeszuschuss: offen
+- Normstände: `projekte/rentenversicherung/normstand-bedarf.md`; 63
+  Normstand-Dateien wurden unter `gesetzbuecher/sgb/` und
+  `gesetzbuecher/grundgesetz/` abgelegt.
 - Konsequenz: Das Konzept bleibt interne Arbeitsfassung und ist nicht
   veroeffentlichungsfaehig, solange kein freigegebener Prueferbericht vorliegt.
   Die Regel "Abschmelzen proportional zum Versterben der
@@ -428,7 +437,9 @@ Babyboomer-Jahre adressieren.
   Arbeitslosigkeit, Dienstzeiten und Übergangsregeln.
 - Amtliche Zweckzerlegung der heutigen Bundesmittel nach Altlasten, laufend
   neu entstehenden Staatsbeiträgen und echten Steuertransfers; die aktuelle
-  CSV bildet die Reformklassifikation ab.
+  CSV bildet die Reformklassifikation ab. Öffentlich beschafft sind eine
+  DRV-Schätzung für 2023 und Bundestagsdrucksache 21/1419; für 2024 bis 2026
+  liegen danach keine öffentlichen amtlichen Fortschreibungen vor.
 - Vollständiges Neurentner-Kohortenmodell für die Jahre 2027 bis 2070.
 - Quantifizierung der künftig wegfallenden unbezahlten Rentenpunkte nach Norm
   und jährlichem Volumen.
@@ -444,8 +455,8 @@ Babyboomer-Jahre adressieren.
 
 - Gesetzesänderungsskizze für SGB VI und SGB IV anlegen.
 - Finanzmodell von v1 zu einer Kohortenrechnung weiterentwickeln.
-- Amtliche oder gutachterliche Zweckzerlegung der heutigen Bundesmittel
-  beschaffen und die Reformklassifikation damit abgleichen.
+- Beschaffte DRV-Zweckabschätzung 2023 und Bundestagsdrucksache 21/1419
+  in eine Sensitivität für die Bundesmittel-Fortschreibung übersetzen.
 - Zukunftsmodell durch Neurentner-Kohorten, Einkommensverteilungen der
   Selbstständigen und Neuzugangsstruktur des öffentlichen Dienstes verfeinern.
 - Sankey-Diagramm ergänzen: Beiträge, Bundesmittel und Ausgabenblöcke der

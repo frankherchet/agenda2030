@@ -21,6 +21,20 @@ Sterbetafeldateien.
 - Hilft bei Interpretation von Sterbetafeln.
 - Nicht Ersatz für die konkrete Datendatei.
 
+## Enthaltene Informationen
+
+- Destatis-Themenseite zu Sterbefällen und Lebenserwartung mit Zugang zu
+  Veröffentlichungen, Tabellen und methodischer Einordnung.
+- Kontextquelle für Sterbetafeln, Lebenserwartung und Mortalitätsannahmen in
+  Renten-, Pflege- und GKV-Modellen.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle ist ergänzender Kontext zur Periodensterbetafel 2022/2024.
+- Für konkrete Rechnungen wird die lokale Sterbetafel-Datei
+  `ingest/originale/2026-06-04-destatis-sterbetafeln-2022-2024.xlsx`
+  verwendet.
+
 ## Relevanz für agenda2030
 
 Kontext für Demographie- und Sozialversicherungsmodelle.

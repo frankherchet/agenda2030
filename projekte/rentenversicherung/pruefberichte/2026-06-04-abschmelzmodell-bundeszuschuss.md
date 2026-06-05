@@ -9,10 +9,14 @@ source_urls:
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/_publikationen-innen-periodensterbetafel.html
   - https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
   - https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Zahlen-und-Fakten/Kennzahlen-zur-Finanzentwicklung/kennzahlen-zur-finanzentwicklung_node.html?https=1
+  - https://rentenupdate.drv-bund.de/SharedDocs/Dokumente/2025/10_Bundeszuschuesse_nbL/rentenupdate_10_Bundeszuschuesse_nbL_lang.pdf?__blob=publicationFile&v=4
+  - https://dserver.bundestag.de/btd/21/014/2101419.pdf
 ingest_refs:
   - ingest/links/2026-06-04-destatis-periodensterbetafeln-publikationen.md
   - ingest/dokumente/2026-06-04-drv-statistikband-rente-2024.md
   - ingest/links/2026-06-04-drv-finanzkennzahlen-rentenversicherung.md
+  - ingest/dokumente/2026-06-05-drv-rentenupdate-bundeszuschuesse-nicht-beitragsgedeckte-leistungen-2025.md
+  - ingest/dokumente/2026-06-05-bundestag-drs-21-1419-nicht-beitragsgedeckte-leistungen.md
 ---
 
 # Prüfung: Rentenreform Abschmelzmodell Bundeszuschuss
@@ -24,9 +28,9 @@ ingest_refs:
   DRV-Alters- und Geschlechtsstruktur, zur Trennung nach Rentenarten, zur
   Knappschaft und zur 100+-Behandlung sind in einer reproduzierbaren
   Arbeitsfassung abgearbeitet. Nicht freigabefähig ist weiterhin die
-  Bundesmittel-Zerlegung, weil sie eine Reformklassifikation darstellt und noch
-  keine amtliche Zweckzerlegung nach Altlasten, neuen Staatsbeiträgen und
-  echten Steuertransfers.
+  Bundesmittel-Zerlegung für 2025/2026: Beschafft ist eine öffentliche
+  DRV-Schätzung für 2023; Bundestagsdrucksache 21/1419 bestätigt aber, dass
+  keine öffentlichen Fortschreibungen für 2024 bis 2026 vorliegen.
 
 ## Geprüfter Gegenstand
 
@@ -48,7 +52,7 @@ ingest_refs:
 | Hinterbliebenenrenten | DRV Tabelle `50.00 G` | CSV-Summe: 5.420.619, getrennt nach Witwen-, Witwer-, Waisen- und Erziehungsrenten. | ok |
 | Knappschaft-Bahn-See | DRV Tabelle `1.00 G` | Aggregat separat erfasst: 1.570.011 Renten, davon 942.690 Altersrenten und 75.424 Erwerbsminderungsrenten. | ok, aber nur aggregiert |
 | Startwert Bundesmittel 2025 | DRV-Rechnungsergebnisse im Report | `65,754 + 32,104 = 97,858` Mrd. Euro. | ok |
-| Bundesmittel-Zerlegung | `2026-06-04-bundesmittel-zerlegung.csv` | CSV trennt heutige Zuschusspositionen und künftige Reformkategorien, aber nicht amtlich nach Zuschusszweck. | offen |
+| Bundesmittel-Zerlegung | `2026-06-04-bundesmittel-zerlegung.csv`, DRV rentenupdate #10, BT-Drs. 21/1419 | CSV trennt heutige Zuschusspositionen und künftige Reformkategorien. Beschafft ist eine DRV-Zweckabschätzung für 2023; keine öffentlichen amtlichen Fortschreibungen 2024-2026. | offen |
 
 ## Gegenrechnung
 
@@ -98,8 +102,10 @@ ingest_refs:
   separate knappschaftliche Simulation braucht zusätzliche Alters- und
   Geschlechtsdaten.
 - Bundesmittel: Kritisch bleibt, ob die gesamten heutigen Bundesmittel
-  rechtlich als abschmelzbare Altlast behandelt werden dürfen. Dafür braucht
-  der Report eine amtliche oder gutachterliche Zweckzerlegung.
+  rechtlich als abschmelzbare Altlast behandelt werden dürfen. Die beschaffte
+  DRV-Zweckabschätzung belegt den Umfang nicht beitragsgedeckter Leistungen
+  für 2023, ersetzt aber keine amtliche Fortschreibung 2025/2026 und keine
+  gesetzliche Zweckbindung.
 
 ## Blockerstatus
 
@@ -107,13 +113,14 @@ ingest_refs:
 | --- | --- | --- |
 | Echte DRV-Alters- und Geschlechtsstruktur | erledigt | Für Alters- und Erwerbsminderungsrenten umgesetzt; Hinterbliebene geschlechtsnah, Waisen/Erziehungsrenten hälftig modelliert. |
 | Trennung nach Rentenarten | erledigt | Altersrenten, Erwerbsminderung, Hinterbliebene und Knappschaft sind separat erfasst. |
-| Bundeszuschüsse zerlegen | teilweise offen | Quellpositionen sind getrennt; amtliche Zweckzerlegung fehlt. |
+| Bundeszuschüsse zerlegen | teilweise offen | Öffentliche DRV-Zweckabschätzung 2023 und BT-Drs. 21/1419 beschafft; 2024-2026 bleiben ohne öffentliche amtliche Fortschreibung. |
 | Rentenbezieher ab 100 Jahren | erledigt | Offene Altersgruppen werden mit Tail-Regel fortgeschrieben. |
 
 ## Nachbesserungen
 
 - Report darf die Bundesmittel-Zerlegung nur als Reformklassifikation
-  bezeichnen, bis eine amtliche Zweckzerlegung vorliegt.
+  bezeichnen; 2023 kann mit der DRV-Schätzung plausibilisiert werden, 2025/2026
+  bleiben Modellfortschreibung.
 - Für spätere Haushaltsfreigabe sollte eine Sensitivität mit
   Sterblichkeitsverbesserung und eine separate knappschaftliche Altersstruktur
   ergänzt werden.

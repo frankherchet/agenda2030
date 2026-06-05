@@ -21,6 +21,20 @@ Text erläutert werden.
 - Unterstützt Interpretation der Sterbetafeln.
 - Für Rechenwerte konkrete Tabellen verwenden.
 
+## Enthaltene Informationen
+
+- Destatis-Seite zur Entwicklung der Lebenserwartung mit Zeitreihen- und
+  Sterbetafelkontext.
+- Enthält Hintergrund zur langfristigen Veränderung der Lebenserwartung, aber
+  keine projektspezifische Kohortenrechnung.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle stützt die Einordnung, dass Periodensterbetafeln keine
+  künftigen Sterblichkeitsverbesserungen modellieren.
+- Für das Abschmelzmodell bleibt eine spätere Sensitivität mit
+  Sterblichkeitsverbesserung offen.
+
 ## Relevanz für agenda2030
 
 Hintergrund für Abschmelz-, Pflege- und Gesundheitsausgabenmodelle.

@@ -20,6 +20,19 @@ Sie wurde für die Haushaltszusammenfassung und das Sankey-Diagramm genutzt.
 - Enthält Planwerte für Einnahmen, Ausgaben und Kreditaufnahme.
 - Für unterjährige Ist-Werte separate Monatsberichte nutzen.
 
+## Enthaltene Informationen
+
+- BMF-Sollbericht 2026 mit haushaltspolitischer Einordnung,
+  Plan-Einnahmen, Plan-Ausgaben, Kreditaufnahme und Aufgabenstruktur.
+- Amtliche Quelle für den Soll-Stand des Bundeshaushalts 2026.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle wurde für die Haushaltszusammenfassung und das Sankey-Diagramm
+  als Soll-Basis genutzt.
+- Bei Nachtragshaushalten oder neuem Haushaltsstand ist ein neuer Ingest
+  erforderlich.
+
 ## Relevanz für agenda2030
 
 Grundlage für Bundeshaushalt als Input politischer Reformen.
