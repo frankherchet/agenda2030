@@ -67,7 +67,8 @@ python3 .agents/skills/destatis-genesis/scripts/genesis_fetch.py metadata-table 
 ```
 
 Das Skript liest `DESTATIS_USER`/`DESTATIS_PASSWORD` aus der Umgebung und
-sendet POST-Anfragen an die GENESIS RESTful/JSON-Schnittstelle. Parameter bei
+sendet POST-Anfragen an `https://genesis.destatis.de/genesisWS/rest/2020`.
+Parameter bei
 Bedarf mit `--param key=value` ergänzen.
 
 ## Output Standard

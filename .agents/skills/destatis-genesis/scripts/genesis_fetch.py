@@ -18,7 +18,7 @@ from pathlib import Path
 from typing import Any
 
 
-BASE_URL = "https://www-genesis.destatis.de/genesisWS/rest/2020"
+BASE_URL = "https://genesis.destatis.de/genesisWS/rest/2020"
 
 
 def parse_params(items: list[str]) -> dict[str, str]:
