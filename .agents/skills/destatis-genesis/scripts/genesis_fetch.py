@@ -19,6 +19,32 @@ from typing import Any
 
 
 BASE_URL = "https://genesis.destatis.de/genesisWS/rest/2020"
+KNOWN_POST_PATHS = {
+    "cubes": "catalogue/cubes",
+    "jobs": "catalogue/jobs",
+    "modifieddata": "catalogue/modifieddata",
+    "results": "catalogue/results",
+    "statistics": "catalogue/statistics",
+    "tables": "catalogue/tables",
+    "terms": "catalogue/terms",
+    "timeseries": "catalogue/timeseries",
+    "values": "catalogue/values",
+    "variables": "catalogue/variables",
+    "metadata-cube": "metadata/cube",
+    "metadata-statistic": "metadata/statistic",
+    "metadata-table": "metadata/table",
+    "metadata-timeseries": "metadata/timeseries",
+    "metadata-value": "metadata/value",
+    "metadata-variable": "metadata/variable",
+    "table": "data/table",
+    "tablefile": "data/tablefile",
+    "cube": "data/cube",
+    "cubefile": "data/cubefile",
+    "timeseries-data": "data/timeseries",
+    "timeseriesfile": "data/timeseriesfile",
+    "result": "data/result",
+    "resultfile": "data/resultfile",
+}
 
 
 def parse_params(items: list[str]) -> dict[str, str]:
@@ -47,11 +73,19 @@ def credentials() -> dict[str, str]:
 
 def post_json(path: str, payload: dict[str, Any]) -> dict[str, Any]:
     url = f"{BASE_URL}/{path.lstrip('/')}"
+    auth_headers = {
+        key: value
+        for key, value in {
+            "username": payload.get("username"),
+            "password": payload.get("password"),
+        }.items()
+        if value
+    }
     body = urllib.parse.urlencode(payload).encode("utf-8")
     request = urllib.request.Request(
         url,
         data=body,
-        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        headers={"Content-Type": "application/x-www-form-urlencoded", **auth_headers},
         method="POST",
     )
     try:
@@ -96,6 +130,9 @@ def command_payload(args: argparse.Namespace) -> tuple[str, dict[str, Any]]:
             "category": args.category,
             "pagelength": args.pagelength,
         }
+    if args.command == "post":
+        path = KNOWN_POST_PATHS.get(args.path, args.path)
+        return path, common
     if args.command == "table":
         return "data/table", {
             **common,
@@ -122,6 +159,8 @@ def command_payload(args: argparse.Namespace) -> tuple[str, dict[str, Any]]:
             **common,
             "name": args.name,
         }
+    if args.command in KNOWN_POST_PATHS:
+        return KNOWN_POST_PATHS[args.command], common
     raise SystemExit(f"unsupported command: {args.command}")
 
 
@@ -133,12 +172,19 @@ def build_parser() -> argparse.ArgumentParser:
 
     login = sub.add_parser("logincheck")
     login.add_argument("--output")
+    login.add_argument("--param", action="append", default=argparse.SUPPRESS, help="Extra API parameter key=value")
 
     find = sub.add_parser("find")
     find.add_argument("--term", required=True)
-    find.add_argument("--category", default="all")
+    find.add_argument("--category", default="Alle")
     find.add_argument("--pagelength", default="25")
     find.add_argument("--output")
+    find.add_argument("--param", action="append", default=argparse.SUPPRESS, help="Extra API parameter key=value")
+
+    generic = sub.add_parser("post")
+    generic.add_argument("path", help="API path such as catalogue/tables or a known alias")
+    generic.add_argument("--output")
+    generic.add_argument("--param", action="append", default=argparse.SUPPRESS, help="Extra API parameter key=value")
 
     table = sub.add_parser("table")
     table.add_argument("--name", required=True)
@@ -148,6 +194,7 @@ def build_parser() -> argparse.ArgumentParser:
     table.add_argument("--startyear", default="")
     table.add_argument("--endyear", default="")
     table.add_argument("--output")
+    table.add_argument("--param", action="append", default=argparse.SUPPRESS, help="Extra API parameter key=value")
 
     tablefile = sub.add_parser("tablefile")
     tablefile.add_argument("--name", required=True)
@@ -158,10 +205,39 @@ def build_parser() -> argparse.ArgumentParser:
     tablefile.add_argument("--startyear", default="")
     tablefile.add_argument("--endyear", default="")
     tablefile.add_argument("--output")
+    tablefile.add_argument("--param", action="append", default=argparse.SUPPRESS, help="Extra API parameter key=value")
 
     metadata = sub.add_parser("metadata-table")
     metadata.add_argument("--name", required=True)
     metadata.add_argument("--output")
+    metadata.add_argument("--param", action="append", default=argparse.SUPPRESS, help="Extra API parameter key=value")
+
+    for command in [
+        "cubes",
+        "jobs",
+        "modifieddata",
+        "results",
+        "statistics",
+        "tables",
+        "terms",
+        "timeseries",
+        "values",
+        "variables",
+        "metadata-cube",
+        "metadata-statistic",
+        "metadata-timeseries",
+        "metadata-value",
+        "metadata-variable",
+        "cube",
+        "cubefile",
+        "timeseries-data",
+        "timeseriesfile",
+        "result",
+        "resultfile",
+    ]:
+        known = sub.add_parser(command)
+        known.add_argument("--output")
+        known.add_argument("--param", action="append", default=argparse.SUPPRESS, help="Extra API parameter key=value")
     return parser
 
 

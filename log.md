@@ -299,3 +299,16 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   GENESIS-Online RESTful/JSON-API gesucht und abgerufen werden. Zugangsdaten
   werden nicht gespeichert, sondern nur über `DESTATIS_USER`,
   `DESTATIS_PASSWORD` oder `DESTATIS_TOKEN` gelesen.
+
+## 2026-06-06 Skill | Destatis GENESIS API-Referenz erweitert
+
+- Neue Referenz:
+  `.agents/skills/destatis-genesis/references/api.md`
+- Geändert:
+  `.agents/skills/destatis-genesis/SKILL.md`,
+  `.agents/skills/destatis-genesis/scripts/genesis_fetch.py`
+- Wirkung: Die komplette Swagger-Beschreibung wird nicht in den Skillkörper
+  geladen, sondern als kompakte Endpunkt- und Parameterreferenz vorgehalten.
+  Der Helper unterstützt zusätzliche Katalog-, Daten- und Metadaten-Endpunkte,
+  einen generischen `post`-Aufruf und die breite GENESIS-Suche mit
+  `category=Alle`, wie sie in der Swagger UI verwendet wird.

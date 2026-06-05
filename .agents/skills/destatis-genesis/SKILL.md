@@ -61,15 +61,28 @@ Typische Aufrufe:
 
 ```bash
 python3 .agents/skills/destatis-genesis/scripts/genesis_fetch.py logincheck
-python3 .agents/skills/destatis-genesis/scripts/genesis_fetch.py find --term "Bevölkerung Alter"
+python3 .agents/skills/destatis-genesis/scripts/genesis_fetch.py find --term "geburten" --category Alle --pagelength 100
 python3 .agents/skills/destatis-genesis/scripts/genesis_fetch.py table --name 12411-0005 --output analysen/daten/destatis-12411-0005.json
 python3 .agents/skills/destatis-genesis/scripts/genesis_fetch.py metadata-table --name 12411-0005
+python3 .agents/skills/destatis-genesis/scripts/genesis_fetch.py post catalogue/tables --param selection=12612 --param pagelength=100
 ```
 
 Das Skript liest `DESTATIS_USER`/`DESTATIS_PASSWORD` aus der Umgebung und
 sendet POST-Anfragen an `https://genesis.destatis.de/genesisWS/rest/2020`.
 Parameter bei
 Bedarf mit `--param key=value` ergänzen.
+
+## API Reference
+
+Die komplette Swagger-Datei wird nicht in `SKILL.md` geladen. Lade bei Bedarf
+die kompakte Referenz:
+
+```text
+.agents/skills/destatis-genesis/references/api.md
+```
+
+Diese Referenz enthält die aus `GOJsonApi.json` extrahierten Endpunkte,
+Parametergruppen und Beispiele wie die Geburten-Suche.
 
 ## Output Standard
 
