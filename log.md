@@ -88,3 +88,11 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   `gesetzbuecher/grundgesetz/` für das Rentenprojekt angelegt.
 - Wirkung: Die alte TODO-Liste ist in dauerhafte Ingest-, Analyse- und
   Normstand-Artefakte überführt.
+
+## 2026-06-05 Skill | Analyse-Rolle ergänzt
+
+- Neuer Skill: `.agents/skills/analyse/SKILL.md`
+- Betroffene Übersicht: `agenten/README.md`, `index.md`
+- Wirkung: Themen können künftig als quellenbasierte Faktenanalysen unter
+  `analysen/` aufgearbeitet werden, bevor daraus Reformkonzepte oder
+  Prüfberichte entstehen.

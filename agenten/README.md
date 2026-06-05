@@ -1,6 +1,16 @@
 # Agenten
 
-Dieses Repo nutzt zwei unabhängige Rollen für Reformarbeit.
+Dieses Repo nutzt mehrere unabhängige Rollen für Quellenarbeit, Analyse,
+Reformarbeit und Prüfung.
+
+## Analyse
+
+Die Analyse-Rolle arbeitet ein Thema quellenbasiert auf. Sie sucht relevante
+Quellen, erfasst externe Quellen zuerst im Ingest und erstellt strukturierte
+Faktenüberblicke unter `analysen/`. Sie entwirft noch keine Reform und vergibt
+keine Freigabe.
+
+Skill: `.agents/skills/analyse/`
 
 ## Reformer
 
@@ -20,14 +30,17 @@ Skill: `.agents/skills/pruefer/`
 
 ## Workflow
 
-1. Reformer erstellt ein Reformvorhaben mit `publish: false`.
-2. Prüfer erstellt einen separaten Prüfbericht im passenden Projekt unter
+1. Analyse erstellt bei Bedarf einen quellenbasierten Faktenüberblick unter
+   `analysen/`.
+2. Reformer erstellt daraus oder daneben ein Reformvorhaben mit
+   `publish: false`.
+3. Prüfer erstellt einen separaten Prüfbericht im passenden Projekt unter
    `projekte/<projekt>/pruefberichte/`.
-3. Der Prüfbericht erhält genau einen Status:
+4. Der Prüfbericht erhält genau einen Status:
    - `freigegeben`
    - `blockiert`
    - `offen`
-4. `publish: true` ist erst zulässig, wenn ein verlinkter Prüfbericht
+5. `publish: true` ist erst zulässig, wenn ein verlinkter Prüfbericht
    `freigegeben` ist.
 
 ## Rechenstandard
