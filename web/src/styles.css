@@ -326,6 +326,42 @@ h1 {
   margin-top: 6px;
 }
 
+.report-document img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 18px 0 24px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.report-document table {
+  width: 100%;
+  margin: 18px 0 24px;
+  border-collapse: collapse;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.report-document th,
+.report-document td {
+  border-top: 1px solid var(--border);
+  padding: 8px 10px;
+  vertical-align: top;
+}
+
+.report-document th {
+  background: var(--surface-muted);
+  text-align: left;
+}
+
+.report-document td {
+  font-variant-numeric: tabular-nums;
+}
+
 .report-document code {
   border-radius: 4px;
   padding: 0.1rem 0.25rem;

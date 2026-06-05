@@ -31,9 +31,10 @@ Projekte.
 ## GitHub Pages
 
 Freigegebene Reports werden aus Markdown gebaut. Dafür muss eine
-Zusammenfassung im Frontmatter `publish: true` setzen. GitHub Actions erzeugt
-daraus die Datenbasis für die Vite-React-App und veröffentlicht `web/dist` auf
-GitHub Pages.
+Zusammenfassung im Frontmatter `publish: true` setzen. Analysen unter
+`analysen/` und freigegebene Projektartefakte können so als Report erscheinen.
+GitHub Actions erzeugt daraus die Datenbasis für die Vite-React-App und
+veröffentlicht `web/dist` auf GitHub Pages.
 
 ## Arbeitsregeln
 

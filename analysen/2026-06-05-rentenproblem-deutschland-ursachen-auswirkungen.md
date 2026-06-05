@@ -3,6 +3,15 @@ title: Rentenproblem in Deutschland - Ursachen und Auswirkungen ohne Gegenmassna
 date: 2026-06-05
 type: analyse
 status: arbeitsfassung
+publish: true
+slug: rentenproblem-deutschland
+summary: Ursachen, Auswirkungen und eigene Hochrechnung zur Finanzierungsluecke der gesetzlichen Rentenversicherung, wenn Beitragssatz und Renteneintrittsalter unveraendert bleiben.
+tags:
+  - Rente
+  - Demographie
+  - Bundeshaushalt
+  - Finanzierungsluecke
+  - Sozialversicherung
 source_urls:
   - https://www.bmas.de/SharedDocs/Downloads/DE/Rente/rentenversicherungsbericht-2025.pdf?__blob=publicationFile&v=3
   - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsvorausberechnung/annahmen_ergebnisse_16te_kBv.html

@@ -1,13 +1,19 @@
 import { marked } from "marked";
-import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(here, "../..");
 const outputFile = path.join(repoRoot, "web/public/reports.json");
+const publicAssetRoot = path.join(repoRoot, "web/public/assets/repo");
 
 const contentRoots = [
+  {
+    type: "analyse",
+    dir: "analysen",
+    label: "Analyse",
+  },
   {
     type: "reform-project",
     dir: "projekte/rentenversicherung",
@@ -123,6 +129,22 @@ function stripDataBlocks(markdown) {
   return markdown.replace(/```json sankey\s+[\s\S]*?```/g, "").trim();
 }
 
+function isExternalUrl(value) {
+  return /^(https?:|mailto:|data:|#|\/)/.test(value);
+}
+
+function rewriteImageLinks(markdown, relativePath) {
+  const sourceDir = path.dirname(relativePath).replaceAll(path.sep, "/");
+  return markdown.replace(
+    /(!\[[^\]]*]\()([^)\s]+)(\))/g,
+    (match, prefix, rawUrl, suffix) => {
+      if (isExternalUrl(rawUrl)) return match;
+      const normalized = path.posix.normalize(path.posix.join(sourceDir, rawUrl));
+      return `${prefix}assets/repo/${normalized}${suffix}`;
+    },
+  );
+}
+
 async function readMarkdownFiles(dir) {
   const absoluteDir = path.join(repoRoot, dir);
   let entries = [];
@@ -138,8 +160,27 @@ async function readMarkdownFiles(dir) {
     .map((entry) => path.join(absoluteDir, entry.name));
 }
 
+async function copyAssetTree(relativeDir) {
+  const source = path.join(repoRoot, relativeDir);
+  const target = path.join(publicAssetRoot, relativeDir);
+
+  try {
+    await cp(source, target, { recursive: true });
+  } catch (error) {
+    if (error && error.code === "ENOENT") return;
+    throw error;
+  }
+}
+
+async function syncPublicAssets() {
+  await rm(publicAssetRoot, { recursive: true, force: true });
+  await mkdir(publicAssetRoot, { recursive: true });
+  await copyAssetTree("analysen/diagramme");
+}
+
 async function buildReports() {
   const reports = [];
+  await syncPublicAssets();
 
   for (const root of contentRoots) {
     const files = await readMarkdownFiles(root.dir);
@@ -152,6 +193,7 @@ async function buildReports() {
       const displayBody = stripDataBlocks(body);
 
       const relativePath = path.relative(repoRoot, file);
+      const htmlBody = rewriteImageLinks(displayBody, relativePath);
       const title =
         data.title ||
         displayBody.match(/^#\s+(.+)$/m)?.[1] ||
@@ -174,7 +216,7 @@ async function buildReports() {
         summary: data.summary || extractSummary(displayBody),
         metrics: root.type === "bundeshaushalt" ? extractBudgetMetrics(displayBody) : [],
         sankey,
-        html: marked.parse(displayBody),
+        html: marked.parse(htmlBody),
       });
     }
   }

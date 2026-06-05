@@ -133,3 +133,13 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 - Wirkung: Die Analyse zum Rentenproblem weist nun eine reproduzierbare
   Hochrechnung aus, wie groß die jährliche Lücke wird, wenn Beitragssatz und
   Renteneintrittsalter unverändert bleiben.
+
+## 2026-06-05 Web | Rentenproblem-Analyse als Pages-Report
+
+- Veröffentlicht:
+  `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md`
+- Web-Änderungen:
+  `web/scripts/build-content.mjs`, `web/src/App.tsx`, `web/src/styles.css`
+- Wirkung: Der Content-Builder liest nun veröffentlichte Analysen unter
+  `analysen/`, spiegelt referenzierte Diagramm-Assets in die GitHub-Pages-App
+  und erzeugt einen Report mit Diagrammen für die Rentenproblem-Analyse.

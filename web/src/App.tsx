@@ -43,6 +43,7 @@ type ContentIndex = {
 
 const typeLabels: Record<string, string> = {
   all: "Alle",
+  analyse: "Analysen",
   bundeshaushalt: "Bundeshaushalt",
   "bundestag-drucksache": "Drucksachen",
   "reform-report": "Reformreports",
