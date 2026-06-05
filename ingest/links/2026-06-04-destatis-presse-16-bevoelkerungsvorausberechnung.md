@@ -21,6 +21,21 @@ Erwerbsalter. Sie ergänzt die Detailseite zur Vorausberechnung.
 - Nützlich für Kurzfassungen und Reports.
 - Detailtabellen müssen aus den Fachseiten oder Datenquellen kommen.
 
+## Enthaltene Informationen
+
+- Destatis-Pressemitteilung zur 16. koordinierten
+  Bevölkerungsvorausberechnung mit verdichteten Aussagen zu Alterung,
+  Erwerbsalter und Szenarien.
+- Öffentlich gut zitierbare Kurzfassung; detaillierte Modellwerte liegen in
+  den Hauptseiten und Datenprodukten.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle stützt die kommunikative Kernaussage, dass die Alterung bis in die
+  2030er-Jahre deutlich auf Umlagesysteme wirkt.
+- Für Rechnungen wird sie nur zusammen mit der Hauptquelle und der lokalen
+  Demographie-CSV genutzt.
+
 ## Relevanz für agenda2030
 
 Begründungsquelle für demographischen Handlungsdruck.

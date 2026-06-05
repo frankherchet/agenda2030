@@ -20,6 +20,20 @@ vorrangig der DRV-Statistikband oder ein offizieller DRV-Download verwendet.
 - Nicht als alleinige Primärquelle verwenden, wenn ein DRV-Original vorliegt.
 - Kann für Recherche und Gegenprüfung nützlich sein.
 
+## Enthaltene Informationen
+
+- Webzugang zu DRV-Rentenbestandsdaten mit Tabellen- und Navigationsstruktur
+  für Rentenarten und Bestandsmerkmale.
+- Sekundäre Orientierungshilfe; amtliche DRV-Originalquellen bleiben für
+  Modellrechnungen vorrangig.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle dient der Plausibilisierung und Auffindbarkeit von
+  Rentenbestandsdaten.
+- Für das Modell wurden die belastbaren Werte aus dem DRV-Statistikband und
+  der lokalen CSV verwendet.
+
 ## Relevanz für agenda2030
 
 Unterstützt Rentenreform-Recherche und Datenauffindung.

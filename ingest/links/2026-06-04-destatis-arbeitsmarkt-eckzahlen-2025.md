@@ -22,6 +22,20 @@ Bestandsbasis und der zusätzlich einzubeziehenden Selbstständigen.
 - 2025: rund 3,666 Mio. Selbstständige einschließlich mithelfender Familienangehöriger.
 - 2025: rund 34,885 Mio. sozialversicherungspflichtig Beschäftigte.
 
+## Enthaltene Informationen
+
+- Destatis-Eckzahlen zum Arbeitsmarkt und zur Erwerbstätigkeit mit
+  zeitabhängigen Bestands- und Strukturwerten.
+- Grundlage für die Abgrenzung der potenziellen Beitragsbasis, aber keine
+  vollständige Einkommensverteilung.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle stützt die Modellannahme zur erweiterten Erwerbstätigenbasis.
+- Für Beitragssatzrechnungen bleiben Einkommensverteilungen von
+  Selbständigen und Neuzugängen im öffentlichen Dienst als offene Datenpunkte
+  erforderlich.
+
 ## Relevanz für agenda2030
 
 Input für Erwerbstätigenversicherung und Reform-Beitragsbasis.

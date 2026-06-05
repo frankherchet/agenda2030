@@ -21,6 +21,22 @@ Demographie-Basis für Rente, GKV, Pflege und Arbeitsmarkt.
 - Enthält Varianten und Annahmen bis 2070.
 - Für Umlagesysteme ist der Altenquotient besonders relevant.
 
+## Enthaltene Informationen
+
+- Destatis-Material zur 16. koordinierten Bevölkerungsvorausberechnung mit
+  Varianten, Annahmen, Altersstruktur und Altenquotient bis 2070.
+- Enthält demographische Szenarien, die für Umlagesysteme wie Rente, GKV und
+  Pflege als Sensitivitäten genutzt werden können.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle trägt im Rentenprojekt die Szenarienlogik bis 2070 und die
+  Einordnung des Altenquotienten.
+- Die konkret im Repo genutzten Kernwerte sind in
+  `ingest/dokumente/2026-06-04-destatis-demographie.md` und
+  `analysen/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv`
+  verdichtet.
+
 ## Relevanz für agenda2030
 
 Querschnittsquelle für demographische Belastungsrechnungen.

@@ -32,3 +32,5 @@ oder für Analysen als strukturierter Input genutzt werden.
 - `2026-06-04-rentenreform-zukunft.md`: Zukunftsmodell 2027 bis 2070.
 - `2026-06-05-strukturumbau-quellen-analysen-projekte-pruefung.md`:
   Prüfung des Strukturumbaus und offener Nachpflegebedarf.
+- `2026-06-05-todo-strukturumbau-nachpflege.md`: konkrete TODO-Liste zur
+  Nachpflege nach dem Strukturumbau.

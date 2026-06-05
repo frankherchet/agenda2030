@@ -21,6 +21,20 @@ Sekundärquelle für aktuelle Rechengrößen.
 - Relevant für Beitrags- und Entgeltpunktberechnungen.
 - Werte sind jahresbezogen.
 
+## Enthaltene Informationen
+
+- BMAS-Übersicht zu sozialrechtlichen Änderungen und Rechengrößen für 2026,
+  darunter für Rentenmodelle relevante Bemessungs- und Grenzwerte.
+- Jahresbezogene Sozialversicherungsparameter mit Aktualisierungsbedarf bei
+  Folgejahren.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle ist Kontext für Beitragssatz-, Bemessungs- und
+  Status-quo-Annahmen des Rentenprojekts.
+- Für konkrete Finanzmodelle müssen die jeweils verwendeten Werte mit Jahr,
+  Einheit und Abrufstand gesondert dokumentiert werden.
+
 ## Relevanz für agenda2030
 
 Input für aktuelle Rentenparameter und Reform-Basisannahmen.

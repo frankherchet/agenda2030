@@ -34,6 +34,20 @@ Frauen. Periodensterbetafeln bilden die Sterblichkeitsverhältnisse des
 Berichtszeitraums ab und enthalten keine Annahme über künftige
 Sterblichkeitsverbesserungen.
 
+## Enthaltene Informationen
+
+- Statistischer Bericht zu Periodensterbetafeln 2022/2024 mit Tabellen nach
+  Alter und Geschlecht.
+- Enthält Sterbewahrscheinlichkeiten, Überlebenswahrscheinlichkeiten,
+  Überlebende und fernere Lebenserwartung.
+
+## Jetzt extrahierte relevante Informationen
+
+- Für das Abschmelzmodell genutzt wurden die Tabellen `12613-b01` und
+  `12613-b02` mit `lx`- und `px`-Werten.
+- Die Quelle dient zur Fortschreibung der erwarteten Überlebendenzahl der
+  geschützten Rentenbestandskohorte.
+
 ## Relevanz für Rentenversicherung
 
 - Der Bestandsschutz-Zuschuss kann proportional zur erwarteten Überlebendenzahl

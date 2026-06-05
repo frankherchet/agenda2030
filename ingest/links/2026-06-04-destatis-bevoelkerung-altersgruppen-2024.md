@@ -21,6 +21,22 @@ verbinden.
 - Basis für Altersquotienten und Beitragszahler-/Leistungsempfänger-Relationen.
 - Für feinere Modelle werden später Einzelalter oder 5-Jahres-Gruppen benötigt.
 
+## Enthaltene Informationen
+
+- Destatis-Bestandsdaten zur Bevölkerung Deutschlands nach Altersgruppen bis
+  2024.
+- Altersgruppenwerte als Ausgangsbasis für Erwerbsbevölkerung, ältere
+  Bevölkerung und Belastungskennzahlen.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle stützt den Ausgangswert 2024 für Bevölkerung, Altersstruktur und
+  Erwerbsalter im Renten- und Demographiemodell.
+- Die im Repo genutzten Werte sind in
+  `ingest/dokumente/2026-06-04-destatis-demographie.md` und
+  `analysen/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv`
+  verdichtet.
+
 ## Relevanz für agenda2030
 
 Grundlage der demographischen Status-quo-Rechnung.

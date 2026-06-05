@@ -21,6 +21,21 @@ unterjährige Finanzlage. Sie ist zentral für Status-quo-Rechnungen.
 - Grundlage für Bundesmittel-Startwerte und Salden.
 - Werte sind zeitabhängig und bei neuen Reports erneut zu prüfen.
 
+## Enthaltene Informationen
+
+- DRV-Kennzahlen zur Finanzentwicklung der gesetzlichen Rentenversicherung,
+  insbesondere Einnahmen, Beitragseinnahmen, Bundesmittel, Ausgaben,
+  Rentenausgaben, Salden und Nachhaltigkeitsrücklage.
+- Zeitabhängige Monats- oder Jahreswerte, die für Status-quo- und
+  Finanzierungsmodelle erneut mit Abrufstand zu prüfen sind.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle stützt im Rentenprojekt die Einordnung der Bundesmittel,
+  Beitragseinnahmen, Ausgabenstruktur und Nachhaltigkeitsrücklage.
+- Für das Abschmelzmodell ist sie nur Startpunkt; die Zweckzerlegung der
+  Bundesmittel bleibt nicht amtlich belegt und daher offen.
+
 ## Relevanz für agenda2030
 
 Input für Rentenreform, Beitragswirkungen und Bundeshaushaltsbezug.

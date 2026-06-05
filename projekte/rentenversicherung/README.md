@@ -8,6 +8,7 @@ Analysen und spätere Umsetzungsartefakte.
 
 - Reformkonzept: `projekte/rentenversicherung/reformkonzept.md`
 - Prüfbericht: `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md`
+- Normstand-Bedarf: `projekte/rentenversicherung/normstand-bedarf.md`
 - Veröffentlichungsstatus: intern, weil der Prüfbericht den Status `offen`
   trägt.
 

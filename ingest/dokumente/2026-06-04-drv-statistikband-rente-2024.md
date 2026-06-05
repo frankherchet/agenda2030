@@ -21,6 +21,21 @@ Bestandsschutz-Zuschüsse verwendet.
 - Enthält Altersrenten, Erwerbsminderungsrenten und Hinterbliebenenrenten.
 - Knappschaft-Bahn-See ist als Träger aggregiert auswertbar.
 
+## Enthaltene Informationen
+
+- DRV-Statistikband Rente 2024 mit Tabellen zum Rentenbestand nach Rentenart,
+  Alter, Geschlecht und Versicherungsträger.
+- Für das Abschmelzmodell besonders genutzt: Tabellen zu
+  Erwerbsminderungsrenten, Altersrenten, Hinterbliebenenrenten und
+  Trägeraggregaten.
+
+## Jetzt extrahierte relevante Informationen
+
+- Der Rentenbestand zum 31.12.2024 wurde als Strukturinput für
+  `analysen/daten/2026-06-04-drv-rentenbestand-struktur.csv` genutzt.
+- Die Analyse `analysen/2026-06-04-drv-rentenbestand-inputs.md` verdichtet
+  die extrahierten Rentenarten-, Alters- und Geschlechtsstrukturen.
+
 ## Relevanz für agenda2030
 
 Zentrale Quelle für belastbare Rentenbestandsstruktur.

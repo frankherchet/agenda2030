@@ -38,6 +38,22 @@ für 20- bis 66-Jährige gegenüber Personen ab 67 steigt von 33 im Jahr 2024 au
 Rente und GKV ist damit nicht nur die Zahl älterer Menschen relevant, sondern
 auch die schrumpfende Zahl potenzieller Beitragszahler.
 
+## Enthaltene Informationen
+
+- Zusammenführung mehrerer Destatis-Quellen zu Altersstruktur,
+  Bevölkerungsvorausberechnung, Altenquotient und demographischem Wandel.
+- Enthält Bestandswerte 2024, Vorausberechnungswerte bis 2070, Relevanz für
+  Rentenversicherung und GKV sowie Verweis auf die lokale Demographie-CSV.
+
+## Jetzt extrahierte relevante Informationen
+
+- Für das Rentenprojekt extrahiert wurden Bevölkerung 2024, Erwerbsalter
+  20-66, Anteil 67+, Altenquotienten 2038 und 2070 sowie Spannweiten der
+  Erwerbsbevölkerung.
+- Die Werte sind als gemeinsame Inputbasis in
+  `analysen/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv`
+  abgelegt.
+
 ## Kernzahlen Bestand 2024
 
 | Kennzahl | Wert |

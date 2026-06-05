@@ -21,6 +21,20 @@ wiederverwendbar.
 - Enthält oder verlinkt Dateien mit Alters- und Geschlechtswerten.
 - Periodensterbetafeln bilden aktuelle Sterblichkeitsverhältnisse ab.
 
+## Enthaltene Informationen
+
+- Destatis-Publikationsseite zu Periodensterbetafeln mit Zugang zum
+  Statistischen Bericht und Tabellenmaterial.
+- Enthält beziehungsweise verlinkt Sterbe- und Überlebenswahrscheinlichkeiten,
+  Überlebende und fernere Lebenserwartung nach Alter und Geschlecht.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle führt zur Sterbetafel 2022/2024, die im Abschmelzmodell für die
+  erwartete Überlebendenzahl des Rentenbestands genutzt wird.
+- Die lokal genutzte XLSX liegt unter
+  `ingest/originale/2026-06-04-destatis-sterbetafeln-2022-2024.xlsx`.
+
 ## Relevanz für agenda2030
 
 Input für Renten-, Pflege- und GKV-Modelle mit Altersbezug.

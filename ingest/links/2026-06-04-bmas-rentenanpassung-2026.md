@@ -20,6 +20,20 @@ Rentenberichte relevant, wenn aktuelle Leistungsparameter genannt werden.
 - Relevant für Rentenwert und Rentenniveau.
 - Jahres- und stichtagsbezogene Quelle.
 
+## Enthaltene Informationen
+
+- BMAS-Mitteilung zur Rentenanpassung 2026 mit Bezug zu aktuellem Rentenwert,
+  Rentenanpassung und Rentenniveau.
+- Stichtagsbezogene Leistungsparameter, die bei späteren Reports durch neuere
+  Rentenanpassungen ersetzt werden müssen.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle stützt die aktuelle Status-quo-Einordnung der Rentenleistung im
+  Reformkonzept.
+- Sie ersetzt keine längerfristige Rentenprojektion; für Prognosen bleibt der
+  Rentenversicherungsbericht oder ein eigenes Modell maßgeblich.
+
 ## Relevanz für agenda2030
 
 Input für Rentenstatus quo und Leistungsniveau.

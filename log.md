@@ -65,3 +65,12 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   `ingest_refs`; das offene Rentenkonzept ist nicht mehr als veröffentlicht
   markiert. Offene Nachpflege: Ingests um die neuen Extraktionsabschnitte und
   Rentennormstände ergänzen.
+
+## 2026-06-05 Nachpflege | TODO-Liste und Renten-Ingests
+
+- TODO-Liste: `analysen/2026-06-05-todo-strukturumbau-nachpflege.md`
+- Normstand-Matrix: `projekte/rentenversicherung/normstand-bedarf.md`
+- Wirkung: Alle im Rentenkonzept direkt referenzierten Ingests führen jetzt
+  `Enthaltene Informationen` und `Jetzt extrahierte relevante Informationen`.
+  Der verbleibende Rechtsblock ist als priorisierte Normstand-Matrix
+  dokumentiert.

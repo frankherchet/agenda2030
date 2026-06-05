@@ -23,6 +23,21 @@ bis 2027, Rentensteigerungen bis 2039 um gut 45 % und ein Sicherungsniveau von
 - Nützlich als Plausibilitätsrahmen für eigene Reformrechnungen.
 - Reicht nicht für ein vollständiges Langfristmodell bis 2070.
 
+## Enthaltene Informationen
+
+- BMAS-Mitteilung zum Rentenversicherungsbericht 2025 mit Projektionen und
+  politischer Einordnung zu Rentenfinanzen, Beitragssatz,
+  Nachhaltigkeitsrücklage und Sicherungsniveau.
+- Enthält Eckpunkte bis 2039; der vollständige Bericht bleibt für vertiefte
+  Modellvergleiche separat zu erfassen.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle stützt die Einordnung der mittelfristigen Status-quo-Projektion im
+  Zukunftsmodell.
+- Für eine Prüffreigabe des Langfristmodells sollte der vollständige
+  Rentenversicherungsbericht als Dokument-Ingest ergänzt werden.
+
 ## Relevanz für agenda2030
 
 Referenz für Status-quo-Projektion, Beitragssatz und Rentenniveau.

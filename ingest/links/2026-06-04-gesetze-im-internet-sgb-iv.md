@@ -21,6 +21,22 @@ Beitragsklarheitsreform ist es die verfahrensrechtliche Grundlage.
 - Relevant für Arbeitgeber, Selbständige und staatliche Zahlungspflichtige.
 - Ergänzt das materielle Rentenrecht aus dem SGB VI.
 
+## Enthaltene Informationen
+
+- Amtliche Onlinefassung des SGB IV mit gemeinsamen Vorschriften für die
+  Sozialversicherung.
+- Für das Rentenprojekt relevant: Beitragsgrundsätze, Entstehen und Fälligkeit
+  von Beiträgen sowie Melde-, Einzugs- und Prüfverfahren, insbesondere
+  §§ 20-22 und §§ 28a-28q SGB IV.
+
+## Jetzt extrahierte relevante Informationen
+
+- Das SGB IV ist der Verfahrensrahmen, wenn neue Erwerbstätigengruppen,
+  Selbständige oder staatliche Zahlungspflichtige in Melde- und
+  Beitragseinzugssysteme einbezogen werden.
+- Konkrete Änderungsskizzen benötigen Normstand-Dateien für die jeweils
+  tragenden Verfahrensnormen.
+
 ## Relevanz für agenda2030
 
 Notwendig, um neue Beitragszahler und staatliche Beitragszahlungen vollziehbar

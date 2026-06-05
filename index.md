@@ -24,6 +24,7 @@ Prüfarbeitsstände.
 | Bundeszuschuss-Abschmelzung | `analysen/2026-06-04-bundeszuschuss-abschmelzung.md` | Auswertung zum Abschmelzpfad des Bestandsschutz-Zuschusses. | Bundesmittel, Rente |
 | Demographie und Rente | `analysen/2026-06-04-demographie-rente-gkv.md` | Zusammenfassung demographischer Belastungsfaktoren für Sozialversicherungen. | Alterung, Sozialversicherung |
 | Strukturumbau-Prüfung | `analysen/2026-06-05-strukturumbau-quellen-analysen-projekte-pruefung.md` | Prüfung, welche Quellen-, Dokument-, Analyse- und Projektartefakte nach dem Umbau nachgepflegt werden müssen. | Workflow, Prüfung |
+| Strukturumbau-TODO | `analysen/2026-06-05-todo-strukturumbau-nachpflege.md` | Umsetzungsstand und Restaufgaben nach der Strukturumbau-Prüfung. | Workflow, TODO |
 
 ## Projekte und Prüfung
 
@@ -32,6 +33,7 @@ Prüfarbeitsstände.
 | Reformprojekt Rente | `projekte/rentenversicherung/README.md` | Projektüberblick für das Reformkonzept gesetzliche Rentenversicherung. | Reform, Rente |
 | Reformkonzept Rente | `projekte/rentenversicherung/reformkonzept.md` | Ausgearbeitetes Reformkonzept zur Rentenversicherung 2026. | Reform, Rente |
 | Prüfbericht Rente | `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md` | Unabhängiger Prüfbericht zum Abschmelzmodell. | Prüfung, Bundesmittel |
+| Normstand-Bedarf Rente | `projekte/rentenversicherung/normstand-bedarf.md` | Matrix der vor Rechtsanalyse und Freigabe lokal abzulegenden Normstände. | Recht, Rente |
 
 ## Arbeitsregeln und Automatisierung
 

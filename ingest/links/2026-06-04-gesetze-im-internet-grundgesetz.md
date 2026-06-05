@@ -21,6 +21,21 @@ Bestandsschutz, Übergangsrecht und Belastungsgleichheit.
 - Besonders relevant: Art. 3, 6, 14, 20 und 33 GG.
 - Reformvorschläge müssen Bestandsschutz und Gleichbehandlung prüfen.
 
+## Enthaltene Informationen
+
+- Amtliche Onlinefassung des Grundgesetzes mit Grundrechten,
+  Staatsstrukturprinzipien, Gesetzgebungskompetenzen und Finanzverfassung.
+- Für das Rentenprojekt relevant: Art. 3 GG, Art. 6 GG, Art. 14 GG,
+  Art. 20 GG und Art. 33 GG.
+
+## Jetzt extrahierte relevante Informationen
+
+- Bestandsschutz und Übergangsregeln berühren vor allem Gleichbehandlung,
+  Eigentumsschutz bestehender Anwartschaften, Sozialstaatsprinzip und
+  Beamtenstatus.
+- Für eine Freigabe des Reformkonzepts sind die tragenden Artikel als
+  Normstand-Dateien unter `gesetzbuecher/grundgesetz/` abzulegen.
+
 ## Relevanz für agenda2030
 
 Prüfmaßstab für tiefgreifende Sozial- und Staatsreformen.

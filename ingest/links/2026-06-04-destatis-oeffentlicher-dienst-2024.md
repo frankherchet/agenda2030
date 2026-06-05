@@ -22,6 +22,20 @@ Neuzugänge im öffentlichen Dienst.
 - 2024: 0,1675 Mio. Berufs- und Zeitsoldaten/-soldatinnen.
 - Arbeitnehmerinnen und Arbeitnehmer im öffentlichen Dienst sind separat ausgewiesen.
 
+## Enthaltene Informationen
+
+- Destatis-Daten zu Beschäftigten des öffentlichen Dienstes nach Bereichen und
+  Beschäftigungsgruppen.
+- Für Rentenreformen relevant als Ausgangspunkt für Neubeamte,
+  Dienstherrenbeiträge und Übergangsregeln.
+
+## Jetzt extrahierte relevante Informationen
+
+- Die Quelle stützt die qualitative Modellannahme, dass Neuzugänge im
+  öffentlichen Dienst separat betrachtet werden müssen.
+- Eine belastbare Finanzwirkung braucht später feinere Daten nach Beamtenstatus,
+  Alter, Einkommen und Neuzugangsstruktur.
+
 ## Relevanz für agenda2030
 
 Input für die Einbeziehung von Neubeamten und vergleichbaren Dienstverhältnissen.
