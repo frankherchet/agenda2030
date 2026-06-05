@@ -36,6 +36,7 @@ Prüfarbeitsstände.
 | Reformprojekt Rente | `projekte/rentenversicherung/README.md` | Projektüberblick für das Reformkonzept gesetzliche Rentenversicherung. | Reform, Rente |
 | Reformkonzept Rente | `projekte/rentenversicherung/reformkonzept.md` | Ausgearbeitetes Reformkonzept zur Rentenversicherung mit Beitragsklarheit, Erwerbstätigenbasis und Stabilitätskorridor. | Reform, Rente |
 | Prüfbericht Rente | `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md` | Unabhängiger Prüfbericht zum Abschmelzmodell. | Prüfung, Bundesmittel |
+| Gesamtprüfung Rente | `projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md` | Red-Team-Gesamtprüfung des Rentenreformkonzepts mit Gegenrechnung, Normstand- und Freigabebefund. | Prüfung, Rente |
 | Normstand-Bedarf Rente | `projekte/rentenversicherung/normstand-bedarf.md` | Matrix der vor Rechtsanalyse und Freigabe lokal abzulegenden Normstände. | Recht, Rente |
 | SGB-Normstände Rente | `gesetzbuecher/sgb/README.md` | Normstand-Paket zu SGB VI und SGB IV für das Rentenprojekt. | Recht, SGB, Rente |
 | GG-Normstände Rente | `gesetzbuecher/grundgesetz/README.md` | Normstand-Paket zu Art. 3, 6, 14, 20 und 33 GG für das Rentenprojekt. | Recht, Grundgesetz |

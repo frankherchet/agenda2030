@@ -180,3 +180,18 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 - Wirkung: Das Rentenkonzept enthält nun eine Szenarioanalyse zur Kopplung des
   Renteneintrittsalters an die Lebenserwartung sowie einen zusätzlichen,
   breit diversifizierten Kapitalmarktbaustein als mögliche Zusatzrente.
+
+## 2026-06-05 Prüfer | Gesamtprüfung Rentenreformkonzept
+
+- Neuer Prüfbericht:
+  `projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md`
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `projekte/rentenversicherung/README.md`,
+  `index.md`
+- Status: offen
+- Wirkung: Das Rentenreformkonzept ist rechnerisch in den Kernwerten
+  nachvollziehbar, bleibt aber nicht freigegeben. Offene Freigabepunkte sind
+  insbesondere Altersgrenzen-/Abschlags-Normstände, konkrete Rentenwertformel,
+  feinere Rentenalter-Kohortenrechnung, Bundesmittel-Zweckzerlegung und
+  Haushaltswirkung echter Staatsbeiträge.

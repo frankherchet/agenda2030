@@ -14,6 +14,7 @@ tags:
 review_status: offen
 review_reports:
   - projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md
+  - projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/
   - https://www.gesetze-im-internet.de/sgb_4/
@@ -100,8 +101,10 @@ related_analyses:
 
 ## Prüfstatus
 
-- Prüferbericht: `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md`
-- Status Abschmelzmodell Bundeszuschuss: offen
+- Prüferberichte:
+  `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md`,
+  `projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md`
+- Status Gesamtprüfung: offen
 - Normstände: `projekte/rentenversicherung/normstand-bedarf.md`; 63
   Normstand-Dateien wurden unter `gesetzbuecher/sgb/` und
   `gesetzbuecher/grundgesetz/` abgelegt.
