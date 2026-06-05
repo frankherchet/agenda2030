@@ -115,8 +115,8 @@ function App() {
           <p className="eyebrow">agenda2030</p>
           <h1>Reports</h1>
           <p className="lede">
-            Interaktive Auswertung freigegebener Haushalts- und
-            Bundestagsdrucksachen-Zusammenfassungen.
+            Veröffentlichte Analysen, Reformberichte und Quellenreports aus dem
+            agenda2030-Repo.
           </p>
         </div>
         <div className="status-panel">
