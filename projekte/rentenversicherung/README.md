@@ -22,6 +22,7 @@ Analysen und spätere Umsetzungsartefakte.
 - `analysen/2026-06-04-demographie-rente-gkv.md`
 - `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md`
 - `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md`
+- `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md`
 
 ## Arbeitsregel
 

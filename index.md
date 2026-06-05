@@ -27,6 +27,7 @@ Prüfarbeitsstände.
 | Bundesmittel-Zweckzerlegung Rente | `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md` | Beschaffte Quellen und Einordnung zu Bundeszuschüssen und nicht beitragsgedeckten Leistungen. | Bundesmittel, Rente |
 | Rentenproblem Deutschland | `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md` | Quellenbasierter Problemaufriss mit eigener Hochrechnung der Finanzierungslücke bei fixem Beitragssatz und unveränderter Altersgrenze. | Rente, Demographie, Bundeshaushalt |
 | Rentenreform Stabilitätskorridor | `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md` | Reproduzierbare Berechnung des maximal finanzierbaren Rentenvolumens bei Beitragssatz-Korridoren von 20 %, 22 % und 24 %. | Rente, Beitragssatz, Reformmodell |
+| Rentenalter und Kapitalmarkt | `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md` | Szenarioanalyse zur Lebenserwartungs-Kopplung des Rentenalters und zu einem zusätzlichen kapitalgedeckten Baustein. | Rente, Rentenalter, Kapitalmarkt |
 
 ## Projekte und Prüfung
 

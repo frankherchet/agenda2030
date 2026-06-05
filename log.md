@@ -159,3 +159,24 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   stabilen Beitragsraten" geschärft. Neue Entgeltpunkte entstehen nur noch
   durch Einzahlung; der Rentenwert folgt einer Budgetregel innerhalb eines
   Beitragssatzkorridors.
+
+## 2026-06-05 Reformer | Rentenalter-Kopplung und Kapitalmarktbaustein
+
+- Neue Ingests:
+  `ingest/links/2026-06-05-schweden-richtalter-rente-lebenserwartung.md`,
+  `ingest/links/2026-06-05-finnland-rentenalter-lebenserwartung.md`,
+  `ingest/links/2026-06-05-daenemark-folkepensionsalter-lebenserwartung.md`,
+  `ingest/links/2026-06-05-schweden-ap7-safa-premium-pension.md`,
+  `ingest/links/2026-06-05-msci-world-index.md`,
+  `ingest/dokumente/2026-06-05-oecd-pensions-outlook-2024-kapitalmarkt-defaults.md`
+- Neue Analyse:
+  `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md`
+- Neue Daten:
+  `analysen/daten/2026-06-05-rentenreform-rentenalter-kapital.csv`,
+  `analysen/daten/2026-06-05-rentenreform-rentenalter-kapital-annahmen.csv`,
+  `analysen/daten/2026-06-05-rentenreform-kapitalmarktbaustein.csv`
+- Neues Skript:
+  `scripts/calc_rentenreform_rentenalter_kapital.py`
+- Wirkung: Das Rentenkonzept enthält nun eine Szenarioanalyse zur Kopplung des
+  Renteneintrittsalters an die Lebenserwartung sowie einen zusätzlichen,
+  breit diversifizierten Kapitalmarktbaustein als mögliche Zusatzrente.

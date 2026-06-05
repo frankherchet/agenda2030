@@ -33,3 +33,6 @@ Aktuelle Skripte:
 - `calc_rentenreform_stabilitaetskorridor.py`: berechnet das maximal
   finanzierbare Rentenvolumen bei Beitragssatz-Korridoren von 20 %, 22 % und
   24 %, Erwerbstätigenbasis und abschmelzendem Bestandsschutz-Zuschuss.
+- `calc_rentenreform_rentenalter_kapital.py`: modelliert eine Kopplung des
+  Renteneintrittsalters an die Lebenserwartung sowie einen zusaetzlichen
+  kapitalgedeckten Baustein mit Renditesensitivitaeten.

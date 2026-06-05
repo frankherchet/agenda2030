@@ -47,3 +47,6 @@ Analysen referenziert werden.
 - `2026-06-05-rentenreform-stabilitaetskorridor.md`: Hochrechnung des maximal
   finanzierbaren Rentenvolumens bei Beitragssatz-Korridoren von 20 %, 22 %
   und 24 %.
+- `2026-06-05-rentenreform-rentenalter-kapitalmarkt.md`: Szenarioanalyse zur
+  Kopplung des Renteneintrittsalters an die Lebenserwartung und zu einem
+  zusaetzlichen kapitalgedeckten Baustein.

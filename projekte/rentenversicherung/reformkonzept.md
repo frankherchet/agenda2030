@@ -34,6 +34,14 @@ source_urls:
   - https://rentenupdate.drv-bund.de/SharedDocs/Dokumente/2025/10_Bundeszuschuesse_nbL/rentenupdate_10_Bundeszuschuesse_nbL_lang.pdf?__blob=publicationFile&v=4
   - https://dserver.bundestag.de/btd/21/014/2101419.pdf
   - https://www.bmas.de/SharedDocs/Downloads/DE/Rente/rentenversicherungsbericht-2025.pdf?__blob=publicationFile&v=3
+  - https://www.pensionsmyndigheten.se/other-languages/english-engelska/english-engelska/retirement-age
+  - https://www.etk.fi/en/finnish-pension-system/pensions/determining-the-life-expectancy-coefficient-and-retirement-age/determining-the-retirement-age-for-the-old-age-pension/
+  - https://bm.dk/nyheder/pressemeddelelser/2025/05/forhoejelse-af-folkepensionsalderen-i-2040-sikrer-velfaerden
+  - https://star.dk/da/ydelser/pension-og-efterloen/folkepension-tidlig-pension-foertidspension-og-seniorpension/folkepension/folkepensionsalderen-nu-og-fremover/
+  - https://www.pensionsmyndigheten.se/forsta-din-pension/valj-och-byt-fonder/forvalet-ap7safa
+  - https://www.ap7.se/english/ap7-safa/
+  - https://www.msci.com/World
+  - https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/12/oecd-pensions-outlook-2024_6ac7d5fd/51510909-en.pdf
 ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
@@ -54,6 +62,12 @@ ingest_refs:
   - ingest/dokumente/2026-06-05-drv-rentenupdate-bundeszuschuesse-nicht-beitragsgedeckte-leistungen-2025.md
   - ingest/dokumente/2026-06-05-bundestag-drs-21-1419-nicht-beitragsgedeckte-leistungen.md
   - ingest/dokumente/2026-06-05-bmas-rentenversicherungsbericht-2025.md
+  - ingest/links/2026-06-05-schweden-richtalter-rente-lebenserwartung.md
+  - ingest/links/2026-06-05-finnland-rentenalter-lebenserwartung.md
+  - ingest/links/2026-06-05-daenemark-folkepensionsalter-lebenserwartung.md
+  - ingest/links/2026-06-05-schweden-ap7-safa-premium-pension.md
+  - ingest/links/2026-06-05-msci-world-index.md
+  - ingest/dokumente/2026-06-05-oecd-pensions-outlook-2024-kapitalmarkt-defaults.md
 related_ministries:
   - ministerien/arbeit-soziales/
   - ministerien/finanzen/
@@ -67,14 +81,19 @@ data_artifacts:
   - analysen/daten/2026-06-05-rentenproblem-finanzierungsluecke.csv
   - analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor.csv
   - analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor-annahmen.csv
+  - analysen/daten/2026-06-05-rentenreform-rentenalter-kapital.csv
+  - analysen/daten/2026-06-05-rentenreform-rentenalter-kapital-annahmen.csv
+  - analysen/daten/2026-06-05-rentenreform-kapitalmarktbaustein.csv
 scripts:
   - scripts/calc_demographie_rente.py
   - scripts/calc_rentenreform_zukunft.py
   - scripts/calc_rentenproblem_finanzierungsluecke.py
   - scripts/calc_rentenreform_stabilitaetskorridor.py
+  - scripts/calc_rentenreform_rentenalter_kapital.py
 related_analyses:
   - analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md
   - analysen/2026-06-05-rentenreform-stabilitaetskorridor.md
+  - analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md
 ---
 
 # Rentenversicherung reformieren: Beitragsklarheit und reine Umlage
@@ -130,6 +149,12 @@ Bestandsschutz-Zuschuss finanziert.
 - Arbeitskorridor v2: Zielwert 20 %, Stabilitätskorridor 22 %, harte
   politische Obergrenze 24 %. Der konkrete Korridor bleibt prüf- und
   entscheidungsbedürftig.
+- Der Renteneintritt wird perspektivisch an die Lebenserwartung gekoppelt:
+  Wer laenger lebt, zahlt laenger ein und bezieht im Durchschnitt nicht
+  automatisch immer laenger Rente.
+- Ein zusaetzlicher kapitalgedeckter Baustein kann die individuelle Rente
+  erhoehen, wird aber nicht durch Umleitung heutiger Umlagebeitraege
+  finanziert.
 - Die Beitragsbemessungsgrenze bleibt in v1 bestehen.
 - Altersrenten, Erwerbsminderung und Hinterbliebenenleistungen bleiben im
   System.
@@ -497,6 +522,80 @@ moderaten Variante bis 2038 um gut ein Drittel steigt, muss die Reserve nicht
 nur Monatsliquidität, sondern auch vorhersehbare Übergangsbelastungen der
 Babyboomer-Jahre adressieren.
 
+### 5. Renteneintrittsalter an Lebenserwartung koppeln
+
+Die Analyse
+`analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md` vergleicht
+schwedische, finnische und daenische Vorbilder. Schweden nutzt ein
+Richtalter, Finnland stabilisiert das Verhaeltnis von Arbeits- zu Rentenphase,
+Daenemark erhoeht das Folkepensionsalter auf 68 ab 2030, 69 ab 2035 und
+70 ab 2040.
+
+Fuer Deutschland wird v2 nicht als starres "alle muessen bis 70 arbeiten"
+formuliert, sondern als Regel:
+
+- Die Regelaltersgrenze steigt automatisch, wenn die fernere Lebenserwartung
+  steigt.
+- Die Anpassung wird mehrere Jahre vorher festgelegt, damit Lebensplanung
+  moeglich bleibt.
+- Lange Versicherungszeiten, Erwerbsminderung und gesundheitlich belastende
+  Arbeit brauchen Schutzpfade.
+- Wer frueher geht, kann das weiterhin tun, erhaelt aber versicherungsmathematisch
+  klare Abschlaege.
+
+Die Screeningrechnung verschiebt pauschal 0,95 Mio. Personen je zusaetzlichem
+Rentenalterjahr von der Renten- auf die Beitragsseite. Im moderaten Szenario
+sinkt der rechnerisch erforderliche Beitragssatz mit Erwerbstätigenbasis und
+abschmelzendem Bestandsschutz-Zuschuss dadurch deutlich:
+
+| Jahr | Status quo 67 | Finnland-nahe Kopplung | Daenemark-nahe Kopplung |
+| ---: | ---: | ---: | ---: |
+| 2035 | 25,0 % | 23,2 % | 21,5 % |
+| 2039 | 28,0 % | 25,4 % | 22,9 % |
+| 2050 | 29,8 % | 25,0 % | 22,9 % |
+| 2070 | 30,9 % | 23,1 % | 21,3 % |
+
+Interpretation: Mehr und laenger einzahlen ist der staerkste Hebel innerhalb
+einer reinen Umlage. Die daenemarknahe Variante bringt den Beitragssatz in die
+Nahe des 22-%-Korridors, ist aber sozial haerter und rechtlich/politisch nur
+mit Ausnahmen fuer belastete Erwerbsbiografien vertretbar. Die finnlandnahe
+Variante ist weicher, laesst aber ab den 2040er-Jahren weiter Druck oberhalb
+des Stabilitaetskorridors.
+
+### 6. Zusaetzlicher Kapitalmarktbaustein
+
+Ein Kapitalmarktbaustein dient nicht der Finanzierung heutiger Renten, sondern
+der Zusatzrente kuenftiger Versicherter. Er wird deshalb als zusaetzlicher
+Beitrag oder staatlicher Zuschuss ausgestaltet. Eine Umleitung bestehender
+Umlagebeitraege wuerde die aktuelle Finanzierungsluecke vergroessern.
+
+Schweden liefert mit AP7 Såfa ein relevantes Governance-Beispiel: staatlicher
+Default, globale Streuung, niedrige Kosten, Lebenszykluslogik mit Risikoabbau
+vor Renteneintritt. Fuer Deutschland waere kein konkreter ETF-Anbieter
+festzuschreiben, sondern ein Regelrahmen:
+
+- passiver, breit diversifizierter Default,
+- harte Kostenobergrenze,
+- Lebenszykluspfad von Aktien zu risikoaermeren Anlagen,
+- Treuhand- oder Staatsfonds-Governance mit politischer Eingriffssperre,
+- transparente Auszahlungsphase.
+
+MSCI World ist als Benchmark fuer entwickelte Maerkte geeignet, aber nicht
+vollstaendig global. Zu pruefen ist ein All-World-/ACWI-naher Ansatz, der auch
+Schwellenlaender abdeckt. Die individuelle Modellrechnung auf Basis des
+vorlaeufigen Durchschnittsentgelts 2026 zeigt als reale Groessenordnung:
+
+| Zusatzbeitrag | reale Rendite | Kapital nach 40 Jahren | Zusatzrente pro Monat, 20 Jahre |
+| ---: | ---: | ---: | ---: |
+| 1 % | 3 % | 39.166 Euro | 219 Euro |
+| 2 % | 3 % | 78.333 Euro | 439 Euro |
+| 3 % | 3 % | 117.499 Euro | 658 Euro |
+
+Das ist keine Garantie. Kapitalmarktertraege schwanken, und die Auszahlungsphase
+traegt Langlebigkeits- und Sequenzrisiken. Der Baustein ist deshalb nur als
+Zusatz zur Umlage tragfaehig, nicht als Ersatz fuer Beitragsklarheit,
+Rentenalter-Regel und Erwerbstätigenbasis.
+
 ## Gesetzlicher Änderungsbedarf
 
 - SGB VI § 1 und § 2: Versichertenkreis auf alle Erwerbstätigen erweitern.
@@ -517,6 +616,13 @@ Babyboomer-Jahre adressieren.
   dimensionieren.
 - SGB IV §§ 28a-28q: Melde-, Einzugs- und Prüfverfahren für Selbständige und
   öffentliche Zahlungspflichtige erweitern.
+- SGB VI Altersgrenzen- und Abschlagsnormen: konkrete Normen fuer
+  Regelaltersgrenze, vorgezogenen Rentenbeginn und Zuschlaege/Abschlaege in
+  einer Folgearbeit identifizieren und Normstand ergaenzen, soweit noch nicht
+  abgelegt.
+- Kapitalmarktbaustein: eigenes Stammgesetz oder SGB-Ergaenzung fuer
+  Default-Fonds, Governance, Kostenobergrenzen, Auszahlungsphase und
+  Aufsichtspflichten pruefen.
 
 ## Übergangslogik
 
@@ -529,6 +635,11 @@ Babyboomer-Jahre adressieren.
   Beiträge zahlt.
 - Neuzugänge in bislang externe Systeme: Einbeziehung ab T mit klarer
   Beitrags- und Leistungslogik.
+- Rentenalter-Kopplung: fruehestens fuer juengere Kohorten und mit
+  Vorlaufzeiten von mindestens 10 bis 15 Jahren; Bestandsrentner und
+  rentennahe Jahrgaenge werden nicht kurzfristig verschoben.
+- Kapitalmarktbaustein: nur fuer kuenftige Beitragsjahre; bestehende
+  Rentenansprueche werden nicht in Kapitalmarktrisiko ueberfuehrt.
 - Bestandsbeamte und bestehende berufsständische Anwartschaften: keine
   rückwirkende Änderung; Transparenzbericht über implizite Versorgungslasten.
 
@@ -552,6 +663,13 @@ Babyboomer-Jahre adressieren.
   Arbeitsannahme, keine freigegebene Zielmarke.
 - Konkrete Rentenwertformel für die Budgetregel, einschließlich Schutz gegen
   nominale Rentenkürzungen, Übergangsphasen und Härtefallregeln.
+- Feinjaehrige deutsche Kohortenprojektion fuer eine belastbare
+  Rentenalter-Kopplung; aktuelle Rechnung nutzt nur eine pauschale
+  Kohortengroesse.
+- Definition von Schutzregeln fuer Schwerarbeit, lange Versicherungszeiten,
+  Erwerbsminderung und niedrige Lebenserwartung bestimmter Gruppen.
+- Kapitalmarkt-Governance: Institution, Anlageuniversum, Kostenlimit,
+  Auszahlungsmodus, Garantiefreiheit und Insolvenz-/Staatshaftungsabgrenzung.
 - Alters- und Geschlechtsstruktur der Knappschaft-Bahn-See als eigener Träger,
   falls sie später separat statt nur als Anteil von `rv_gesamt` simuliert
   werden soll.
@@ -577,3 +695,7 @@ Babyboomer-Jahre adressieren.
 - Gesetzesänderungsskizze für die Rentenwert-Budgetregel und den
   Beitragssatzkorridor vorbereiten; dabei die bereits abgelegten Normstände zu
   SGB VI §§ 63, 66, 70, 157-170, 213, 216 und 217 heranziehen.
+- Normstand-Bedarf fuer Regelaltersgrenze, vorzeitige Altersrenten,
+  Zuschlaege/Abschlaege und Kapitalmarktbaustein nachziehen.
+- Rentenalter-Kopplung mit feineren Altersjahren und Erwerbsquoten statt
+  pauschaler Kohortenverschiebung modellieren.
