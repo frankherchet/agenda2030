@@ -60,7 +60,9 @@ print("OK")
 PY
 
 echo "[check] Python-Syntax pruefen"
-python3 -m py_compile $(git ls-files '*.py')
+PYCACHE_DIR="$(mktemp -d)"
+PYTHONPYCACHEPREFIX="$PYCACHE_DIR" python3 -m py_compile $(git ls-files '*.py')
+rm -rf "$PYCACHE_DIR"
 
 echo "[check] Rechenartefakte reproduzieren"
 TMP_DIR="$(mktemp -d)"

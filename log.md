@@ -283,3 +283,19 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   Kernnormen. Die Freigabe bleibt offen wegen synthetischer
   Rentenalterrechnung, fehlender Folgeänderungen zur §-68-Skizze und nur
   negativ belegter Bundesmittel-Zweckzerlegung 2024-2026.
+
+## 2026-06-06 Skill | Destatis GENESIS API
+
+- Neuer Skill:
+  `.agents/skills/destatis-genesis/SKILL.md`
+- Neues Hilfsskript:
+  `.agents/skills/destatis-genesis/scripts/genesis_fetch.py`
+- Neuer Ingest:
+  `ingest/links/2026-06-06-destatis-genesis-api.md`
+- Geändert:
+  `ingest/index/README.md`,
+  `index.md`
+- Wirkung: Amtliche Destatis-Daten können künftig reproduzierbar über die
+  GENESIS-Online RESTful/JSON-API gesucht und abgerufen werden. Zugangsdaten
+  werden nicht gespeichert, sondern nur über `DESTATIS_USER`,
+  `DESTATIS_PASSWORD` oder `DESTATIS_TOKEN` gelesen.

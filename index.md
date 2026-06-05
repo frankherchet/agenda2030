@@ -52,6 +52,7 @@ Prüfarbeitsstände.
 | Repo-Regeln | `AGENTS.md` | Verbindliche Arbeits-, Quellen-, Rechen- und Wissensregeln. | Workflow |
 | Log | `log.md` | Chronologisches Arbeitslog für Ingests, Wissenspflege, Analysen und Prüfungen. | Verlauf |
 | Agentenrollen | `agenten/README.md` | Rollen für Analyse, Reformer und Prüfer sowie Freigaberegeln. | Agenten |
+| Destatis-GENESIS-Skill | `.agents/skills/destatis-genesis/SKILL.md` | Skill und Helferskript für reproduzierbare Destatis-GENESIS-API-Abrufe. | Destatis, API, Datenimport |
 | Skripte | `scripts/README.md` | Reproduzierbare Berechnungen und erzeugte Artefakte. | Rechenartefakte |
 | Analyse-Diagramme | `analysen/diagramme/` | Reproduzierbar erzeugte SVG-Diagramme zu Analyseartefakten. | Diagramme, Rechenartefakte |
 | Normstand-Vorlage | `vorlagen/normstand.md` | Vorlage für lokal abgelegte geltende Paragraphen- und Artikelstände. | Recht, Normtexte |

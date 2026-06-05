@@ -1,0 +1,4 @@
+interface:
+  display_name: "Destatis GENESIS"
+  short_description: "Amtliche Destatis-Daten per GENESIS-API abrufen"
+  default_prompt: "Use $destatis-genesis to search, fetch, and store official Destatis GENESIS data for agenda2030 analyses."
