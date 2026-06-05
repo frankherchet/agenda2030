@@ -220,3 +220,19 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   prüffähige Arbeitsfassung bearbeitet. Die amtliche Zweckzerlegung der
   Bundesmittel bleibt mangels öffentlicher Daten für 2024-2026 nicht
   vollständig auflösbar und wird als Reformklassifikation abgegrenzt.
+
+## 2026-06-06 Prüfer | Nachprüfung Rentenreformkonzept
+
+- Neuer Prüfbericht:
+  `projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md`
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `projekte/rentenversicherung/README.md`,
+  `index.md`
+- Status: offen
+- Wirkung: Die Nachbesserung der Freigabeblocker ist rechnerisch
+  nachvollziehbar; arithmetische Blocker wurden nicht gefunden. Die Freigabe
+  bleibt offen wegen fehlender gesetzestextfähiger Rentenwertmechanik,
+  synthetischer Alterskohorten, nicht doppelfreier Haushaltswirkung echter
+  Staatsbeiträge und fehlender vollständiger öffentlicher
+  Bundesmittel-Zweckzerlegung für 2024-2026.

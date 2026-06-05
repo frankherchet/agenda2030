@@ -9,6 +9,7 @@ Analysen und spätere Umsetzungsartefakte.
 - Reformkonzept: `projekte/rentenversicherung/reformkonzept.md`
 - Prüfbericht: `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md`
 - Gesamtprüfung: `projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md`
+- Nachprüfung Freigabeblocker: `projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md`
 - Normstand-Bedarf: `projekte/rentenversicherung/normstand-bedarf.md`
 - Bundesmittel-Zweckzerlegung: `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md`
 - Blocker-Nachbesserung: `analysen/2026-06-06-rentenreform-freigabeblocker.md`
