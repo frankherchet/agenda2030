@@ -96,3 +96,13 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 - Wirkung: Themen können künftig als quellenbasierte Faktenanalysen unter
   `analysen/` aufgearbeitet werden, bevor daraus Reformkonzepte oder
   Prüfberichte entstehen.
+
+## 2026-06-05 Ingest | Statista Altersrentner und Beitragszahler
+
+- Ingest:
+  `ingest/links/2026-06-05-statista-altersrentner-beitragszahler-rentenversicherung.md`
+- Quelle:
+  https://de.statista.com/infografik/25751/altersrentner-und-beitragszahler-in-der-rentenversicherung-in-deutschland/
+- Wirkung: Sekundäre Visualisierungsquelle zum Verhältnis von Altersrentnern
+  und Beitragszahlern erfasst; quantitative Nutzung bleibt gegen
+  DRV-Primärdaten zu prüfen.
