@@ -36,11 +36,13 @@ Altersrente wegen Arbeitslosigkeit oder nach Altersteilzeitarbeit
 (1) Versicherte haben Anspruch auf Altersrente, wenn sie
 1. vor dem 1. Januar 1952 geboren sind,
 2. das 60. Lebensjahr vollendet haben,
-3. entwedera)bei Beginn der Rente arbeitslos sind und nach Vollendung eines Lebensalters
-   von 58 Jahren und 6 Monaten insgesamt 52 Wochen arbeitslos waren oder Anpassungsgeld
-   für entlassene Arbeitnehmer des Bergbaus bezogen haben oderb)die Arbeitszeit aufgrund
-   von Altersteilzeitarbeit im Sinne der §§ 2 und 3 Abs. 1 Nr. 1 des
-   Altersteilzeitgesetzes für mindestens 24 Kalendermonate vermindert haben,
+3. entweder
+   a) bei Beginn der Rente arbeitslos sind und nach Vollendung eines Lebensalters von
+      58 Jahren und 6 Monaten insgesamt 52 Wochen arbeitslos waren oder
+      Anpassungsgeld für entlassene Arbeitnehmer des Bergbaus bezogen haben oder
+   b) die Arbeitszeit aufgrund von Altersteilzeitarbeit im Sinne der §§ 2 und 3 Abs. 1
+      Nr. 1 des Altersteilzeitgesetzes für mindestens 24 Kalendermonate vermindert
+      haben,
 4. in den letzten zehn Jahren vor Beginn der Rente acht Jahre Pflichtbeiträge für eine
    versicherte Beschäftigung oder Tätigkeit haben, wobei sich der Zeitraum von zehn
    Jahren um Anrechnungszeiten, Berücksichtigungszeiten und Zeiten des Bezugs einer
@@ -77,10 +79,11 @@ Altersrenten bestimmen sich nach Anlage 19.
 
 (4) Die Altersgrenze von 60 Jahren bei der Altersrente wegen Arbeitslosigkeit oder nach
 Altersteilzeitarbeit wird für Versicherte, die
-1. bis zum 14. Februar 1941 geboren sind unda)am 14. Februar 1996 arbeitslos waren oder
-   Anpassungsgeld für entlassene Arbeitnehmer des Bergbaus bezogen haben oderb)deren
-   Arbeitsverhältnis aufgrund einer Kündigung oder Vereinbarung, die vor dem 14. Februar
-   1996 erfolgt ist, nach dem 13. Februar 1996 beendet worden ist,
+1. bis zum 14. Februar 1941 geboren sind und
+   a) am 14. Februar 1996 arbeitslos waren oder Anpassungsgeld für entlassene
+      Arbeitnehmer des Bergbaus bezogen haben oder
+   b) deren Arbeitsverhältnis aufgrund einer Kündigung oder Vereinbarung, die vor dem
+      14. Februar 1996 erfolgt ist, nach dem 13. Februar 1996 beendet worden ist,
 2. bis zum 14. Februar 1944 geboren sind und aufgrund einer Maßnahme nach Artikel 56 § 2
    Buchstabe b des Vertrages über die Gründung der Europäischen Gemeinschaft für Kohle
    und Stahl (EGKS-V), die vor dem 14. Februar 1996 genehmigt worden ist, aus einem
@@ -90,8 +93,8 @@ Altersteilzeitarbeit wird für Versicherte, die
    anzuwenden ist, in denen Versicherte wegen des Bezugs von Arbeitslosengeld,
    Arbeitslosenhilfe oder Arbeitslosengeld II versicherungspflichtig waren, wie folgt
    angehoben:
-VersicherteGeburtsjahrGeburtsmonat | AnhebungumMonate | auf Alter | vorzeitigeInanspruchnahmemöglichab Alter |  |
-Jahr | Monat | Jahr | Monat |  |
+| Versicherte Geburtsjahr/Geburtsmonat | Anhebung um Monate | auf Alter Jahr | auf Alter Monat | vorzeitige Inanspruchnahme möglich ab Alter Jahr | vorzeitige Inanspruchnahme möglich ab Alter Monat |
+| --- | ---: | ---: | ---: | ---: | ---: |
 vor 1941 | 0 | 60 | 0 | 60 | 0
 1941 |  |  |  |  |
 Januar-April | 1 | 60 | 1 | 60 | 0

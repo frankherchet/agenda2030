@@ -97,6 +97,7 @@ data_artifacts:
   - analysen/daten/2026-06-06-rentenreform-freigabeblocker.csv
   - analysen/daten/2026-06-06-rentenalter-feinmodell-altersjahre.csv
   - analysen/daten/2026-06-06-staatsbeitraege-rentenreform.csv
+  - analysen/daten/2026-06-06-staatsbeitraege-doppelfrei-bruecke.csv
   - analysen/daten/2026-06-06-rentenreform-freigabeblocker-annahmen.csv
 scripts:
   - scripts/calc_demographie_rente.py
@@ -127,6 +128,8 @@ related_analyses:
   Zugangsfaktor ergänzt.
 - Nachbesserung der Freigabeblocker:
   `analysen/2026-06-06-rentenreform-freigabeblocker.md`
+- Gesetzesänderungsskizze Rentenwert-Budgetregel:
+  `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`
 - Konsequenz: Das Konzept bleibt interne Arbeitsfassung und ist nicht
   veroeffentlichungsfaehig, solange kein freigegebener Prueferbericht vorliegt.
   Die Nachpruefung vom 2026-06-06 bewertet die nachgereichten Rechnungen als
@@ -543,8 +546,10 @@ Aktueller Rentenwert_t = Referenz-Rentenwert_t x Rentenwert-Budgetfaktor_t
 ```
 
 Ein Faktor unter 1 bedeutet eine Dämpfung gegenüber dem fortgeschriebenen
-Referenzpfad, nicht automatisch eine nominale Kürzung. Für die spätere
-Gesetzesskizze sind drei Schutzregeln vorzusehen:
+Referenzpfad, nicht automatisch eine nominale Kürzung. Für die Umsetzung sind
+in der Gesetzesänderungsskizze
+`gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`
+drei Schutzregeln vorgesehen:
 
 - Nominalschutz: laufende Monatsrenten werden nicht nominal abgesenkt.
 - Nachholfaktor: nicht finanzierte Referenzsteigerungen werden nur nachgeholt,
@@ -569,7 +574,12 @@ zusätzliche Einnahmeannahme, sondern eine Transparenzpflicht: Rentenwirksame
 Sozialzeiten müssen im Haushalt des zuständigen Trägers als echte Beiträge
 auftauchen und dürfen nicht verdeckt als kostenlose Entgeltpunkte entstehen.
 Die finale Haushaltsrechnung muss Ist-Zahlungen und neue Reformzahlungen
-doppelfrei gegen die DRV-Finanzrechnung abgrenzen.
+doppelfrei gegen die DRV-Finanzrechnung abgrenzen. Die neue Brückenrechnung
+`analysen/daten/2026-06-06-staatsbeitraege-doppelfrei-bruecke.csv` trennt
+Brutto-Ausweis, bereits in der DRV-Finanzierung enthaltene Zahlungen und
+Netto-Zusatzeffekt. Für die vier aktuell modellierten Kategorien wird kein
+zusätzlicher Netto-Haushaltseffekt gezählt; sie sind Transparenz- und
+Buchungspflichten, solange keine Leistungsausweitung beschlossen wird.
 
 ### 3. Allgemeine Erwerbstätigenversicherung
 
@@ -703,6 +713,9 @@ Rentenalter-Regel und Erwerbstätigenbasis.
   Erwerbstätigengruppen vereinheitlichen.
 - SGB VI § 177: Kindererziehungszeiten als echte Beitragszahlung ausweisen und
   jährlich abrechnen.
+- SGB VI § 68: Rentenwert-Budgetfaktor, Nominalschutz, Nachholbetrag und
+  Referenzausgaben als Anpassungsmechanik verankern; erste Skizze:
+  `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`.
 - SGB VI § 213: Bundeszuschuss in abschmelzenden Bestandsschutz-Zuschuss,
   zweckgebundene Beitragszahlungen, Erstattungen und separat ausgewiesene
   Steuertransfers aufteilen.
@@ -756,8 +769,9 @@ Rentenalter-Regel und Erwerbstätigenbasis.
   und jährlichem Volumen.
 - Politische Festlegung des Beitragssatzkorridors: 20/22/24 % ist weiterhin
   eine Arbeitsannahme, keine freigegebene Zielmarke.
-- Gesetzliche Ausformulierung der Rentenwertformel einschließlich
-  Nominalschutz, Nachholfaktor, Übergangsphasen und Härtefallregeln.
+- Prüferbewertung der Gesetzesänderungsskizze zur Rentenwertformel,
+  insbesondere Bestimmtheit, Verweisnormen, Übergangsphasen und
+  Härtefallregeln.
 - Echte feinjaehrige deutsche Kohortenprojektion fuer eine belastbare
   Rentenalter-Kopplung; die Nachbesserung nutzt bereits Altersjahre 67-72,
   aber weiterhin synthetische Kohorten.
@@ -775,7 +789,8 @@ Rentenalter-Regel und Erwerbstätigenbasis.
 
 ## Nächste Schritte
 
-- Gesetzesänderungsskizze für SGB VI und SGB IV anlegen.
+- Gesetzesänderungsskizzen für Versichertenkreis, staatliche Beiträge,
+  Altersgrenzen und Kapitalmarktbaustein anlegen.
 - Finanzmodell von v1 zu einer Kohortenrechnung weiterentwickeln.
 - Beschaffte DRV-Zweckabschätzung 2023 und Bundestagsdrucksache 21/1419
   in eine Sensitivität für die Bundesmittel-Fortschreibung übersetzen.
@@ -787,10 +802,8 @@ Rentenalter-Regel und Erwerbstätigenbasis.
   Zahlungspflichtigem aufbauen.
 - Demographie-Szenarien Variante 5, Variante 2 und Variante 4 in das
   Renten-Finanzmodell übernehmen.
-- Prüfer-Nachprüfung der Blockerbearbeitung vom 2026-06-06 anstoßen.
-- Gesetzesänderungsskizze für die Rentenwert-Budgetregel und den
-  Beitragssatzkorridor vorbereiten; dabei die Normstände zu SGB VI §§ 34-38,
-  63, 66, 70, 77, 157-170, 213, 216, 217, 235, 236, 236a, 237 und 237a
-  heranziehen.
+- Prüfer-Nachprüfung der erneuten Blockerbearbeitung vom 2026-06-06 anstoßen.
+- Gesetzesänderungsskizze für die Rentenwert-Budgetregel prüfen lassen; dabei
+  zusätzlich den neuen Normstand zu SGB VI § 68 heranziehen.
 - Rentenalter-Kopplung mit amtlichen feinjaehrigen Altersdaten,
   Erwerbsquoten und Rentenzugangsdaten gegenrechnen.

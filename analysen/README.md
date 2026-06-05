@@ -51,5 +51,6 @@ Analysen referenziert werden.
   Kopplung des Renteneintrittsalters an die Lebenserwartung und zu einem
   zusaetzlichen kapitalgedeckten Baustein.
 - `2026-06-06-rentenreform-freigabeblocker.md`: Nachbesserung der
-  Prüferblocker mit Rentenwert-Budgetformel, feinerem Altersjahrmodell und
-  quantifizierten echten öffentlichen Beitragszahlungen.
+  Prüferblocker mit Rentenwert-Budgetformel, feinerem Altersjahrmodell,
+  quantifizierten echten öffentlichen Beitragszahlungen und doppelfreier
+  Haushaltsbrücke.

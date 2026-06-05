@@ -42,19 +42,21 @@ Entgeltpunkten einer Rente waren,
 1. bei Renten wegen Alters, die mit Ablauf des Kalendermonats des Erreichens der
    Regelaltersgrenze oder eines für den Versicherten maßgebenden niedrigeren
    Rentenalters beginnen, 1,0,
-2. bei Renten wegen Alters, diea)vorzeitig in Anspruch genommen werden, für jeden
-   Kalendermonat um 0,003 niedriger als 1,0 undb)nach Erreichen der Regelaltersgrenze
-   trotz erfüllter Wartezeit nicht in Anspruch genommen werden, für jeden Kalendermonat
-   um 0,005 höher als 1,0,
+2. bei Renten wegen Alters, die
+   a) vorzeitig in Anspruch genommen werden, für jeden Kalendermonat um 0,003
+      niedriger als 1,0 und
+   b) nach Erreichen der Regelaltersgrenze trotz erfüllter Wartezeit nicht in
+      Anspruch genommen werden, für jeden Kalendermonat um 0,005 höher als 1,0,
 3. bei Renten wegen verminderter Erwerbsfähigkeit und bei Erziehungsrenten für jeden
    Kalendermonat, für den eine Rente vor Ablauf des Kalendermonats der Vollendung des
    65. Lebensjahres in Anspruch genommen wird, um 0,003 niedriger als 1,0,
-4. bei Hinterbliebenenrenten für jeden Kalendermonat,a)der sich vom Ablauf des Monats,
-   in dem der Versicherte verstorben ist, bis zum Ablauf des Kalendermonats der
-   Vollendung des 65. Lebensjahres des Versicherten ergibt, um 0,003 niedriger als 1,0
-   undb)für den Versicherte trotz erfüllter Wartezeit eine Rente wegen Alters nach
-   Erreichen der Regelaltersgrenze nicht in Anspruch genommen haben, um 0,005 höher als
-   1,0.
+4. bei Hinterbliebenenrenten für jeden Kalendermonat,
+   a) der sich vom Ablauf des Monats, in dem der Versicherte verstorben ist, bis zum
+      Ablauf des Kalendermonats der Vollendung des 65. Lebensjahres des Versicherten
+      ergibt, um 0,003 niedriger als 1,0 und
+   b) für den Versicherte trotz erfüllter Wartezeit eine Rente wegen Alters nach
+      Erreichen der Regelaltersgrenze nicht in Anspruch genommen haben, um 0,005 höher
+      als 1,0.
 Beginnt eine Rente wegen verminderter Erwerbsfähigkeit oder eine Erziehungsrente vor
 Vollendung des 62. Lebensjahres oder ist bei Hinterbliebenenrenten der Versicherte vor
 Vollendung des 62. Lebensjahres verstorben, ist die Vollendung des 62. Lebensjahres für

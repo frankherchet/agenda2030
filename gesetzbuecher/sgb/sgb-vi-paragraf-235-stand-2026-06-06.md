@@ -43,8 +43,8 @@ erreicht.
 (2) Versicherte, die vor dem 1. Januar 1947 geboren sind, erreichen die
 Regelaltersgrenze mit Vollendung des 65. Lebensjahres. Für Versicherte, die nach dem 31.
 Dezember 1946 geboren sind, wird die Regelaltersgrenze wie folgt angehoben:
-VersicherteGeburtsjahr | Anhebungum Monate | auf Alter |
-Jahr | Monat |  |
+| Versicherte Geburtsjahr | Anhebung um Monate | auf Alter Jahr | auf Alter Monat |
+| --- | ---: | ---: | ---: |
 1947 | 1 | 65 | 1
 1948 | 2 | 65 | 2
 1949 | 3 | 65 | 3

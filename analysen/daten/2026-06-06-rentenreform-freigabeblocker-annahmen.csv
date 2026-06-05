@@ -7,3 +7,4 @@ near_retirement_cohort,0.95,Arbeitsannahme,"Synthetische Altersjahr-Kohorte, ska
 live_births_2024,677117,Destatis,Basis für Kindererziehungszeiten.
 care_persons,"1,10 Mio.",DRV,"Rund 1,1 Mio. rentenversicherte Pflegepersonen."
 care_assessment_base,747.50 bis 3955.00 Euro monatlich,BMG,Modell nutzt den Mittelwert der 2026 genannten Spanne.
+doppelfrei_bruecke,bestehende Zahlungen = Bruttoausweis; Netto-Zusatzeffekt 0,Reformklassifikation,"Die vier modellierten Kategorien werden nicht als neue Zusatzeinnahme gezählt, solange keine Leistungsausweitung beschlossen wird."

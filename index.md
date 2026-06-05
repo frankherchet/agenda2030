@@ -41,6 +41,7 @@ Prüfarbeitsstände.
 | Nachprüfung Rente | `projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md` | Nachprüfung der bearbeiteten Freigabeblocker mit Gegenrechnung, Normstand- und Haushaltsbefund. | Prüfung, Rente |
 | Normstand-Bedarf Rente | `projekte/rentenversicherung/normstand-bedarf.md` | Matrix der vor Rechtsanalyse und Freigabe lokal abzulegenden Normstände. | Recht, Rente |
 | SGB-Normstände Rente | `gesetzbuecher/sgb/README.md` | Normstand-Paket zu SGB VI und SGB IV für das Rentenprojekt. | Recht, SGB, Rente |
+| Rentenwert-Budgetregel | `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md` | Gesetzesänderungsskizze für § 68 SGB VI, Nominalschutz, Nachholbetrag und getrennte Bundesmittel-Systematik. | Recht, Rente |
 | GG-Normstände Rente | `gesetzbuecher/grundgesetz/README.md` | Normstand-Paket zu Art. 3, 6, 14, 20 und 33 GG für das Rentenprojekt. | Recht, Grundgesetz |
 
 ## Arbeitsregeln und Automatisierung

@@ -13,6 +13,7 @@ Analysen und spätere Umsetzungsartefakte.
 - Normstand-Bedarf: `projekte/rentenversicherung/normstand-bedarf.md`
 - Bundesmittel-Zweckzerlegung: `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md`
 - Blocker-Nachbesserung: `analysen/2026-06-06-rentenreform-freigabeblocker.md`
+- Gesetzesänderung Rentenwert-Budgetregel: `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`
 - Veröffentlichungsstatus: intern, weil der Prüfbericht den Status `offen`
   trägt.
 

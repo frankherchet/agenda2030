@@ -43,8 +43,8 @@ Lebensjahres möglich.
 (2) Versicherte, die vor dem 1. Januar 1949 geboren sind, haben Anspruch auf diese
 Altersrente nach Vollendung des 65. Lebensjahres. Für Versicherte, die nach dem 31.
 Dezember 1948 geboren sind, wird die Altersgrenze von 65 Jahren wie folgt angehoben:
-VersicherteGeburtsjahrGeburtsmonat | Anhebungum Monate | auf Alter |
-Jahr | Monat |  |
+| Versicherte Geburtsjahr/Geburtsmonat | Anhebung um Monate | auf Alter Jahr | auf Alter Monat |
+| --- | ---: | ---: | ---: |
 1949 |  |  |
 Januar | 1 | 65 | 1
 Februar | 2 | 65 | 2
@@ -72,13 +72,14 @@ wird die Altersgrenze von 65 Jahren nicht angehoben.
 
 (3) Für Versicherte, die
 1. nach dem 31. Dezember 1947 geboren sind und
-2. entwedera)vor dem 1. Januar 1955 geboren sind und vor dem 1. Januar 2007
-   Altersteilzeitarbeit im Sinne der §§ 2 und 3 Abs. 1 Nr. 1 des Altersteilzeitgesetzes
-   vereinbart haben oderb)Anpassungsgeld für entlassene Arbeitnehmer des Bergbaus
-   bezogen haben,
+2. entweder
+   a) vor dem 1. Januar 1955 geboren sind und vor dem 1. Januar 2007
+      Altersteilzeitarbeit im Sinne der §§ 2 und 3 Abs. 1 Nr. 1 des
+      Altersteilzeitgesetzes vereinbart haben oder
+   b) Anpassungsgeld für entlassene Arbeitnehmer des Bergbaus bezogen haben,
 bestimmt sich die Altersgrenze für die vorzeitige Inanspruchnahme wie folgt:
-VersicherteGeburtsjahrGeburtsmonat | VorzeitigeInanspruchnahmemöglich ab Alter |
-Jahr | Monat |
+| Versicherte Geburtsjahr/Geburtsmonat | Vorzeitige Inanspruchnahme möglich ab Alter Jahr | Vorzeitige Inanspruchnahme möglich ab Alter Monat |
+| --- | ---: | ---: |
 1948 |  |
 Januar – Februar | 62 | 11
 März – April | 62 | 10

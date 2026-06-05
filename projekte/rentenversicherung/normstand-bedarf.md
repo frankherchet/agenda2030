@@ -28,10 +28,11 @@ freigabefähig erscheint, bevor die tragenden Normtexte lokal unter
 
 Die ursprünglich konkret benannten Normstände wurden am 2026-06-05 angelegt.
 Am 2026-06-06 wurde der Normstand-Bedarf um Altersgrenzen, vorzeitige
-Altersrenten und Zugangsfaktor erweitert. `SGB IV § 28j` existiert in der
-amtlichen SGB-IV-Einzelnormstruktur nicht und wurde daher nicht erzeugt. Der
-unbestimmte Verweis `SGB VI § 230 ff.` wurde als `SGB VI § 230` abgelegt;
-weitere Übergangsnormen folgen erst aus einer konkreten Änderungsskizze.
+Altersrenten, Zugangsfaktor und den aktuellen Rentenwert erweitert. `SGB IV §
+28j` existiert in der amtlichen SGB-IV-Einzelnormstruktur nicht und wurde daher
+nicht erzeugt. Der unbestimmte Verweis `SGB VI § 230 ff.` wurde als `SGB VI §
+230` abgelegt; weitere Übergangsnormen folgen erst aus einer konkreten
+Änderungsskizze.
 
 ## Priorität A: vor Gesetzesänderungsskizze erforderlich
 
@@ -45,6 +46,7 @@ weitere Übergangsnormen folgen erst aus einer konkreten Änderungsskizze.
 | SGB VI §§ 66, 70, 71, 76g | Entgeltpunkte und Bewertungen | `gesetzbuecher/sgb/sgb-vi-paragraf-66-stand-2026-06-05.md` usw. |
 | SGB VI §§ 157-170 | Beitragssatz, Bemessung, Beitragstragung | `gesetzbuecher/sgb/sgb-vi-paragraf-157-stand-2026-06-05.md` usw. |
 | SGB VI § 177 | Bundesbeiträge für Kindererziehungszeiten | `gesetzbuecher/sgb/sgb-vi-paragraf-177-stand-2026-06-05.md` |
+| SGB VI § 68 | aktueller Rentenwert und Anpassungsformel | `gesetzbuecher/sgb/sgb-vi-paragraf-68-stand-2026-06-06.md` |
 | SGB VI § 213 | Bundeszuschüsse | `gesetzbuecher/sgb/sgb-vi-paragraf-213-stand-2026-06-05.md` |
 | SGB VI §§ 216, 217 | Nachhaltigkeitsrücklage | `gesetzbuecher/sgb/sgb-vi-paragraf-216-stand-2026-06-05.md` usw. |
 | SGB IV §§ 20-22 | Beitragsgrundsätze und Fälligkeit | `gesetzbuecher/sgb/sgb-iv-paragraf-20-stand-2026-06-05.md` usw. |

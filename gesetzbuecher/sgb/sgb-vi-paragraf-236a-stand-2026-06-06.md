@@ -71,10 +71,11 @@ Juni – Dezember | 6 | 63 | 6 | 60 | 6
 Für Versicherte, die
 1. am 1. Januar 2007 als schwerbehinderte Menschen (§ 2 Abs. 2 Neuntes Buch) anerkannt
    waren und
-2. entwedera)vor dem 1. Januar 1955 geboren sind und vor dem 1. Januar 2007
-   Altersteilzeitarbeit im Sinne der §§ 2 und 3 Abs. 1 Nr. 1 des Altersteilzeitgesetzes
-   vereinbart haben oderb)Anpassungsgeld für entlassene Arbeitnehmer des Bergbaus
-   bezogen haben,
+2. entweder
+   a) vor dem 1. Januar 1955 geboren sind und vor dem 1. Januar 2007
+      Altersteilzeitarbeit im Sinne der §§ 2 und 3 Abs. 1 Nr. 1 des
+      Altersteilzeitgesetzes vereinbart haben oder
+   b) Anpassungsgeld für entlassene Arbeitnehmer des Bergbaus bezogen haben,
 werden die Altersgrenzen nicht angehoben.
 
 (3) Versicherte, die vor dem 1. Januar 1951 geboren sind, haben unter den
@@ -86,9 +87,10 @@ Dezember 2000 geltenden Recht sind.
 schwerbehindert (§ 2 Abs. 2 Neuntes Buch), berufsunfähig oder erwerbsunfähig nach dem am
 31. Dezember 2000 geltenden Recht waren, haben Anspruch auf diese Altersrente, wenn sie
 1. das 60. Lebensjahr vollendet haben,
-2. bei Beginn der Altersrentea)als schwerbehinderte Menschen (§ 2 Abs. 2 Neuntes Buch)
-   anerkannt oderb)berufsunfähig oder erwerbsunfähig nach dem am 31. Dezember 2000
-   geltenden Recht sind und
+2. bei Beginn der Altersrente
+   a) als schwerbehinderte Menschen (§ 2 Abs. 2 Neuntes Buch) anerkannt oder
+   b) berufsunfähig oder erwerbsunfähig nach dem am 31. Dezember 2000 geltenden Recht
+      sind und
 3. die Wartezeit von 35 Jahren erfüllt haben.
 ```
 

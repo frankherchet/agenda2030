@@ -236,3 +236,34 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   synthetischer Alterskohorten, nicht doppelfreier Haushaltswirkung echter
   Staatsbeiträge und fehlender vollständiger öffentlicher
   Bundesmittel-Zweckzerlegung für 2024-2026.
+
+## 2026-06-06 Reformer | Rentenreform nach Nachprüfung nachgebessert
+
+- Neue Normstände und Gesetzesartefakte:
+  `gesetzbuecher/sgb/sgb-vi-paragraf-68-stand-2026-06-06.md`,
+  `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`
+- Bereinigte Normstände:
+  `gesetzbuecher/sgb/sgb-vi-paragraf-77-stand-2026-06-06.md`,
+  `gesetzbuecher/sgb/sgb-vi-paragraf-235-stand-2026-06-06.md`,
+  `gesetzbuecher/sgb/sgb-vi-paragraf-236-stand-2026-06-06.md`,
+  `gesetzbuecher/sgb/sgb-vi-paragraf-236a-stand-2026-06-06.md`,
+  `gesetzbuecher/sgb/sgb-vi-paragraf-237-stand-2026-06-06.md`
+- Neue Daten:
+  `analysen/daten/2026-06-06-staatsbeitraege-doppelfrei-bruecke.csv`
+- Geändert:
+  `scripts/calc_rentenreform_freigabeblocker.py`,
+  `analysen/2026-06-06-rentenreform-freigabeblocker.md`,
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `projekte/rentenversicherung/normstand-bedarf.md`,
+  `projekte/rentenversicherung/README.md`,
+  `gesetzbuecher/sgb/README.md`,
+  `analysen/README.md`,
+  `index.md`
+- Wirkung: Die Rentenwert-Budgetregel liegt als SGB-VI-Änderungsskizze mit
+  Nominalschutz, Nachholbetrag und Referenzausgaben vor. Die Haushaltswirkung
+  echter öffentlicher Beiträge wird doppelfrei als Brutto-Ausweis, bereits
+  bestehende Zahlung und Netto-Zusatzeffekt getrennt. Die
+  Normstand-Textqualitätsreste wurden an den beanstandeten Stellen geglättet;
+  die fehlende öffentliche Zweckzerlegung 2024-2026 bleibt als
+  Negativbeschaffung dokumentiert und wird durch künftige gesetzliche Trennung
+  ersetzt, nicht rückwirkend behauptet.

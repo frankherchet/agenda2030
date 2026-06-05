@@ -16,6 +16,9 @@ AGE_DETAIL_CSV = (
     ROOT / "analysen/daten/2026-06-06-rentenalter-feinmodell-altersjahre.csv"
 )
 STATE_CSV = ROOT / "analysen/daten/2026-06-06-staatsbeitraege-rentenreform.csv"
+FISCAL_BRIDGE_CSV = (
+    ROOT / "analysen/daten/2026-06-06-staatsbeitraege-doppelfrei-bruecke.csv"
+)
 ASSUMPTIONS_CSV = (
     ROOT / "analysen/daten/2026-06-06-rentenreform-freigabeblocker-annahmen.csv"
 )
@@ -183,6 +186,47 @@ def state_contribution_rows() -> list[dict[str, str]]:
     return rows
 
 
+def fiscal_bridge_rows(state_rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Separate gross transparency amounts from net additional fiscal effects."""
+    existing_payment_status = {
+        "kindererziehungszeiten": (
+            "bestehende_Bundeszahlung",
+            "Bereits heute gesetzlich als Bundesbeitrag angelegt; Reform verlangt getrennten Ausweis statt pauschaler Vermengung.",
+        ),
+        "pflegezeiten": (
+            "bestehende_Pflegeversicherungszahlung",
+            "Bereits heute Beitragszahlung der Pflegeversicherung; Reform verlangt getrennten Ausweis je Zahlungspflichtigem.",
+        ),
+        "ba_leistungsempfaenger": (
+            "bestehende_BA_Beitraege",
+            "DRV-Rechnungsergebnis zeigt bereits Beitragszahlungen für BA-Leistungsempfänger.",
+        ),
+        "versorgungsdienststellen": (
+            "bestehende_Erstattung",
+            "DRV-Rechnungsergebnis zeigt bereits Erstattungen von Versorgungsdienststellen.",
+        ),
+    }
+    rows: list[dict[str, str]] = []
+    for row in state_rows:
+        amount = Decimal(row["betrag_mrd_euro"])
+        status, note = existing_payment_status[row["kategorie"]]
+        existing = amount
+        new_extra = Decimal("0")
+        rows.append(
+            {
+                "jahr": row["jahr"],
+                "kategorie": row["kategorie"],
+                "zahlungspflichtiger": row["zahlungspflichtiger"],
+                "brutto_ausweis_mrd_euro": str(q(amount, "0.001")),
+                "bereits_in_drv_finanzierung_mrd_euro": str(q(existing, "0.001")),
+                "modellierter_netto_zusatzeffekt_mrd_euro": str(q(new_extra, "0.001")),
+                "zahlungsstatus": status,
+                "doppelfrei_notiz": note,
+            }
+        )
+    return rows
+
+
 def build_rows() -> tuple[list[dict[str, str]], list[dict[str, str]]]:
     abschmelzung = zukunft.read_abschmelzung()
     calibration = zukunft.expense_calibration()
@@ -267,6 +311,7 @@ def write_assumptions() -> None:
         ("live_births_2024", LIVE_BIRTHS_2024, "Destatis", "Basis für Kindererziehungszeiten."),
         ("care_persons", "1,10 Mio.", "DRV", "Rund 1,1 Mio. rentenversicherte Pflegepersonen."),
         ("care_assessment_base", f"{CARE_MONTHLY_LOW} bis {CARE_MONTHLY_HIGH} Euro monatlich", "BMG", "Modell nutzt den Mittelwert der 2026 genannten Spanne."),
+        ("doppelfrei_bruecke", "bestehende Zahlungen = Bruttoausweis; Netto-Zusatzeffekt 0", "Reformklassifikation", "Die vier modellierten Kategorien werden nicht als neue Zusatzeinnahme gezählt, solange keine Leistungsausweitung beschlossen wird."),
     ]
     ASSUMPTIONS_CSV.parent.mkdir(parents=True, exist_ok=True)
     with ASSUMPTIONS_CSV.open("w", encoding="utf-8", newline="") as handle:
@@ -294,7 +339,19 @@ def state_total(state_rows: list[dict[str, str]], year: int) -> Decimal:
     )
 
 
-def write_markdown(rows: list[dict[str, str]], state_rows: list[dict[str, str]]) -> None:
+def bridge_total(bridge_rows: list[dict[str, str]], year: int, column: str) -> Decimal:
+    return sum(
+        Decimal(row[column])
+        for row in bridge_rows
+        if row["jahr"] == str(year)
+    )
+
+
+def write_markdown(
+    rows: list[dict[str, str]],
+    state_rows: list[dict[str, str]],
+    bridge_rows: list[dict[str, str]],
+) -> None:
     lines = [
         "---",
         "title: Rentenreform Freigabeblocker - Nachbesserung",
@@ -308,16 +365,19 @@ def write_markdown(rows: list[dict[str, str]], state_rows: list[dict[str, str]])
         "  - https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/251111-kindererziehungszeiten-vaeter",
         "  - https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/leistungen-der-pflegeversicherung/leistungen-im-ueberblick/soziale-absicherung-fuer-pflegepersonen",
         "  - https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Pressemitteilungen/Pressemitteilungen-archiv/2025/2025-05-09-pflege-von-angehoerigen.html",
+        "  - https://dserver.bundestag.de/btd/21/014/2101419.pdf",
         "ingest_refs:",
         "  - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md",
         "  - ingest/links/2026-06-06-destatis-lebendgeborene-2024.md",
         "  - ingest/links/2026-06-06-drv-kindererziehungszeiten-bund.md",
         "  - ingest/links/2026-06-06-bmg-soziale-absicherung-pflegepersonen.md",
         "  - ingest/links/2026-06-06-drv-pflegepersonen-rentenversicherung.md",
+        "  - ingest/dokumente/2026-06-05-bundestag-drs-21-1419-nicht-beitragsgedeckte-leistungen.md",
         "data_artifacts:",
         f"  - {OUTPUT_CSV.relative_to(ROOT)}",
         f"  - {AGE_DETAIL_CSV.relative_to(ROOT)}",
         f"  - {STATE_CSV.relative_to(ROOT)}",
+        f"  - {FISCAL_BRIDGE_CSV.relative_to(ROOT)}",
         f"  - {ASSUMPTIONS_CSV.relative_to(ROOT)}",
         "scripts:",
         "  - scripts/calc_rentenreform_freigabeblocker.py",
@@ -329,16 +389,17 @@ def write_markdown(rows: list[dict[str, str]], state_rows: list[dict[str, str]])
         "",
         "## Kurzfassung",
         "",
-        "Diese Nachbesserung bearbeitet die im Prüferbericht vom 2026-06-05",
-        "benannten Freigabeblocker. Sie ersetzt die vorherige pauschale",
-        "Rentenalter-Verschiebung durch ein synthetisches Altersjahrmodell,",
-        "formuliert eine konkrete Rentenwert-Budgetregel und quantifiziert die",
-        "auszuweisenden echten öffentlichen Beitragszahlungen für zentrale",
-        "Sozialzeiten. Sie ist noch keine Prüferfreigabe.",
+        "Diese Nachbesserung bearbeitet die im Prüferbericht vom 2026-06-06",
+        "weiter offenen Freigabepunkte. Sie ergänzt eine SGB-VI-Mechanik zur",
+        "Rentenwert-Budgetregel, trennt Brutto-Ausweis und Netto-Haushaltswirkung",
+        "der öffentlichen Beiträge und macht die Grenzen der verfügbaren",
+        "Bundesmittel-Zweckzerlegung explizit. Sie ist noch keine Prüferfreigabe.",
         "",
         "## Rentenwertformel",
         "",
-        "Die Reformformel lautet als Arbeitsfassung:",
+        "Die Reformformel wird nun als Gesetzesänderungsskizze an § 68 SGB VI",
+        "angebunden: `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`.",
+        "Die technische Formel lautet:",
         "",
         "```text",
         "Budget_t = Beitragsbasis_t x Beitragssatzkorridor_t",
@@ -351,9 +412,9 @@ def write_markdown(rows: list[dict[str, str]], state_rows: list[dict[str, str]])
         "```",
         "",
         "Ein Faktor unter 1 bedeutet eine Dämpfung gegenüber dem fortgeschriebenen",
-        "Referenzpfad, nicht automatisch eine nominale Kürzung. Nominalschutz,",
-        "Nachholfaktor und Übergangspfad müssen in einer Gesetzesskizze separat",
-        "ausformuliert werden.",
+        "Referenzpfad. Die Gesetzesskizze enthält nun Nominalschutz für laufende",
+        "Monatsrenten, ein Nachholbetragskonto und eine Verordnungsermächtigung für",
+        "Datengrundlagen, Rundung und Referenzausgaben.",
         "",
         "## Feineres Rentenaltermodell",
         "",
@@ -399,28 +460,55 @@ def write_markdown(rows: list[dict[str, str]], state_rows: list[dict[str, str]])
             "",
             "Enthalten sind modellhaft Kindererziehungszeiten, Pflegezeiten,",
             "BA-Leistungsempfänger und Erstattungen von Versorgungsdienststellen.",
-            "Die Beträge wachsen nominal mit 2,5 % pro Jahr. Für eine finale",
-            "Haushaltsfreigabe müssen Ist-Zahlungen und neue Reformzahlungen",
-            "doppelfrei gegen die DRV-Finanzrechnung abgegrenzt werden.",
+            "Die Beträge wachsen nominal mit 2,5 % pro Jahr.",
+            "",
+            "### Doppelfreie Haushaltsbrücke",
+            "",
+            "Die Prüferkritik betraf zu Recht die Gefahr, bestehende Zahlungsströme als",
+            "neue Reformmittel zu zählen. Die neue Brückenrechnung trennt deshalb",
+            "Brutto-Ausweis, bereits in der DRV-Finanzierung enthaltene Zahlungen und",
+            "modellierten Netto-Zusatzeffekt. Für die vier aktuell modellierten",
+            "Kategorien ist der Netto-Zusatzeffekt null, solange keine zusätzliche",
+            "Leistung oder höhere Bemessungsgrundlage beschlossen wird.",
+            "",
+            "| Jahr | Brutto-Ausweis | bereits in DRV-Finanzierung | Netto-Zusatzeffekt |",
+            "| ---: | ---: | ---: | ---: |",
+        ]
+    )
+    for year in MILESTONES:
+        lines.append(
+            f"| {year} | {de(bridge_total(bridge_rows, year, 'brutto_ausweis_mrd_euro'), '0.1')} Mrd. Euro | "
+            f"{de(bridge_total(bridge_rows, year, 'bereits_in_drv_finanzierung_mrd_euro'), '0.1')} Mrd. Euro | "
+            f"{de(bridge_total(bridge_rows, year, 'modellierter_netto_zusatzeffekt_mrd_euro'), '0.1')} Mrd. Euro |"
+        )
+    lines.extend(
+        [
+            "",
+            "Damit ist die Tabelle kein Einnahmehebel, sondern eine Buchungs- und",
+            "Transparenzvorschrift. Zusätzliche Haushaltslasten entstehen erst, wenn",
+            "weitere Sozialzeiten einbezogen oder heutige Bemessungsgrundlagen erhöht",
+            "werden.",
             "",
             "## Bundesmittel-Zweckzerlegung",
             "",
-            "Der bisherige Freigabeblocker kann fachlich nur teilweise behoben werden:",
-            "Eine öffentliche amtliche Zweckzerlegung für 2024 bis 2026 liegt nach",
-            "den bereits ingested Quellen nicht vor. Die Reform trennt deshalb",
-            "künftig normativ zwischen Bestandsschutz-Zuschuss, echten",
-            "Staatsbeiträgen und Steuertransfers. Das ist eine belastbarere",
-            "Reformklassifikation, ersetzt aber keine amtliche rückwirkende",
-            "Zweckzerlegung.",
+            "Der bisherige Freigabeblocker kann nicht durch eine nicht vorhandene",
+            "öffentliche Quelle erledigt werden. Die Negativbeschaffung bleibt:",
+            "Nach den ingested Quellen liegt für 2024 bis 2026 keine vollständige",
+            "öffentliche amtliche Zweckzerlegung vor. Die Reform löst deshalb nicht",
+            "rückwirkend die Datenlage, sondern normiert künftig eine zwingende",
+            "Dreiteilung zwischen Bestandsschutz-Zuschuss, echten Staatsbeiträgen und",
+            "sonstigen Steuertransfers. Diese Dreiteilung ist in der",
+            "§-68/§-213a-Gesetzesskizze angelegt.",
             "",
             "## Prüffähige Folgepunkte",
             "",
             "- Normstände für Altersgrenzen und Zugangsfaktor wurden separat angelegt.",
-            "- Rentenwertformel ist nun konkret genug für eine Gesetzesskizze.",
-            "- Rentenaltermodell ist feiner, aber weiter synthetisch und braucht",
-            "  echte feinjährige Bevölkerung, Erwerbsquoten und Rentenzugangsdaten.",
-            "- Staatsbeiträge sind als Größenordnung quantifiziert; die finale",
-            "  Haushaltsrechnung muss doppelfrei aus Ist-Daten abgeleitet werden.",
+            "- Rentenwertformel ist als SGB-VI-Gesetzesänderungsskizze ausgearbeitet.",
+            "- Rentenaltermodell ist feiner, aber weiter als Sensitivität zu behandeln,",
+            "  bis echte feinjährige Bevölkerung, Erwerbsquoten und Rentenzugangsdaten",
+            "  in das Modell übernommen sind.",
+            "- Staatsbeiträge sind doppelfrei als Brutto-Ausweis, bestehende Zahlung und",
+            "  Netto-Zusatzeffekt getrennt.",
         ]
     )
     OUTPUT_MD.write_text("\n".join(lines), encoding="utf-8")
@@ -429,11 +517,13 @@ def write_markdown(rows: list[dict[str, str]], state_rows: list[dict[str, str]])
 def main() -> None:
     rows, age_details = build_rows()
     state_rows = state_contribution_rows()
+    bridge_rows = fiscal_bridge_rows(state_rows)
     write_csv(OUTPUT_CSV, rows)
     write_csv(AGE_DETAIL_CSV, age_details)
     write_csv(STATE_CSV, state_rows)
+    write_csv(FISCAL_BRIDGE_CSV, bridge_rows)
     write_assumptions()
-    write_markdown(rows, state_rows)
+    write_markdown(rows, state_rows, bridge_rows)
 
 
 if __name__ == "__main__":
