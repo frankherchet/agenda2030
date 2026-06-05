@@ -26,3 +26,7 @@ Aktuelle Skripte:
   geschützten Bestandsrentner-Kohorte auf Basis des DRV-Rentenbestands.
 - `calc_rentenreform_zukunft.py`: erzeugt ein v1-Zukunftsmodell 2027-2070 für
   Status quo, abschmelzende Bundesmittel und erweiterte Erwerbstätigenbasis.
+- `calc_rentenproblem_finanzierungsluecke.py`: erzeugt eine Hochrechnung der
+  jährlichen Renten-Finanzierungslücke, wenn Beitragssatz und
+  Renteneintrittsalter unverändert bleiben, inklusive CSV-Artefakten und
+  SVG-Diagrammen.

@@ -25,7 +25,7 @@ Prüfarbeitsstände.
 | Demographie und Rente | `analysen/2026-06-04-demographie-rente-gkv.md` | Zusammenfassung demographischer Belastungsfaktoren für Sozialversicherungen. | Alterung, Sozialversicherung |
 | Strukturumbau-Prüfung | `analysen/2026-06-05-strukturumbau-quellen-analysen-projekte-pruefung.md` | Prüfung, welche Quellen-, Dokument-, Analyse- und Projektartefakte nach dem Umbau nachgepflegt werden müssen. | Workflow, Prüfung |
 | Bundesmittel-Zweckzerlegung Rente | `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md` | Beschaffte Quellen und Einordnung zu Bundeszuschüssen und nicht beitragsgedeckten Leistungen. | Bundesmittel, Rente |
-| Rentenproblem Deutschland | `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md` | Quellenbasierter Problemaufriss zu Ursachen und Auswirkungen der Rentenbelastung ohne Gegenmaßnahmen. | Rente, Demographie, Bundeshaushalt |
+| Rentenproblem Deutschland | `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md` | Quellenbasierter Problemaufriss mit eigener Hochrechnung der Finanzierungslücke bei fixem Beitragssatz und unveränderter Altersgrenze. | Rente, Demographie, Bundeshaushalt |
 
 ## Projekte und Prüfung
 
@@ -46,5 +46,6 @@ Prüfarbeitsstände.
 | Log | `log.md` | Chronologisches Arbeitslog für Ingests, Wissenspflege, Analysen und Prüfungen. | Verlauf |
 | Agentenrollen | `agenten/README.md` | Rollen für Analyse, Reformer und Prüfer sowie Freigaberegeln. | Agenten |
 | Skripte | `scripts/README.md` | Reproduzierbare Berechnungen und erzeugte Artefakte. | Rechenartefakte |
+| Analyse-Diagramme | `analysen/diagramme/` | Reproduzierbar erzeugte SVG-Diagramme zu Analyseartefakten. | Diagramme, Rechenartefakte |
 | Normstand-Vorlage | `vorlagen/normstand.md` | Vorlage für lokal abgelegte geltende Paragraphen- und Artikelstände. | Recht, Normtexte |
 | Web | `web/` | Vite-React-App für GitHub Pages und interaktive Reports. | Veröffentlichung |

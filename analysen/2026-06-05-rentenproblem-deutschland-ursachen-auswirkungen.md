@@ -21,6 +21,13 @@ ingest_refs:
 data_artifacts:
   - analysen/daten/2026-06-04-demographie-kernzahlen-2024-2070.csv
   - analysen/daten/2026-06-04-rentenreform-zukunft-modell.csv
+  - analysen/daten/2026-06-05-rentenproblem-finanzierungsluecke.csv
+  - analysen/daten/2026-06-05-rentenproblem-finanzierungsluecke-annahmen.csv
+diagram_artifacts:
+  - analysen/diagramme/2026-06-05-rentenproblem-finanzierungsluecke.svg
+  - analysen/diagramme/2026-06-05-rentenproblem-bundesmittelbedarf.svg
+scripts:
+  - scripts/calc_rentenproblem_finanzierungsluecke.py
 related_analyses:
   - analysen/2026-06-04-demographie-rente-gkv.md
   - analysen/2026-06-04-rente-belastungsrechnung.md
@@ -184,6 +191,91 @@ Abgaben, Arbeitgeber wettbewerbsfaehige Arbeitskosten und der Bund
 haushaltspolitischen Spielraum. Ohne geklaerte Lastverteilung nimmt die Rente
 mehr Raum in allgemeinen Verteilungskonflikten ein.
 
+## Eigene Hochrechnung: Finanzierungsluecke bei fixem Beitragssatz
+
+Reproduzierbar mit:
+
+```bash
+python3 scripts/calc_rentenproblem_finanzierungsluecke.py
+```
+
+Diese Hochrechnung isoliert die Frage des Nutzers: Was passiert, wenn der
+Beitragssatz bei 18,6 % bleibt und das Renteneintrittsalter nicht angehoben
+wird? Modelliert werden drei Destatis-nahe Demographiepfade aus der
+bestehenden Repo-Logik: `jung`, `moderat` und `alt`. Die Altersgrenze bleibt
+bei 67; die Lastseite ist damit die Bevoelkerung ab 67 Jahren, die
+Beitragsseite die Bevoelkerung von 20 bis 66 Jahren.
+
+Die Rechnung ist nominal, nicht preisbereinigt. Die Beitragsbasis waechst mit
+2,5 % nominalem Lohnwachstum und wird anschliessend mit der jeweiligen
+Erwerbsalter-Entwicklung skaliert. Die Rentenausgaben wachsen bis 2039 mit
+2,8 % pro Jahr und danach mit 2,3 %; zusaetzlich werden sie mit der Zahl der
+Personen ab 67 skaliert. Die Bundesmittel werden in der Lueckenrechnung
+nominal auf dem 2025er Niveau von 97,858 Mrd. Euro gehalten. Die Ausgaben sind
+wie im bestehenden Zukunftsmodell auf die moderate 2027er BMAS-Plausibilitaet
+kalibriert.
+
+Die Finanzierungsluecke ist definiert als:
+
+```text
+Ausgaben
+- Beitragseinnahmen bei 18,6 %
+- Bundesmittel 2025 nominal konstant
+- sonstige Einnahmen
+= Finanzierungsluecke
+```
+
+![Finanzierungsluecke bei 18,6 % Beitragssatz](diagramme/2026-06-05-rentenproblem-finanzierungsluecke.svg)
+
+| Szenario | 2027 | 2035 | 2039 | 2050 | 2070 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| jung | -2,1 Mrd. Euro | 110,2 Mrd. Euro | 172,9 Mrd. Euro | 241,4 Mrd. Euro | 413,3 Mrd. Euro |
+| moderat | 1,7 Mrd. Euro | 127,6 Mrd. Euro | 198,7 Mrd. Euro | 293,1 Mrd. Euro | 550,1 Mrd. Euro |
+| alt | 5,4 Mrd. Euro | 144,3 Mrd. Euro | 223,6 Mrd. Euro | 344,1 Mrd. Euro | 686,9 Mrd. Euro |
+
+Interpretation: Schon im moderaten Szenario entsteht bis 2035 ein
+zusaetzlicher jaehrlicher Finanzierungsbedarf von rund 128 Mrd. Euro. Bis 2039
+liegt die Luecke bei rund 199 Mrd. Euro, bis 2070 bei rund 550 Mrd. Euro. In
+der alten Variante waere die Luecke 2070 mit rund 687 Mrd. Euro deutlich
+groesser. Die junge Variante entschaerft den Pfad, beseitigt ihn aber nicht.
+
+Dass die junge Variante 2027 rechnerisch mit -2,1 Mrd. Euro knapp keinen
+Fehlbetrag ausweist, ist kein struktureller Ueberschuss. Es entsteht aus der
+Kalibrierung auf 2027 und verschwindet unmittelbar danach; ab 2030 zeigt auch
+die junge Variante eine positive Luecke.
+
+Die gleiche Rechnung laesst sich als erforderlicher Bundesmittelbedarf lesen:
+Wenn der Beitragssatz bei 18,6 % bleibt, muesste der Bund den nicht durch
+Beitraege und sonstige Einnahmen gedeckten Betrag tragen.
+
+![Erforderliche Bundesmittel bei fixem Beitragssatz](diagramme/2026-06-05-rentenproblem-bundesmittelbedarf.svg)
+
+| Szenario | Erforderliche Bundesmittel 2035 | 2039 | 2050 | 2070 |
+| --- | ---: | ---: | ---: | ---: |
+| jung | 208,1 Mrd. Euro | 270,8 Mrd. Euro | 339,3 Mrd. Euro | 511,2 Mrd. Euro |
+| moderat | 225,5 Mrd. Euro | 296,6 Mrd. Euro | 391,0 Mrd. Euro | 648,0 Mrd. Euro |
+| alt | 242,1 Mrd. Euro | 321,5 Mrd. Euro | 442,0 Mrd. Euro | 784,8 Mrd. Euro |
+
+Das ist keine Prognose fuer tatsaechliche Bundeszuschuesse, sondern eine
+Lueckenrechnung: Sie zeigt, welcher Betrag bei konstantem Beitragssatz und
+unveraenderter Altersgrenze anderswo herkommen muesste. Alternativ zur
+Bundesfinanzierung entspraeche die moderate Luecke 2039 rund 9,0
+zusaetzlichen Beitragssatzpunkten und 2070 rund 13,0 Punkten. In der alten
+Variante waeren es 2070 rund 18,1 Punkte. Diese Umrechnung ist nur eine
+Groessenordnung, weil der Nutzerfall gerade konstante Beitraege unterstellt.
+
+Artefakte:
+
+- Jahreswerte:
+  `analysen/daten/2026-06-05-rentenproblem-finanzierungsluecke.csv`
+- Annahmen:
+  `analysen/daten/2026-06-05-rentenproblem-finanzierungsluecke-annahmen.csv`
+- Diagramme:
+  `analysen/diagramme/2026-06-05-rentenproblem-finanzierungsluecke.svg`,
+  `analysen/diagramme/2026-06-05-rentenproblem-bundesmittelbedarf.svg`
+- Skript:
+  `scripts/calc_rentenproblem_finanzierungsluecke.py`
+
 ## Betroffene Gruppen und Akteure
 
 Beschaeftigte tragen steigende Beitraege unmittelbar ueber geringere
@@ -211,6 +303,13 @@ gewichten als amtliche Quellen. Es ist trotzdem nuetzlich, weil es die
 Konsequenz der Destatis-Varianten ueber den BMAS-Horizont hinaus sichtbar
 macht und die Zahlen reproduzierbar unter `scripts/` und `analysen/daten/`
 ablegt.
+
+Die neue Lueckenrechnung erhoeht die Anschaulichkeit, aber nicht die amtliche
+Belastbarkeit der Langfristwerte. Sie ist eine Szenario- und
+Sensitivitaetsrechnung: Beitragssatz und Altersgrenze werden festgehalten,
+waehrend Demographie, Lohnbasis und Rentenausgaben fortgeschrieben werden.
+Sie ersetzt keine vollstaendige Rentenzugangs-, Bestands- und
+Sterblichkeitsmodellierung.
 
 Die Bundesmittel-Zweckzerlegung bleibt nur teilweise belastbar. Fuer 2023
 liegt eine oeffentliche DRV-Schaetzung vor; fuer 2024 bis 2026 fehlen nach

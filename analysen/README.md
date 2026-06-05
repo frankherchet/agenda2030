@@ -19,6 +19,11 @@ beantwortet oder ein Projekt belastbar vorbereitet.
 `analysen/daten/` enthält CSV- oder JSON-Artefakte, die von Skripten erzeugt
 oder für Analysen als strukturierter Input genutzt werden.
 
+## Diagramme
+
+`analysen/diagramme/` enthält reproduzierbar erzeugte SVG-Grafiken, die von
+Analysen referenziert werden.
+
 ## Übersicht
 
 - `2026-06-04-drv-rentenbestand-inputs.md`: DRV-Rentenbestandsstruktur und
@@ -37,4 +42,5 @@ oder für Analysen als strukturierter Input genutzt werden.
   Leistungen.
 - `2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md`:
   Quellenbasierter Problemaufriss zu Ursachen und Folgen steigender
-  Rentenbelastung ohne Gegenmaßnahmen.
+  Rentenbelastung ohne Gegenmaßnahmen, inklusive Hochrechnung der
+  Finanzierungslücke bei fixem Beitragssatz und unveränderter Altersgrenze.

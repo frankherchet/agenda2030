@@ -119,3 +119,17 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   Gegenmaßnahmen sind als quellenbasierter Problemaufriss dokumentiert;
   offene Datenlücken zur Beitragszahler-Relation, Tabellenextraktion und
   Bundesmittel-Zweckzerlegung bleiben sichtbar.
+
+## 2026-06-05 Rechenartefakt | Finanzierungslücke Rentenproblem
+
+- Skript:
+  `scripts/calc_rentenproblem_finanzierungsluecke.py`
+- Neue Daten:
+  `analysen/daten/2026-06-05-rentenproblem-finanzierungsluecke.csv`,
+  `analysen/daten/2026-06-05-rentenproblem-finanzierungsluecke-annahmen.csv`
+- Neue Diagramme:
+  `analysen/diagramme/2026-06-05-rentenproblem-finanzierungsluecke.svg`,
+  `analysen/diagramme/2026-06-05-rentenproblem-bundesmittelbedarf.svg`
+- Wirkung: Die Analyse zum Rentenproblem weist nun eine reproduzierbare
+  Hochrechnung aus, wie groß die jährliche Lücke wird, wenn Beitragssatz und
+  Renteneintrittsalter unverändert bleiben.
