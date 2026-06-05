@@ -11,6 +11,7 @@ Analysen und spätere Umsetzungsartefakte.
 - Gesamtprüfung: `projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md`
 - Normstand-Bedarf: `projekte/rentenversicherung/normstand-bedarf.md`
 - Bundesmittel-Zweckzerlegung: `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md`
+- Blocker-Nachbesserung: `analysen/2026-06-06-rentenreform-freigabeblocker.md`
 - Veröffentlichungsstatus: intern, weil der Prüfbericht den Status `offen`
   trägt.
 
@@ -24,6 +25,7 @@ Analysen und spätere Umsetzungsartefakte.
 - `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md`
 - `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md`
 - `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md`
+- `analysen/2026-06-06-rentenreform-freigabeblocker.md`
 
 ## Arbeitsregel
 

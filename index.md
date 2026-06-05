@@ -28,6 +28,7 @@ Prüfarbeitsstände.
 | Rentenproblem Deutschland | `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md` | Quellenbasierter Problemaufriss mit eigener Hochrechnung der Finanzierungslücke bei fixem Beitragssatz und unveränderter Altersgrenze. | Rente, Demographie, Bundeshaushalt |
 | Rentenreform Stabilitätskorridor | `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md` | Reproduzierbare Berechnung des maximal finanzierbaren Rentenvolumens bei Beitragssatz-Korridoren von 20 %, 22 % und 24 %. | Rente, Beitragssatz, Reformmodell |
 | Rentenalter und Kapitalmarkt | `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md` | Szenarioanalyse zur Lebenserwartungs-Kopplung des Rentenalters und zu einem zusätzlichen kapitalgedeckten Baustein. | Rente, Rentenalter, Kapitalmarkt |
+| Rentenreform Blocker-Nachbesserung | `analysen/2026-06-06-rentenreform-freigabeblocker.md` | Rentenwert-Budgetformel, feineres Altersjahrmodell und Haushaltswirkung echter öffentlicher Beitragszahlungen. | Rente, Prüferblocker, Staatsbeiträge |
 
 ## Projekte und Prüfung
 

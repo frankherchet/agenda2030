@@ -36,3 +36,7 @@ Aktuelle Skripte:
 - `calc_rentenreform_rentenalter_kapital.py`: modelliert eine Kopplung des
   Renteneintrittsalters an die Lebenserwartung sowie einen zusaetzlichen
   kapitalgedeckten Baustein mit Renditesensitivitaeten.
+- `calc_rentenreform_freigabeblocker.py`: bearbeitet die Prüferblocker zur
+  konkreten Rentenwertformel, feinerer Rentenalter-Kohortenrechnung,
+  Bundesmittel-/Staatsbeitragsabgrenzung und erzeugt die zugehörigen
+  Nachbesserungsartefakte.

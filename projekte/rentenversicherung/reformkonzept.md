@@ -43,6 +43,10 @@ source_urls:
   - https://www.ap7.se/english/ap7-safa/
   - https://www.msci.com/World
   - https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/12/oecd-pensions-outlook-2024_6ac7d5fd/51510909-en.pdf
+  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Geburten/Tabellen/lebendgeborene-geschlecht.html
+  - https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/251111-kindererziehungszeiten-vaeter
+  - https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/leistungen-der-pflegeversicherung/leistungen-im-ueberblick/soziale-absicherung-fuer-pflegepersonen
+  - https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Pressemitteilungen/Pressemitteilungen-archiv/2025/2025-05-09-pflege-von-angehoerigen.html
 ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
@@ -69,6 +73,10 @@ ingest_refs:
   - ingest/links/2026-06-05-schweden-ap7-safa-premium-pension.md
   - ingest/links/2026-06-05-msci-world-index.md
   - ingest/dokumente/2026-06-05-oecd-pensions-outlook-2024-kapitalmarkt-defaults.md
+  - ingest/links/2026-06-06-destatis-lebendgeborene-2024.md
+  - ingest/links/2026-06-06-drv-kindererziehungszeiten-bund.md
+  - ingest/links/2026-06-06-bmg-soziale-absicherung-pflegepersonen.md
+  - ingest/links/2026-06-06-drv-pflegepersonen-rentenversicherung.md
 related_ministries:
   - ministerien/arbeit-soziales/
   - ministerien/finanzen/
@@ -85,16 +93,22 @@ data_artifacts:
   - analysen/daten/2026-06-05-rentenreform-rentenalter-kapital.csv
   - analysen/daten/2026-06-05-rentenreform-rentenalter-kapital-annahmen.csv
   - analysen/daten/2026-06-05-rentenreform-kapitalmarktbaustein.csv
+  - analysen/daten/2026-06-06-rentenreform-freigabeblocker.csv
+  - analysen/daten/2026-06-06-rentenalter-feinmodell-altersjahre.csv
+  - analysen/daten/2026-06-06-staatsbeitraege-rentenreform.csv
+  - analysen/daten/2026-06-06-rentenreform-freigabeblocker-annahmen.csv
 scripts:
   - scripts/calc_demographie_rente.py
   - scripts/calc_rentenreform_zukunft.py
   - scripts/calc_rentenproblem_finanzierungsluecke.py
   - scripts/calc_rentenreform_stabilitaetskorridor.py
   - scripts/calc_rentenreform_rentenalter_kapital.py
+  - scripts/calc_rentenreform_freigabeblocker.py
 related_analyses:
   - analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md
   - analysen/2026-06-05-rentenreform-stabilitaetskorridor.md
   - analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md
+  - analysen/2026-06-06-rentenreform-freigabeblocker.md
 ---
 
 # Rentenversicherung reformieren: Beitragsklarheit und reine Umlage
@@ -105,16 +119,19 @@ related_analyses:
   `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md`,
   `projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md`
 - Status Gesamtprüfung: offen
-- Normstände: `projekte/rentenversicherung/normstand-bedarf.md`; 63
-  Normstand-Dateien wurden unter `gesetzbuecher/sgb/` und
-  `gesetzbuecher/grundgesetz/` abgelegt.
+- Normstände: `projekte/rentenversicherung/normstand-bedarf.md`; das
+  ursprüngliche Normstand-Paket wurde am 2026-06-06 um SGB VI §§ 34-38, 77,
+  235, 236, 236a, 237 und 237a für Altersgrenzen, vorzeitige Altersrenten und
+  Zugangsfaktor ergänzt.
+- Nachbesserung der Freigabeblocker:
+  `analysen/2026-06-06-rentenreform-freigabeblocker.md`
 - Konsequenz: Das Konzept bleibt interne Arbeitsfassung und ist nicht
   veroeffentlichungsfaehig, solange kein freigegebener Prueferbericht vorliegt.
-  Die Regel "Abschmelzen proportional zum Versterben der
-  Bestandsrentner" bleibt Reformvorgabe. Die DRV-Bestandsstruktur nach
-  Rentenart, Alter und Geschlecht ist eingearbeitet; offen bleibt vor allem,
-  dass die Bundesmittel-Zerlegung noch eine Reformklassifikation und keine
-  amtliche Zweckzerlegung ist.
+  Die vorherigen Blocker sind fachlich bearbeitet, muessen aber separat durch
+  den Pruefer nachgeprueft werden. Nicht vollstaendig aufloesbar bleibt, dass
+  fuer 2024 bis 2026 keine oeffentliche amtliche Zweckzerlegung der
+  Bundesmittel vorliegt; das Konzept ersetzt sie durch eine prueffaehige
+  Reformklassifikation.
 
 ## Kurzfassung
 
@@ -142,6 +159,11 @@ innerhalb eines stabilen Beitragssatzkorridors so hoch wie möglich ausfallen.
 Der Rentenwert wird nicht durch ungedeckte politische Versprechen garantiert,
 sondern über eine Budgetregel aus Beiträgen, echten staatlichen Beiträgen und
 Bestandsschutz-Zuschuss finanziert.
+Die Nachbesserung vom 2026-06-06 konkretisiert diese Budgetregel als
+Rentenwert-Budgetfaktor, ersetzt die grobe Rentenalterrechnung durch ein
+synthetisches Altersjahrmodell und beziffert auszuweisende öffentliche
+Beitragszahlungen für Kindererziehung, Pflege, BA-Leistungsempfänger und
+Versorgungsdienststellen.
 
 ## Reformziel
 
@@ -303,6 +325,7 @@ Die Nachhaltigkeitsrücklage der allgemeinen Rentenversicherung sank von
 | Bundesmittel | SGB VI § 213, § 287h, § 291b | Bundeszuschüsse und Erstattungen müssen in Bestandsschutz-Zuschuss, echte Beiträge und separat ausgewiesene Steuerleistungen getrennt werden. |
 | Nachhaltigkeitsrücklage | SGB VI §§ 158, 216, 217 | Puffer bleibt erlaubt, wird aber als Demografie- und Liquiditätspuffer definiert. |
 | Beitragsverfahren | SGB IV §§ 20-22, §§ 28a-28q | Einzug, Meldung, Zahlungspflicht und Prüfung für Arbeitgeber, Selbständige und staatliche Zahlungspflichtige. |
+| Altersgrenzen und Zugangsfaktor | SGB VI §§ 34-38, 77, 235, 236, 236a, 237, 237a | Regelaltersrente, vorzeitige Altersrenten, Übergangsaltersgrenzen und Abschläge/Zuschläge. |
 | Verfassungsrecht | GG Art. 3, 6, 14, 20, 33 | Gleichbehandlung, Familie, Eigentumsschutz bestehender Anwartschaften, Sozialstaat und Beamtenstatus. |
 
 ## Problemstruktur
@@ -499,6 +522,51 @@ politisch gewollte Zeiten. Beispiele:
 - Erwerbsminderung und Hinterbliebene: bleiben Versicherungsleistungen, ihre
   versicherungsmathematische Finanzierung wird im Beitragssatz ausgewiesen.
 
+### 2c. Konkrete Rentenwert-Budgetregel und echte Staatsbeiträge
+
+Die Nachbesserung
+`analysen/2026-06-06-rentenreform-freigabeblocker.md` formuliert die
+Budgetregel als prüffähige Arbeitsformel:
+
+```text
+Budget_t = Beitragsbasis_t x Beitragssatzkorridor_t
+         + Bestandsschutz-Zuschuss_t
+         + sonstige Einnahmen_t
+
+Rentenwert-Budgetfaktor_t = min(1, Budget_t / Referenzausgaben_t)
+
+Aktueller Rentenwert_t = Referenz-Rentenwert_t x Rentenwert-Budgetfaktor_t
+```
+
+Ein Faktor unter 1 bedeutet eine Dämpfung gegenüber dem fortgeschriebenen
+Referenzpfad, nicht automatisch eine nominale Kürzung. Für die spätere
+Gesetzesskizze sind drei Schutzregeln vorzusehen:
+
+- Nominalschutz: laufende Monatsrenten werden nicht nominal abgesenkt.
+- Nachholfaktor: nicht finanzierte Referenzsteigerungen werden nur nachgeholt,
+  wenn der Korridor wieder tragfähig unterschritten wird.
+- Auslösemechanik: Wird die harte Obergrenze 24 % rechnerisch überschritten,
+  greifen automatisch Rentenwertdämpfung, zusätzliche echte Staatsbeiträge
+  oder eine bereits gesetzlich definierte Altersgrenzenanpassung.
+
+Die Haushaltswirkung echter öffentlicher Beiträge wird nun sichtbar
+quantifiziert. Modellhaft auszuweisende öffentliche Beitragszahlungen:
+
+| Jahr | Betrag |
+| ---: | ---: |
+| 2035 | 40,7 Mrd. Euro |
+| 2039 | 44,9 Mrd. Euro |
+| 2050 | 59,0 Mrd. Euro |
+| 2070 | 96,6 Mrd. Euro |
+
+Enthalten sind Kindererziehungszeiten, Pflegezeiten, BA-Leistungsempfänger und
+Erstattungen von Versorgungsdienststellen. Diese Beträge sind keine pauschal
+zusätzliche Einnahmeannahme, sondern eine Transparenzpflicht: Rentenwirksame
+Sozialzeiten müssen im Haushalt des zuständigen Trägers als echte Beiträge
+auftauchen und dürfen nicht verdeckt als kostenlose Entgeltpunkte entstehen.
+Die finale Haushaltsrechnung muss Ist-Zahlungen und neue Reformzahlungen
+doppelfrei gegen die DRV-Finanzrechnung abgrenzen.
+
 ### 3. Allgemeine Erwerbstätigenversicherung
 
 Alle neuen Erwerbstätigen werden einbezogen. Für Bestandsgruppen gelten
@@ -565,6 +633,25 @@ mit Ausnahmen fuer belastete Erwerbsbiografien vertretbar. Die finnlandnahe
 Variante ist weicher, laesst aber ab den 2040er-Jahren weiter Druck oberhalb
 des Stabilitaetskorridors.
 
+Die Blocker-Nachbesserung ersetzt diese erste Screeninglogik durch ein
+feineres synthetisches Altersjahrmodell. Es bildet die Altersjahre 67 bis 72
+einzeln ab, skaliert die Kohortengroesse mit der 67+-Bevoelkerung und bewertet
+zusaetzliche Erwerbsjahre mit altersabhaengigen Erwerbsquoten statt mit einer
+vollstaendigen Verschiebung in die Beitragsbasis. Im 22-%-Korridor ergibt sich
+im moderaten Szenario:
+
+| Jahr | Status quo 67 | Lebenserwartung gekoppelt 2:1 | daenemarknah |
+| ---: | ---: | ---: | ---: |
+| 2035 | 89,4 % | 95,0 % | 100,0 % |
+| 2039 | 80,1 % | 87,3 % | 95,8 % |
+| 2050 | 74,5 % | 87,5 % | 94,9 % |
+| 2070 | 71,5 % | 97,0 % | 100,0 % |
+
+Die Werte sind Rentenwert-Budgetfaktoren gegenueber dem Referenzpfad. Die
+Kopplung an die Lebenserwartung bleibt damit ein starker Hebel, aber die
+Wirkung ist vorsichtiger als im ersten Screening, weil aeltere zusaetzliche
+Erwerbsjahre nur teilweise zu Beitragsjahren werden.
+
 ### 6. Zusaetzlicher Kapitalmarktbaustein
 
 Ein Kapitalmarktbaustein dient nicht der Finanzierung heutiger Renten, sondern
@@ -619,10 +706,9 @@ Rentenalter-Regel und Erwerbstätigenbasis.
   dimensionieren.
 - SGB IV §§ 28a-28q: Melde-, Einzugs- und Prüfverfahren für Selbständige und
   öffentliche Zahlungspflichtige erweitern.
-- SGB VI Altersgrenzen- und Abschlagsnormen: konkrete Normen fuer
-  Regelaltersgrenze, vorgezogenen Rentenbeginn und Zuschlaege/Abschlaege in
-  einer Folgearbeit identifizieren und Normstand ergaenzen, soweit noch nicht
-  abgelegt.
+- SGB VI §§ 34-38, § 77, §§ 235, 236, 236a, 237, 237a: Altersgrenzen,
+  vorzeitige Altersrenten, Zugangsfaktor, Zuschläge und Abschläge an eine
+  Lebenserwartungsregel und Schutzpfade koppeln.
 - Kapitalmarktbaustein: eigenes Stammgesetz oder SGB-Ergaenzung fuer
   Default-Fonds, Governance, Kostenobergrenzen, Auszahlungsphase und
   Aufsichtspflichten pruefen.
@@ -652,8 +738,10 @@ Rentenalter-Regel und Erwerbstätigenbasis.
   amtlicher Definition.
 - Langfristige Beitragssatzwirkung einer Erwerbstätigenversicherung mit
   Selbständigen und Neubeamten.
-- Kosten der staatlichen Beitragszahlung für Kindererziehung, Pflege,
-  Arbeitslosigkeit, Dienstzeiten und Übergangsregeln.
+- Doppelfreie Ist-Abgrenzung staatlicher Beitragszahlungen für
+  Kindererziehung, Pflege, Arbeitslosigkeit, Dienstzeiten und
+  Übergangsregeln; die Größenordnung ist unter
+  `analysen/2026-06-06-rentenreform-freigabeblocker.md` modelliert.
 - Amtliche Zweckzerlegung der heutigen Bundesmittel nach Altlasten, laufend
   neu entstehenden Staatsbeiträgen und echten Steuertransfers; die aktuelle
   CSV bildet die Reformklassifikation ab. Öffentlich beschafft sind eine
@@ -662,13 +750,13 @@ Rentenalter-Regel und Erwerbstätigenbasis.
 - Vollständiges Neurentner-Kohortenmodell für die Jahre 2027 bis 2070.
 - Quantifizierung der künftig wegfallenden unbezahlten Rentenpunkte nach Norm
   und jährlichem Volumen.
-- Politische Festlegung des Beitragssatzkorridors: 20/22/24 % ist eine
-  Arbeitsannahme, keine freigegebene Zielmarke.
-- Konkrete Rentenwertformel für die Budgetregel, einschließlich Schutz gegen
-  nominale Rentenkürzungen, Übergangsphasen und Härtefallregeln.
-- Feinjaehrige deutsche Kohortenprojektion fuer eine belastbare
-  Rentenalter-Kopplung; aktuelle Rechnung nutzt nur eine pauschale
-  Kohortengroesse.
+- Politische Festlegung des Beitragssatzkorridors: 20/22/24 % ist weiterhin
+  eine Arbeitsannahme, keine freigegebene Zielmarke.
+- Gesetzliche Ausformulierung der Rentenwertformel einschließlich
+  Nominalschutz, Nachholfaktor, Übergangsphasen und Härtefallregeln.
+- Echte feinjaehrige deutsche Kohortenprojektion fuer eine belastbare
+  Rentenalter-Kopplung; die Nachbesserung nutzt bereits Altersjahre 67-72,
+  aber weiterhin synthetische Kohorten.
 - Definition von Schutzregeln fuer Schwerarbeit, lange Versicherungszeiten,
   Erwerbsminderung und niedrige Lebenserwartung bestimmter Gruppen.
 - Kapitalmarkt-Governance: Institution, Anlageuniversum, Kostenlimit,
@@ -695,10 +783,10 @@ Rentenalter-Regel und Erwerbstätigenbasis.
   Zahlungspflichtigem aufbauen.
 - Demographie-Szenarien Variante 5, Variante 2 und Variante 4 in das
   Renten-Finanzmodell übernehmen.
+- Prüfer-Nachprüfung der Blockerbearbeitung vom 2026-06-06 anstoßen.
 - Gesetzesänderungsskizze für die Rentenwert-Budgetregel und den
-  Beitragssatzkorridor vorbereiten; dabei die bereits abgelegten Normstände zu
-  SGB VI §§ 63, 66, 70, 157-170, 213, 216 und 217 heranziehen.
-- Normstand-Bedarf fuer Regelaltersgrenze, vorzeitige Altersrenten,
-  Zuschlaege/Abschlaege und Kapitalmarktbaustein nachziehen.
-- Rentenalter-Kopplung mit feineren Altersjahren und Erwerbsquoten statt
-  pauschaler Kohortenverschiebung modellieren.
+  Beitragssatzkorridor vorbereiten; dabei die Normstände zu SGB VI §§ 34-38,
+  63, 66, 70, 77, 157-170, 213, 216, 217, 235, 236, 236a, 237 und 237a
+  heranziehen.
+- Rentenalter-Kopplung mit amtlichen feinjaehrigen Altersdaten,
+  Erwerbsquoten und Rentenzugangsdaten gegenrechnen.

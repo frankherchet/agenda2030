@@ -2,7 +2,7 @@
 title: Normstand-Bedarf Rentenversicherung
 date: 2026-06-05
 type: normstand-bedarf
-status: erledigt
+status: erweitert
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/
   - https://www.gesetze-im-internet.de/sgb_4/
@@ -26,11 +26,12 @@ freigabefähig erscheint, bevor die tragenden Normtexte lokal unter
 
 ## Status
 
-Die konkret benannten Normstände wurden am 2026-06-05 angelegt. `SGB IV
-§ 28j` existiert in der amtlichen SGB-IV-Einzelnormstruktur nicht und wurde
-daher nicht erzeugt. Der unbestimmte Verweis `SGB VI § 230 ff.` wurde als
-`SGB VI § 230` abgelegt; weitere Übergangsnormen folgen erst aus einer
-konkreten Änderungsskizze.
+Die ursprünglich konkret benannten Normstände wurden am 2026-06-05 angelegt.
+Am 2026-06-06 wurde der Normstand-Bedarf um Altersgrenzen, vorzeitige
+Altersrenten und Zugangsfaktor erweitert. `SGB IV § 28j` existiert in der
+amtlichen SGB-IV-Einzelnormstruktur nicht und wurde daher nicht erzeugt. Der
+unbestimmte Verweis `SGB VI § 230 ff.` wurde als `SGB VI § 230` abgelegt;
+weitere Übergangsnormen folgen erst aus einer konkreten Änderungsskizze.
 
 ## Priorität A: vor Gesetzesänderungsskizze erforderlich
 
@@ -56,6 +57,9 @@ konkreten Änderungsskizze.
 | SGB VI §§ 63, 113, 114 | Rentenhöhe und Auslands-/Sonderregeln, soweit Änderungsskizze sie nutzt | `gesetzbuecher/sgb/sgb-vi-paragraf-63-stand-2026-06-05.md` usw. |
 | SGB VI § 230 ff. | Übergangs- und Bestandsschutzrecht | je konkret genutzter Norm |
 | SGB VI § 287h, § 291b | Bundesmittel- und Übergangsnormen | `gesetzbuecher/sgb/sgb-vi-paragraf-287h-stand-2026-06-05.md` usw. |
+| SGB VI §§ 34-38 | Rentenanspruch, Regelaltersrente und vorzeitige Altersrenten | `gesetzbuecher/sgb/sgb-vi-paragraf-34-stand-2026-06-06.md` usw. |
+| SGB VI § 77 | Zugangsfaktor, Abschläge und Zuschläge | `gesetzbuecher/sgb/sgb-vi-paragraf-77-stand-2026-06-06.md` |
+| SGB VI §§ 235, 236, 236a, 237, 237a | Übergangsaltersgrenzen und Sonderaltersrenten | `gesetzbuecher/sgb/sgb-vi-paragraf-235-stand-2026-06-06.md` usw. |
 | GG Art. 3 | Gleichbehandlung | `gesetzbuecher/grundgesetz/gg-artikel-3-stand-2026-06-05.md` |
 | GG Art. 6 | Familie, Kindererziehung | `gesetzbuecher/grundgesetz/gg-artikel-6-stand-2026-06-05.md` |
 | GG Art. 14 | Eigentumsschutz bestehender Anwartschaften | `gesetzbuecher/grundgesetz/gg-artikel-14-stand-2026-06-05.md` |

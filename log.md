@@ -195,3 +195,28 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   insbesondere Altersgrenzen-/Abschlags-Normstände, konkrete Rentenwertformel,
   feinere Rentenalter-Kohortenrechnung, Bundesmittel-Zweckzerlegung und
   Haushaltswirkung echter Staatsbeiträge.
+
+## 2026-06-06 Reformer | Freigabeblocker Rentenreform bearbeitet
+
+- Neue Ingests:
+  `ingest/links/2026-06-06-destatis-lebendgeborene-2024.md`,
+  `ingest/links/2026-06-06-drv-kindererziehungszeiten-bund.md`,
+  `ingest/links/2026-06-06-bmg-soziale-absicherung-pflegepersonen.md`,
+  `ingest/links/2026-06-06-drv-pflegepersonen-rentenversicherung.md`
+- Neue Normstände:
+  SGB VI §§ 34-38, § 77, §§ 235, 236, 236a, 237 und 237a unter
+  `gesetzbuecher/sgb/`
+- Neue Analyse:
+  `analysen/2026-06-06-rentenreform-freigabeblocker.md`
+- Neue Daten:
+  `analysen/daten/2026-06-06-rentenreform-freigabeblocker.csv`,
+  `analysen/daten/2026-06-06-rentenalter-feinmodell-altersjahre.csv`,
+  `analysen/daten/2026-06-06-staatsbeitraege-rentenreform.csv`,
+  `analysen/daten/2026-06-06-rentenreform-freigabeblocker-annahmen.csv`
+- Neues Skript:
+  `scripts/calc_rentenreform_freigabeblocker.py`
+- Wirkung: Die Prüferblocker zu Normständen, Rentenwertformel, feinerer
+  Rentenalterrechnung und Haushaltswirkung echter Staatsbeiträge sind als
+  prüffähige Arbeitsfassung bearbeitet. Die amtliche Zweckzerlegung der
+  Bundesmittel bleibt mangels öffentlicher Daten für 2024-2026 nicht
+  vollständig auflösbar und wird als Reformklassifikation abgegrenzt.
