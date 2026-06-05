@@ -106,3 +106,16 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 - Wirkung: Sekundäre Visualisierungsquelle zum Verhältnis von Altersrentnern
   und Beitragszahlern erfasst; quantitative Nutzung bleibt gegen
   DRV-Primärdaten zu prüfen.
+
+## 2026-06-05 Analyse | Rentenproblem Deutschland
+
+- Analyse:
+  `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md`
+- Verwendete Quellen: BMAS-Rentenversicherungsbericht 2025,
+  Destatis-Demographie, DRV-Finanzkennzahlen, DRV-rentenupdate zu
+  Bundeszuschüssen, Bundestagsdrucksache 21/1419 und Statista als sekundäre
+  Visualisierungsquelle.
+- Wirkung: Ursachen und Folgen des deutschen Rentenproblems ohne
+  Gegenmaßnahmen sind als quellenbasierter Problemaufriss dokumentiert;
+  offene Datenlücken zur Beitragszahler-Relation, Tabellenextraktion und
+  Bundesmittel-Zweckzerlegung bleiben sichtbar.

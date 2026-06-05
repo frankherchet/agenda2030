@@ -25,6 +25,7 @@ Prüfarbeitsstände.
 | Demographie und Rente | `analysen/2026-06-04-demographie-rente-gkv.md` | Zusammenfassung demographischer Belastungsfaktoren für Sozialversicherungen. | Alterung, Sozialversicherung |
 | Strukturumbau-Prüfung | `analysen/2026-06-05-strukturumbau-quellen-analysen-projekte-pruefung.md` | Prüfung, welche Quellen-, Dokument-, Analyse- und Projektartefakte nach dem Umbau nachgepflegt werden müssen. | Workflow, Prüfung |
 | Bundesmittel-Zweckzerlegung Rente | `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md` | Beschaffte Quellen und Einordnung zu Bundeszuschüssen und nicht beitragsgedeckten Leistungen. | Bundesmittel, Rente |
+| Rentenproblem Deutschland | `analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md` | Quellenbasierter Problemaufriss zu Ursachen und Auswirkungen der Rentenbelastung ohne Gegenmaßnahmen. | Rente, Demographie, Bundeshaushalt |
 
 ## Projekte und Prüfung
 

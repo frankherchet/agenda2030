@@ -35,3 +35,6 @@ oder für Analysen als strukturierter Input genutzt werden.
 - `2026-06-05-bundesmittel-zweckzerlegung-rente.md`: Einordnung der
   beschafften Quellen zu Bundeszuschüssen und nicht beitragsgedeckten
   Leistungen.
+- `2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md`:
+  Quellenbasierter Problemaufriss zu Ursachen und Folgen steigender
+  Rentenbelastung ohne Gegenmaßnahmen.
