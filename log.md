@@ -388,3 +388,17 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   BHO bildet echte Rentenbeiträge im Bundeshaushalt ab. Das Rentenaltermodell
   bleibt bis zu altersscharfen Erwerbs- und DRV-Rentenzugangsdaten als
   Sensitivität markiert.
+
+## 2026-06-07 Prüfer | Viertnachprüfung Rentenreformkonzept
+
+- Neuer Prüfbericht:
+  `projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md`
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `projekte/rentenversicherung/README.md`, `index.md`
+- Status: offen
+- Wirkung: Die korrigierte GENESIS-Rechnung enthält keine arithmetischen
+  Blocker mehr; §213a-Ausfallhaftung und BHO-Haushaltsausweis sind als
+  Arbeitsfassungen prüffähig angelegt. Die Gesamtfreigabe bleibt offen, weil
+  altersscharfe Erwerbs- und DRV-Rentenzugangsdaten sowie die amtliche
+  Bundesmittel-Ist-Zweckzerlegung 2024-2026 fehlen.

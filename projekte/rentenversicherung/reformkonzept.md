@@ -18,6 +18,7 @@ review_reports:
   - projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md
   - projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md
   - projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md
+  - projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/
   - https://www.gesetze-im-internet.de/sgb_4/
@@ -133,7 +134,8 @@ related_analyses:
   `projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md`,
   `projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md`,
   `projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md`,
-  `projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md`
+  `projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md`,
+  `projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md`
 - Status Gesamtprüfung: offen
 - Normstände: `projekte/rentenversicherung/normstand-bedarf.md`; das
   ursprüngliche Normstand-Paket wurde am 2026-06-06 um SGB VI §§ 34-38, 77,
@@ -175,6 +177,12 @@ related_analyses:
   nutzt nun `12211-0004` mit `65 bis unter 75 Jahre` statt nur `65 Jahre und
   mehr`. § 213a enthält eine Ausfallhaftung zugunsten der Versicherten; die
   Haushaltsfolgeänderung zur BHO ist als Arbeitsfassung angelegt.
+- Viertnachpruefung vom 2026-06-07: keine neuen arithmetischen oder
+  Normstand-Blocker. Die Drittnachpruefungs-Kritikpunkte zur Doppelzaehlung,
+  Ausfallhaftung und künftigen Haushaltsausweis-Mechanik sind als
+  Arbeitsfassungen bearbeitet. Die Gesamtfreigabe bleibt offen, weil
+  altersscharfe Erwerbs- und DRV-Rentenzugangsdaten sowie die amtliche
+  Bundesmittel-Ist-Zweckzerlegung 2024-2026 fehlen.
 
 ## Kurzfassung
 

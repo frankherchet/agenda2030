@@ -42,6 +42,7 @@ Prüfarbeitsstände.
 | Nachprüfung Rente | `projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md` | Nachprüfung der bearbeiteten Freigabeblocker mit Gegenrechnung, Normstand- und Haushaltsbefund. | Prüfung, Rente |
 | Zweitnachprüfung Rente | `projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md` | Zweite Nachprüfung nach §-68-Skizze, doppelfreier Haushaltsbrücke und Normstand-Textglättung. | Prüfung, Rente |
 | Drittnachprüfung Rente | `projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md` | Dritte Nachprüfung nach GENESIS-Altersjahrrechnung, §-68-Folgeänderungen und §213a-Vollzugsskizze. | Prüfung, Rente |
+| Viertnachprüfung Rente | `projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md` | Vierte Nachprüfung nach korrigierter GENESIS-Doppelzählung, §213a-Ausfallhaftung und BHO-Haushaltsausweis. | Prüfung, Rente |
 | Normstand-Bedarf Rente | `projekte/rentenversicherung/normstand-bedarf.md` | Matrix der vor Rechtsanalyse und Freigabe lokal abzulegenden Normstände. | Recht, Rente |
 | SGB-Normstände Rente | `gesetzbuecher/sgb/README.md` | Normstand-Paket zu SGB VI und SGB IV für das Rentenprojekt. | Recht, SGB, Rente |
 | Rentenwert-Budgetregel | `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md` | Gesetzesänderungsskizze für § 68 SGB VI, Nominalschutz, Nachholbetrag und getrennte Bundesmittel-Systematik. | Recht, Rente |
