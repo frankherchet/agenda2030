@@ -11,6 +11,7 @@ Analysen und spätere Umsetzungsartefakte.
 - Gesamtprüfung: `projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md`
 - Nachprüfung Freigabeblocker: `projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md`
 - Zweitnachprüfung Freigabeblocker: `projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md`
+- Drittnachprüfung Freigabeblocker: `projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md`
 - Normstand-Bedarf: `projekte/rentenversicherung/normstand-bedarf.md`
 - Bundesmittel-Zweckzerlegung: `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md`
 - Blocker-Nachbesserung: `analysen/2026-06-06-rentenreform-freigabeblocker.md`

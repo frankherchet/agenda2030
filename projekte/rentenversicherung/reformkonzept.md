@@ -17,6 +17,7 @@ review_reports:
   - projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md
   - projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md
   - projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md
+  - projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/
   - https://www.gesetze-im-internet.de/sgb_4/
@@ -127,7 +128,8 @@ related_analyses:
   `projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md`,
   `projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md`,
   `projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md`,
-  `projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md`
+  `projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md`,
+  `projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md`
 - Status Gesamtprüfung: offen
 - Normstände: `projekte/rentenversicherung/normstand-bedarf.md`; das
   ursprüngliche Normstand-Paket wurde am 2026-06-06 um SGB VI §§ 34-38, 77,
@@ -158,6 +160,10 @@ related_analyses:
   `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md`
   und
   `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`.
+- Drittnachpruefung vom 2026-06-07: keine arithmetischen Blocker in der
+  GENESIS-Rechnung und kein neuer Normstand-Blocker. Die Freigabe bleibt offen,
+  weil altersscharfe Erwerbs- und Rentenzugangsdaten sowie die amtliche
+  Bundesmittel-Ist-Zweckzerlegung 2024-2026 fehlen.
 
 ## Kurzfassung
 

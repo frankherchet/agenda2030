@@ -345,3 +345,18 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   echte öffentliche Beiträge. Die Bundesmittel-Zweckzerlegung 2024-2026
   bleibt als nicht öffentlich beschaffbare amtliche Ist-Zerlegung markiert und
   wird für die Reform über gesetzliche Zweckgliederung adressiert.
+
+## 2026-06-07 Prüfer | Drittnachprüfung Rentenreformkonzept
+
+- Neuer Prüfbericht:
+  `projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md`
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `projekte/rentenversicherung/README.md`, `index.md`
+- Status: offen
+- Wirkung: Die GENESIS-Altersjahrrechnung ist arithmetisch nachvollziehbar
+  und ersetzt die synthetische Bevölkerungsseite des Rentenaltermodells. Die
+  Folgeänderungen zur §-68-Budgetregel und die §213a-Vollzugsskizze beseitigen
+  die alten Systematikblocker als Arbeitsfassungen. Die Freigabe bleibt offen,
+  weil altersscharfe Erwerbs- und Rentenzugangsdaten sowie die amtliche
+  Bundesmittel-Ist-Zweckzerlegung 2024-2026 weiterhin fehlen.

@@ -36,8 +36,8 @@ aus der 16. koordinierten Bevoelkerungsvorausberechnung.
 
 ## Brueckenparameter Erwerb
 
-- Erwerbstaetigenquote 65+: 10.2 %. 
-- Erwerbspersonenquote 65+: 10.4 %. 
+- Erwerbstaetigenquote 65+: 10.2 %.
+- Erwerbspersonenquote 65+: 10.4 %.
 - Senior-Wage-Faktor: 0,85 als konservativer Abschlag auf volle
   Beitragswirkung.
 
