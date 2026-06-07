@@ -1,0 +1,154 @@
+{
+  "Copyright": "© Statistisches Bundesamt (Destatis), 2026",
+  "Ident": {
+    "Method": "table",
+    "Service": "data"
+  },
+  "Object": {
+    "Content": "Tabelle: 12211-0002\nBevölkerung, Erwerbstätige, Erwerbslose, Erwerbspersonen, Nichterwerbspersonen aus Hauptwohnsitzhaushalten: Deutschland, Jahre, Überwiegender Lebensunterhalt, Altersgruppen;;;;;;;\nMikrozensus;;;;;;;\nDeutschland;;;;;;;\n;;;Bevölkerung in Hauptwohnsitzhaushalten;Erwerbstätige aus Hauptwohnsitzhaushalten;Erwerbslose aus Hauptwohnsitzhaushalten;Erwerbspersonen aus Hauptwohnsitzhaushalten;Nichterwerbspersonen aus Hauptwohnsitzhaushalten\n;;;1000;1000;1000;1000;1000\n2025;Eigene Erwerbstätigkeit;unter 15 Jahre;/;x;x;x;/\n2025;Eigene Erwerbstätigkeit;15 bis unter 25 Jahre;3220;3196;10;3205;15\n2025;Eigene Erwerbstätigkeit;25 bis unter 45 Jahre;16588;16526;25;16551;37\n2025;Eigene Erwerbstätigkeit;45 bis unter 65 Jahre;17279;17242;10;17253;26\n2025;Eigene Erwerbstätigkeit;65 Jahre und mehr;807;800;/;800;7\n2025;Eigene Erwerbstätigkeit;Insgesamt;37895;37764;45;37809;86\n2025;Arbeitslosengeld I/Bürgergeld;unter 15 Jahre;484;/;/;/;484\n2025;Arbeitslosengeld I/Bürgergeld;15 bis unter 25 Jahre;452;42;101;143;309\n2025;Arbeitslosengeld I/Bürgergeld;25 bis unter 45 Jahre;1526;196;509;705;821\n2025;Arbeitslosengeld I/Bürgergeld;45 bis unter 65 Jahre;1416;189;391;580;836\n2025;Arbeitslosengeld I/Bürgergeld;65 Jahre und mehr;71;8;11;19;53\n2025;Arbeitslosengeld I/Bürgergeld;Insgesamt;3949;434;1013;1447;2502\n2025;Rente, Pension;unter 15 Jahre;10;/;/;/;10\n2025;Rente, Pension;15 bis unter 25 Jahre;21;/;/;/;15\n2025;Rente, Pension;25 bis unter 45 Jahre;94;29;/;31;63\n2025;Rente, Pension;45 bis unter 65 Jahre;1724;266;9;275;1449\n2025;Rente, Pension;65 Jahre und mehr;16403;970;16;986;15417\n2025;Rente, Pension;Insgesamt;18252;1271;28;1298;16953\n2025;Einkünfte von Angehörigen;unter 15 Jahre;10917;/;/;/;10917\n2025;Einkünfte von Angehörigen;15 bis unter 25 Jahre;4053;773;186;960;3094\n2025;Einkünfte von Angehörigen;25 bis unter 45 Jahre;1680;535;159;693;987\n2025;Einkünfte von Angehörigen;45 bis unter 65 Jahre;1469;536;56;592;877\n2025;Einkünfte von Angehörigen;65 Jahre und mehr;415;39;/;40;375\n2025;Einkünfte von Angehörigen;Insgesamt;18534;1883;402;2285;16250\n2025;Eigenes Vermögen, Vermietung, Zinsen, Altenteil;unter 15 Jahre;/;/;/;/;/\n2025;Eigenes Vermögen, Vermietung, Zinsen, Altenteil;15 bis unter 25 Jahre;51;21;8;30;21\n2025;Eigenes Vermögen, Vermietung, Zinsen, Altenteil;25 bis unter 45 Jahre;218;76;48;124;94\n2025;Eigenes Vermögen, Vermietung, Zinsen, Altenteil;45 bis unter 65 Jahre;339;102;34;136;204\n2025;Eigenes Vermögen, Vermietung, Zinsen, Altenteil;65 Jahre und mehr;266;45;/;46;220\n2025;Eigenes Vermögen, Vermietung, Zinsen, Altenteil;Insgesamt;881;244;91;336;545\n2025;Sozialhilfe;unter 15 Jahre;36;/;/;/;36\n2025;Sozialhilfe;15 bis unter 25 Jahre;62;19;/;24;39\n2025;Sozialhilfe;25 bis unter 45 Jahre;221;69;12;81;141\n2025;Sozialhilfe;45 bis unter 65 Jahre;437;52;8;60;377\n2025;Sozialhilfe;65 Jahre und mehr;364;9;/;10;354\n2025;Sozialhilfe;Insgesamt;1121;148;27;175;946\n2025;Sonstige Unterstützungen;unter 15 Jahre;229;/;/;/;229\n2025;Sonstige Unterstützungen;15 bis unter 25 Jahre;418;110;25;135;283\n2025;Sonstige Unterstützungen;25 bis unter 45 Jahre;468;146;38;183;284\n2025;Sonstige Unterstützungen;45 bis unter 65 Jahre;444;159;17;176;268\n2025;Sonstige Unterstützungen;65 Jahre und mehr;71;8;/;8;63\n2025;Sonstige Unterstützungen;Insgesamt;1629;422;80;502;1127\n2025;Elterngeld;unter 15 Jahre;/;x;x;x;/\n2025;Elterngeld;15 bis unter 25 Jahre;26;14;/;14;12\n2025;Elterngeld;25 bis unter 45 Jahre;447;336;/;339;108\n2025;Elterngeld;45 bis unter 65 Jahre;/;/;/;/;/\n2025;Elterngeld;65 Jahre und mehr;/;/;/;/;/\n2025;Elterngeld;Insgesamt;478;353;/;356;122\n2025;Insgesamt;unter 15 Jahre;11681;x;x;x;11681\n2025;Insgesamt;15 bis unter 25 Jahre;8303;4180;336;4516;3787\n2025;Insgesamt;25 bis unter 45 Jahre;21243;17912;795;18707;2536\n2025;Insgesamt;45 bis unter 65 Jahre;23113;18549;526;19075;4038\n2025;Insgesamt;65 Jahre und mehr;18398;1879;31;1910;16488\n2025;Insgesamt;Insgesamt;82739;42520;1689;44208;38531\n__________\n© Statistisches Bundesamt (Destatis), 2026\nStand: 07.06.2026 / 01:51:52\n",
+    "Structure": {
+      "Columns": [
+        {
+          "Code": "BEV036",
+          "Content": "Bevölkerung in Hauptwohnsitzhaushalten",
+          "Functions": null,
+          "Selected": null,
+          "Structure": null,
+          "Type": "Merkmal",
+          "Updated": "see parent",
+          "Values": "-1"
+        },
+        {
+          "Code": "ERW041",
+          "Content": "Erwerbstätige aus Hauptwohnsitzhaushalten",
+          "Functions": null,
+          "Selected": null,
+          "Structure": null,
+          "Type": "Merkmal",
+          "Updated": "see parent",
+          "Values": "-1"
+        },
+        {
+          "Code": "ERW042",
+          "Content": "Erwerbslose aus Hauptwohnsitzhaushalten",
+          "Functions": null,
+          "Selected": null,
+          "Structure": null,
+          "Type": "Merkmal",
+          "Updated": "see parent",
+          "Values": "-1"
+        },
+        {
+          "Code": "ERW040",
+          "Content": "Erwerbspersonen aus Hauptwohnsitzhaushalten",
+          "Functions": null,
+          "Selected": null,
+          "Structure": null,
+          "Type": "Merkmal",
+          "Updated": "see parent",
+          "Values": "-1"
+        },
+        {
+          "Code": "ERW043",
+          "Content": "Nichterwerbspersonen aus Hauptwohnsitzhaushalten",
+          "Functions": null,
+          "Selected": null,
+          "Structure": null,
+          "Type": "Merkmal",
+          "Updated": "see parent",
+          "Values": "-1"
+        }
+      ],
+      "Head": {
+        "Code": "12211",
+        "Content": "Mikrozensus",
+        "Functions": null,
+        "Selected": null,
+        "Structure": [
+          {
+            "Code": "DINSG",
+            "Content": "Deutschland insgesamt",
+            "Functions": null,
+            "Selected": "1",
+            "Structure": null,
+            "Type": "Merkmal",
+            "Updated": "see parent",
+            "Values": "1"
+          }
+        ],
+        "Type": "Statistik",
+        "Updated": "see parent",
+        "Values": "-1"
+      },
+      "Rows": [
+        {
+          "Code": "UNHLB2",
+          "Content": "Überwiegender Lebensunterhalt",
+          "Functions": null,
+          "Selected": "8",
+          "Structure": [
+            {
+              "Code": "ALT067",
+              "Content": "Altersgruppen (u15-65m)",
+              "Functions": null,
+              "Selected": "5",
+              "Structure": null,
+              "Type": "Merkmal",
+              "Updated": "see parent",
+              "Values": "5"
+            }
+          ],
+          "Type": "Merkmal",
+          "Updated": "see parent",
+          "Values": "8"
+        }
+      ],
+      "Subheading": null,
+      "Subtitel": {
+        "Code": "JAHR",
+        "Content": "Jahr",
+        "Functions": null,
+        "Selected": null,
+        "Structure": null,
+        "Type": "Merkmal",
+        "Updated": "see parent",
+        "Values": "-1"
+      }
+    },
+    "TableLayout": null
+  },
+  "Parameter": {
+    "area": "Alle",
+    "classifyingkey1": "",
+    "classifyingkey2": "",
+    "classifyingkey3": "",
+    "classifyingkey4": "",
+    "classifyingkey5": "",
+    "classifyingvariable1": "",
+    "classifyingvariable2": "",
+    "classifyingvariable3": "",
+    "classifyingvariable4": "",
+    "classifyingvariable5": "",
+    "compress": "false",
+    "contents": "",
+    "endyear": "",
+    "format": "datencsv",
+    "job": "false",
+    "language": "de",
+    "name": "12211-0002",
+    "password": "********************",
+    "regionalkey": "",
+    "regionalvariable": "",
+    "stand": "01.01.1970 01:00",
+    "startyear": "",
+    "structureinformation": "false",
+    "timeslices": "",
+    "transpose": "false",
+    "username": "********************"
+  },
+  "Status": {
+    "Code": 0,
+    "Content": "erfolgreich",
+    "Type": "Information"
+  }
+}

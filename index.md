@@ -29,6 +29,7 @@ Prüfarbeitsstände.
 | Rentenreform Stabilitätskorridor | `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md` | Reproduzierbare Berechnung des maximal finanzierbaren Rentenvolumens bei Beitragssatz-Korridoren von 20 %, 22 % und 24 %. | Rente, Beitragssatz, Reformmodell |
 | Rentenalter und Kapitalmarkt | `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md` | Szenarioanalyse zur Lebenserwartungs-Kopplung des Rentenalters und zu einem zusätzlichen kapitalgedeckten Baustein. | Rente, Rentenalter, Kapitalmarkt |
 | Rentenreform Blocker-Nachbesserung | `analysen/2026-06-06-rentenreform-freigabeblocker.md` | Rentenwert-Budgetformel, feineres Altersjahrmodell und Haushaltswirkung echter öffentlicher Beitragszahlungen. | Rente, Prüferblocker, Staatsbeiträge |
+| Empirisches Rentenaltermodell | `analysen/2026-06-07-rentenalter-genesis-empirisch.md` | GENESIS-basierte Altersjahrrechnung für Rentenalter-Kopplung 2027 bis 2070 mit Varianten moderat, alt und jung. | Rente, Rentenalter, Destatis |
 
 ## Projekte und Prüfung
 
@@ -43,6 +44,8 @@ Prüfarbeitsstände.
 | Normstand-Bedarf Rente | `projekte/rentenversicherung/normstand-bedarf.md` | Matrix der vor Rechtsanalyse und Freigabe lokal abzulegenden Normstände. | Recht, Rente |
 | SGB-Normstände Rente | `gesetzbuecher/sgb/README.md` | Normstand-Paket zu SGB VI und SGB IV für das Rentenprojekt. | Recht, SGB, Rente |
 | Rentenwert-Budgetregel | `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md` | Gesetzesänderungsskizze für § 68 SGB VI, Nominalschutz, Nachholbetrag und getrennte Bundesmittel-Systematik. | Recht, Rente |
+| Folgeänderungen Budgetregel | `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md` | Änderungsskizze für Rentenwertfestsetzung, Beitragssatz, Kindererziehungszeiten, Bundesmittel und Haltelinien-Erstattung. | Recht, Rente |
+| Vollzug Staatsbeiträge Rente | `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md` | Änderungsskizze für Kontierung, Meldung, Prüfung und Zweckgliederung echter öffentlicher Zahlungspflichten. | Recht, Rente |
 | GG-Normstände Rente | `gesetzbuecher/grundgesetz/README.md` | Normstand-Paket zu Art. 3, 6, 14, 20 und 33 GG für das Rentenprojekt. | Recht, Grundgesetz |
 
 ## Arbeitsregeln und Automatisierung

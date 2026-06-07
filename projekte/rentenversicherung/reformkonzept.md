@@ -79,6 +79,7 @@ ingest_refs:
   - ingest/links/2026-06-06-drv-kindererziehungszeiten-bund.md
   - ingest/links/2026-06-06-bmg-soziale-absicherung-pflegepersonen.md
   - ingest/links/2026-06-06-drv-pflegepersonen-rentenversicherung.md
+  - ingest/dokumente/2026-06-07-destatis-genesis-demographie-rente-tabellen.md
 related_ministries:
   - ministerien/arbeit-soziales/
   - ministerien/finanzen/
@@ -100,6 +101,8 @@ data_artifacts:
   - analysen/daten/2026-06-06-staatsbeitraege-rentenreform.csv
   - analysen/daten/2026-06-06-staatsbeitraege-doppelfrei-bruecke.csv
   - analysen/daten/2026-06-06-rentenreform-freigabeblocker-annahmen.csv
+  - analysen/daten/2026-06-07-rentenalter-genesis-empirisch-altersjahre.csv
+  - analysen/daten/2026-06-07-rentenalter-genesis-empirisch-summary.csv
 scripts:
   - scripts/calc_demographie_rente.py
   - scripts/calc_rentenreform_zukunft.py
@@ -107,11 +110,13 @@ scripts:
   - scripts/calc_rentenreform_stabilitaetskorridor.py
   - scripts/calc_rentenreform_rentenalter_kapital.py
   - scripts/calc_rentenreform_freigabeblocker.py
+  - scripts/calc_rentenalter_genesis_empirisch.py
 related_analyses:
   - analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md
   - analysen/2026-06-05-rentenreform-stabilitaetskorridor.md
   - analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md
   - analysen/2026-06-06-rentenreform-freigabeblocker.md
+  - analysen/2026-06-07-rentenalter-genesis-empirisch.md
 ---
 
 # Rentenversicherung reformieren: Beitragsklarheit und reine Umlage
@@ -143,6 +148,16 @@ related_analyses:
   fuer 2024 bis 2026 keine oeffentliche amtliche Zweckzerlegung der
   Bundesmittel vorliegt; das Konzept ersetzt sie durch eine prueffaehige
   Reformklassifikation.
+- Nachbesserung vom 2026-06-07: Die Rentenalterrechnung nutzt nun
+  GENESIS-Altersjahrgaenge aus `12411-0005` und `12421-0002` statt einer
+  pauschalen synthetischen Kohorte. Die oeffentlich gefundene Erwerbsseite
+  bleibt ein Brueckenparameter aus Mikrozensus `12211-0002` fuer `65 Jahre und
+  mehr`; feinjaehrige Erwerbsquoten, Rentenzugaenge, Abschlaege und
+  Erwerbsminderung bleiben als externer Datenbedarf markiert.
+- Folgeaenderungen zur Budgetregel sind als Arbeitsfassungen angelegt:
+  `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md`
+  und
+  `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`.
 
 ## Kurzfassung
 
@@ -670,6 +685,32 @@ Kopplung an die Lebenserwartung bleibt damit ein starker Hebel, aber die
 Wirkung ist vorsichtiger als im ersten Screening, weil aeltere zusaetzliche
 Erwerbsjahre nur teilweise zu Beitragsjahren werden.
 
+Die Nachbesserung vom 2026-06-07 ersetzt die pauschale Altersjahrkohorte fuer
+die Bevoelkerungsseite durch GENESIS-Altersjahrgaenge. Genutzt werden
+`12411-0005` fuer den Bevölkerungsstand nach Altersjahren bis 2024 und
+`12421-0002` fuer die vorausberechneten Altersjahre bis 2070. Als Varianten
+dienen `BEV-VARIANTE-02` moderat, `BEV-VARIANTE-04` relativ alt und
+`BEV-VARIANTE-05` relativ jung. Die Erwerbsseite bleibt mangels gefundener
+öffentlich abrufbarer feinjaehriger Erwerbsquoten eine Bruecke aus
+Mikrozensus `12211-0002`: Erwerbstaetigenquote 65+ rund 10,2 %,
+Erwerbspersonenquote 65+ rund 10,4 %, Senior-Wage-Faktor 0,85.
+
+Im moderaten GENESIS-Pfad ergeben sich fuer die betroffenen Altersjahrgaenge:
+
+| Jahr | Status quo 67 | Lebenserwartung 2:1 | daenemarknah |
+| ---: | ---: | ---: | ---: |
+| 2035 | 0,000 Mio. / 0,000 Mio. | 2,403 Mio. / 0,209 Mio. | 4,826 Mio. / 0,419 Mio. |
+| 2039 | 0,000 Mio. / 0,000 Mio. | 2,731 Mio. / 0,237 Mio. | 5,658 Mio. / 0,491 Mio. |
+| 2050 | 0,000 Mio. / 0,000 Mio. | 5,044 Mio. / 0,438 Mio. | 7,334 Mio. / 0,637 Mio. |
+| 2070 | 0,000 Mio. / 0,000 Mio. | 8,459 Mio. / 0,734 Mio. | 9,422 Mio. / 0,818 Mio. |
+
+Erste Zahl: Personen, die durch das hoehere Rentenalter nicht in den
+Rentenbestand wechseln. Zweite Zahl: daraus mit 65+-Erwerbstaetigenquote und
+Senior-Wage-Faktor abgeleitete effektive zusaetzliche Beitragszahler. Die
+Bevoelkerungskohorten sind damit empirisch; fuer eine finale Freigabe fehlen
+weiterhin altersscharfe Erwerbsbeteiligung, DRV-Rentenzugaenge, Abschlaege,
+Erwerbsminderung und Schutzgruppen.
+
 ### 6. Zusaetzlicher Kapitalmarktbaustein
 
 Ein Kapitalmarktbaustein dient nicht der Finanzierung heutiger Renten, sondern
@@ -720,9 +761,18 @@ Rentenalter-Regel und Erwerbstätigenbasis.
 - SGB VI § 68: Rentenwert-Budgetfaktor, Nominalschutz, Nachholbetrag und
   Referenzausgaben als Anpassungsmechanik verankern; erste Skizze:
   `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`.
+- SGB VI §§ 69, 158, 177, 213 und 291b: Folgeänderungen zur
+  Rentenwert-Budgetregel, damit Rentenwertfestsetzung, Beitragssatz,
+  Kindererziehungszeiten, Bundesmittel und Haltelinien-Erstattung nicht neben
+  der Budgetregel widersprüchlich weiterlaufen; Änderungsskizze:
+  `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md`.
 - SGB VI § 213: Bundeszuschuss in abschmelzenden Bestandsschutz-Zuschuss,
   zweckgebundene Beitragszahlungen, Erstattungen und separat ausgewiesene
   Steuertransfers aufteilen.
+- Neuer SGB VI § 213a: Kontierung, Meldung, Prüfung, Fälligkeit, Verzinsung,
+  Sanktionierung und Zweckgliederung öffentlicher Zahlungspflichten regeln;
+  Änderungsskizze:
+  `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`.
 - SGB VI §§ 216-217: Nachhaltigkeitsrücklage als Demografie-Puffer neu
   dimensionieren.
 - SGB IV §§ 28a-28q: Melde-, Einzugs- und Prüfverfahren für Selbständige und
@@ -776,9 +826,10 @@ Rentenalter-Regel und Erwerbstätigenbasis.
 - Prüferbewertung der Gesetzesänderungsskizze zur Rentenwertformel,
   insbesondere Bestimmtheit, Verweisnormen, Übergangsphasen und
   Härtefallregeln.
-- Echte feinjaehrige deutsche Kohortenprojektion fuer eine belastbare
-  Rentenalter-Kopplung; die Nachbesserung nutzt bereits Altersjahre 67-72,
-  aber weiterhin synthetische Kohorten.
+- Feinjaehrige Erwerbsquoten fuer 67 bis 72 Jahre, Rentenzugaenge,
+  Zugangsfaktoren, Abschlaege, Erwerbsminderung und Schutzgruppen. Die
+  Bevoelkerungskohorten 67 bis 72 sind seit dem GENESIS-Artefakt vom
+  2026-06-07 empirisch, die Erwerbs- und Rentenzugangsdaten aber noch nicht.
 - Definition von Schutzregeln fuer Schwerarbeit, lange Versicherungszeiten,
   Erwerbsminderung und niedrige Lebenserwartung bestimmter Gruppen.
 - Kapitalmarkt-Governance: Institution, Anlageuniversum, Kostenlimit,
@@ -806,8 +857,9 @@ Rentenalter-Regel und Erwerbstätigenbasis.
   Zahlungspflichtigem aufbauen.
 - Demographie-Szenarien Variante 5, Variante 2 und Variante 4 in das
   Renten-Finanzmodell übernehmen.
-- Prüfer-Nachprüfung der erneuten Blockerbearbeitung vom 2026-06-06 anstoßen.
+- Prüfer-Nachprüfung der erneuten Blockerbearbeitung vom 2026-06-07 anstoßen.
 - Gesetzesänderungsskizze für die Rentenwert-Budgetregel prüfen lassen; dabei
   zusätzlich den neuen Normstand zu SGB VI § 68 heranziehen.
-- Rentenalter-Kopplung mit amtlichen feinjaehrigen Altersdaten,
-  Erwerbsquoten und Rentenzugangsdaten gegenrechnen.
+- Rentenalter-Kopplung mit amtlichen feinjaehrigen Erwerbsquoten und
+  Rentenzugangsdaten gegenrechnen; Altersdaten liegen als GENESIS-Artefakt
+  bereits vor.

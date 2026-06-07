@@ -1,0 +1,205 @@
+{
+  "Copyright": "© Statistisches Bundesamt (Destatis), 2026",
+  "Ident": {
+    "Method": "values2variable",
+    "Service": "catalogue"
+  },
+  "List": [
+    {
+      "Code": "BEV-VARIANTE-01",
+      "Content": "Geburtenrate und LE moderat, WS niedrig (G2L2W1)",
+      "Information": "true",
+      "Variables": "2"
+    },
+    {
+      "Code": "BEV-VARIANTE-02",
+      "Content": "Geburtenrate, LE und WS moderat (G2L2W2)",
+      "Information": "true",
+      "Variables": "2"
+    },
+    {
+      "Code": "BEV-VARIANTE-03",
+      "Content": "Geburtenrate und LE moderat, WS hoch (G2L2W3)",
+      "Information": "true",
+      "Variables": "2"
+    },
+    {
+      "Code": "BEV-VARIANTE-04",
+      "Content": "Relativ alte Bevölkerung (G1L3W1)",
+      "Information": "true",
+      "Variables": "2"
+    },
+    {
+      "Code": "BEV-VARIANTE-05",
+      "Content": "Relativ junge Bevölkerung (G3L1W3)",
+      "Information": "true",
+      "Variables": "2"
+    },
+    {
+      "Code": "BEV-VARIANTE-06",
+      "Content": "Niedrige Geburtenrate (G1L2W2)",
+      "Information": "true",
+      "Variables": "2"
+    },
+    {
+      "Code": "BEV-VARIANTE-07",
+      "Content": "Deutlicher Anstieg der Geburtenrate (G3L2W2)",
+      "Information": "true",
+      "Variables": "2"
+    },
+    {
+      "Code": "BEV-VARIANTE-08",
+      "Content": "Geringer Anstieg der Lebenserwartung (G2L1W2)",
+      "Information": "true",
+      "Variables": "2"
+    },
+    {
+      "Code": "BEV-VARIANTE-09",
+      "Content": "Starker Anstieg der Lebenserwartung (G2L3W2)",
+      "Information": "true",
+      "Variables": "2"
+    },
+    {
+      "Code": "BEV-VARIANTE-10",
+      "Content": "Bevölkerungsminimum (G1L1W1)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-11",
+      "Content": "Bevölkerungsmaximum (G3L3W3)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-12",
+      "Content": "GR niedrig, LE moderat, WS niedrig (G1L2W1)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-13",
+      "Content": "GR moderat, LE ger. Anstieg, WS niedrig (G2L1W1)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-14",
+      "Content": "GR moderat, LE st. Anstieg, WS niedrig (G2L3W1)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-15",
+      "Content": "GR niedrig, LE ger. Anstieg, WS moderat (G1L1W2)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-16",
+      "Content": "GR niedrig, LE st. Anstieg, WS moderat (G1L3W2)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-17",
+      "Content": "GR deutl. und LE ger. Anstieg, WS moderat (G3L1W2)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-18",
+      "Content": "GR deutl. und LE st. Anstieg, WS moderat (G3L3W2)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-19",
+      "Content": "GR moderat, LE geringer Anstieg, WS hoch (G2L1W3)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-20",
+      "Content": "GR moderat, LE starker Anstieg, WS hoch (G2L3W3)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-21",
+      "Content": "GR deutl. Anstieg, LE moderat, WS hoch (G3L2W3)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-22",
+      "Content": "GR deutl. und LE ger. Anstieg, WS niedrig (G3L1W1)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-23",
+      "Content": "GR deutl. und LE mod. Anstieg, WS niedrig (G3L2W1)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-24",
+      "Content": "GR deutl. und LE st. Anstieg, WS niedrig (G3L3W1)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-25",
+      "Content": "GR niedrig, LE geringer Anstieg, WS hoch (G1L1W3)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-26",
+      "Content": "GR niedrig, LE moderater Anstieg, WS hoch (G1L2W3)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-VARIANTE-27",
+      "Content": "GR niedrig, LE starker Anstieg, WS hoch (G1L3W3)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-MODELL-01",
+      "Content": "GR und LE moderat, WS null (G2L2W0)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-MODELL-02",
+      "Content": "GR Bestandsniveau, LE moderat, WS null (GRL2W0)",
+      "Information": "true",
+      "Variables": "1"
+    },
+    {
+      "Code": "BEV-MODELL-03",
+      "Content": "GR konstant, LE und WS Niveau von 2024 (GkLkWk)",
+      "Information": "true",
+      "Variables": "1"
+    }
+  ],
+  "Parameter": {
+    "area": "Öffentlich",
+    "language": "de",
+    "name": "BEVPR1",
+    "pagelength": "100",
+    "password": "********************",
+    "searchcriterion": "Code",
+    "selection": "",
+    "sortcriterion": "Code",
+    "username": "********************"
+  },
+  "Status": {
+    "Code": 22,
+    "Content": "erfolgreich (Mindestens ein Parameter enthält ungültige Werte. Er wurde angepasst, um den Service starten zu können.: sortcriterion)",
+    "Type": "Warnung"
+  }
+}

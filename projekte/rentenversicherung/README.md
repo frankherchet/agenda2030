@@ -14,7 +14,10 @@ Analysen und spätere Umsetzungsartefakte.
 - Normstand-Bedarf: `projekte/rentenversicherung/normstand-bedarf.md`
 - Bundesmittel-Zweckzerlegung: `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md`
 - Blocker-Nachbesserung: `analysen/2026-06-06-rentenreform-freigabeblocker.md`
+- Empirisches Rentenaltermodell: `analysen/2026-06-07-rentenalter-genesis-empirisch.md`
 - Gesetzesänderung Rentenwert-Budgetregel: `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`
+- Folgeänderungen Rentenwert-Budgetregel: `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md`
+- Vollzug öffentlicher Zahlungspflichten: `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`
 - Veröffentlichungsstatus: intern, weil der Prüfbericht den Status `offen`
   trägt.
 
@@ -29,6 +32,7 @@ Analysen und spätere Umsetzungsartefakte.
 - `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md`
 - `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md`
 - `analysen/2026-06-06-rentenreform-freigabeblocker.md`
+- `analysen/2026-06-07-rentenalter-genesis-empirisch.md`
 
 ## Arbeitsregel
 

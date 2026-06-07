@@ -40,3 +40,7 @@ Aktuelle Skripte:
   konkreten Rentenwertformel, feinerer Rentenalter-Kohortenrechnung,
   Bundesmittel-/Staatsbeitragsabgrenzung und erzeugt die zugehörigen
   Nachbesserungsartefakte.
+- `calc_rentenalter_genesis_empirisch.py`: ersetzt die synthetische
+  Rentenalter-Kohorte durch GENESIS-Altersjahrgänge aus Bevölkerungsstand und
+  Bevölkerungsvorausberechnung; die Erwerbsseite bleibt als transparente
+  Brücke aus Mikrozensus 65+ markiert.

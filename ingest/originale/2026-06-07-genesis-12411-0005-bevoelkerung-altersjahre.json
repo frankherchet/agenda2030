@@ -1,0 +1,105 @@
+{
+  "Copyright": "© Statistisches Bundesamt (Destatis), 2026",
+  "Ident": {
+    "Method": "table",
+    "Service": "data"
+  },
+  "Object": {
+    "Content": "Tabelle: 12411-0005\nBevölkerung: Deutschland, Stichtag, Altersjahre;;;;;\nFortschreibung des Bevölkerungsstandes;;;;;\nDeutschland;;;;;\nBevölkerungsstand (Anzahl);;;;;\n;Stichtag;Stichtag;Stichtag;Stichtag;Stichtag\n;31.12.2020;31.12.2021;31.12.2022;31.12.2023;31.12.2024\nunter 1 Jahr;769380;791254;724711;689834;673380\n1-Jährige;783593;780795;786020;739396;700940\n2-Jährige;798366;789145;773830;793110;744162\n3-Jährige;806198;803334;782423;780001;797030\n4-Jährige;811601;810805;797764;789018;783616\n5-Jährige;785754;816142;806985;803981;792542\n6-Jährige;774587;789397;813028;811968;806423\n7-Jährige;747447;779278;789459;819428;816018\n8-Jährige;745883;752469;784585;796805;824410\n9-Jährige;729897;750855;758158;791898;802173\n10-Jährige;747757;734666;758910;765417;797364\n11-Jährige;736417;752600;747682;766222;771006\n12-Jährige;755570;741247;766458;754679;771740\n13-Jährige;750180;760080;755318;773408;760061\n14-Jährige;735170;754868;773637;762581;779030\n15-Jährige;744218;740018;768874;782622;769457\n16-Jährige;760578;750057;758538;781151;792341\n17-Jährige;761348;766249;769569;772651;793349\n18-Jährige;779039;772950;785932;792971;792901\n19-Jährige;811591;797706;781687;816315;817999\n20-Jährige;865943;831435;808872;813035;843316\n21-Jährige;885430;884287;841475;837149;834907\n22-Jährige;910983;902991;896256;870130;857842\n23-Jährige;955511;930132;916419;928917;893523\n24-Jährige;952624;973682;943851;946787;952560\n25-Jährige;939020;968595;974583;973295;968463\n26-Jährige;953617;953757;960813;1002587;994345\n27-Jährige;984464;966208;945076;985655;1020294\n28-Jährige;1000769;994633;957050;967455;1001001\n29-Jährige;1035069;1009536;988725;976773;980890\n30-Jährige;1127628;1042411;1008989;1005785;988288\n31-Jährige;1112935;1134154;1039191;1025104;1015189\n32-Jährige;1136859;1118705;1132170;1053581;1033390\n33-Jährige;1112354;1141779;1121071;1145120;1060509\n34-Jährige;1091312;1116555;1148331;1133261;1151887\n35-Jährige;1058097;1094982;1127210;1159672;1139320\n36-Jährige;1050221;1061333;1110221;1137901;1165498\n37-Jährige;1050675;1053033;1077830;1120036;1143025\n38-Jährige;1070818;1053223;1071318;1087415;1124922\n39-Jährige;1061065;1072623;1072332;1079970;1092066\n40-Jährige;1065188;1062573;1089399;1079899;1083525\n41-Jährige;1013187;1066630;1078198;1096264;1083458\n42-Jährige;998596;1014635;1080211;1084454;1099294\n43-Jährige;988332;999583;1026834;1085776;1086742\n44-Jährige;969585;988878;1009558;1031820;1088001\n45-Jährige;944048;969960;996382;1013824;1032845\n46-Jährige;954793;943804;974472;999462;1014045\n47-Jährige;960699;954234;946454;977295;999487\n48-Jährige;1038215;959948;956236;948564;976705\n49-Jährige;1138105;1036458;959060;957877;947515\n50-Jährige;1177845;1135710;1037811;959577;956347\n51-Jährige;1261618;1174754;1142926;1037940;957400\n52-Jährige;1318051;1257877;1179605;1141829;1035320\n53-Jährige;1348886;1313453;1260300;1177688;1138063\n54-Jährige;1380824;1343318;1311421;1256958;1173661\n55-Jährige;1381357;1374519;1336750;1307494;1251796\n56-Jährige;1402572;1373938;1364843;1331523;1301334\n57-Jährige;1385607;1394414;1359596;1358809;1324870\n58-Jährige;1336643;1376677;1377425;1352516;1351436\n59-Jährige;1311139;1327249;1357591;1369423;1344152\n60-Jährige;1261935;1300524;1314013;1349445;1360738\n61-Jährige;1220021;1250775;1291918;1304897;1339742\n62-Jährige;1146667;1208290;1238058;1281497;1294344\n63-Jährige;1113442;1134297;1194921;1226809;1269790\n64-Jährige;1076072;1100158;1118964;1182724;1214279\n65-Jährige;1035309;1061809;1088293;1106221;1169242\n66-Jährige;1007452;1020393;1054196;1074054;1091834\n67-Jährige;967555;991948;1010093;1039705;1059429\n68-Jährige;958288;951916;980713;995379;1024594\n69-Jährige;930500;941864;937604;965316;979854\n70-Jährige;921770;913046;925445;921507;949236\n71-Jährige;881247;902997;896307;908307;904559\n72-Jährige;795008;862165;882261;878105;890040\n73-Jährige;737688;776134;839130;862652;859165\n74-Jährige;632357;718950;752072;818394;842694\n75-Jährige;546752;614207;693604;732018;797432\n76-Jährige;718997;530053;590028;673200;711029\n77-Jährige;717058;694896;506237;570401;651950\n78-Jährige;680345;691201;660703;487757;550371\n79-Jährige;804876;653265;652633;634578;468806\n80-Jährige;818459;769265;613796;623451;607141\n81-Jährige;775452;777644;719963;583715;593775\n82-Jährige;687458;732760;722205;681158;553001\n83-Jährige;604464;644569;675973;678282;641590\n84-Jährige;544669;561973;589512;630184;633529\n85 Jahre und mehr;2505932;2625444;2699436;2844213;3025803\nInsgesamt;83155031;83237124;83118501;83456045;83577140\n__________\n\"Bis 1989: Früheres Bundesgebiet\n\nAb 2011: Ergebnisse auf Grundlage des Zensus 2011.\nAb 2022: Ergebnisse auf Grundlage des Zensus 2022.\"\n© Statistisches Bundesamt (Destatis), 2026\nStand: 07.06.2026 / 01:51:26\n",
+    "Structure": {
+      "Columns": [
+        {
+          "Code": "STAG",
+          "Content": "Stichtag",
+          "Functions": null,
+          "Selected": null,
+          "Structure": null,
+          "Type": "Merkmal",
+          "Updated": "see parent",
+          "Values": "-1"
+        }
+      ],
+      "Head": {
+        "Code": "12411",
+        "Content": "Fortschreibung des Bevölkerungsstandes",
+        "Functions": null,
+        "Selected": null,
+        "Structure": [
+          {
+            "Code": "DINSG",
+            "Content": "Deutschland insgesamt",
+            "Functions": null,
+            "Selected": "1",
+            "Structure": [
+              {
+                "Code": "BEVSTD",
+                "Content": "Bevölkerungsstand",
+                "Functions": null,
+                "Selected": null,
+                "Structure": null,
+                "Type": "Merkmal",
+                "Updated": "see parent",
+                "Values": "-1"
+              }
+            ],
+            "Type": "Merkmal",
+            "Updated": "see parent",
+            "Values": "1"
+          }
+        ],
+        "Type": "Statistik",
+        "Updated": "see parent",
+        "Values": "-1"
+      },
+      "Rows": [
+        {
+          "Code": "ALT013",
+          "Content": "Altersjahre (u1-85m)",
+          "Functions": null,
+          "Selected": "86",
+          "Structure": null,
+          "Type": "Merkmal",
+          "Updated": "see parent",
+          "Values": "86"
+        }
+      ],
+      "Subheading": null,
+      "Subtitel": null
+    },
+    "TableLayout": null
+  },
+  "Parameter": {
+    "area": "Alle",
+    "classifyingkey1": "",
+    "classifyingkey2": "",
+    "classifyingkey3": "",
+    "classifyingkey4": "",
+    "classifyingkey5": "",
+    "classifyingvariable1": "",
+    "classifyingvariable2": "",
+    "classifyingvariable3": "",
+    "classifyingvariable4": "",
+    "classifyingvariable5": "",
+    "compress": "false",
+    "contents": "",
+    "endyear": "",
+    "format": "datencsv",
+    "job": "false",
+    "language": "de",
+    "name": "12411-0005",
+    "password": "********************",
+    "regionalkey": "",
+    "regionalvariable": "",
+    "stand": "01.01.1970 01:00",
+    "startyear": "",
+    "structureinformation": "false",
+    "timeslices": "",
+    "transpose": "false",
+    "username": "********************"
+  },
+  "Status": {
+    "Code": 0,
+    "Content": "erfolgreich",
+    "Type": "Information"
+  }
+}

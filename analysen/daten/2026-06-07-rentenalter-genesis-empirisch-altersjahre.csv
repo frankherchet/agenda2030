@@ -1,0 +1,217 @@
+jahr,destatis_variante,destatis_variante_label,rentenalter_szenario,regelaltersgrenze,alter,bevoelkerung_altersjahr_mio,nicht_in_rente_anteil,nicht_in_rente_mio,erwerbstaetigenquote_65plus,effektive_beitragszahler_mio
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,67,2.403,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,68,2.424,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,69,2.448,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,70,2.409,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,71,2.411,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,72,2.346,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.000,67,2.403,1.000,2.403,0.102131,0.209
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.000,68,2.424,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.000,69,2.448,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.000,70,2.409,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.000,71,2.411,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.000,72,2.346,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.000,67,2.403,1.000,2.403,0.102131,0.209
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.000,68,2.424,1.000,2.424,0.102131,0.210
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.000,69,2.448,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.000,70,2.409,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.000,71,2.411,0.000,0.000,0.102131,0.000
+2035,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.000,72,2.346,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,67,1.904,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,68,2.068,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,69,2.108,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,70,2.220,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,71,2.277,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,72,2.285,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.400,67,1.904,1.000,1.904,0.102131,0.165
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.400,68,2.068,0.400,0.827,0.102131,0.072
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.400,69,2.108,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.400,70,2.220,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.400,71,2.277,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,68.400,72,2.285,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.800,67,1.904,1.000,1.904,0.102131,0.165
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.800,68,2.068,1.000,2.068,0.102131,0.180
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.800,69,2.108,0.800,1.687,0.102131,0.146
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.800,70,2.220,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.800,71,2.277,0.000,0.000,0.102131,0.000
+2039,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,69.800,72,2.285,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,67,2.026,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,68,2.028,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,69,1.978,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,70,1.952,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,71,1.826,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,72,1.763,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,69.500,67,2.026,1.000,2.026,0.102131,0.176
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,69.500,68,2.028,1.000,2.028,0.102131,0.176
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,69.500,69,1.978,0.500,0.989,0.102131,0.086
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,69.500,70,1.952,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,69.500,71,1.826,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,69.500,72,1.763,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,70.667,67,2.026,1.000,2.026,0.102131,0.176
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,70.667,68,2.028,1.000,2.028,0.102131,0.176
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,70.667,69,1.978,1.000,1.978,0.102131,0.172
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,70.667,70,1.952,0.667,1.301,0.102131,0.113
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,70.667,71,1.826,0.000,0.000,0.102131,0.000
+2050,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,70.667,72,1.763,0.000,0.000,0.102131,0.000
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,67,1.838,0.000,0.000,0.102131,0.000
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,68,1.845,0.000,0.000,0.102131,0.000
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,69,1.873,0.000,0.000,0.102131,0.000
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,70,1.940,0.000,0.000,0.102131,0.000
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,71,1.927,0.000,0.000,0.102131,0.000
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",status_quo_67,67.000,72,1.932,0.000,0.000,0.102131,0.000
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,71.500,67,1.838,1.000,1.838,0.102131,0.160
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,71.500,68,1.845,1.000,1.845,0.102131,0.160
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,71.500,69,1.873,1.000,1.873,0.102131,0.163
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,71.500,70,1.940,1.000,1.940,0.102131,0.168
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,71.500,71,1.927,0.500,0.964,0.102131,0.084
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",lebenserwartung_2zu1,71.500,72,1.932,0.000,0.000,0.102131,0.000
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,72.000,67,1.838,1.000,1.838,0.102131,0.160
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,72.000,68,1.845,1.000,1.845,0.102131,0.160
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,72.000,69,1.873,1.000,1.873,0.102131,0.163
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,72.000,70,1.940,1.000,1.940,0.102131,0.168
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,72.000,71,1.927,1.000,1.927,0.102131,0.167
+2070,moderat_g2l2w2,"Geburtenrate, Lebenserwartung und Wanderungssaldo moderat",daenemarknah,72.000,72,1.932,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,67,2.408,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,68,2.431,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,69,2.457,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,70,2.419,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,71,2.423,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,72,2.359,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.000,67,2.408,1.000,2.408,0.102131,0.209
+2035,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.000,68,2.431,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.000,69,2.457,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.000,70,2.419,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.000,71,2.423,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.000,72,2.359,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.000,67,2.408,1.000,2.408,0.102131,0.209
+2035,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.000,68,2.431,1.000,2.431,0.102131,0.211
+2035,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.000,69,2.457,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.000,70,2.419,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.000,71,2.423,0.000,0.000,0.102131,0.000
+2035,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.000,72,2.359,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,67,1.907,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,68,2.075,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,69,2.117,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,70,2.232,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,71,2.292,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,72,2.303,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.400,67,1.907,1.000,1.907,0.102131,0.166
+2039,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.400,68,2.075,0.400,0.830,0.102131,0.072
+2039,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.400,69,2.117,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.400,70,2.232,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.400,71,2.292,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,68.400,72,2.303,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.800,67,1.907,1.000,1.907,0.102131,0.166
+2039,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.800,68,2.075,1.000,2.075,0.102131,0.180
+2039,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.800,69,2.117,0.800,1.694,0.102131,0.147
+2039,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.800,70,2.232,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.800,71,2.292,0.000,0.000,0.102131,0.000
+2039,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,69.800,72,2.303,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,67,2.021,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,68,2.027,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,69,1.981,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,70,1.959,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,71,1.836,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,72,1.776,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,69.500,67,2.021,1.000,2.021,0.102131,0.175
+2050,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,69.500,68,2.027,1.000,2.027,0.102131,0.176
+2050,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,69.500,69,1.981,0.500,0.991,0.102131,0.086
+2050,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,69.500,70,1.959,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,69.500,71,1.836,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,69.500,72,1.776,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,70.667,67,2.021,1.000,2.021,0.102131,0.175
+2050,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,70.667,68,2.027,1.000,2.027,0.102131,0.176
+2050,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,70.667,69,1.981,1.000,1.981,0.102131,0.172
+2050,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,70.667,70,1.959,0.667,1.306,0.102131,0.113
+2050,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,70.667,71,1.836,0.000,0.000,0.102131,0.000
+2050,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,70.667,72,1.776,0.000,0.000,0.102131,0.000
+2070,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,67,1.745,0.000,0.000,0.102131,0.000
+2070,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,68,1.763,0.000,0.000,0.102131,0.000
+2070,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,69,1.802,0.000,0.000,0.102131,0.000
+2070,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,70,1.882,0.000,0.000,0.102131,0.000
+2070,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,71,1.882,0.000,0.000,0.102131,0.000
+2070,alt_g1l3w1,relativ alte Bevoelkerung,status_quo_67,67.000,72,1.898,0.000,0.000,0.102131,0.000
+2070,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,71.500,67,1.745,1.000,1.745,0.102131,0.151
+2070,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,71.500,68,1.763,1.000,1.763,0.102131,0.153
+2070,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,71.500,69,1.802,1.000,1.802,0.102131,0.156
+2070,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,71.500,70,1.882,1.000,1.882,0.102131,0.163
+2070,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,71.500,71,1.882,0.500,0.941,0.102131,0.082
+2070,alt_g1l3w1,relativ alte Bevoelkerung,lebenserwartung_2zu1,71.500,72,1.898,0.000,0.000,0.102131,0.000
+2070,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,72.000,67,1.745,1.000,1.745,0.102131,0.151
+2070,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,72.000,68,1.763,1.000,1.763,0.102131,0.153
+2070,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,72.000,69,1.802,1.000,1.802,0.102131,0.156
+2070,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,72.000,70,1.882,1.000,1.882,0.102131,0.163
+2070,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,72.000,71,1.882,1.000,1.882,0.102131,0.163
+2070,alt_g1l3w1,relativ alte Bevoelkerung,daenemarknah,72.000,72,1.898,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,67,2.397,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,68,2.416,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,69,2.439,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,70,2.398,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,71,2.399,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,72,2.332,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.000,67,2.397,1.000,2.397,0.102131,0.208
+2035,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.000,68,2.416,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.000,69,2.439,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.000,70,2.398,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.000,71,2.399,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.000,72,2.332,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.000,67,2.397,1.000,2.397,0.102131,0.208
+2035,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.000,68,2.416,1.000,2.416,0.102131,0.210
+2035,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.000,69,2.439,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.000,70,2.398,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.000,71,2.399,0.000,0.000,0.102131,0.000
+2035,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.000,72,2.332,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,67,1.899,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,68,2.061,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,69,2.098,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,70,2.207,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,71,2.261,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,72,2.267,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.400,67,1.899,1.000,1.899,0.102131,0.165
+2039,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.400,68,2.061,0.400,0.824,0.102131,0.072
+2039,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.400,69,2.098,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.400,70,2.207,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.400,71,2.261,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,68.400,72,2.267,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.800,67,1.899,1.000,1.899,0.102131,0.165
+2039,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.800,68,2.061,1.000,2.061,0.102131,0.179
+2039,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.800,69,2.098,0.800,1.679,0.102131,0.146
+2039,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.800,70,2.207,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.800,71,2.261,0.000,0.000,0.102131,0.000
+2039,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,69.800,72,2.267,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,67,2.029,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,68,2.027,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,69,1.973,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,70,1.941,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,71,1.813,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,72,1.746,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,69.500,67,2.029,1.000,2.029,0.102131,0.176
+2050,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,69.500,68,2.027,1.000,2.027,0.102131,0.176
+2050,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,69.500,69,1.973,0.500,0.986,0.102131,0.086
+2050,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,69.500,70,1.941,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,69.500,71,1.813,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,69.500,72,1.746,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,70.667,67,2.029,1.000,2.029,0.102131,0.176
+2050,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,70.667,68,2.027,1.000,2.027,0.102131,0.176
+2050,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,70.667,69,1.973,1.000,1.973,0.102131,0.171
+2050,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,70.667,70,1.941,0.667,1.294,0.102131,0.112
+2050,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,70.667,71,1.813,0.000,0.000,0.102131,0.000
+2050,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,70.667,72,1.746,0.000,0.000,0.102131,0.000
+2070,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,67,1.923,0.000,0.000,0.102131,0.000
+2070,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,68,1.918,0.000,0.000,0.102131,0.000
+2070,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,69,1.933,0.000,0.000,0.102131,0.000
+2070,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,70,1.986,0.000,0.000,0.102131,0.000
+2070,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,71,1.961,0.000,0.000,0.102131,0.000
+2070,jung_g3l1w3,relativ junge Bevoelkerung,status_quo_67,67.000,72,1.953,0.000,0.000,0.102131,0.000
+2070,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,71.500,67,1.923,1.000,1.923,0.102131,0.167
+2070,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,71.500,68,1.918,1.000,1.918,0.102131,0.167
+2070,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,71.500,69,1.933,1.000,1.933,0.102131,0.168
+2070,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,71.500,70,1.986,1.000,1.986,0.102131,0.172
+2070,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,71.500,71,1.961,0.500,0.981,0.102131,0.085
+2070,jung_g3l1w3,relativ junge Bevoelkerung,lebenserwartung_2zu1,71.500,72,1.953,0.000,0.000,0.102131,0.000
+2070,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,72.000,67,1.923,1.000,1.923,0.102131,0.167
+2070,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,72.000,68,1.918,1.000,1.918,0.102131,0.167
+2070,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,72.000,69,1.933,1.000,1.933,0.102131,0.168
+2070,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,72.000,70,1.986,1.000,1.986,0.102131,0.172
+2070,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,72.000,71,1.961,1.000,1.961,0.102131,0.170
+2070,jung_g3l1w3,relativ junge Bevoelkerung,daenemarknah,72.000,72,1.953,0.000,0.000,0.102131,0.000

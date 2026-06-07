@@ -312,3 +312,36 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   Der Helper unterstützt zusätzliche Katalog-, Daten- und Metadaten-Endpunkte,
   einen generischen `post`-Aufruf und die breite GENESIS-Suche mit
   `category=Alle`, wie sie in der Swagger UI verwendet wird.
+
+## 2026-06-07 Reformer | Zweitnachprüfung Rentenreform nachgebessert
+
+- Neuer Ingest:
+  `ingest/dokumente/2026-06-07-destatis-genesis-demographie-rente-tabellen.md`
+- Neue Rohdaten:
+  `ingest/originale/2026-06-07-genesis-12411-0005-bevoelkerung-altersjahre.json`,
+  `ingest/originale/2026-06-07-genesis-12421-0002-bev-v02-moderat.json`,
+  `ingest/originale/2026-06-07-genesis-12421-0002-bev-v04-alt.json`,
+  `ingest/originale/2026-06-07-genesis-12421-0002-bev-v05-jung.json`,
+  `ingest/originale/2026-06-07-genesis-12211-0002-mikrozensus-erwerbsstatus.json`,
+  `ingest/originale/2026-06-07-genesis-values-bevpr1-varianten.json`
+- Neues Rechenartefakt:
+  `scripts/calc_rentenalter_genesis_empirisch.py`,
+  `analysen/2026-06-07-rentenalter-genesis-empirisch.md`,
+  `analysen/daten/2026-06-07-rentenalter-genesis-empirisch-altersjahre.csv`,
+  `analysen/daten/2026-06-07-rentenalter-genesis-empirisch-summary.csv`
+- Neue Rechtsartefakte:
+  `gesetzbuecher/sgb/sgb-vi-paragraf-69-stand-2026-06-07.md`,
+  `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md`,
+  `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `projekte/rentenversicherung/README.md`,
+  `projekte/rentenversicherung/normstand-bedarf.md`, `analysen/README.md`,
+  `gesetzbuecher/sgb/README.md`, `scripts/README.md`, `index.md`,
+  `.agents/skills/destatis-genesis/SKILL.md`, `ingest/index/README.md`
+- Wirkung: Die synthetische Bevölkerungsseite des Rentenaltermodells ist durch
+  GENESIS-Altersjahrgänge ersetzt. Die §-68-Budgetregel hat Folgeänderungen
+  für § 69, § 158, § 177, § 213 und § 291b sowie ein Vollzugsmodell für
+  echte öffentliche Beiträge. Die Bundesmittel-Zweckzerlegung 2024-2026
+  bleibt als nicht öffentlich beschaffbare amtliche Ist-Zerlegung markiert und
+  wird für die Reform über gesetzliche Zweckgliederung adressiert.

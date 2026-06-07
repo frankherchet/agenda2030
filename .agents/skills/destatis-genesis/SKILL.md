@@ -84,6 +84,16 @@ die kompakte Referenz:
 Diese Referenz enthält die aus `GOJsonApi.json` extrahierten Endpunkte,
 Parametergruppen und Beispiele wie die Geburten-Suche.
 
+## Betriebsgrenzen
+
+- GENESIS begrenzt parallele Requests. Bei mehr als drei parallelen Abrufen
+  kann Fehlercode `6` erscheinen.
+- Wenn Fehlercode `6` erscheint, zuerst `logincheck` ausführen. Der Dienst
+  beendet damit länger als 15 Minuten laufende Requests und gibt die Session
+  wieder frei.
+- Batch-Abrufe sequenziell oder in kleinen Paketen ausführen; keine großen
+  parallelen `multi_tool_use`-Abfragen gegen GENESIS starten.
+
 ## Output Standard
 
 Nach einem Abruf knapp melden:

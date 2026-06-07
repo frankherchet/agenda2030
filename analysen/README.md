@@ -54,3 +54,7 @@ Analysen referenziert werden.
   Prüferblocker mit Rentenwert-Budgetformel, feinerem Altersjahrmodell,
   quantifizierten echten öffentlichen Beitragszahlungen und doppelfreier
   Haushaltsbrücke.
+- `2026-06-07-rentenalter-genesis-empirisch.md`: empirisches
+  Rentenaltermodell mit GENESIS-Altersjahrgängen 67 bis 72 für die
+  Varianten moderat, alt und jung; Erwerbsseite bleibt mangels öffentlicher
+  feinjähriger Daten als Brücke markiert.

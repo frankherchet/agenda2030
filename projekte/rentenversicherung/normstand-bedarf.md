@@ -32,7 +32,9 @@ Altersrenten, Zugangsfaktor und den aktuellen Rentenwert erweitert. `SGB IV §
 28j` existiert in der amtlichen SGB-IV-Einzelnormstruktur nicht und wurde daher
 nicht erzeugt. Der unbestimmte Verweis `SGB VI § 230 ff.` wurde als `SGB VI §
 230` abgelegt; weitere Übergangsnormen folgen erst aus einer konkreten
-Änderungsskizze.
+Änderungsskizze. Am 2026-06-07 wurde SGB VI § 69 ergänzt, weil die
+Rentenwert-Budgetregel auch die jährliche Rentenwertfestsetzung per
+Rechtsverordnung berührt.
 
 ## Priorität A: vor Gesetzesänderungsskizze erforderlich
 
@@ -47,6 +49,7 @@ nicht erzeugt. Der unbestimmte Verweis `SGB VI § 230 ff.` wurde als `SGB VI §
 | SGB VI §§ 157-170 | Beitragssatz, Bemessung, Beitragstragung | `gesetzbuecher/sgb/sgb-vi-paragraf-157-stand-2026-06-05.md` usw. |
 | SGB VI § 177 | Bundesbeiträge für Kindererziehungszeiten | `gesetzbuecher/sgb/sgb-vi-paragraf-177-stand-2026-06-05.md` |
 | SGB VI § 68 | aktueller Rentenwert und Anpassungsformel | `gesetzbuecher/sgb/sgb-vi-paragraf-68-stand-2026-06-06.md` |
+| SGB VI § 69 | Verordnungsermächtigung zur Bestimmung des aktuellen Rentenwerts | `gesetzbuecher/sgb/sgb-vi-paragraf-69-stand-2026-06-07.md` |
 | SGB VI § 213 | Bundeszuschüsse | `gesetzbuecher/sgb/sgb-vi-paragraf-213-stand-2026-06-05.md` |
 | SGB VI §§ 216, 217 | Nachhaltigkeitsrücklage | `gesetzbuecher/sgb/sgb-vi-paragraf-216-stand-2026-06-05.md` usw. |
 | SGB IV §§ 20-22 | Beitragsgrundsätze und Fälligkeit | `gesetzbuecher/sgb/sgb-iv-paragraf-20-stand-2026-06-05.md` usw. |
