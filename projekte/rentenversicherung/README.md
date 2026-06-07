@@ -19,6 +19,7 @@ Analysen und spätere Umsetzungsartefakte.
 - Gesetzesänderung Rentenwert-Budgetregel: `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`
 - Folgeänderungen Rentenwert-Budgetregel: `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md`
 - Vollzug öffentlicher Zahlungspflichten: `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`
+- Haushaltsausweis echter Rentenbeiträge: `gesetzbuecher/weitere-gesetze/bho-rentenbeitraege-haushaltsausweis-aenderung-2026-06-07.md`
 - Veröffentlichungsstatus: intern, weil der Prüfbericht den Status `offen`
   trägt.
 

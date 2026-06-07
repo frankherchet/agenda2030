@@ -67,19 +67,29 @@ Basiszinssatz zu verzinsen. Eine Gutschrift von Entgeltpunkten erfolgt erst,
 soweit die Zahlung oder eine gesetzlich gleichgestellte Abschlagszahlung
 eingegangen ist.
 
-(5) Der Bestandsschutz-Zuschuss finanziert ausschließlich vor dem
+(5) Bleibt eine Zahlung nach Absatz 4 aus, haftet der Bund gegenüber dem
+Versicherten und dem zuständigen Träger der Rentenversicherung als
+Ausfallgarant. Der Träger der Rentenversicherung hat die Entgeltpunkte
+vorläufig gutzuschreiben, sobald die gesetzliche Zahlungspflicht dem Grunde
+und der Höhe nach prüffähig gemeldet oder durch Schätzung nach Absatz 7
+festgestellt ist. Der Ausgleich zwischen Zahlungspflichtigem und Bund erfolgt
+außerhalb des Versicherungskontos; Einwendungen aus diesem Innenverhältnis
+dürfen dem Versicherten nicht entgegengehalten werden.
+
+(6) Der Bestandsschutz-Zuschuss finanziert ausschließlich vor dem
 Reformstichtag begründete oder gesetzlich geschützte Rentenwirkungen. Er ist
 jährlich nach Maßgabe der Rentenfinanzrechnung fortzuschreiben und gesondert
 im Rentenversicherungsbericht auszuweisen.
 
-(6) Der Bundesrechnungshof prüft im Benehmen mit der Deutschen
+(7) Der Bundesrechnungshof prüft im Benehmen mit der Deutschen
 Rentenversicherung Bund die ordnungsgemäße Kontierung und die Abgrenzung der
 Zahlungsströme. Das Bundesministerium für Arbeit und Soziales veröffentlicht
 jährlich eine Zweckgliederung der Zahlungen nach Absatz 1.
 
-(7) Das Nähere zu Datenformat, Abschlagszahlungen, Prüfverfahren,
-Rückforderung, Verzinsung, Rundung und Veröffentlichung regelt eine
-Rechtsverordnung der Bundesregierung mit Zustimmung des Bundesrates.
+(8) Das Nähere zu Datenformat, Abschlagszahlungen, Schätzung bei fehlender
+Meldung, Prüfverfahren, Rückforderung, Verzinsung, Rundung, Veröffentlichung
+und Ausgleich zwischen Zahlungspflichtigen regelt eine Rechtsverordnung der
+Bundesregierung mit Zustimmung des Bundesrates.
 ```
 
 ## Begründung
@@ -88,7 +98,9 @@ Die Vorschrift macht die Beitragsklarheit vollziehbar. Sie trennt
 Zahlungsarten in Konten, bindet Rentenpunkte an konkrete Zahlungspflichten,
 legt Fälligkeiten fest und schafft eine jährliche öffentliche
 Zweckgliederung. Damit wird der Prüferpunkt `Kontierung, Meldung, Prüfung,
-Fälligkeit und Sanktionierung` als Gesetzesskizze bearbeitet.
+Fälligkeit und Sanktionierung` als Gesetzesskizze bearbeitet. Die Ergänzung
+vom 2026-06-07 konkretisiert die Ausfallhaftung: Zahlungsverzug öffentlicher
+Träger darf nicht zulasten der Versicherten gehen.
 
 ## Folgeänderungen
 
@@ -96,15 +108,17 @@ Fälligkeit und Sanktionierung` als Gesetzesskizze bearbeitet.
 - § 177 und weitere Sozialzeitnormen müssen auf echte öffentliche Beiträge
   nach § 213a verweisen.
 - Haushalts- und Rechnungslegungsvorschriften des Bundes müssen die
-  Zweckgliederung spiegeln.
+  Zweckgliederung spiegeln; die BHO-Folgeänderung ist unter
+  `gesetzbuecher/weitere-gesetze/bho-rentenbeitraege-haushaltsausweis-aenderung-2026-06-07.md`
+  als Arbeitsfassung angelegt.
 
 ## Verfassungsrechtliche Prüfung
 
-Die Regel stärkt Haushaltsklarheit und Beitragsäquivalenz. Kritisch bleibt,
-dass die verzögerte Entgeltpunktgutschrift bei Zahlungsverzug öffentlicher
-Träger nicht zulasten der Versicherten gehen darf. Für diesen Fall braucht
-die Rechtsverordnung eine gleichgestellte Abschlagszahlung oder
-Ausfallhaftung.
+Die Regel stärkt Haushaltsklarheit und Beitragsäquivalenz. Die
+Ausfallhaftung wahrt den Vertrauensschutz der Versicherten: Streit über
+Zahlungspflichten öffentlicher Träger wird in das Innenverhältnis zwischen
+Träger, Bund und Rentenversicherung verschoben und nicht auf das
+Versicherungskonto abgewälzt.
 
 ## Umsetzung und Frist
 

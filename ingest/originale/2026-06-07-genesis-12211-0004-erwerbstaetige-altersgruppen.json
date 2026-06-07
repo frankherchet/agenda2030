@@ -1,0 +1,125 @@
+{
+  "Copyright": "© Statistisches Bundesamt (Destatis), 2026",
+  "Ident": {
+    "Method": "table",
+    "Service": "data"
+  },
+  "Object": {
+    "Content": "Tabelle: 12211-0004\nErwerbstätige aus Hauptwohnsitzhaushalten: Deutschland,;;;;;;;;;\nJahre, Geschlecht, Altersgruppen, Stellung im Beruf;;;;;;;;;\nMikrozensus;;;;;;;;;\nDeutschland;;;;;;;;;\nErwerbstätige aus Hauptwohnsitzhaushalten (1000);;;;;;;;;\n;;;Stellung im Beruf;Stellung im Beruf;Stellung im Beruf;Stellung im Beruf;Stellung im Beruf;Stellung im Beruf;Stellung im Beruf\n;;;Selbstständige ohne Beschäftigte;Selbstständige mit Beschäftigten;Mithelfende Familienangehörige;Beamte;Arbeiter und Angestellte;Auszubildende;Insgesamt\n2025;männlich;15 bis unter 25 Jahre;28;17;7;72;1380;714;2217\n2025;männlich;25 bis unter 35 Jahre;114;113;/;224;3955;125;4535\n2025;männlich;35 bis unter 45 Jahre;174;239;/;259;4348;18;5041\n2025;männlich;45 bis unter 55 Jahre;204;318;/;228;3752;/;4512\n2025;männlich;55 bis unter 65 Jahre;307;421;/;238;4108;/;5081\n2025;männlich;65 bis unter 75 Jahre;167;141;15;16;597;/;936\n2025;männlich;75 Jahre und mehr;41;27;7;/;70;/;146\n2025;männlich;Insgesamt;1035;1275;46;1037;18210;864;22468\n2025;weiblich;15 bis unter 25 Jahre;17;8;/;66;1341;525;1963\n2025;weiblich;25 bis unter 35 Jahre;76;38;/;260;3380;108;3867\n2025;weiblich;35 bis unter 45 Jahre;145;101;8;312;3874;29;4470\n2025;weiblich;45 bis unter 55 Jahre;159;124;12;263;3703;14;4276\n2025;weiblich;55 bis unter 65 Jahre;215;150;21;207;4084;/;4680\n2025;weiblich;65 bis unter 75 Jahre;88;40;13;8;564;/;713\n2025;weiblich;75 Jahre und mehr;15;7;6;/;55;/;83\n2025;weiblich;Insgesamt;716;469;72;1116;17001;678;20052\n2025;Insgesamt;15 bis unter 25 Jahre;44;25;13;138;2720;1239;4180\n2025;Insgesamt;25 bis unter 35 Jahre;190;151;8;484;7335;233;8402\n2025;Insgesamt;35 bis unter 45 Jahre;319;340;12;571;8222;47;9511\n2025;Insgesamt;45 bis unter 55 Jahre;363;442;16;491;7455;20;8788\n2025;Insgesamt;55 bis unter 65 Jahre;523;571;26;445;8191;/;9761\n2025;Insgesamt;65 bis unter 75 Jahre;256;181;28;24;1162;/;1650\n2025;Insgesamt;75 Jahre und mehr;56;34;13;/;125;/;229\n2025;Insgesamt;Insgesamt;1751;1744;117;2153;35211;1543;42520\n__________\n© Statistisches Bundesamt (Destatis), 2026\nStand: 07.06.2026 / 22:46:56\n",
+    "Structure": {
+      "Columns": [
+        {
+          "Code": "BERST1",
+          "Content": "Stellung im Beruf",
+          "Functions": null,
+          "Selected": "6",
+          "Structure": null,
+          "Type": "Merkmal",
+          "Updated": "see parent",
+          "Values": "6"
+        }
+      ],
+      "Head": {
+        "Code": "12211",
+        "Content": "Mikrozensus",
+        "Functions": null,
+        "Selected": null,
+        "Structure": [
+          {
+            "Code": "DINSG",
+            "Content": "Deutschland insgesamt",
+            "Functions": null,
+            "Selected": "1",
+            "Structure": [
+              {
+                "Code": "ERW041",
+                "Content": "Erwerbstätige aus Hauptwohnsitzhaushalten",
+                "Functions": null,
+                "Selected": null,
+                "Structure": null,
+                "Type": "Merkmal",
+                "Updated": "see parent",
+                "Values": "-1"
+              }
+            ],
+            "Type": "Merkmal",
+            "Updated": "see parent",
+            "Values": "1"
+          }
+        ],
+        "Type": "Statistik",
+        "Updated": "see parent",
+        "Values": "-1"
+      },
+      "Rows": [
+        {
+          "Code": "GES",
+          "Content": "Geschlecht",
+          "Functions": null,
+          "Selected": "2",
+          "Structure": [
+            {
+              "Code": "ALT065",
+              "Content": "Altersgruppen (15-75m)",
+              "Functions": null,
+              "Selected": "7",
+              "Structure": null,
+              "Type": "Merkmal",
+              "Updated": "see parent",
+              "Values": "7"
+            }
+          ],
+          "Type": "Merkmal",
+          "Updated": "see parent",
+          "Values": "2"
+        }
+      ],
+      "Subheading": null,
+      "Subtitel": {
+        "Code": "JAHR",
+        "Content": "Jahr",
+        "Functions": null,
+        "Selected": null,
+        "Structure": null,
+        "Type": "Merkmal",
+        "Updated": "see parent",
+        "Values": "-1"
+      }
+    },
+    "TableLayout": null
+  },
+  "Parameter": {
+    "area": "Alle",
+    "classifyingkey1": "",
+    "classifyingkey2": "",
+    "classifyingkey3": "",
+    "classifyingkey4": "",
+    "classifyingkey5": "",
+    "classifyingvariable1": "",
+    "classifyingvariable2": "",
+    "classifyingvariable3": "",
+    "classifyingvariable4": "",
+    "classifyingvariable5": "",
+    "compress": "false",
+    "contents": "",
+    "endyear": "",
+    "format": "datencsv",
+    "job": "false",
+    "language": "de",
+    "name": "12211-0004",
+    "password": "********************",
+    "regionalkey": "",
+    "regionalvariable": "",
+    "stand": "01.01.1970 01:00",
+    "startyear": "",
+    "structureinformation": "false",
+    "timeslices": "",
+    "transpose": "false",
+    "username": "********************"
+  },
+  "Status": {
+    "Code": 0,
+    "Content": "erfolgreich",
+    "Type": "Information"
+  }
+}

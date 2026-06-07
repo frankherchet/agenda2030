@@ -25,6 +25,10 @@ Bestandsschutz-Zuschüsse verwendet.
 
 - DRV-Statistikband Rente 2024 mit Tabellen zum Rentenbestand nach Rentenart,
   Alter, Geschlecht und Versicherungsträger.
+- Tabellenteil Rentenzugang mit Verteilungen nach Rentenarten sowie nach
+  Alter des Rentenberechtigten bei Rentenbeginn, Rentenzahlbeträgen nach
+  Rentenart und Altersgruppen sowie Angaben zum durchschnittlichen Alter bei
+  Rentenbeginn.
 - Für das Abschmelzmodell besonders genutzt: Tabellen zu
   Erwerbsminderungsrenten, Altersrenten, Hinterbliebenenrenten und
   Trägeraggregaten.
@@ -35,6 +39,11 @@ Bestandsschutz-Zuschüsse verwendet.
   `analysen/daten/2026-06-04-drv-rentenbestand-struktur.csv` genutzt.
 - Die Analyse `analysen/2026-06-04-drv-rentenbestand-inputs.md` verdichtet
   die extrahierten Rentenarten-, Alters- und Geschlechtsstrukturen.
+- Für eine Freigabe der Rentenalter-Kopplung sind zusätzlich die
+  Rentenzugangstabellen nach Alter/Rentenart sowie Daten zu Zugangsfaktoren,
+  Abschlägen, Erwerbsminderung, Schwerbehinderung und besonders langen
+  Versicherungszeiten auszuwerten. Der GENESIS-Erwerbsblock ersetzt diese
+  DRV-Rentenzugangsdaten nicht.
 
 ## Relevanz für agenda2030
 

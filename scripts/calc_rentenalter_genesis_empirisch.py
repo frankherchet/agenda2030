@@ -19,6 +19,7 @@ OUTPUT_MD = ROOT / "analysen/2026-06-07-rentenalter-genesis-empirisch.md"
 
 RAW_ACTUAL = RAW_DIR / "2026-06-07-genesis-12411-0005-bevoelkerung-altersjahre.json"
 RAW_MIKROZENSUS = RAW_DIR / "2026-06-07-genesis-12211-0002-mikrozensus-erwerbsstatus.json"
+RAW_MIKROZENSUS_EMPLOYED = RAW_DIR / "2026-06-07-genesis-12211-0004-erwerbstaetige-altersgruppen.json"
 RAW_PROJECTIONS = {
     "moderat_g2l2w2": RAW_DIR / "2026-06-07-genesis-12421-0002-bev-v02-moderat.json",
     "alt_g1l3w1": RAW_DIR / "2026-06-07-genesis-12421-0002-bev-v04-alt.json",
@@ -123,6 +124,8 @@ def load_projection(path: Path) -> dict[int, dict[int, Decimal]]:
     for row in rows:
         if len(row) < 5:
             continue
+        if row[2] != "Insgesamt":
+            continue
         age = age_from_label(row[3])
         if age is None:
             continue
@@ -131,15 +134,22 @@ def load_projection(path: Path) -> dict[int, dict[int, Decimal]]:
     return result
 
 
-def load_senior_rates() -> dict[str, Decimal]:
+def load_senior_rates(projections: dict[str, dict[int, dict[int, Decimal]]]) -> dict[str, Decimal]:
     rows = table_content(RAW_MIKROZENSUS)
     line = next(row for row in rows if row[:3] == ["2025", "Insgesamt", "65 Jahre und mehr"])
     population = parse_number(line[3])
     employed = parse_number(line[4])
     labour_force = parse_number(line[6])
+    employed_rows = table_content(RAW_MIKROZENSUS_EMPLOYED)
+    employed_65_74_line = next(
+        row for row in employed_rows if row[:3] == ["2025", "Insgesamt", "65 bis unter 75 Jahre"]
+    )
+    employed_65_74 = parse_number(employed_65_74_line[-1])
+    population_65_74 = sum(projections["moderat_g2l2w2"][2025][age] for age in range(65, 75))
     return {
         "erwerbstaetigenquote_65plus": employed / population,
         "erwerbspersonenquote_65plus": labour_force / population,
+        "erwerbstaetigenquote_65_74": employed_65_74 / population_65_74,
         "senior_wage_factor": SENIOR_WAGE_FACTOR,
     }
 
@@ -159,7 +169,7 @@ def population_for_year(
 def build_rows() -> tuple[list[dict[str, str]], list[dict[str, str]], dict[str, Decimal]]:
     actual_2024 = load_actual_population_2024()
     projections = {variant: load_projection(path) for variant, path in RAW_PROJECTIONS.items()}
-    rates = load_senior_rates()
+    rates = load_senior_rates(projections)
     detail_rows: list[dict[str, str]] = []
     summary_rows: list[dict[str, str]] = []
 
@@ -173,7 +183,7 @@ def build_rows() -> tuple[list[dict[str, str]], list[dict[str, str]], dict[str, 
                     population = population_for_year(actual_2024, projections, variant, year, age)
                     fraction = active_fraction(age, retirement_age)
                     delayed = population * fraction
-                    effective = delayed * rates["erwerbstaetigenquote_65plus"] * SENIOR_WAGE_FACTOR
+                    effective = delayed * rates["erwerbstaetigenquote_65_74"] * SENIOR_WAGE_FACTOR
                     delayed_total += delayed
                     effective_workers += effective
                     detail_rows.append(
@@ -187,6 +197,7 @@ def build_rows() -> tuple[list[dict[str, str]], list[dict[str, str]], dict[str, 
                             "bevoelkerung_altersjahr_mio": str(q(population / Decimal("1000"), "0.001")),
                             "nicht_in_rente_anteil": str(q(fraction, "0.001")),
                             "nicht_in_rente_mio": str(q(delayed / Decimal("1000"), "0.001")),
+                            "erwerbstaetigenquote_bruecke_65_74": str(q(rates["erwerbstaetigenquote_65_74"], "0.000001")),
                             "erwerbstaetigenquote_65plus": str(q(rates["erwerbstaetigenquote_65plus"], "0.000001")),
                             "effektive_beitragszahler_mio": str(q(effective / Decimal("1000"), "0.001")),
                         }
@@ -200,9 +211,10 @@ def build_rows() -> tuple[list[dict[str, str]], list[dict[str, str]], dict[str, 
                         "regelaltersgrenze": str(q(retirement_age, "0.001")),
                         "nicht_in_rente_mio": str(q(delayed_total / Decimal("1000"), "0.001")),
                         "effektive_beitragszahler_mio": str(q(effective_workers / Decimal("1000"), "0.001")),
+                        "erwerbstaetigenquote_bruecke_65_74": str(q(rates["erwerbstaetigenquote_65_74"], "0.000001")),
                         "erwerbstaetigenquote_65plus": str(q(rates["erwerbstaetigenquote_65plus"], "0.000001")),
                         "erwerbspersonenquote_65plus": str(q(rates["erwerbspersonenquote_65plus"], "0.000001")),
-                        "notiz": "Altersjahrgaenge aus GENESIS; Erwerbstaetigenquote fuer 65+ aus Mikrozensus 2025 als Brueckenparameter.",
+                        "notiz": "Altersjahrgaenge aus GENESIS; Erwerbstaetigenquote fuer 65 bis unter 75 aus Mikrozensus 2025 als Brueckenparameter.",
                     }
                 )
     return detail_rows, summary_rows, rates
@@ -263,18 +275,22 @@ def write_markdown(summary_rows: list[dict[str, str]], rates: dict[str, Decimal]
         "  Altersjahren, Geschlecht und Variante bis 31.12.2070.",
         "- `12211-0002`: Mikrozensus 2025, Erwerbstaetige und Erwerbspersonen",
         "  in Hauptwohnsitzhaushalten nach Altersgruppen.",
+        "- `12211-0004`: Mikrozensus 2025, Erwerbstaetige nach Geschlecht,",
+        "  Altersgruppen und Stellung im Beruf.",
         "",
         "## Brueckenparameter Erwerb",
         "",
-        f"- Erwerbstaetigenquote 65+: {q(rates['erwerbstaetigenquote_65plus'] * Decimal('100'), '0.1')} %.",
+        f"- Erwerbstaetigenquote 65 bis unter 75: {q(rates['erwerbstaetigenquote_65_74'] * Decimal('100'), '0.1')} %.",
+        f"- Vergleichswert Erwerbstaetigenquote 65+: {q(rates['erwerbstaetigenquote_65plus'] * Decimal('100'), '0.1')} %.",
         f"- Erwerbspersonenquote 65+: {q(rates['erwerbspersonenquote_65plus'] * Decimal('100'), '0.1')} %.",
         "- Senior-Wage-Faktor: 0,85 als konservativer Abschlag auf volle",
         "  Beitragswirkung.",
         "",
         "Die Altersjahrgaenge sind damit empirisch. Die Erwerbsquote bleibt",
         "mangels oeffentlich gefundener feinjaehriger GENESIS-Erwerbsquoten ein",
-        "transparenter Brueckenparameter aus der amtlichen Altersgruppe `65 Jahre",
-        "und mehr`.",
+        "transparenter Brueckenparameter. Gegenueber der Vorfassung wird nicht",
+        "mehr `65 Jahre und mehr`, sondern die naehere amtliche Gruppe",
+        "`65 bis unter 75 Jahre` verwendet.",
         "",
         "## Ergebnis",
         "",
@@ -309,14 +325,16 @@ def write_markdown(summary_rows: list[dict[str, str]], rates: dict[str, Decimal]
             "",
             "## Einordnung",
             "",
-            "Der fruehere Prüferblocker `synthetische Altersjahrkohorten` ist damit",
-            "fuer die Bevoelkerungsseite bearbeitet: die betroffenen Jahrgaenge",
-            "67 bis 72 stammen aus GENESIS. Nicht vollstaendig erledigt ist die",
-            "Arbeitsmarktseite, weil GENESIS in der oeffentlichen Suche keine",
-            "feinjaehrigen Erwerbsquoten fuer 67 bis 72 geliefert hat. Fuer eine",
-            "Freigabe sollte entweder ein Mikrozensus-Sondertabellenzugang,",
-            "DRV-Rentenzugangsdaten oder eine andere amtliche Quelle fuer",
-            "altersscharfe Erwerbsbeteiligung ergaenzt werden.",
+        "Der fruehere Prüferblocker `synthetische Altersjahrkohorten` ist damit",
+        "fuer die Bevoelkerungsseite bearbeitet: die betroffenen Jahrgaenge",
+        "67 bis 72 stammen aus GENESIS. Die Korrektur vom 2026-06-07 nutzt in",
+        "`12421-0002` ausschliesslich die Geschlechtszeile `Insgesamt`; die",
+        "Vorfassung hatte maennlich, weiblich und Insgesamt zusammengezählt.",
+        "Nicht vollstaendig erledigt ist die Arbeitsmarktseite, weil GENESIS",
+        "oeffentlich keine feinjaehrigen Erwerbsquoten fuer 67 bis 72 liefert.",
+        "Fuer eine Freigabe sollte entweder ein Mikrozensus-Sondertabellenzugang,",
+        "DRV-Rentenzugangsdaten oder eine andere amtliche Quelle fuer",
+        "altersscharfe Erwerbsbeteiligung ergaenzt werden.",
             "",
         ]
     )

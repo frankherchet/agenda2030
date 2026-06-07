@@ -360,3 +360,31 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   die alten Systematikblocker als Arbeitsfassungen. Die Freigabe bleibt offen,
   weil altersscharfe Erwerbs- und Rentenzugangsdaten sowie die amtliche
   Bundesmittel-Ist-Zweckzerlegung 2024-2026 weiterhin fehlen.
+
+## 2026-06-07 Reformer | Drittnachprüfung nachgebessert
+
+- Korrigiertes Rechenartefakt:
+  `scripts/calc_rentenalter_genesis_empirisch.py`,
+  `analysen/2026-06-07-rentenalter-genesis-empirisch.md`,
+  `analysen/daten/2026-06-07-rentenalter-genesis-empirisch-altersjahre.csv`,
+  `analysen/daten/2026-06-07-rentenalter-genesis-empirisch-summary.csv`
+- Neuer GENESIS-Rohabruf:
+  `ingest/originale/2026-06-07-genesis-12211-0004-erwerbstaetige-altersgruppen.json`
+- Neue Rechtsquelle und Normstände:
+  `ingest/links/2026-06-07-gesetze-im-internet-bho.md`,
+  `gesetzbuecher/weitere-gesetze/bho-paragraf-13-stand-2026-06-07.md`,
+  `gesetzbuecher/weitere-gesetze/bho-paragraf-17-stand-2026-06-07.md`
+- Neue Änderungsskizze:
+  `gesetzbuecher/weitere-gesetze/bho-rentenbeitraege-haushaltsausweis-aenderung-2026-06-07.md`
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`,
+  `projekte/rentenversicherung/normstand-bedarf.md`, `ingest/index/README.md`,
+  `index.md`
+- Wirkung: Die GENESIS-Projektion nutzt nun nur die summenfähige
+  Geschlechtszeile `Insgesamt`, die Erwerbsbrücke wurde von `65 Jahre und
+  mehr` auf `65 bis unter 75 Jahre` verfeinert, § 213a enthält eine
+  Ausfallhaftung zugunsten der Versicherten und die Haushaltsfolgeänderung zur
+  BHO bildet echte Rentenbeiträge im Bundeshaushalt ab. Das Rentenaltermodell
+  bleibt bis zu altersscharfen Erwerbs- und DRV-Rentenzugangsdaten als
+  Sensitivität markiert.

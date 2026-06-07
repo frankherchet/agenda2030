@@ -50,6 +50,9 @@ source_urls:
   - https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/251111-kindererziehungszeiten-vaeter
   - https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/leistungen-der-pflegeversicherung/leistungen-im-ueberblick/soziale-absicherung-fuer-pflegepersonen
   - https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Pressemitteilungen/Pressemitteilungen-archiv/2025/2025-05-09-pflege-von-angehoerigen.html
+  - https://www.gesetze-im-internet.de/bho/
+  - https://www.gesetze-im-internet.de/bho/__13.html
+  - https://www.gesetze-im-internet.de/bho/__17.html
 ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
@@ -81,6 +84,7 @@ ingest_refs:
   - ingest/links/2026-06-06-bmg-soziale-absicherung-pflegepersonen.md
   - ingest/links/2026-06-06-drv-pflegepersonen-rentenversicherung.md
   - ingest/dokumente/2026-06-07-destatis-genesis-demographie-rente-tabellen.md
+  - ingest/links/2026-06-07-gesetze-im-internet-bho.md
 related_ministries:
   - ministerien/arbeit-soziales/
   - ministerien/finanzen/
@@ -152,10 +156,11 @@ related_analyses:
   Reformklassifikation.
 - Nachbesserung vom 2026-06-07: Die Rentenalterrechnung nutzt nun
   GENESIS-Altersjahrgaenge aus `12411-0005` und `12421-0002` statt einer
-  pauschalen synthetischen Kohorte. Die oeffentlich gefundene Erwerbsseite
-  bleibt ein Brueckenparameter aus Mikrozensus `12211-0002` fuer `65 Jahre und
-  mehr`; feinjaehrige Erwerbsquoten, Rentenzugaenge, Abschlaege und
-  Erwerbsminderung bleiben als externer Datenbedarf markiert.
+  pauschalen synthetischen Kohorte. Die Erwerbsseite bleibt mangels
+  feinjaehriger Erwerbsquoten ein Brueckenparameter; nach der
+  Drittnachpruefung wurde sie von `65 Jahre und mehr` auf die naehere
+  GENESIS-Gruppe `65 bis unter 75 Jahre` verfeinert. Rentenzugaenge,
+  Abschlaege und Erwerbsminderung bleiben als externer Datenbedarf markiert.
 - Folgeaenderungen zur Budgetregel sind als Arbeitsfassungen angelegt:
   `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md`
   und
@@ -164,6 +169,12 @@ related_analyses:
   GENESIS-Rechnung und kein neuer Normstand-Blocker. Die Freigabe bleibt offen,
   weil altersscharfe Erwerbs- und Rentenzugangsdaten sowie die amtliche
   Bundesmittel-Ist-Zweckzerlegung 2024-2026 fehlen.
+- Nachbesserung nach Drittnachpruefung: Die GENESIS-Rechnung wurde korrigiert,
+  weil `12421-0002` die Geschlechtsdimension `männlich`, `weiblich` und
+  `Insgesamt` enthält und nur `Insgesamt` summenfähig ist. Die Erwerbsbrücke
+  nutzt nun `12211-0004` mit `65 bis unter 75 Jahre` statt nur `65 Jahre und
+  mehr`. § 213a enthält eine Ausfallhaftung zugunsten der Versicherten; die
+  Haushaltsfolgeänderung zur BHO ist als Arbeitsfassung angelegt.
 
 ## Kurzfassung
 
@@ -696,26 +707,37 @@ die Bevoelkerungsseite durch GENESIS-Altersjahrgaenge. Genutzt werden
 `12411-0005` fuer den Bevölkerungsstand nach Altersjahren bis 2024 und
 `12421-0002` fuer die vorausberechneten Altersjahre bis 2070. Als Varianten
 dienen `BEV-VARIANTE-02` moderat, `BEV-VARIANTE-04` relativ alt und
-`BEV-VARIANTE-05` relativ jung. Die Erwerbsseite bleibt mangels gefundener
-öffentlich abrufbarer feinjaehriger Erwerbsquoten eine Bruecke aus
-Mikrozensus `12211-0002`: Erwerbstaetigenquote 65+ rund 10,2 %,
-Erwerbspersonenquote 65+ rund 10,4 %, Senior-Wage-Faktor 0,85.
+`BEV-VARIANTE-05` relativ jung. Die Korrektur nach der Drittnachpruefung
+nutzt in `12421-0002` nur die Geschlechtszeile `Insgesamt`; die Zeilen
+`männlich` und `weiblich` werden nicht zusätzlich aufsummiert. Die
+Erwerbsseite bleibt mangels gefundener öffentlich abrufbarer feinjaehriger
+Erwerbsquoten eine Bruecke, ist aber enger gefasst: `12211-0004` weist fuer
+2025 in der Gruppe `65 bis unter 75 Jahre` 1,650 Mio. Erwerbstaetige aus.
+Gespiegelt an der GENESIS-Bevoelkerung 65 bis 74 ergibt das eine
+Bruecken-Erwerbstaetigenquote von rund 16,5 %. Der Vergleichswert `65 Jahre
+und mehr` aus `12211-0002` bleibt bei rund 10,2 %; verwendet wird fuer die
+Altersjahre 67 bis 72 die naehere 65-bis-unter-75-Bruecke mit
+Senior-Wage-Faktor 0,85.
 
 Im moderaten GENESIS-Pfad ergeben sich fuer die betroffenen Altersjahrgaenge:
 
 | Jahr | Status quo 67 | Lebenserwartung 2:1 | daenemarknah |
 | ---: | ---: | ---: | ---: |
-| 2035 | 0,000 Mio. / 0,000 Mio. | 2,403 Mio. / 0,209 Mio. | 4,826 Mio. / 0,419 Mio. |
-| 2039 | 0,000 Mio. / 0,000 Mio. | 2,731 Mio. / 0,237 Mio. | 5,658 Mio. / 0,491 Mio. |
-| 2050 | 0,000 Mio. / 0,000 Mio. | 5,044 Mio. / 0,438 Mio. | 7,334 Mio. / 0,637 Mio. |
-| 2070 | 0,000 Mio. / 0,000 Mio. | 8,459 Mio. / 0,734 Mio. | 9,422 Mio. / 0,818 Mio. |
+| 2035 | 0,000 Mio. / 0,000 Mio. | 1,201 Mio. / 0,169 Mio. | 2,413 Mio. / 0,339 Mio. |
+| 2039 | 0,000 Mio. / 0,000 Mio. | 1,365 Mio. / 0,192 Mio. | 2,829 Mio. / 0,397 Mio. |
+| 2050 | 0,000 Mio. / 0,000 Mio. | 2,522 Mio. / 0,354 Mio. | 3,667 Mio. / 0,515 Mio. |
+| 2070 | 0,000 Mio. / 0,000 Mio. | 4,230 Mio. / 0,594 Mio. | 4,711 Mio. / 0,662 Mio. |
 
 Erste Zahl: Personen, die durch das hoehere Rentenalter nicht in den
-Rentenbestand wechseln. Zweite Zahl: daraus mit 65+-Erwerbstaetigenquote und
+Rentenbestand wechseln. Zweite Zahl: daraus mit 65-bis-unter-75-Bruecke und
 Senior-Wage-Faktor abgeleitete effektive zusaetzliche Beitragszahler. Die
-Bevoelkerungskohorten sind damit empirisch; fuer eine finale Freigabe fehlen
-weiterhin altersscharfe Erwerbsbeteiligung, DRV-Rentenzugaenge, Abschlaege,
-Erwerbsminderung und Schutzgruppen.
+Bevoelkerungskohorten sind damit empirisch; die Erwerbswirkung bleibt eine
+Sensitivität, keine Freigabegrundlage. Fuer eine finale Freigabe fehlen
+weiterhin altersscharfe Erwerbsbeteiligung, DRV-Rentenzugaenge, Zugangsfaktoren,
+Abschlaege, Erwerbsminderung und Schutzgruppen. Der DRV-Statistikband 2024
+enthaelt Rentenzugangstabellen nach Alter/Rentenart und ist als naechste
+Auswertungsquelle markiert, ersetzt aber in dieser Fassung noch kein
+vollstaendiges Neurentner-Kohortenmodell.
 
 ### 6. Zusaetzlicher Kapitalmarktbaustein
 
@@ -750,6 +772,12 @@ Das ist keine Garantie. Kapitalmarktertraege schwanken, und die Auszahlungsphase
 traegt Langlebigkeits- und Sequenzrisiken. Der Baustein ist deshalb nur als
 Zusatz zur Umlage tragfaehig, nicht als Ersatz fuer Beitragsklarheit,
 Rentenalter-Regel und Erwerbstätigenbasis.
+
+Der Kapitalmarktbaustein ist nicht Teil der Freigabegrundlage fuer den
+Umlagekern. Solange kein eigenes Stammgesetz fuer Default-Fonds,
+Governance, Kostenobergrenzen, Auszahlungsphase und Aufsicht vorliegt, bleibt
+er ein optionaler Zusatzpfad. Die Reform der umlagefinanzierten
+Rentenversicherung muss ohne Kapitalmarktbaustein rechnerisch tragfaehig sein.
 
 ## Gesetzlicher Änderungsbedarf
 
@@ -789,6 +817,10 @@ Rentenalter-Regel und Erwerbstätigenbasis.
 - Kapitalmarktbaustein: eigenes Stammgesetz oder SGB-Ergaenzung fuer
   Default-Fonds, Governance, Kostenobergrenzen, Auszahlungsphase und
   Aufsichtspflichten pruefen.
+- BHO § 13 und § 17: Haushaltsausweis echter öffentlicher Rentenbeiträge,
+  Bestandsschutz-Zuschüsse, Erstattungen und sonstiger Steuertransfers
+  spiegelbildlich zur Rentenfinanzrechnung verankern; Änderungsskizze:
+  `gesetzbuecher/weitere-gesetze/bho-rentenbeitraege-haushaltsausweis-aenderung-2026-06-07.md`.
 
 ## Übergangslogik
 
@@ -806,6 +838,10 @@ Rentenalter-Regel und Erwerbstätigenbasis.
   rentennahe Jahrgaenge werden nicht kurzfristig verschoben.
 - Kapitalmarktbaustein: nur fuer kuenftige Beitragsjahre; bestehende
   Rentenansprueche werden nicht in Kapitalmarktrisiko ueberfuehrt.
+- Echte öffentliche Beiträge: Bei Zahlungsverzug öffentlicher Träger werden
+  Entgeltpunkte nach §-213a-Arbeitsfassung vorläufig gutgeschrieben; der
+  Streit über Zahlung, Verzinsung und Ausgleich läuft im Innenverhältnis von
+  Zahlungspflichtigem, Bund und Rentenversicherung.
 - Bestandsbeamte und bestehende berufsständische Anwartschaften: keine
   rückwirkende Änderung; Transparenzbericht über implizite Versorgungslasten.
 
@@ -835,11 +871,14 @@ Rentenalter-Regel und Erwerbstätigenbasis.
 - Feinjaehrige Erwerbsquoten fuer 67 bis 72 Jahre, Rentenzugaenge,
   Zugangsfaktoren, Abschlaege, Erwerbsminderung und Schutzgruppen. Die
   Bevoelkerungskohorten 67 bis 72 sind seit dem GENESIS-Artefakt vom
-  2026-06-07 empirisch, die Erwerbs- und Rentenzugangsdaten aber noch nicht.
+  2026-06-07 empirisch und die Erwerbsbruecke nutzt inzwischen `65 bis unter
+  75 Jahre`; altersscharfe Erwerbs- und Rentenzugangsdaten fehlen aber weiter.
 - Definition von Schutzregeln fuer Schwerarbeit, lange Versicherungszeiten,
   Erwerbsminderung und niedrige Lebenserwartung bestimmter Gruppen.
-- Kapitalmarkt-Governance: Institution, Anlageuniversum, Kostenlimit,
-  Auszahlungsmodus, Garantiefreiheit und Insolvenz-/Staatshaftungsabgrenzung.
+- Kapitalmarkt-Governance bleibt nur fuer einen optionalen Zusatzbaustein
+  offen und ist nicht Freigabevoraussetzung fuer den Umlagekern: Institution,
+  Anlageuniversum, Kostenlimit, Auszahlungsmodus, Garantiefreiheit und
+  Insolvenz-/Staatshaftungsabgrenzung.
 - Alters- und Geschlechtsstruktur der Knappschaft-Bahn-See als eigener Träger,
   falls sie später separat statt nur als Anteil von `rv_gesamt` simuliert
   werden soll.
@@ -850,8 +889,9 @@ Rentenalter-Regel und Erwerbstätigenbasis.
 
 ## Nächste Schritte
 
-- Gesetzesänderungsskizzen für Versichertenkreis, staatliche Beiträge,
-  Altersgrenzen und Kapitalmarktbaustein anlegen.
+- Gesetzesänderungsskizzen für Versichertenkreis, staatliche Beiträge und
+  Altersgrenzen anlegen; Kapitalmarktbaustein separat als optionales
+  Stammgesetz behandeln.
 - Finanzmodell von v1 zu einer Kohortenrechnung weiterentwickeln.
 - Beschaffte DRV-Zweckabschätzung 2023 und Bundestagsdrucksache 21/1419
   in eine Sensitivität für die Bundesmittel-Fortschreibung übersetzen.
@@ -866,6 +906,7 @@ Rentenalter-Regel und Erwerbstätigenbasis.
 - Prüfer-Nachprüfung der erneuten Blockerbearbeitung vom 2026-06-07 anstoßen.
 - Gesetzesänderungsskizze für die Rentenwert-Budgetregel prüfen lassen; dabei
   zusätzlich den neuen Normstand zu SGB VI § 68 heranziehen.
-- Rentenalter-Kopplung mit amtlichen feinjaehrigen Erwerbsquoten und
-  Rentenzugangsdaten gegenrechnen; Altersdaten liegen als GENESIS-Artefakt
-  bereits vor.
+- Rentenalter-Kopplung mit DRV-Rentenzugangstabellen und amtlichen
+  feinjaehrigen Erwerbsquoten gegenrechnen; Altersdaten liegen als
+  GENESIS-Artefakt bereits vor, die aktuelle Erwerbsbruecke bleibt
+  Sensitivitaet.

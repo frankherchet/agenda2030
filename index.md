@@ -47,6 +47,7 @@ Prüfarbeitsstände.
 | Rentenwert-Budgetregel | `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md` | Gesetzesänderungsskizze für § 68 SGB VI, Nominalschutz, Nachholbetrag und getrennte Bundesmittel-Systematik. | Recht, Rente |
 | Folgeänderungen Budgetregel | `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md` | Änderungsskizze für Rentenwertfestsetzung, Beitragssatz, Kindererziehungszeiten, Bundesmittel und Haltelinien-Erstattung. | Recht, Rente |
 | Vollzug Staatsbeiträge Rente | `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md` | Änderungsskizze für Kontierung, Meldung, Prüfung und Zweckgliederung echter öffentlicher Zahlungspflichten. | Recht, Rente |
+| BHO-Haushaltsausweis Rente | `gesetzbuecher/weitere-gesetze/bho-rentenbeitraege-haushaltsausweis-aenderung-2026-06-07.md` | Änderungsskizze für Haushaltsausweis echter Rentenbeiträge, Bestandsschutz-Zuschüsse und Steuertransfers. | Recht, Haushalt, Rente |
 | GG-Normstände Rente | `gesetzbuecher/grundgesetz/README.md` | Normstand-Paket zu Art. 3, 6, 14, 20 und 33 GG für das Rentenprojekt. | Recht, Grundgesetz |
 
 ## Arbeitsregeln und Automatisierung

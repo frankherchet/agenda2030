@@ -56,5 +56,6 @@ Analysen referenziert werden.
   Haushaltsbrücke.
 - `2026-06-07-rentenalter-genesis-empirisch.md`: empirisches
   Rentenaltermodell mit GENESIS-Altersjahrgängen 67 bis 72 für die
-  Varianten moderat, alt und jung; Erwerbsseite bleibt mangels öffentlicher
-  feinjähriger Daten als Brücke markiert.
+  Varianten moderat, alt und jung; korrigiert auf die GENESIS-Zeile
+  `Insgesamt` und mit Erwerbsbrücke `65 bis unter 75 Jahre`, bleibt mangels
+  öffentlicher feinjähriger Erwerbsdaten aber Sensitivität.

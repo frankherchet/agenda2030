@@ -43,4 +43,4 @@ Aktuelle Skripte:
 - `calc_rentenalter_genesis_empirisch.py`: ersetzt die synthetische
   Rentenalter-Kohorte durch GENESIS-Altersjahrgänge aus Bevölkerungsstand und
   Bevölkerungsvorausberechnung; die Erwerbsseite bleibt als transparente
-  Brücke aus Mikrozensus 65+ markiert.
+  Brücke aus Mikrozensus `65 bis unter 75 Jahre` markiert.

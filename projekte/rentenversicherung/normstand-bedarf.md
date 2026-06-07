@@ -34,7 +34,9 @@ nicht erzeugt. Der unbestimmte Verweis `SGB VI § 230 ff.` wurde als `SGB VI §
 230` abgelegt; weitere Übergangsnormen folgen erst aus einer konkreten
 Änderungsskizze. Am 2026-06-07 wurde SGB VI § 69 ergänzt, weil die
 Rentenwert-Budgetregel auch die jährliche Rentenwertfestsetzung per
-Rechtsverordnung berührt.
+Rechtsverordnung berührt. Nach der Drittnachprüfung wurden BHO §§ 13 und 17
+ergänzt, weil echte öffentliche Rentenbeiträge auch im Bundeshaushalt
+spiegelbildlich zur Rentenfinanzrechnung auszuweisen sind.
 
 ## Priorität A: vor Gesetzesänderungsskizze erforderlich
 
@@ -54,6 +56,7 @@ Rechtsverordnung berührt.
 | SGB VI §§ 216, 217 | Nachhaltigkeitsrücklage | `gesetzbuecher/sgb/sgb-vi-paragraf-216-stand-2026-06-05.md` usw. |
 | SGB IV §§ 20-22 | Beitragsgrundsätze und Fälligkeit | `gesetzbuecher/sgb/sgb-iv-paragraf-20-stand-2026-06-05.md` usw. |
 | SGB IV §§ 28a-28i, 28k-28q | Melde-, Einzugs- und Prüfverfahren | `gesetzbuecher/sgb/sgb-iv-paragraf-28a-stand-2026-06-05.md` usw.; § 28j existiert amtlich nicht |
+| BHO § 13, § 17 | Haushaltsgliederung, Einzelveranschlagung und Zweckausweis echter öffentlicher Rentenbeiträge | `gesetzbuecher/weitere-gesetze/bho-paragraf-13-stand-2026-06-07.md`, `gesetzbuecher/weitere-gesetze/bho-paragraf-17-stand-2026-06-07.md` |
 
 ## Priorität B: vor Prüffreigabe erforderlich
 

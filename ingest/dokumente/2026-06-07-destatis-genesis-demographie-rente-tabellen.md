@@ -14,6 +14,7 @@ original_refs:
   - ingest/originale/2026-06-07-genesis-12421-0002-bev-v04-alt.json
   - ingest/originale/2026-06-07-genesis-12421-0002-bev-v05-jung.json
   - ingest/originale/2026-06-07-genesis-12211-0002-mikrozensus-erwerbsstatus.json
+  - ingest/originale/2026-06-07-genesis-12211-0004-erwerbstaetige-altersgruppen.json
   - ingest/originale/2026-06-07-genesis-values-bevpr1-varianten.json
 ---
 
@@ -47,6 +48,8 @@ Mikrozensus-Erwerbsstatusdaten.
 - `12211-0002`: Mikrozensus 2025 mit Bevölkerung, Erwerbstätigen,
   Erwerbslosen, Erwerbspersonen und Nichterwerbspersonen nach überwiegendem
   Lebensunterhalt und Altersgruppen.
+- `12211-0004`: Mikrozensus 2025 mit Erwerbstätigen nach Geschlecht,
+  Altersgruppen und Stellung im Beruf, darunter `65 bis unter 75 Jahre`.
 
 ## Jetzt extrahierte relevante Informationen
 
@@ -56,6 +59,12 @@ Mikrozensus-Erwerbsstatusdaten.
 - Für 2025 weist der Mikrozensus bei `65 Jahre und mehr` eine
   Erwerbstätigenquote von rund 10,2 % und eine Erwerbspersonenquote von rund
   10,4 % aus.
+- Für 2025 weist `12211-0004` in der näheren Gruppe `65 bis unter 75 Jahre`
+  1,650 Mio. Erwerbstätige aus; das Rechenartefakt spiegelt diesen Wert gegen
+  die GENESIS-Bevölkerung 65 bis 74.
+- `12421-0002` enthält die Geschlechtsdimension `männlich`, `weiblich` und
+  `Insgesamt`. Für Summen darf nur `Insgesamt` verwendet werden; die
+  Rechenfassung vom 2026-06-07 korrigiert diese Doppelzählungsgefahr.
 - Öffentliche GENESIS-Suche/Katalogdaten lieferten keine feinjährigen
   Erwerbsquoten für 67 bis 72. Diese Lücke bleibt als Datenbedarf für
   Sonderauswertung, DRV-Daten oder andere amtliche Quelle bestehen.
@@ -93,7 +102,7 @@ nicht DRV-spezifische Rentenzugangs-, Abschlags- und Erwerbsminderungsdaten.
 ## Widersprüche/Risiken
 
 - Die Altersjahrgänge sind amtlich und feinjährig. Die Erwerbsquote ist nur
-  altersgruppenbasiert (`65 Jahre und mehr`) und deshalb weiterhin eine
+  altersgruppenbasiert (`65 bis unter 75 Jahre`) und deshalb weiterhin eine
   Brückenannahme.
 - GENESIS-Daten ersetzen keine DRV-Rentenzugangsdaten zu Abschlägen,
   Erwerbsminderung, Schwerbehinderung oder besonders langjährig Versicherten.
