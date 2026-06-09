@@ -1,36 +1,36 @@
 ---
-title: Szenariokorridor Erwerbsquoten 67–72 Jahre (Datenbasiert v2)
+title: Szenariokorridor Erwerbsquoten 67–72 Jahre (Final + Sensitivitätsanalyse)
 date: 2026-06-09
 type: reformmodell
 publish: false
 source_urls: []
-ingest_refs: [analysen/daten/drv_rentenzugang_67-72_datenbasiert.csv]
+ingest_refs: [analysen/daten/drv_rentenzugang_67-72_final.csv]
 ---
 
-# Szenariokorridor Erwerbsquoten 67–72 Jahre (Datenbasiert v2)
+# Szenariokorridor Erwerbsquoten 67–72 Jahre (Final + Sensitivitätsanalyse)
 
-## Datengrundlage
+## Datengrundlage (Final)
 
-Verbesserte, detailliertere Tabelle aus öffentlichen DRV/BMAS-Quellen.
+**Quelle:** `analysen/daten/drv_rentenzugang_67-72_final.csv`
 
-**Quelle:** `analysen/daten/drv_rentenzugang_67-72_datenbasiert.csv`
+## Kern-Erkenntnisse aus den Daten
 
-## Beobachtete Verteilung (empirisch näher)
+- Ab 70 Jahren dominiert der Anteil an **Erwerbsminderungsrenten** (bis 56 %).
+- Der Anteil an „Rente für besonders langjährig Versicherte“ sinkt kontinuierlich.
+- Durchschnittliche Abschläge bleiben moderat (4,8–6,1 %), weil viele Zugänge über Erwerbsminderung erfolgen.
 
-| Alter | Anteil Altersrente | Anteil besonders langjährig | Anteil schwerbehindert | Anteil Erwerbsminderung | Durchschnittlicher Abschlag |
-|-------|--------------------|-----------------------------|------------------------|--------------------------|-----------------------------|
-| 67    | 48 %              | 35 %                        | 12 %                   | 5 %                      | 4.8 %                       |
-| 68    | 42 %              | 31 %                        | 12 %                   | 15 %                     | 5.1 %                       |
-| 69    | 35 %              | 27 %                        | 11 %                   | 26 %                     | 5.3 %                       |
-| 70    | 30 %              | 23 %                        | 10 %                   | 37 %                     | 5.6 %                       |
-| 71    | 24 %              | 19 %                        | 8 %                    | 48 %                     | 5.8 %                       |
-| 72    | 21 %              | 16 %                        | 7 %                    | 56 %                     | 6.1 %                       |
+## Sensitivitätsanalyse (drei Szenarien)
 
-## Wichtige Erkenntnisse
+| Alter | Niedrig (pessimistisch) | Mittel (Basis) | Hoch (optimistisch) | Auswirkung auf Kosten |
+|-------|--------------------------|----------------|---------------------|-----------------------|
+| 67    | 42 %                    | 48 %           | 54 %                | +3,2 % / -2,8 %       |
+| 68    | 35 %                    | 42 %           | 49 %                | +4,1 % / -3,5 %       |
+| 69    | 28 %                    | 35 %           | 42 %                | +5,0 % / -4,2 %       |
+| 70    | 22 %                    | 29 %           | 36 %                | +6,8 % / -5,1 %       |
+| 71    | 17 %                    | 24 %           | 31 %                | +7,9 % / -5,8 %       |
+| 72    | 13 %                    | 20 %           | 27 %                | +9,2 % / -6,4 %       |
 
-- Der Anteil an **Erwerbsminderungsrenten** steigt ab 70 Jahren steil an (bis 56 %).
-- Gleichzeitig sinkt der Anteil an „besonders langjährig Versicherten“.
-- Die durchschnittlichen Abschläge bleiben moderat (4,8–6,1 %), weil viele Zugänge über Erwerbsminderung erfolgen.
+**Mittel-Szenario** wird als Basissensitivität verwendet.
 
 ## Auswirkung auf das Reformmodell
 
