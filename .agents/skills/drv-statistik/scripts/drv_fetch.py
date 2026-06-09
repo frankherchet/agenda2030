@@ -2,12 +2,10 @@
 """
 DRV Statistik Helper Script
 
-Helps downloading and extracting data from Deutsche Rentenversicherung
-publications (Rentenversicherung in Zahlen, Statistikband etc.).
-
-Since there is no public REST API, the script focuses on:
-- Downloading annual Statistikbände (PDF)
-- Extracting tables using pdfplumber
+Supports:
+- Downloading annual DRV Statistikbände (PDF)
+- Extracting text/tables
+- Downloading from BMAS Open Data (Rentenbestandsstatistik)
 """
 
 import argparse
@@ -23,13 +21,10 @@ except ImportError:
     sys.exit(1)
 
 
-BASE_URL = "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen"
-
-
-def download_band(jahr: int, typ: str = "Rentenversicherung in Zahlen", output_dir: str = "analysen/daten") -> str:
-    """Download the annual 'Rentenversicherung in Zahlen' PDF."""
+def download_drv_band(jahr: int, output_dir: str = "analysen/daten") -> str:
+    """Download 'Rentenversicherung in Zahlen' PDF."""
     filename = f"rv_in_zahlen_{jahr}.pdf"
-    url = f"{BASE_URL}/{filename}?__blob=publicationFile&v=2"
+    url = f"https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/{filename}?__blob=publicationFile&v=2"
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     target = Path(output_dir) / filename
 
@@ -39,12 +34,28 @@ def download_band(jahr: int, typ: str = "Rentenversicherung in Zahlen", output_d
         print(f"Saved to {target}")
         return str(target)
     except Exception as e:
-        print(f"Error downloading: {e}")
+        print(f"Error: {e}")
+        sys.exit(1)
+
+
+def download_bmas_rentenbestand(output_dir: str = "analysen/daten") -> str:
+    """Download latest Rentenbestandsstatistik from BMAS."""
+    url = "https://www.bmas.de/SharedDocs/Downloads/DE/Statistiken/Rentenbestandsstatistik/rentenbestandsstatistik-2025.xlsx?__blob=publicationFile&v=2"
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    target = Path(output_dir) / "bmas_rentenbestandsstatistik_2025.xlsx"
+
+    print(f"Downloading BMAS Rentenbestandsstatistik ...")
+    try:
+        urllib.request.urlretrieve(url, target)
+        print(f"Saved to {target}")
+        return str(target)
+    except Exception as e:
+        print(f"Error: {e}")
         sys.exit(1)
 
 
 def extract_text(pdf_path: str, output_dir: str = "analysen/daten") -> str:
-    """Extract full text from a PDF (simple version)."""
+    """Extract text from PDF."""
     pdf_path = Path(pdf_path)
     if not pdf_path.exists():
         print(f"File not found: {pdf_path}")
@@ -69,16 +80,19 @@ def main():
     parser = argparse.ArgumentParser(description="DRV Statistik Helper")
     sub = parser.add_subparsers(dest="command", required=True)
 
-    p_down = sub.add_parser("download-band", help="Download 'Rentenversicherung in Zahlen'")
-    p_down.add_argument("--jahr", type=int, required=True)
-    p_down.add_argument("--typ", default="Rentenversicherung in Zahlen")
-    p_down.add_argument("--output-dir", default="analysen/daten")
-    p_down.set_defaults(func=lambda args: download_band(args.jahr, args.typ, args.output_dir))
+    p1 = sub.add_parser("download-band", help="Download DRV 'Rentenversicherung in Zahlen'")
+    p1.add_argument("--jahr", type=int, required=True)
+    p1.add_argument("--output-dir", default="analysen/daten")
+    p1.set_defaults(func=lambda args: download_drv_band(args.jahr, args.output_dir))
 
-    p_text = sub.add_parser("extract-text", help="Extract text from downloaded PDF")
-    p_text.add_argument("--pdf", required=True)
-    p_text.add_argument("--output-dir", default="analysen/daten")
-    p_text.set_defaults(func=lambda args: extract_text(args.pdf, args.output_dir))
+    p2 = sub.add_parser("download-bmas", help="Download BMAS Rentenbestandsstatistik")
+    p2.add_argument("--output-dir", default="analysen/daten")
+    p2.set_defaults(func=lambda args: download_bmas_rentenbestand(args.output_dir))
+
+    p3 = sub.add_parser("extract-text", help="Extract text from PDF")
+    p3.add_argument("--pdf", required=True)
+    p3.add_argument("--output-dir", default="analysen/daten")
+    p3.set_defaults(func=lambda args: extract_text(args.pdf, args.output_dir))
 
     args = parser.parse_args()
     args.func(args)
