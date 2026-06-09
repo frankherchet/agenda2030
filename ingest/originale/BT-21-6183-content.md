@@ -1,0 +1,171 @@
+Deutscher Bundestag 21/6183
+Drucksache
+21. Wahlperiode 01.06.2026
+Kleine Anfrage
+der Abgeordneten Sarah Vollath, Janine Wissler, Doris Achelwilm, Dr. Dietmar
+Bartsch, Desiree Becker, Janina Böttger, Jörg Cezanne, Agnes Conrad, Mirze
+Edis, Christian Görke, Cem Ince, Cansin Köktürk, Tamara Mazzi, Pascal Meiser,
+Zada Salihović, Lisa Schubert, Ines Schwerdtner, Isabelle Vandre, Sascha
+Wagner, Anne Zerr und der Fraktion Die Linke
+Zur Rente für besonders langjährig Versicherte
+Die Rente für besonders langjährig Versicherte wurde im Jahr 2007 zusammen
+mit der schrittweisen Anhebung der Regelaltersgrenze von 65 auf 67 Jahre ab
+2012 beschlossen (RV-Altersgrenzenanpassungsgesetz). Unter anderem Perso-
+nen, die 45 Jahre lang gearbeitet und in die Rentenversicherung Beiträge einbe-
+zahlt haben, hatten dadurch die Möglichkeit, nach Vollendung des 65. Lebens-
+jahres abschlagsfrei in die Rente zu gehen. Durch das im Jahr 2014 beschlosse-
+ne RV-Leistungsverbesserungsgesetz wurde die Altersgrenze für diese Renten-
+art für vor 1964 geborene Personen abgesenkt. Personen, die vor 1953 geboren
+wurden, durften nach dem neuen Gesetz bereits mit 63 die Rente für besonders
+langjährig Versicherte in Anspruch nehmen. Da die neuen Regelungen jedoch
+erst am 1. Juli 2014 in Kraft traten, war eine Inanspruchnahme dieser Rentenart
+mit 63 de facto nur für eineinhalb Geburtsjahrgänge möglich. Für die Geburts-
+jahrgänge 1953 bis 1963 wurde die Altersgrenze schrittweise von 63 auf
+65 Jahre angehoben. Die Geburtsjahrgänge ab 1964 haben, wie ursprünglich
+vorgesehen, erst nach Vollendung des 65. Lebensjahres Anspruch auf diese
+Rentenart.
+Die Abschaffung der abschlagsfreien Rente für besonders langjährig Ver-
+sicherte wird unter anderem von Arbeitgeberverbänden und Wirtschaftsvertre-
+tern aktiv vorangetrieben, auch mit Verweis auf die nach ihrer Auffassung ho-
+hen Kosten. Zudem versprechen sich manche Akteurinnen und Akteure, die
+eine Abschaffung dieser Rentenart fordern, große Einsparungen als Folge einer
+solchen Abschaffung. Dies geschieht aus Sicht der Fragestellenden aber häufig
+ohne eine solide empirische Grundlage. Vor diesem Hintergrund wollen die
+Fragestellenden mit dieser Kleinen Anfrage genauere Informationen zu den tat-
+sächlichen Kosten der Rente für besonders langjährig Versicherte und zu den
+möglichen Folgen ihrer Abschaffung für die Finanzen der gesetzlichen Renten-
+versicherung erlangen. Zudem wollen die Fragestellenden ein detailliertes Bild
+über die Personen schaffen, die diese Rentenart in den letzten Jahren in An-
+spruch genommen haben.
+Wir fragen die Bundesregierung:
+1. Wie hoch waren nach Kenntnis der Bundesregierung die zusätzlichen
+Kosten, die in den letzten fünf Jahren jährlich durch die Rente für beson-
+ders langjährig Versicherte für die gesetzliche Rentenversicherung ent-
+Vorabfassung
+-
+wird
+durch
+die
+lektorierte
+Version
+ersetzt.
+
+Drucksache 21/6183 – 2 – Deutscher Bundestag – 21. Wahlperiode
+standen sind (bitte zusätzliche Kosten in Abgrenzung zu den Gesamtaus-
+gaben für die Rente für besonders langjährig Versicherte angeben)?
+2. Liegen der Bundesregierung Daten dazu vor, wie hoch die jährlichen Ein-
+sparungen der gesetzlichen Rentenversicherung in den nächsten zehn Jah-
+ren durch die mögliche Abschaffung der Rente für besonders langjährig
+Versicherte wären, und wenn ja, wie lauten diese?
+3. Liegen der Bundesregierung Daten dazu vor, welche finanziellen Auswir-
+kungen die Abschaffung der Rente für besonders langjährig Versicherte
+hätte, wenn die von der Abschaffung Betroffenen künftig die Rente für
+langjährig Versicherte zum frühestmöglichen Zeitpunkt, also nach Vollen-
+dung des 63. Lebensjahres, in Anspruch nehmen würden, und wenn ja,
+wie lauten diese?
+4. Liegen der Bundesregierung Daten dazu vor, ob die mögliche Abschaf-
+fung der Rente für besonders langjährig Versicherte über mehrere Jahre
+hinweg zu Mehrkosten (Mindereinnahmen und Mehrausgaben) für die ge-
+setzliche Rentenversicherung führt, insbesondere, wenn die von der Ab-
+schaffung Betroffenen künftig die Rente für langjährig Versicherte zum
+frühestmöglichen Zeitpunkt, also nach Vollendung des 63. Lebensjahres,
+in Anspruch nehmen und wie hoch schätzt die Bundesregierung nach ihr
+ggf. vorliegenden Berechnungen die maximale Höhe dieser Mehrkosten
+(bitte die Größenordnung der Mehrkosten angeben, falls eine genaue
+Schätzung nicht möglich ist), und wenn ja, wie lauten diese?
+5. Kann die aktuelle Rente für besonders langjährig Versicherte aus Sicht der
+Bundesregierung einen Anreiz zur Weiterarbeit für diejenigen schaffen,
+die sonst die Möglichkeit hätten, ihre Rente zum frühestmöglichen Zeit-
+punkt (auch mit Abschlägen) in Anspruch zu nehmen?
+6. Welcher Anteil der Personen der Geburtsjahrgänge von 1953 bis 1958, die
+bereits eine Altersrente in Anspruch genommen haben und bis zum Errei-
+chen der für jeden Geburtsjahrgang geltenden Altersgrenze für die Rente
+für besonders langjährig Versicherte nach § 236b SGB VI mindestens 40
+und höchstens 43 Jahre anrechenbare Zeiten nach § 51 Absatz 3a SGB VI
+aufwiesen oder, soweit entsprechende Daten vorliegen im Falle eines Ren-
+teneintritts vor Erreichen der genannten Altersgrenze, unter der Annahme,
+dass die Zeiten zwischen Renteneintritt und Erreichen der genannten
+Altersgrenze Pflichtbeitragszeiten hätten sein können, aufweisen würden,
+nahm eine Altersrente vor Erreichen der oben genannten Altersgrenze in
+Anspruch (bitte für jede Geburtskohorte getrennt nach Frauen und Män-
+nern ausweisen)?
+7. Welcher Anteil der Personen der Geburtsjahrgänge von 1953 bis 1958, die
+bereits eine Altersrente in Anspruch genommen haben und bis zum Errei-
+chen der für jeden Geburtsjahrgang geltenden Altersgrenze für die Rente
+für besonders langjährig Versicherte nach § 236b SGB VI mindestens
+45 Jahre anrechenbare Zeiten nach § 51 Absatz 3a SGB VI aufwiesen
+oder, soweit entsprechende Daten vorliegen im Falle eines Renteneintritts
+vor Erreichen der genannten Altersgrenze, unter der Annahme, dass die
+Zeiten zwischen Renteneintritt und Erreichen der genannten Altersgrenze
+Pflichtbeitragszeiten hätten sein können, aufweisen würden, nahm eine
+Altersrente vor Erreichen der oben genannten Altersgrenze in Anspruch
+(bitte für jede Geburtskohorte getrennt nach Frauen und Männern auswei-
+sen)?
+8. Welche Annahmen liegen nach Kenntnis der Bundesregierung den Schät-
+zungen der Deutschen Rentenversicherung zur Höhe der nicht beitragsge-
+deckten Leistungen für Altersrenten vor Regelaltersgrenze zugrunde und
+Vorabfassung
+-
+wird
+durch
+die
+lektorierte
+Version
+ersetzt.
+
+Deutscher Bundestag – 21. Wahlperiode – 3 – Drucksache 21/6183
+welcher Anteil der geschätzten 13,3 Mrd. Euro für diese Leistungen im
+Jahr 2023 (siehe www.deutsche-rentenversicherung.de/SharedDocs/Down
+loads/DE/Presse/nicht-beitragsgedeckte-leistungen.html) entfällt auf die
+Rente für besonders langjährig Versicherte (bitte auch die Anteile der an-
+deren relevanten Altersrentenarten ausweisen)?
+9. Wie hoch war die durchschnittliche Anzahl von Monaten mit Beitragszei-
+ten bzw. mit Pflichtbeitragszeiten für eine versicherte Beschäftigung oder
+Tätigkeit bei Zugängen zur Rente für besonders langjährig Versicherte in
+den letzten fünf Jahren (bitte für jedes Jahr getrennt ausweisen)?
+10. Welcher Anteil der Zugänge zur Rente für besonders langjährig Ver-
+sicherte in den letzten fünf Jahren verfügte nach Kenntnis der Bundes-
+regierung über 40 Jahre oder mehr Beitragszeiten bzw. Pflichtbeitragszei-
+ten für eine versicherte Beschäftigung oder Tätigkeit (bitte für jedes Jahr
+getrennt ausweisen)?
+11. In welchem Alter haben die Zugänge zur Rente für besonders langjährig
+Versicherte in den letzten fünf Jahren im Durchschnitt ihre ersten Pflicht-
+beiträge in die gesetzliche Rentenversicherung entrichtet?
+12. Welcher Anteil der Zugänge zur Rente für besonders langjährig Ver-
+sicherte in den letzten fünf Jahren hatte nach Kenntnis der Bundesregie-
+rung einen Hochschul- oder Fachhochschulabschluss und welcher Anteil
+einen beruflichen Ausbildungsabschluss?
+13. Wie verteilen sich die Zugänge zur Altersrente für besonders langjährig
+Versicherte in den letzten fünf Jahren nach zuletzt ausgeübtem Beruf,
+Wirtschaftsabschnitt bzw. Branche, Qualifikationsniveau und Stellung im
+Beruf?
+14. Wie hoch waren die durchschnittlichen Zahlbeträge der Renten für die Zu-
+gänge in die Rente für besonders langjährig Versicherte in den letzten fünf
+Jahren (bitte nach Frauen und Männern getrennt ausweisen)?
+15. In welchen anderen europäischen Ländern sind nach Kenntnis der Bun-
+desregierung abschlagsfreie Rentenzugänge für Personen mit langen Er-
+werbsbiografien möglich und mit welchem Alter können Personen, die
+seit ihrem 20. Lebensjahr erwerbstätig waren, in diesen Ländern eine ab-
+schlagsfreie Rente frühestens in Anspruch nehmen?
+Berlin, den 15. Mai 2026
+Heidi Reichinnek, Sören Pellmann und Fraktion
+Vorabfassung
+-
+wird
+durch
+die
+lektorierte
+Version
+ersetzt.
+
+Gesamtherstellung: H. Heenemann GmbH & Co. KG, Buch- und Offsetdruckerei, Bessemerstraße 83–91, 12103 Berlin, www.heenemann-druck.de
+Vertrieb: Bundesanzeiger Verlag GmbH, Postfach 10 05 34, 50445 Köln, Telefon (02 21) 97 66 83 40, Fax (02 21) 97 66 83 44, www.bundesanzeiger-verlag.de
+ISSN 0722-8333
+Vorabfassung
+-
+wird
+durch
+die
+lektorierte
+Version
+ersetzt.
