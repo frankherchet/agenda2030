@@ -18,6 +18,7 @@ import argparse
 import json
 import os
 import sys
+import urllib.request
 from datetime import date
 
 try:
@@ -34,6 +35,21 @@ def get_api_key() -> str:
         print("ERROR: DIP_API_KEY environment variable is not set.", file=sys.stderr)
         sys.exit(1)
     return key
+
+
+def download_pdf(data: dict, base_path: str) -> None:
+    """Download the PDF from fundstelle.pdf_url if present (for 'pdf_fundstelle')."""
+    pdf_url = None
+    if isinstance(data, dict):
+        fs = data.get("fundstelle") or {}
+        pdf_url = fs.get("pdf_url") or data.get("pdf_url")
+    if pdf_url:
+        pdf_path = base_path.replace(".json", ".pdf") if base_path.endswith(".json") else base_path + ".pdf"
+        try:
+            urllib.request.urlretrieve(pdf_url, pdf_path)
+            print(f"PDF downloaded: {pdf_path}")
+        except Exception as e:
+            print(f"Warning: could not download PDF {pdf_url}: {e}", file=sys.stderr)
 
 
 def build_configuration() -> Configuration:
@@ -96,6 +112,7 @@ def cmd_get_drucksache(args):
             with open(args.output, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2, default=str)
             print(f"Saved to {args.output}")
+            download_pdf(data, args.output)
         else:
             print(json.dumps(data, ensure_ascii=False, indent=2, default=str))
 

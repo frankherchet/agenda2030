@@ -70,7 +70,13 @@ python3 .agents/skills/dip-bundestag/scripts/dip_fetch.py search-drucksachen --f
 python3 .agents/skills/dip-bundestag/scripts/dip_fetch.py get-drucksache --id "21/1419" --output ingest/originale/2026-06-09-bt-21-1419.json
 ```
 
-Das Skript unterstützt Filter wie f_datum_start/end, f_drucksachetyp, f_wahlperiode, Cursor-Pagination und speichert JSON-Ergebnisse. Rate-Limits und Quellenpflicht beachten.
+Das Skript unterstützt Filter wie f_datum_start/end, f_drucksachetyp, f_wahlperiode, Cursor-Pagination und speichert JSON-Ergebnisse **sowie automatisch das zugehörige PDF** (aus `fundstelle.pdf_url` / "pdf_fundstelle") unter `ingest/originale/`, wenn `--output` auf eine .json-Datei zeigt. Rate-Limits und Quellenpflicht beachten.
+
+Beispiel für vollständigen Ingest (Metadaten + PDF):
+```bash
+python3 .agents/skills/dip-bundestag/scripts/dip_fetch.py get-drucksache --id 288348 --output ingest/originale/BT-21-6304-full.json
+# → erstellt zusätzlich BT-21-6304.pdf
+```
 
 ## API Reference
 
