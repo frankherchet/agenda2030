@@ -1,0 +1,54 @@
+{
+  "id": "288186",
+  "drucksachetyp": "Kleine Anfrage",
+  "dokumentart": "Drucksache",
+  "autoren_anzahl": 20,
+  "typ": "Dokument",
+  "vorgangsbezug_anzahl": 1,
+  "dokumentnummer": "21/6183",
+  "wahlperiode": 21,
+  "herausgeber": "BT",
+  "pdf_hash": "3bc258a606907ac690e7294b8041d9a7",
+  "aktualisiert": "2026-06-02T09:01:02+02:00",
+  "vorgangsbezug": [
+    {
+      "id": "335502",
+      "titel": "Zur Rente für besonders langjährig Versicherte",
+      "vorgangstyp": "Kleine Anfrage"
+    }
+  ],
+  "urheber": [
+    {
+      "einbringer": false,
+      "bezeichnung": "LINKE",
+      "titel": "Fraktion DIE LINKE"
+    }
+  ],
+  "fundstelle": {
+    "pdf_url": "https://dserver.bundestag.de/btd/21/061/2106183.pdf",
+    "id": "288186",
+    "dokumentnummer": "21/6183",
+    "datum": "2026-06-01",
+    "verteildatum": "2026-06-02",
+    "dokumentart": "Drucksache",
+    "drucksachetyp": "Kleine Anfrage",
+    "herausgeber": "BT",
+    "urheber": [
+      "Fraktion DIE LINKE"
+    ]
+  },
+  "autoren_anzeige": [
+    {
+      "id": "8018",
+      "titel": "Sarah Vollath, MdB, DIE LINKE",
+      "autor_titel": "Sarah Vollath"
+    },
+    {
+      "id": "7462",
+      "titel": "Janine Wissler, MdB, DIE LINKE",
+      "autor_titel": "Janine Wissler"
+    }
+  ],
+  "titel": "Zur Rente für besonders langjährig Versicherte",
+  "datum": "2026-06-01"
+}

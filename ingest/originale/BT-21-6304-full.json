@@ -1,0 +1,52 @@
+{
+  "id": "288348",
+  "drucksachetyp": "Kleine Anfrage",
+  "dokumentart": "Drucksache",
+  "autoren_anzahl": 24,
+  "typ": "Dokument",
+  "vorgangsbezug_anzahl": 1,
+  "dokumentnummer": "21/6304",
+  "wahlperiode": 21,
+  "herausgeber": "BT",
+  "aktualisiert": "2026-06-09T09:17:30+02:00",
+  "vorgangsbezug": [
+    {
+      "id": "335754",
+      "titel": "Altersarmut und -sicherung bei Selbstständigen",
+      "vorgangstyp": "Kleine Anfrage"
+    }
+  ],
+  "urheber": [
+    {
+      "einbringer": false,
+      "bezeichnung": "LINKE",
+      "titel": "Fraktion DIE LINKE"
+    }
+  ],
+  "fundstelle": {
+    "pdf_url": "https://dserver.bundestag.de/btd/21/063/2106304.pdf",
+    "id": "288348",
+    "dokumentnummer": "21/6304",
+    "datum": "2026-06-09",
+    "dokumentart": "Drucksache",
+    "drucksachetyp": "Kleine Anfrage",
+    "herausgeber": "BT",
+    "urheber": [
+      "Fraktion DIE LINKE"
+    ]
+  },
+  "autoren_anzeige": [
+    {
+      "id": "8018",
+      "titel": "Sarah Vollath, MdB, DIE LINKE",
+      "autor_titel": "Sarah Vollath"
+    },
+    {
+      "id": "7884",
+      "titel": "Mandy Eißing, MdB, DIE LINKE",
+      "autor_titel": "Mandy Eißing"
+    }
+  ],
+  "titel": "Altersarmut und -sicherung bei Selbstständigen",
+  "datum": "2026-06-09"
+}

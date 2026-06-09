@@ -46,3 +46,5 @@ Zentraler Index aller eingegangenen Dokumente, Links und Ideen.
 | 2026-06-06 | Link | Destatis GENESIS-Online API | `ingest/links/2026-06-06-destatis-genesis-api.md` | https://genesis.destatis.de/genesisWS/swagger-ui/index.html | geprüft | Destatis, GENESIS, API, Demographie |
 | 2026-06-07 | Dokument/API | Destatis GENESIS Tabellen Demographie und Rente | `ingest/dokumente/2026-06-07-destatis-genesis-demographie-rente-tabellen.md` | `ingest/originale/2026-06-07-genesis-12421-0002-bev-v02-moderat.json` | erfasst | Demographie, Rente, GENESIS, Rentenalter |
 | 2026-06-07 | Link | Gesetze im Internet Bundeshaushaltsordnung | `ingest/links/2026-06-07-gesetze-im-internet-bho.md` | https://www.gesetze-im-internet.de/bho/ | erfasst | Haushalt, BHO, Bundesmittel |
+| 2026-06-09 | Dokument | BT-21-6304 Altersarmut und -sicherung bei Selbstständigen | `ingest/dokumente/BT-21-6304.md` | `ingest/originale/BT-21-6304.pdf` | original | Rente, Altersarmut, Selbstständige |
+| 2026-06-09 | Dokument | BT-21-6183 Zur Rente für besonders langjährig Versicherte | `ingest/dokumente/BT-21-6183.md` | `ingest/originale/BT-21-6183.pdf` | original | Rente, langjährig Versicherte |

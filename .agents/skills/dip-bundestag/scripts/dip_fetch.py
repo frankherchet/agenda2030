@@ -59,16 +59,20 @@ def cmd_search_drucksachen(args):
             params["f_wahlperiode"] = args.f_wahlperiode
         if args.f_dokumentnummer:
             params["f_dokumentnummer"] = args.f_dokumentnummer
+        if args.f_titel:
+            params["f_titel"] = args.f_titel
         if args.cursor:
             params["cursor"] = args.cursor
         if args.format:
             params["format"] = args.format
         try:
-            response = api.get_drucksache_list(**params)
+            # Use raw response to avoid model validation errors in the generated client
+            # (some Drucksache records have incomplete author data)
+            http_response = api.get_drucksache_list(_preload_content=False, **params)
+            data = json.loads(http_response.data)
         except Exception as exc:
             print(f"API error: {exc}", file=sys.stderr)
             sys.exit(2)
-        data = response.to_dict() if hasattr(response, "to_dict") else response
         if args.output:
             with open(args.output, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2, default=str)
@@ -82,11 +86,12 @@ def cmd_get_drucksache(args):
     with ApiClient(config) as api_client:
         api = DrucksachenApi(api_client)
         try:
-            response = api.get_drucksache(args.id, format=args.format or "json")
+            doc_id = int(args.id) if str(args.id).isdigit() else args.id
+            http_response = api.get_drucksache(doc_id, _preload_content=False, format=args.format or "json")
+            data = json.loads(http_response.data)
         except Exception as exc:
             print(f"API error: {exc}", file=sys.stderr)
             sys.exit(2)
-        data = response.to_dict() if hasattr(response, "to_dict") else response
         if args.output:
             with open(args.output, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2, default=str)
@@ -105,6 +110,7 @@ def main():
     p_search.add_argument("--f-drucksachetyp", help="Type filter")
     p_search.add_argument("--f-wahlperiode", type=int, help="Wahlperiode")
     p_search.add_argument("--f-dokumentnummer", help="Document number")
+    p_search.add_argument("--term", "--f-titel", dest="f_titel", help="Search term in title (maps to f_titel)")
     p_search.add_argument("--cursor", help="Pagination cursor")
     p_search.add_argument("--format", default="json", choices=["json", "xml"])
     p_search.add_argument("--output", "-o", help="Output file")

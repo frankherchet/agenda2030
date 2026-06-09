@@ -402,3 +402,5 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   Arbeitsfassungen prüffähig angelegt. Die Gesamtfreigabe bleibt offen, weil
   altersscharfe Erwerbs- und DRV-Rentenzugangsdaten sowie die amtliche
   Bundesmittel-Ist-Zweckzerlegung 2024-2026 fehlen.
+
+- 2026-06-09: DIP-Bundestag: 2 Rente-bezogene Kleine Anfragen (BT-21-6304, BT-21-6183) als Original-PDFs + vollständige Metadaten unter ingest/originale/ gespeichert und als Ingest unter ingest/dokumente/ angelegt (Quellenpflicht erfüllt, PDFs als primäres Dokument).
