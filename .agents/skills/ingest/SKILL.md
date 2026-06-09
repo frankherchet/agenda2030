@@ -1,6 +1,6 @@
 ---
 name: ingest
-description: Fügt neue Dokumente, Links, Notizen, Bundestagsdrucksachen und Ideen in das agenda2030-Repo ein, indem es sie als kompakte Markdown-Ingests ablegt und für spätere Maßnahmen-, Gesetzes- oder Drucksachen-Auswertung vorbereitet. Use when the user asks to ingest, erfassen, ablegen, hinzufügen, speichern, zusammenfassen, importieren, or process a source, URL, PDF, document, article, note, idea, reform proposal, or Bundestag Drucksache for later work in this repository.
+description: Fügt neue Dokumente, Links, Notizen, Bundestagsdrucksachen und Ideen in das agenda2030-Repo ein, indem es sie als kompakte Markdown-Ingests ablegt und für spätere Maßnahmen-, Gesetzes- oder Drucksachen-Auswertung vorbereitet. Für Bundestagsdrucksachen werden JSON-Metadaten + PDF-Dokument automatisch heruntergeladen, PDF-Inhalt nach .md extrahiert und im Ingest klar zwischen Original-Dokument (PDF) und Metadaten (JSON) unterschieden. Use when the user asks to ingest, erfassen, ablegen, hinzufügen, speichern, zusammenfassen, importieren, or process a source, URL, PDF, document, article, note, idea, reform proposal, or Bundestag Drucksache for later work in this repository.
 ---
 
 # Ingest
@@ -30,6 +30,11 @@ Jeder Ingest trennt zwei Ebenen:
   tatsächlich herausgezogenen Fakten, Zahlen, Aussagen, Tabellenbezüge,
   Zeitmarken oder Textstellen. Diese Informationen müssen mit Einheit,
   Stichtag, Kontext und Fundort benannt werden, soweit verfügbar.
+
+**Bei Bundestagsdrucksachen mit PDF** gilt zusätzlich:
+- Der extrahierte Inhalt stammt primär aus dem PDF-Dokument (nicht aus dem JSON).
+- Die JSON-Datei liefert nur strukturierte Metadaten (Titel, Datum, Urheber, Fundstelle).
+- Der Ingest muss daher den PDF-Inhalt (ggf. über die `-content.md`) als Grundlage für Kurzfassung, Wesentliche Inhalte und Bewertung nutzen.
 
 Der Ingest ist kein Volltextarchiv. Er enthält aber genug Struktur, Fundstellen
 und ausgewählte Werte, dass spätere Arbeiten das Original nur noch für
@@ -61,6 +66,7 @@ Vor jedem Ingest:
 4. Markdown mit der passenden Vorlage erstellen:
    - allgemeiner Ingest: `vorlagen/ingest.md`
    - Bundestagsdrucksache: `vorlagen/drucksache-zusammenfassung.md`
+     (erweitert um klare Abschnitte „Original-Dokument (PDF)“ und „Metadaten (JSON)“ sowie extrahierten Inhalt)
 5. Inhaltsinventar der Quelle erfassen: enthaltene Tabellen, Kapitel,
    Abschnitte, Datenfelder, Zeiträume, Normen, Akteure oder Themen.
 6. Aktuell relevante Informationen extrahieren: konkrete Fakten, Zahlen,
@@ -76,6 +82,19 @@ Vor jedem Ingest:
 12. In allen späteren Artefakten, die diese Quelle nutzen, `ingest_refs` auf
    die Ingest-Datei setzen.
 13. Offene Fragen sichtbar lassen, statt unsichere Fakten zu glätten.
+
+### Spezialfall: Bundestagsdrucksachen (PDF + JSON)
+
+Bei Bundestagsdrucksachen gilt zusätzlich:
+
+1. **dip-bundestag Skill** nutzen: Dieser lädt bei `get-drucksache --output ... .json` automatisch auch das PDF aus `fundstelle.pdf_url` herunter.
+2. **PDF als primäres Dokument** behandeln: Das PDF enthält den eigentlichen Inhalt der Drucksache.
+3. **PDF → .md Konvertierung**: Den Inhalt des PDFs nach `.md` extrahieren (z. B. mit `pdfplumber` oder `pdftotext`) und unter `ingest/originale/<Dokumentnummer>-content.md` speichern.
+4. **Ingest-Struktur** (unter `ingest/dokumente/`):
+   - Abschnitt **Original-Dokument (PDF – Inhalt)**: Verweis auf das PDF + ggf. extrahierter Text.
+   - Abschnitt **Metadaten (JSON – strukturiert)**: Verweis auf die vollständige DIP-JSON.
+   - Die Kurzfassung, Wesentlichen Inhalte und Bewertung müssen auf dem extrahierten PDF-Inhalt basieren (nicht nur auf Metadaten).
+5. `ingest_refs` enthält sowohl die `.pdf` als auch die `.json` (und idealerweise die `-content.md`).
 
 ## Kontextverknüpfung
 
