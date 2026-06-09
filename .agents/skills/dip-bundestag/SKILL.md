@@ -1,6 +1,6 @@
 ---
 name: dip-bundestag
-description: Nutzt die DIP-Bundestag-API (über bundesAPI/dip-bundestag-api oder direkt) für reproduzierbare Abruf von Bundestagsdrucksachen, Vorgängen, Plenarprotokollen, Metadaten und Volltexten im agenda2030-Repo. Integriert mit Ingest- und Drucksachen-Vorlagen. Use when the user asks to use DIP, Bundestag API, dip.bundestag.de, Drucksachen abrufen, Bundestag-Dokumente importieren, Plenarprotokolle fetchen, or fetch parliamentary documents, drucksachen, vorgänge for analyses, reform models or ingest.
+description: Nutzt die DIP-Bundestag-API (über bundesAPI/dip-bundestag-api oder direkt) für reproduzierbare Abruf von Bundestagsdrucksachen, Vorgängen, Plenarprotokollen, Metadaten und Volltexten im agenda2030-Repo. Integriert mit Ingest- und Drucksachen-Vorlagen. Verwendet uv als Package-Manager und de-dip-bundestag Python-Client mit DIP_API_KEY aus der Umgebung. Use when the user asks to use DIP, Bundestag API, dip.bundestag.de, Drucksachen abrufen, Bundestag-Dokumente importieren, Plenarprotokolle fetchen, or fetch parliamentary documents, drucksachen, vorgänge for analyses, reform models or ingest.
 ---
 
 # DIP Bundestag
@@ -42,6 +42,19 @@ Vor fachlicher Nutzung eines API-Ergebnisses:
 7. `log.md` append-only ergänzen.
 8. Bei Modellnutzung klar trennen: DIP liefert offizielle Drucksachen und Protokolle; eigene Berechnungen bleiben in Skripten unter `scripts/`.
 
+## Setup (uv + de-dip-bundestag)
+
+Der Skill verwendet `uv` als Package-Manager:
+
+```bash
+cd .agents/skills/dip-bundestag
+uv venv
+uv pip install de-dip-bundestag
+export DIP_API_KEY=...
+```
+
+Das Skript `.agents/skills/dip-bundestag/scripts/dip_fetch.py` nutzt den Client `deutschland.dip_bundestag`, liest den Key ausschließlich aus `DIP_API_KEY` und unterstützt Datumssuchen (z. B. heute/gestern).
+
 ## Helper Script
 
 Nutze bei API-Arbeiten bevorzugt:
@@ -50,15 +63,14 @@ Nutze bei API-Arbeiten bevorzugt:
 .agents/skills/dip-bundestag/scripts/dip_fetch.py
 ```
 
-Typische Aufrufe (Beispiel, nach Implementierung):
+Beispiele (inkl. Suche nach Drucksachen von heute/gestern 2026-06-08/09):
 
 ```bash
-python3 .agents/skills/dip-bundestag/scripts/dip_fetch.py search --term "Rentenreform" --type Drucksache --wahlperiode 21 --limit 20
-python3 .agents/skills/dip-bundestag/scripts/dip_fetch.py document --id "21/1419" --output ingest/originale/2026-06-09-bt-21-1419.json
-python3 .agents/skills/dip-bundestag/scripts/dip_fetch.py vorgang --id "..." 
+python3 .agents/skills/dip-bundestag/scripts/dip_fetch.py search-drucksachen --f-datum-start 2026-06-08 --f-datum-end 2026-06-09 --output /tmp/recent-drucksachen.json
+python3 .agents/skills/dip-bundestag/scripts/dip_fetch.py get-drucksache --id "21/1419" --output ingest/originale/2026-06-09-bt-21-1419.json
 ```
 
-Das Skript liest `DIP_API_KEY` aus der Umgebung und sendet Requests an die DIP-API. Parameter mit `--param` ergänzen. Pagination und Rate-Limits beachten.
+Das Skript unterstützt Filter wie f_datum_start/end, f_drucksachetyp, f_wahlperiode, Cursor-Pagination und speichert JSON-Ergebnisse. Rate-Limits und Quellenpflicht beachten.
 
 ## API Reference
 
