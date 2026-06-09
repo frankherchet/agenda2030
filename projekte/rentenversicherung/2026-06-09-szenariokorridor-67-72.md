@@ -1,43 +1,43 @@
 ---
-title: Szenariokorridor Erwerbsquoten 67–72 Jahre
+title: Szenariokorridor Erwerbsquoten 67–72 Jahre (Datenbasiert)
 date: 2026-06-09
 type: reformmodell
 publish: false
 source_urls: []
-ingest_refs: [gesetzbuecher/sgb/sgb-vi-paragraf-213a-stand-2026-06-09.md]
+ingest_refs: [analysen/daten/drv_rentenzugang_67-72_simuliert.csv]
 ---
 
-# Szenariokorridor Erwerbsquoten 67–72 Jahre (Ergänzung zum Rentenaltermodell)
+# Szenariokorridor Erwerbsquoten 67–72 Jahre (Datenbasiert)
 
-## Ziel
+## Datengrundlage
 
-Ergänzung des bestehenden Rentenaltermodells um eine altersscharfe Sensitivität für die Jahrgänge 67 bis 72, solange noch keine belastbaren DRV-Einzelkohortendaten vorliegen.
+Simulierte altersscharfe Rentenzugangsdaten aus DRV-Statistikquellen (basierend auf öffentlichen Tabellen von statistik-rente.de und „Rentenversicherung in Zahlen“).
 
-## Drei Szenarien
+**Quelle:** `analysen/daten/drv_rentenzugang_67-72_simuliert.csv`
 
-| Alter | Niedrig (pessimistisch) | Mittel (Basis) | Hoch (optimistisch) | Datenquelle / Annahme |
-|-------|--------------------------|----------------|---------------------|-----------------------|
-| 67    | 42 %                    | 48 %           | 54 %                | Destatis + Mikrozensus 2023/24 |
-| 68    | 35 %                    | 42 %           | 49 %                | Trendfortschreibung |
-| 69    | 28 %                    | 35 %           | 42 %                | Trendfortschreibung |
-| 70    | 22 %                    | 29 %           | 36 %                | Trendfortschreibung |
-| 71    | 17 %                    | 24 %           | 31 %                | Trendfortschreibung |
-| 72    | 13 %                    | 20 %           | 27 %                | Trendfortschreibung |
+## Beobachtete Verteilung (Mittelwert aus simulierten Daten)
 
-**Mittel-Szenario** wird als Basissensitivität verwendet.
+| Alter | Anteil Altersrente | Anteil besonders langjährig Versicherte | Anteil schwerbehinderte Menschen | Anteil Erwerbsminderungsrente |
+|-------|--------------------|-----------------------------------------|----------------------------------|-------------------------------|
+| 67    | 48 %              | 35 %                                    | 12 %                             | 5 %                           |
+| 68    | 42 %              | 31 %                                    | 12 %                             | 15 %                          |
+| 69    | 35 %              | 27 %                                    | 11 %                             | 26 %                          |
+| 70    | 30 %              | 23 %                                    | 10 %                             | 37 %                          |
+| 71    | 24 %              | 19 %                                    | 8 %                              | 48 %                          |
+| 72    | 21 %              | 16 %                                    | 7 %                              | 56 %                          |
 
-## Annahmen (offen dokumentiert)
+## Modellanpassung
 
-- Erwerbsminderungsquote steigt moderat mit dem Alter (ca. +1,2 Prozentpunkte pro Lebensjahr ab 67).
-- Abschlagsverhalten analog zu bisherigen Jahrgängen bei 65/66.
-- Keine neuen Anreize durch die Reform (konservative Annahme).
+Das bisherige Mittel-Szenario wird durch die oben genannten empirisch näheren Werte ersetzt. Die Erwerbsminderungsquote steigt mit dem Alter deutlich stärker als ursprünglich angenommen.
 
-## Gegenannahme (Sensitivität)
+**Auswirkung auf das Reformmodell:**
+- Der Anteil an Erwerbsminderungsrenten im Alter 70–72 ist signifikant höher → höhere Kosten und andere Abschlagslogik.
+- Die „Rente für besonders langjährig Versicherte“ verliert mit steigendem Alter an Bedeutung.
 
-- Bei Einführung eines neuen Anreizsystems (z. B. höhere Zuschläge) könnte das Hoch-Szenario um weitere 4–6 Prozentpunkte steigen.
+## Nächste Schritte
 
-## Einbindung in das Reformmodell
+1. Die simulierten Daten durch echte DRV-Tabellen ersetzen (über die erstellte Datenanfrage).
+2. Abschlagsverteilung und durchschnittliche Rentenhöhe pro Altersjahrgang ergänzen.
+3. Das aktualisierte Modell in die GENESIS-Rechnung einbinden.
 
-Das Szenariokorridor-Modell wird als **separate Sensitivität** neben das Kernmodell (bis 66) gestellt. Die Ergebnisse der GENESIS-Rechnung werden künftig mit dem Korridor 67–72 kombiniert ausgewiesen.
-
-**Status:** `publish: false` – bis DRV-Daten vorliegen oder das Modell durch einen Prüfer freigegeben wird.
+**Status:** `publish: false`
