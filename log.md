@@ -404,3 +404,24 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   Bundesmittel-Ist-Zweckzerlegung 2024-2026 fehlen.
 
 - 2026-06-09: DIP-Bundestag: 2 Rente-bezogene Kleine Anfragen (BT-21-6304, BT-21-6183) als Original-PDFs + vollständige Metadaten unter ingest/originale/ gespeichert und als Ingest unter ingest/dokumente/ angelegt (Quellenpflicht erfüllt, PDFs als primäres Dokument).
+
+## 2026-06-10 Wissenspflege | Rentenversicherungs-Folgearbeiten bereinigt
+
+- Bereinigt:
+  `projekte/rentenversicherung/2026-06-09-bundesmittel-zweckzerlegung.md`,
+  `projekte/rentenversicherung/2026-06-09-datenanfrage-bundesmittel-zweckzerlegung.md`,
+  `projekte/rentenversicherung/2026-06-09-datenanfrage-drv.md`,
+  `projekte/rentenversicherung/2026-06-09-gesamtstatus-reformvorhaben.md`,
+  `projekte/rentenversicherung/2026-06-09-status-offene-pruefpunkte.md`,
+  `projekte/rentenversicherung/2026-06-09-szenariokorridor-67-72.md`,
+  `projekte/rentenversicherung/pruefberichte/2026-06-09-pruefbericht-rentenversicherung.md`
+- Zusätzlich normalisiert:
+  `gesetzbuecher/sgb/sgb-vi-artikelgesetz-213a-stand-2026-06-09.md`,
+  `gesetzbuecher/sgb/sgb-vi-rechtsverordnung-213a-rueckgriff-stand-2026-06-09.md`,
+  `projekte/rentenversicherung/README.md`,
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `index.md`
+- Wirkung: Die 2026-06-09-Folgearbeiten nutzen jetzt echte Ingest-Referenzen,
+  fuehren Entwurfs- statt Erledigt-Status, unterscheiden heuristische
+  Arbeitsdaten von amtlichen Eingangsdaten und sind sauber in Projekt,
+  Index und Pruefpfad verankert.

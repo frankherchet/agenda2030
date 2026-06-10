@@ -3,9 +3,14 @@ title: Entwurf einer Rechtsverordnung zur Ausgestaltung des Rückgriffs nach § 
 date: 2026-06-09
 type: gesetzesaenderung
 publish: false
-Normstand: gesetzbuecher/sgb/sgb-vi-paragraf-213a-stand-2026-06-09.md
-source_urls: []
-ingest_refs: []
+normstand_refs:
+  - gesetzbuecher/sgb/sgb-vi-paragraf-213a-stand-2026-06-09.md
+source_urls:
+  - https://www.gesetze-im-internet.de/sgb_6/__213.html
+ingest_refs:
+  - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
+related_project:
+  - projekte/rentenversicherung/reformkonzept.md
 ---
 
 # Entwurf einer Rechtsverordnung zur Ausgestaltung des Rückgriffs nach § 213a SGB VI

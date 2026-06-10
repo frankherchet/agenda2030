@@ -4,7 +4,10 @@ date: 2026-06-09
 type: normstand
 publish: false
 source_urls: [https://www.gesetze-im-internet.de/sgb_6/__213a.html]
-ingest_refs: []
+ingest_refs:
+  - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
+related_project:
+  - projekte/rentenversicherung/reformkonzept.md
 ---
 
 # § 213a SGB VI – Ausfallhaftung des Bundes (Stand 2026-06-09)

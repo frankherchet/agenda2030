@@ -13,10 +13,17 @@ Analysen und spätere Umsetzungsartefakte.
 - Zweitnachprüfung Freigabeblocker: `projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md`
 - Drittnachprüfung Freigabeblocker: `projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md`
 - Viertnachprüfung Freigabeblocker: `projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md`
+- Prüfbericht Folgearbeiten 2026-06-09: `projekte/rentenversicherung/pruefberichte/2026-06-09-pruefbericht-rentenversicherung.md`
 - Normstand-Bedarf: `projekte/rentenversicherung/normstand-bedarf.md`
 - Bundesmittel-Zweckzerlegung: `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md`
 - Blocker-Nachbesserung: `analysen/2026-06-06-rentenreform-freigabeblocker.md`
 - Empirisches Rentenaltermodell: `analysen/2026-06-07-rentenalter-genesis-empirisch.md`
+- Gesamtstatus Folgearbeiten 2026-06-09: `projekte/rentenversicherung/2026-06-09-gesamtstatus-reformvorhaben.md`
+- Status offene Prüfpunkte 2026-06-09: `projekte/rentenversicherung/2026-06-09-status-offene-pruefpunkte.md`
+- Rentenzugangskorridor 67-72: `projekte/rentenversicherung/2026-06-09-szenariokorridor-67-72.md`
+- Datenanfrage-Entwurf DRV: `projekte/rentenversicherung/2026-06-09-datenanfrage-drv.md`
+- Datenanfrage-Entwurf Bundesmittel: `projekte/rentenversicherung/2026-06-09-datenanfrage-bundesmittel-zweckzerlegung.md`
+- Negativbefund Bundesmittel 2024-2026: `projekte/rentenversicherung/2026-06-09-bundesmittel-zweckzerlegung.md`
 - Gesetzesänderung Rentenwert-Budgetregel: `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`
 - Folgeänderungen Rentenwert-Budgetregel: `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md`
 - Vollzug öffentlicher Zahlungspflichten: `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`

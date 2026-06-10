@@ -19,6 +19,7 @@ review_reports:
   - projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md
   - projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md
   - projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md
+  - projekte/rentenversicherung/pruefberichte/2026-06-09-pruefbericht-rentenversicherung.md
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/
   - https://www.gesetze-im-internet.de/sgb_4/
@@ -135,7 +136,8 @@ related_analyses:
   `projekte/rentenversicherung/pruefberichte/2026-06-06-nachpruefung-reformkonzept.md`,
   `projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md`,
   `projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md`,
-  `projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md`
+  `projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md`,
+  `projekte/rentenversicherung/pruefberichte/2026-06-09-pruefbericht-rentenversicherung.md`
 - Status Gesamtprüfung: offen
 - Normstände: `projekte/rentenversicherung/normstand-bedarf.md`; das
   ursprüngliche Normstand-Paket wurde am 2026-06-06 um SGB VI §§ 34-38, 77,
@@ -183,6 +185,12 @@ related_analyses:
   Arbeitsfassungen bearbeitet. Die Gesamtfreigabe bleibt offen, weil
   altersscharfe Erwerbs- und DRV-Rentenzugangsdaten sowie die amtliche
   Bundesmittel-Ist-Zweckzerlegung 2024-2026 fehlen.
+- Folgearbeiten vom 2026-06-09: Ein Negativbefund zur fehlenden amtlichen
+  Bundesmittel-Ist-Zweckzerlegung, Anfrageentwuerfe an DRV und BMF sowie ein
+  heuristischer Rentenzugangskorridor 67 bis 72 wurden angelegt. Die
+  Nachpruefung hierzu bleibt offen, weil weder der Versand der Anfragen noch
+  die beschafften Daten dokumentiert sind und der Korridor nur als
+  Arbeitsfassung gilt.
 
 ## Kurzfassung
 

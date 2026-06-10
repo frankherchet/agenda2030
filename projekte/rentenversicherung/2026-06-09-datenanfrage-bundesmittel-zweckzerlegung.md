@@ -1,25 +1,46 @@
 ---
-title: Datenanfrage – Amtliche Bundesmittel-Ist-Zweckzerlegung 2024–2026
+title: Datenanfrage-Entwurf - Amtliche Bundesmittel-Ist-Zweckzerlegung 2024-2026
 date: 2026-06-09
 type: datenanfrage
+status: entwurf
 publish: false
-source_urls: []
-ingest_refs: []
+source_urls:
+  - https://rentenupdate.drv-bund.de/SharedDocs/Dokumente/2025/10_Bundeszuschuesse_nbL/rentenupdate_10_Bundeszuschuesse_nbL_lang.pdf?__blob=publicationFile&v=4
+  - https://dserver.bundestag.de/btd/21/014/2101419.pdf
+  - https://www.bmas.de/SharedDocs/Downloads/DE/Rente/rentenversicherungsbericht-2025.pdf?__blob=publicationFile&v=3
+ingest_refs:
+  - ingest/dokumente/2026-06-05-drv-rentenupdate-bundeszuschuesse-nicht-beitragsgedeckte-leistungen-2025.md
+  - ingest/dokumente/2026-06-05-bundestag-drs-21-1419-nicht-beitragsgedeckte-leistungen.md
+  - ingest/dokumente/2026-06-05-bmas-rentenversicherungsbericht-2025.md
+related_project:
+  - projekte/rentenversicherung/reformkonzept.md
 ---
 
-# Formale Datenanfrage: Amtliche Bundesmittel-Ist-Zweckzerlegung 2024–2026
+# Datenanfrage-Entwurf: Amtliche Bundesmittel-Ist-Zweckzerlegung 2024-2026
 
-**An:**  
-Bundesministerium der Finanzen (BMF)  
-Deutsche Rentenversicherung Bund (DRV)
+## Status
 
-**Betreff:** Amtliche Ist-Zweckzerlegung der Bundesmittel an die gesetzliche Rentenversicherung für die Jahre 2024–2026
+Sendefaehiger Entwurf. Der Versand ist in diesem Repo-Stand nicht
+dokumentiert.
 
-**Hintergrund:**
+## Adressaten
 
-Im Rahmen eines Reformvorhabens zur langfristigen Stabilisierung der gesetzlichen Rentenversicherung wird eine belastbare Finanzwirkungsanalyse benötigt. Hierfür ist die amtliche Aufschlüsselung der Bundesmittel nach Zweck (Ausgleichsfunktion, Demografie, Sonstiges) für die Jahre 2024–2026 erforderlich.
+- Bundesministerium der Finanzen
+- Deutsche Rentenversicherung Bund
 
-**Gewünschte Daten:**
+## Betreff
+
+Amtliche Ist-Zweckzerlegung der Bundesmittel an die gesetzliche
+Rentenversicherung fuer die Jahre 2024 bis 2026
+
+## Hintergrund
+
+Im Rahmen des Reformvorhabens zur langfristigen Stabilisierung der
+gesetzlichen Rentenversicherung wird eine belastbare Finanzwirkungsanalyse
+benoetigt. Dafuer ist die amtliche Aufschluesselung der Bundesmittel nach
+Zweck fuer die Jahre 2024 bis 2026 erforderlich.
+
+## Gewuenschte Daten
 
 - Jährliche Bundesmittel an die gesetzliche Rentenversicherung 2024, 2025 und 2026 (Ist-Werte)
 - Aufschlüsselung nach Zweck:
@@ -28,10 +49,21 @@ Im Rahmen eines Reformvorhabens zur langfristigen Stabilisierung der gesetzliche
   - Sonstige Zwecke
 - Monatliche oder quartalsweise Verteilung, soweit verfügbar
 
-**Format:** Excel oder CSV mit klarer Spaltenstruktur und Erläuterungen
+## Gewuenschtes Format
 
-**Frist:** Rückmeldung bis 31.08.2026
+Excel oder CSV mit klarer Spaltenstruktur und Erläuterungen.
 
-**Ansprechpartner:** [Name, E-Mail]
+## Frist
 
-**Vertraulichkeit:** Die Daten werden ausschließlich für interne Modellrechnungen verwendet.
+Rueckmeldung bis 31.08.2026.
+
+## Vor dem Versand zu ergaenzen
+
+- konkrete Ansprechpartner
+- Versanddatum
+- Aktenzeichen oder Eingangsvermerk, falls vorhanden
+
+## Vertraulichkeit
+
+Die Daten sind fuer interne Modellrechnungen vorgesehen. Ein oeffentlicher
+Versand oder eine Publikation aus diesem Entwurf ergibt sich daraus nicht.

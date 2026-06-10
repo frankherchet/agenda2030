@@ -1,36 +1,62 @@
 ---
-title: Bundesmittel-Ist-Zweckzerlegung 2024–2026 (Negativbefund)
+title: Bundesmittel-Ist-Zweckzerlegung 2024-2026 (Negativbefund)
 date: 2026-06-09
 type: reformdokument
+status: arbeitsfassung
 publish: false
-source_urls: []
-ingest_refs: []
+source_urls:
+  - https://rentenupdate.drv-bund.de/SharedDocs/Dokumente/2025/10_Bundeszuschuesse_nbL/rentenupdate_10_Bundeszuschuesse_nbL_lang.pdf?__blob=publicationFile&v=4
+  - https://dserver.bundestag.de/btd/21/014/2101419.pdf
+  - https://www.bmas.de/SharedDocs/Downloads/DE/Rente/rentenversicherungsbericht-2025.pdf?__blob=publicationFile&v=3
+ingest_refs:
+  - ingest/dokumente/2026-06-05-drv-rentenupdate-bundeszuschuesse-nicht-beitragsgedeckte-leistungen-2025.md
+  - ingest/dokumente/2026-06-05-bundestag-drs-21-1419-nicht-beitragsgedeckte-leistungen.md
+  - ingest/dokumente/2026-06-05-bmas-rentenversicherungsbericht-2025.md
+related_project:
+  - projekte/rentenversicherung/reformkonzept.md
+related_analysis:
+  - analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md
 ---
 
-# Bundesmittel-Ist-Zweckzerlegung 2024–2026
+# Bundesmittel-Ist-Zweckzerlegung 2024-2026
 
 ## Status
 
-**Negativbefund** – Es liegt derzeit keine amtliche, belastbare Ist-Zweckzerlegung der Bundesmittel an die gesetzliche Rentenversicherung für die Jahre 2024–2026 vor.
+Negativbefund. Es liegt derzeit keine im Repo beschaffte amtliche,
+belastbare Ist-Zweckzerlegung der Bundesmittel an die gesetzliche
+Rentenversicherung fuer die Jahre 2024 bis 2026 vor.
 
 ## Bedeutung für das Reformmodell
 
-Ohne diese Aufschlüsselung (nach Zweck: Ausgleichsfunktion, Demografie, Sonstiges) kann die tatsächliche Belastung des Bundeshaushalts durch die Rentenversicherung nicht präzise modelliert werden. Dies betrifft insbesondere:
+Ohne diese Aufschluesselung nach Zweck kann die tatsaechliche Belastung des
+Bundeshaushalts durch die Rentenversicherung nicht praezise modelliert werden.
+Das betrifft insbesondere:
 
-- Die Bewertung der Ausfallhaftung nach § 213a SGB VI
-- Die Nettobelastung des Bundes durch die geplante Reform
-- Die Verteilung der Lasten zwischen Bund und Trägern
+- die Haushaltswirkung echter oeffentlicher Rentenbeitraege
+- die Nettobelastung des Bundes im Reformmodell
+- die Abgrenzung zwischen Bestandsschutz-Zuschuss, echten Beitraegen und
+  sonstigen Transfers
 
 ## Maßnahme
 
-Die fehlende Ist-Zweckzerlegung wird als **dauerhafter Negativbefund** im Reformkonzept geführt. Es wird keine eigene Schätzung oder Ableitung aus der Reformklassifikation vorgenommen.
+Die fehlende Ist-Zweckzerlegung wird im Reformkonzept als fortbestehender
+Negativbefund gefuehrt. Es wird keine eigene Ist-Zweckzerlegung aus der
+Reformklassifikation abgeleitet.
 
-Stattdessen wird eine **formale Anfrage** an BMF und DRV gestellt, die amtliche Zweckzerlegung für die Jahre 2024–2026 zur Verfügung zu stellen.
+Stattdessen wird ein sendefaehiger Anfrageentwurf an BMF und DRV gepflegt, um
+die amtliche Zweckzerlegung fuer 2024 bis 2026 anzufordern:
+`projekte/rentenversicherung/2026-06-09-datenanfrage-bundesmittel-zweckzerlegung.md`.
 
 ## Offene Prüfungspunkte
 
-- Erhalt der amtlichen Zweckzerlegung (voraussichtlich Q3/Q4 2026)
-- Einbindung der Daten in das Reformmodell
-- Aktualisierung der Finanzwirkungsanalyse
+- Versand und Dokumentation der Anfrage an BMF und DRV
+- Eingang einer amtlichen Zweckzerlegung oder einer belastbaren Negativantwort
+- Einbindung der Daten in Finanzwirkungsanalyse und Pruefbericht
 
-**Status im Reformkonzept:** offen (Negativbefund)
+## Einordnung
+
+Die vorhandenen Quellen erlauben Aussagen zur Groessenordnung von
+Bundeszuschuessen und nicht beitragsgedeckten Leistungen, aber keine
+amtliche Zweckzerlegung fuer 2024 bis 2026. Genau deshalb bleibt dieser Punkt
+ein externer Freigabehinderungsgrund und wird nicht als intern geloest
+bezeichnet.
