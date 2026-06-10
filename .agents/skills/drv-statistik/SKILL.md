@@ -1,3 +1,8 @@
+---
+name: drv-statistik
+description: Nutzt oeffentliche DRV-, BMAS- und Statistik-Rente-Quellen fuer reproduzierbare Rentenstatistik-Abrufe im agenda2030-Repo, insbesondere Statistikbaende, Bestandsdaten und strukturierte Inputs fuer Reformmodelle. Use when the user asks to use DRV statistics, Statistik-Rente, DRV Statistikband, Rentenzugangsdaten, Abschlaege, Erwerbsminderung, or fetch Deutsche-Rentenversicherung data for analyses or reform models.
+---
+
 # DRV Rentenstatistik
 
 ## Overview
