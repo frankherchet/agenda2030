@@ -471,3 +471,11 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   weil sie transparent als Restlücken für spätere Endvalidierung markiert
   sind. Rechenartefakte, öffentliche DRV-Auswertung und Normstand-/Quellenkette
   reichen für die Konzeptfreigabe aus.
+
+## 2026-06-11 Publikation | Rentenkonzept auf GitHub Pages schaltbar
+
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`
+- Wirkung: Das freigegebene Rentenkonzept hat nun `publish: true` und wird
+  damit vom Pages-Builder als Report aufgenommen. Der öffentliche Report folgt
+  damit automatisch aus der freigegebenen Konzeptfassung.
