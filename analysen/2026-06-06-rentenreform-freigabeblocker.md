@@ -75,18 +75,18 @@ einem Senior-Wage-Faktor von 85 % bewertet.
 | 2030 | status_quo_67 | 22 % | 100,0 % | 24,5 Mrd. Euro |
 | 2030 | lebenserwartung_gekoppelt_2zu1 | 22 % | 100,0 % | 35,5 Mrd. Euro |
 | 2030 | daenemarknah | 22 % | 100,0 % | 53,8 Mrd. Euro |
-| 2035 | status_quo_67 | 22 % | 91,3 % | -53,3 Mrd. Euro |
-| 2035 | lebenserwartung_gekoppelt_2zu1 | 22 % | 97,1 % | -17,0 Mrd. Euro |
-| 2035 | daenemarknah | 22 % | 100,0 % | 18,7 Mrd. Euro |
-| 2039 | status_quo_67 | 22 % | 81,4 % | -132,1 Mrd. Euro |
-| 2039 | lebenserwartung_gekoppelt_2zu1 | 22 % | 88,8 % | -73,2 Mrd. Euro |
-| 2039 | daenemarknah | 22 % | 97,4 % | -15,3 Mrd. Euro |
-| 2050 | status_quo_67 | 22 % | 75,0 % | -229,0 Mrd. Euro |
-| 2050 | lebenserwartung_gekoppelt_2zu1 | 22 % | 88,0 % | -94,6 Mrd. Euro |
-| 2050 | daenemarknah | 22 % | 95,4 % | -33,2 Mrd. Euro |
-| 2070 | status_quo_67 | 22 % | 71,0 % | -418,9 Mrd. Euro |
-| 2070 | lebenserwartung_gekoppelt_2zu1 | 22 % | 96,3 % | -40,4 Mrd. Euro |
-| 2070 | daenemarknah | 22 % | 100,0 % | 0,8 Mrd. Euro |
+| 2035 | status_quo_67 | 22 % | 91,3 % | -53,5 Mrd. Euro |
+| 2035 | lebenserwartung_gekoppelt_2zu1 | 22 % | 97,0 % | -17,2 Mrd. Euro |
+| 2035 | daenemarknah | 22 % | 100,0 % | 18,6 Mrd. Euro |
+| 2039 | status_quo_67 | 22 % | 81,4 % | -132,4 Mrd. Euro |
+| 2039 | lebenserwartung_gekoppelt_2zu1 | 22 % | 88,8 % | -73,5 Mrd. Euro |
+| 2039 | daenemarknah | 22 % | 97,4 % | -15,6 Mrd. Euro |
+| 2050 | status_quo_67 | 22 % | 74,9 % | -229,7 Mrd. Euro |
+| 2050 | lebenserwartung_gekoppelt_2zu1 | 22 % | 87,9 % | -95,3 Mrd. Euro |
+| 2050 | daenemarknah | 22 % | 95,3 % | -33,9 Mrd. Euro |
+| 2070 | status_quo_67 | 22 % | 70,8 % | -420,9 Mrd. Euro |
+| 2070 | lebenserwartung_gekoppelt_2zu1 | 22 % | 96,1 % | -42,4 Mrd. Euro |
+| 2070 | daenemarknah | 22 % | 99,9 % | -1,2 Mrd. Euro |
 
 Brückenjahre 2027-2029 bleiben im Modell noch status-quo-nah; ab 2030
 greifen die neuen Reformpfade.

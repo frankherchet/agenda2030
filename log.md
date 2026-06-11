@@ -547,3 +547,26 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   öffentlichen Dienst eine 0,8-Nachbesetzungsquote je Ruhestand. Dadurch
   bleibt die Beitragsstabilisierung in den Übergangsrechnungen ab 2030
   erhalten, ohne die Annahme als gemessene Fluktuationsrate zu überhöhen.
+
+## 2026-06-11 Konzeptpflege | 0,75-Nachbesetzung im öffentlichen Dienst
+
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `scripts/calc_rentenreform_zukunft.py`,
+  `scripts/calc_rentenreform_stabilitaetskorridor.py`
+- Daten neu geschrieben:
+  `analysen/2026-06-04-rentenreform-zukunft.md`,
+  `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md`,
+  `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md`,
+  `analysen/2026-06-06-rentenreform-freigabeblocker.md`,
+  `analysen/daten/2026-06-04-rentenreform-zukunft-annahmen.csv`,
+  `analysen/daten/2026-06-04-rentenreform-zukunft-modell.csv`,
+  `analysen/daten/2026-06-05-rentenreform-rentenalter-kapital.csv`,
+  `analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor-annahmen.csv`,
+  `analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor.csv`,
+  `analysen/daten/2026-06-06-rentenalter-feinmodell-altersjahre.csv`,
+  `analysen/daten/2026-06-06-rentenreform-freigabeblocker.csv`
+- Wirkung: Die öffentliche Nachbesetzungsannahme wurde von 0,8 auf 0,75
+  abgesenkt. Der Beitragssatzpfad wird damit konservativer modelliert; die
+  Entlastungswirkung des öffentlichen Dienstes bleibt sichtbar, aber kleiner
+  als in der vorherigen Arbeitsannahme.

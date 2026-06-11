@@ -10,127 +10,127 @@ jahr,szenario,variante,ausgaben_mrd_euro,beitragsbasis_mrd_euro,zusatzbasis_mrd_
 2029,jung,reform_mit_erwerbstaetigenbasis,469.781,1861.315,0.000,107.783,3.526,0.192591,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2030,jung,status_quo_bund_anteilig,489.772,1898.227,0.000,112.370,3.614,0.196915,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2030,jung,reform_ohne_erweiterte_basis,489.772,1898.227,0.000,97.858,3.614,0.204560,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2030,jung,reform_mit_erwerbstaetigenbasis,489.772,1917.438,19.210,97.858,3.614,0.202510,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2030,jung,reform_mit_erwerbstaetigenbasis,489.772,1917.328,19.101,97.858,3.614,0.202522,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2031,jung,status_quo_bund_anteilig,510.515,1935.822,0.000,117.129,3.704,0.201300,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2031,jung,reform_ohne_erweiterte_basis,510.515,1935.822,0.000,93.199,3.704,0.213662,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2031,jung,reform_mit_erwerbstaetigenbasis,510.515,1975.004,39.182,93.199,3.704,0.209423,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2031,jung,reform_mit_erwerbstaetigenbasis,510.515,1974.780,38.958,93.199,3.704,0.209447,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2032,jung,status_quo_bund_anteilig,532.034,1974.110,0.000,122.066,3.797,0.205749,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2032,jung,reform_ohne_erweiterte_basis,532.034,1974.110,0.000,88.574,3.797,0.222715,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2032,jung,reform_mit_erwerbstaetigenbasis,532.034,2034.046,59.935,88.574,3.797,0.216152,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2032,jung,reform_mit_erwerbstaetigenbasis,532.034,2033.703,59.593,88.574,3.797,0.216189,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2033,jung,status_quo_bund_anteilig,554.359,2013.103,0.000,127.188,3.892,0.210262,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2033,jung,reform_ohne_erweiterte_basis,554.359,2013.103,0.000,83.992,3.892,0.231720,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2033,jung,reform_mit_erwerbstaetigenbasis,554.359,2094.595,81.492,83.992,3.892,0.222704,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2033,jung,reform_mit_erwerbstaetigenbasis,554.359,2094.130,81.027,83.992,3.892,0.222754,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2034,jung,status_quo_bund_anteilig,577.517,2052.812,0.000,132.501,3.989,0.214840,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2034,jung,reform_ohne_erweiterte_basis,577.517,2052.812,0.000,79.464,3.989,0.240677,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2034,jung,reform_mit_erwerbstaetigenbasis,577.517,2156.686,103.875,79.464,3.989,0.229085,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2034,jung,reform_mit_erwerbstaetigenbasis,577.517,2156.093,103.281,79.464,3.989,0.229148,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2035,jung,status_quo_bund_anteilig,601.537,2093.247,0.000,138.012,4.089,0.219485,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2035,jung,reform_ohne_erweiterte_basis,601.537,2093.247,0.000,75.003,4.089,0.249586,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2035,jung,reform_mit_erwerbstaetigenbasis,601.537,2220.352,127.105,75.003,4.089,0.235298,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2035,jung,reform_mit_erwerbstaetigenbasis,601.537,2219.626,126.379,75.003,4.089,0.235375,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2036,jung,status_quo_bund_anteilig,626.449,2134.422,0.000,143.728,4.191,0.224197,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2036,jung,reform_ohne_erweiterte_basis,626.449,2134.422,0.000,70.625,4.191,0.258447,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2036,jung,reform_mit_erwerbstaetigenbasis,626.449,2266.001,131.579,70.625,4.191,0.243439,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2036,jung,reform_mit_erwerbstaetigenbasis,626.449,2265.137,130.716,70.625,4.191,0.243532,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2037,jung,status_quo_bund_anteilig,652.285,2176.347,0.000,149.656,4.296,0.228977,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2037,jung,reform_ohne_erweiterte_basis,652.285,2176.347,0.000,66.341,4.296,0.267259,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2037,jung,reform_mit_erwerbstaetigenbasis,652.285,2312.524,136.177,66.341,4.296,0.251521,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2037,jung,reform_mit_erwerbstaetigenbasis,652.285,2311.517,135.170,66.341,4.296,0.251631,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2038,jung,status_quo_bund_anteilig,679.077,2219.034,0.000,155.803,4.403,0.233827,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2038,jung,reform_ohne_erweiterte_basis,679.077,2219.034,0.000,62.165,4.403,0.276025,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2038,jung,reform_mit_erwerbstaetigenbasis,679.077,2359.935,140.901,62.165,4.403,0.259545,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2038,jung,reform_mit_erwerbstaetigenbasis,679.077,2358.780,139.746,62.165,4.403,0.259672,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2039,jung,status_quo_bund_anteilig,697.665,2270.970,0.000,160.067,4.513,0.234739,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2039,jung,reform_ohne_erweiterte_basis,697.665,2270.970,0.000,58.108,4.513,0.279636,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2039,jung,reform_mit_erwerbstaetigenbasis,697.665,2417.269,146.299,58.108,4.513,0.262711,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2039,jung,reform_mit_erwerbstaetigenbasis,697.665,2415.956,144.986,58.108,4.513,0.262854,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2040,jung,status_quo_bund_anteilig,713.276,2324.116,0.000,163.649,4.626,0.234498,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2040,jung,reform_ohne_erweiterte_basis,713.276,2324.116,0.000,54.176,4.626,0.281601,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2040,jung,reform_mit_erwerbstaetigenbasis,713.276,2475.988,151.873,54.176,4.626,0.264329,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2040,jung,reform_mit_erwerbstaetigenbasis,713.276,2474.510,150.395,54.176,4.626,0.264486,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2041,jung,status_quo_bund_anteilig,729.236,2378.499,0.000,167.311,4.742,0.234258,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2041,jung,reform_ohne_erweiterte_basis,729.236,2378.499,0.000,50.374,4.742,0.283423,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2041,jung,reform_mit_erwerbstaetigenbasis,729.236,2536.126,157.627,50.374,4.742,0.265807,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2041,jung,reform_mit_erwerbstaetigenbasis,729.236,2534.476,155.976,50.374,4.742,0.265980,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2042,jung,status_quo_bund_anteilig,745.552,2434.149,0.000,171.054,4.860,0.234019,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2042,jung,reform_ohne_erweiterte_basis,745.552,2434.149,0.000,46.704,4.860,0.285105,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2042,jung,reform_mit_erwerbstaetigenbasis,745.552,2597.716,163.566,46.704,4.860,0.267153,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2042,jung,reform_mit_erwerbstaetigenbasis,745.552,2595.886,161.737,46.704,4.860,0.267342,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2043,jung,status_quo_bund_anteilig,762.234,2491.096,0.000,174.882,4.982,0.233781,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2043,jung,reform_ohne_erweiterte_basis,762.234,2491.096,0.000,43.166,4.982,0.286656,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2043,jung,reform_mit_erwerbstaetigenbasis,762.234,2660.793,169.697,43.166,4.982,0.268374,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2043,jung,reform_mit_erwerbstaetigenbasis,762.234,2658.776,167.681,43.166,4.982,0.268577,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2044,jung,status_quo_bund_anteilig,779.288,2549.368,0.000,178.794,5.106,0.233543,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2044,jung,reform_ohne_erweiterte_basis,779.288,2549.368,0.000,39.759,5.106,0.288080,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2044,jung,reform_mit_erwerbstaetigenbasis,779.288,2725.393,176.025,39.759,5.106,0.269474,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2044,jung,reform_mit_erwerbstaetigenbasis,779.288,2723.182,173.814,39.759,5.106,0.269693,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2045,jung,status_quo_bund_anteilig,796.724,2608.997,0.000,182.795,5.234,0.233306,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2045,jung,reform_ohne_erweiterte_basis,796.724,2608.997,0.000,36.483,5.234,0.289386,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2045,jung,reform_mit_erwerbstaetigenbasis,796.724,2791.552,182.555,36.483,5.234,0.270462,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2045,jung,reform_mit_erwerbstaetigenbasis,796.724,2789.139,180.142,36.483,5.234,0.270696,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2046,jung,status_quo_bund_anteilig,814.550,2670.013,0.000,186.885,5.365,0.233070,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2046,jung,reform_ohne_erweiterte_basis,814.550,2670.013,0.000,33.337,5.365,0.290578,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2046,jung,reform_mit_erwerbstaetigenbasis,814.550,2858.946,188.932,33.337,5.365,0.271376,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2046,jung,reform_mit_erwerbstaetigenbasis,814.550,2856.344,186.331,33.337,5.365,0.271623,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2047,jung,status_quo_bund_anteilig,832.774,2732.451,0.000,191.066,5.499,0.232835,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2047,jung,reform_ohne_erweiterte_basis,832.774,2732.451,0.000,30.322,5.499,0.291662,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2047,jung,reform_mit_erwerbstaetigenbasis,832.774,2927.958,195.507,30.322,5.499,0.272187,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2047,jung,reform_mit_erwerbstaetigenbasis,832.774,2925.161,192.710,30.322,5.499,0.272448,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2048,jung,status_quo_bund_anteilig,851.405,2796.341,0.000,195.340,5.636,0.232600,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2048,jung,reform_ohne_erweiterte_basis,851.405,2796.341,0.000,27.441,5.636,0.292642,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2048,jung,reform_mit_erwerbstaetigenbasis,851.405,2998.627,202.286,27.441,5.636,0.272901,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2048,jung,reform_mit_erwerbstaetigenbasis,851.405,2995.626,199.285,27.441,5.636,0.273174,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2049,jung,status_quo_bund_anteilig,870.453,2861.718,0.000,199.711,5.777,0.232366,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2049,jung,reform_ohne_erweiterte_basis,870.453,2861.718,0.000,24.700,5.777,0.293522,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2049,jung,reform_mit_erwerbstaetigenbasis,870.453,3070.992,209.274,24.700,5.777,0.273520,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2049,jung,reform_mit_erwerbstaetigenbasis,870.453,3067.780,206.062,24.700,5.777,0.273806,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2050,jung,status_quo_bund_anteilig,889.927,2928.616,0.000,204.179,5.921,0.232132,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2050,jung,reform_ohne_erweiterte_basis,889.927,2928.616,0.000,22.104,5.921,0.294303,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2050,jung,reform_mit_erwerbstaetigenbasis,889.927,3145.094,216.478,22.104,5.921,0.274046,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2050,jung,reform_mit_erwerbstaetigenbasis,889.927,3141.662,213.047,22.104,5.921,0.274346,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2051,jung,status_quo_bund_anteilig,909.836,2997.070,0.000,208.746,6.070,0.231900,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2051,jung,reform_ohne_erweiterte_basis,909.836,2997.070,0.000,19.663,6.070,0.294989,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2051,jung,reform_mit_erwerbstaetigenbasis,909.836,3220.974,223.904,19.663,6.070,0.274483,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2051,jung,reform_mit_erwerbstaetigenbasis,909.836,3217.315,220.244,19.663,6.070,0.274796,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2052,jung,status_quo_bund_anteilig,930.190,3067.117,0.000,213.416,6.221,0.231668,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2052,jung,reform_ohne_erweiterte_basis,930.190,3067.117,0.000,17.384,6.221,0.295582,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2052,jung,reform_mit_erwerbstaetigenbasis,930.190,3298.675,231.558,17.384,6.221,0.274833,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2052,jung,reform_mit_erwerbstaetigenbasis,930.190,3294.778,227.661,17.384,6.221,0.275158,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2053,jung,status_quo_bund_anteilig,950.999,3138.793,0.000,218.191,6.377,0.231437,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2053,jung,reform_ohne_erweiterte_basis,950.999,3138.793,0.000,15.279,6.377,0.296083,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2053,jung,reform_mit_erwerbstaetigenbasis,950.999,3378.240,239.447,15.279,6.377,0.275097,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2053,jung,reform_mit_erwerbstaetigenbasis,950.999,3374.097,235.304,15.279,6.377,0.275435,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2054,jung,status_quo_bund_anteilig,972.274,3212.136,0.000,223.072,6.536,0.231206,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2054,jung,reform_ohne_erweiterte_basis,972.274,3212.136,0.000,13.356,6.536,0.296495,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2054,jung,reform_mit_erwerbstaetigenbasis,972.274,3459.713,247.577,13.356,6.536,0.275278,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2054,jung,reform_mit_erwerbstaetigenbasis,972.274,3455.315,243.180,13.356,6.536,0.275628,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2055,jung,status_quo_bund_anteilig,994.023,3287.184,0.000,228.062,6.700,0.230976,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2055,jung,reform_ohne_erweiterte_basis,994.023,3287.184,0.000,11.620,6.700,0.296821,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2055,jung,reform_mit_erwerbstaetigenbasis,994.023,3543.140,255.956,11.620,6.700,0.275378,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2055,jung,reform_mit_erwerbstaetigenbasis,994.023,3538.478,251.294,11.620,6.700,0.275741,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2056,jung,status_quo_bund_anteilig,1016.259,3363.977,0.000,233.163,6.867,0.230747,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2056,jung,reform_ohne_erweiterte_basis,1016.259,3363.977,0.000,10.073,6.867,0.297065,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2056,jung,reform_mit_erwerbstaetigenbasis,1016.259,3628.568,264.591,10.073,6.867,0.275403,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2056,jung,reform_mit_erwerbstaetigenbasis,1016.259,3623.631,259.654,10.073,6.867,0.275779,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2057,jung,status_quo_bund_anteilig,1038.992,3442.555,0.000,238.379,7.039,0.230519,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2057,jung,reform_ohne_erweiterte_basis,1038.992,3442.555,0.000,8.712,7.039,0.297233,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2057,jung,reform_mit_erwerbstaetigenbasis,1038.992,3716.044,273.489,8.712,7.039,0.275358,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2057,jung,reform_mit_erwerbstaetigenbasis,1038.992,3710.822,268.267,8.712,7.039,0.275745,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2058,jung,status_quo_bund_anteilig,1062.234,3522.960,0.000,243.711,7.215,0.230291,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2058,jung,reform_ohne_erweiterte_basis,1062.234,3522.960,0.000,7.533,7.215,0.297331,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2058,jung,reform_mit_erwerbstaetigenbasis,1062.234,3805.617,282.657,7.533,7.215,0.275247,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2058,jung,reform_mit_erwerbstaetigenbasis,1062.234,3800.099,277.139,7.533,7.215,0.275647,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2059,jung,status_quo_bund_anteilig,1085.994,3605.233,0.000,249.163,7.395,0.230065,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2059,jung,reform_ohne_erweiterte_basis,1085.994,3605.233,0.000,6.524,7.395,0.297366,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2059,jung,reform_mit_erwerbstaetigenbasis,1085.994,3897.337,292.104,6.524,7.395,0.275079,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2059,jung,reform_mit_erwerbstaetigenbasis,1085.994,3891.512,286.279,6.524,7.395,0.275491,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2060,jung,status_quo_bund_anteilig,1110.286,3689.418,0.000,254.736,7.580,0.229838,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2060,jung,reform_ohne_erweiterte_basis,1110.286,3689.418,0.000,5.670,7.580,0.297347,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2060,jung,reform_mit_erwerbstaetigenbasis,1110.286,3991.255,301.837,5.670,7.580,0.274860,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2060,jung,reform_mit_erwerbstaetigenbasis,1110.286,3985.112,295.694,5.670,7.580,0.275284,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2061,jung,status_quo_bund_anteilig,1135.120,3775.559,0.000,260.434,7.770,0.229613,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2061,jung,reform_ohne_erweiterte_basis,1135.120,3775.559,0.000,4.954,7.770,0.297280,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2061,jung,reform_mit_erwerbstaetigenbasis,1135.120,4087.424,311.865,4.954,7.770,0.274598,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2061,jung,reform_mit_erwerbstaetigenbasis,1135.120,4080.951,305.392,4.954,7.770,0.275033,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2062,jung,status_quo_bund_anteilig,1160.510,3863.701,0.000,266.259,7.964,0.229388,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2062,jung,reform_ohne_erweiterte_basis,1160.510,3863.701,0.000,4.358,7.964,0.297173,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2062,jung,reform_mit_erwerbstaetigenbasis,1160.510,4185.896,322.195,4.358,7.964,0.274299,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2062,jung,reform_mit_erwerbstaetigenbasis,1160.510,4179.082,315.381,4.358,7.964,0.274747,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2063,jung,status_quo_bund_anteilig,1186.467,3953.890,0.000,272.215,8.163,0.229164,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2063,jung,reform_ohne_erweiterte_basis,1186.467,3953.890,0.000,3.863,8.163,0.297034,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2063,jung,reform_mit_erwerbstaetigenbasis,1186.467,4286.728,332.837,3.863,8.163,0.273972,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2063,jung,reform_mit_erwerbstaetigenbasis,1186.467,4279.559,325.669,3.863,8.163,0.274431,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2064,jung,status_quo_bund_anteilig,1213.004,4046.175,0.000,278.303,8.367,0.228941,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2064,jung,reform_ohne_erweiterte_basis,1213.004,4046.175,0.000,3.452,8.367,0.296869,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2064,jung,reform_mit_erwerbstaetigenbasis,1213.004,4389.974,343.799,3.452,8.367,0.273620,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2064,jung,reform_mit_erwerbstaetigenbasis,1213.004,4382.439,336.264,3.452,8.367,0.274091,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2065,jung,status_quo_bund_anteilig,1240.135,4140.602,0.000,284.528,8.576,0.228718,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2065,jung,reform_ohne_erweiterte_basis,1240.135,4140.602,0.000,3.109,8.576,0.296684,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2065,jung,reform_mit_erwerbstaetigenbasis,1240.135,4495.693,355.091,3.109,8.576,0.273250,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2065,jung,reform_mit_erwerbstaetigenbasis,1240.135,4487.777,347.176,3.109,8.576,0.273732,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2066,jung,status_quo_bund_anteilig,1267.871,4237.222,0.000,290.892,8.790,0.228496,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2066,jung,reform_ohne_erweiterte_basis,1267.871,4237.222,0.000,2.821,8.790,0.296482,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2066,jung,reform_mit_erwerbstaetigenbasis,1267.871,4603.943,366.722,2.821,8.790,0.272866,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2066,jung,reform_mit_erwerbstaetigenbasis,1267.871,4595.634,358.412,2.821,8.790,0.273359,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2067,jung,status_quo_bund_anteilig,1296.228,4336.084,0.000,297.397,9.010,0.228275,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2067,jung,reform_ohne_erweiterte_basis,1296.228,4336.084,0.000,2.576,9.010,0.296268,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2067,jung,reform_mit_erwerbstaetigenbasis,1296.228,4714.785,378.701,2.576,9.010,0.272471,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2067,jung,reform_mit_erwerbstaetigenbasis,1296.228,4706.068,369.984,2.576,9.010,0.272975,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2068,jung,status_quo_bund_anteilig,1325.218,4437.242,0.000,304.049,9.236,0.228055,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2068,jung,reform_ohne_erweiterte_basis,1325.218,4437.242,0.000,2.366,9.236,0.296043,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2068,jung,reform_mit_erwerbstaetigenbasis,1325.218,4828.280,391.038,2.366,9.236,0.272067,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2068,jung,reform_mit_erwerbstaetigenbasis,1325.218,4819.141,381.899,2.366,9.236,0.272583,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2069,jung,status_quo_bund_anteilig,1354.856,4540.748,0.000,310.849,9.466,0.227835,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2069,jung,reform_ohne_erweiterte_basis,1354.856,4540.748,0.000,2.184,9.466,0.295812,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2069,jung,reform_mit_erwerbstaetigenbasis,1354.856,4944.492,403.744,2.184,9.466,0.271657,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2069,jung,reform_mit_erwerbstaetigenbasis,1354.856,4934.915,394.167,2.184,9.466,0.272184,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2070,jung,status_quo_bund_anteilig,1385.156,4646.655,0.000,317.801,9.703,0.227616,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2070,jung,reform_ohne_erweiterte_basis,1385.156,4646.655,0.000,2.024,9.703,0.295574,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2070,jung,reform_mit_erwerbstaetigenbasis,1385.156,5063.484,416.829,2.024,9.703,0.271242,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2070,jung,reform_mit_erwerbstaetigenbasis,1385.156,5053.455,406.799,2.024,9.703,0.271780,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2027,moderat,status_quo_bund_anteilig,434.047,1780.143,0.000,99.585,3.356,0.186000,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2027,moderat,reform_ohne_erweiterte_basis,434.047,1780.143,0.000,99.585,3.356,0.186000,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
 2027,moderat,reform_mit_erwerbstaetigenbasis,434.047,1780.143,0.000,99.585,3.356,0.186000,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
@@ -142,127 +142,127 @@ jahr,szenario,variante,ausgaben_mrd_euro,beitragsbasis_mrd_euro,zusatzbasis_mrd_
 2029,moderat,reform_mit_erwerbstaetigenbasis,473.472,1844.943,0.000,108.630,3.526,0.195842,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2030,moderat,status_quo_bund_anteilig,494.325,1878.090,0.000,113.415,3.614,0.200894,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2030,moderat,reform_ohne_erweiterte_basis,494.325,1878.090,0.000,97.858,3.614,0.209177,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2030,moderat,reform_mit_erwerbstaetigenbasis,494.325,1897.096,19.007,97.858,3.614,0.207082,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2030,moderat,reform_mit_erwerbstaetigenbasis,494.325,1896.988,18.898,97.858,3.614,0.207093,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2031,moderat,status_quo_bund_anteilig,515.975,1911.741,0.000,118.382,3.704,0.206037,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2031,moderat,reform_ohne_erweiterte_basis,515.975,1911.741,0.000,93.199,3.704,0.219210,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2031,moderat,reform_mit_erwerbstaetigenbasis,515.975,1950.435,38.694,93.199,3.704,0.214861,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2031,moderat,reform_mit_erwerbstaetigenbasis,515.975,1950.214,38.473,93.199,3.704,0.214885,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2032,moderat,status_quo_bund_anteilig,538.450,1945.901,0.000,123.538,3.797,0.211272,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2032,moderat,reform_ohne_erweiterte_basis,538.450,1945.901,0.000,88.574,3.797,0.229240,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2032,moderat,reform_mit_erwerbstaetigenbasis,538.450,2004.980,59.079,88.574,3.797,0.222486,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2032,moderat,reform_mit_erwerbstaetigenbasis,538.450,2004.642,58.741,88.574,3.797,0.222523,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2033,moderat,status_quo_bund_anteilig,561.779,1980.574,0.000,128.891,3.892,0.216602,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2033,moderat,reform_ohne_erweiterte_basis,561.779,1980.574,0.000,83.992,3.892,0.239272,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2033,moderat,reform_mit_erwerbstaetigenbasis,561.779,2060.750,80.175,83.992,3.892,0.229962,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2033,moderat,reform_mit_erwerbstaetigenbasis,561.779,2060.291,79.717,83.992,3.892,0.230014,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2034,moderat,status_quo_bund_anteilig,585.992,2015.765,0.000,134.446,3.989,0.222028,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2034,moderat,reform_ohne_erweiterte_basis,585.992,2015.765,0.000,79.464,3.989,0.249304,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2034,moderat,reform_mit_erwerbstaetigenbasis,585.992,2117.765,102.000,79.464,3.989,0.237297,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2034,moderat,reform_mit_erwerbstaetigenbasis,585.992,2117.182,101.417,79.464,3.989,0.237362,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2035,moderat,status_quo_bund_anteilig,611.120,2051.477,0.000,140.211,4.089,0.227553,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2035,moderat,reform_ohne_erweiterte_basis,611.120,2051.477,0.000,75.003,4.089,0.259339,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2035,moderat,reform_mit_erwerbstaetigenbasis,611.120,2176.045,124.568,75.003,4.089,0.244493,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2035,moderat,reform_mit_erwerbstaetigenbasis,611.120,2175.334,123.857,75.003,4.089,0.244573,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2036,moderat,status_quo_bund_anteilig,637.196,2087.715,0.000,146.194,4.191,0.233179,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2036,moderat,reform_ohne_erweiterte_basis,637.196,2087.715,0.000,70.625,4.191,0.269376,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2036,moderat,reform_mit_erwerbstaetigenbasis,637.196,2216.415,128.700,70.625,4.191,0.253735,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2036,moderat,reform_mit_erwerbstaetigenbasis,637.196,2215.570,127.855,70.625,4.191,0.253831,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2037,moderat,status_quo_bund_anteilig,664.254,2124.483,0.000,152.402,4.296,0.238908,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2037,moderat,reform_ohne_erweiterte_basis,664.254,2124.483,0.000,66.341,4.296,0.279417,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2037,moderat,reform_mit_erwerbstaetigenbasis,664.254,2257.415,132.932,66.341,4.296,0.262963,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2037,moderat,reform_mit_erwerbstaetigenbasis,664.254,2256.432,131.949,66.341,4.296,0.263078,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2038,moderat,status_quo_bund_anteilig,692.327,2161.784,0.000,158.843,4.403,0.244743,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2038,moderat,reform_ohne_erweiterte_basis,692.327,2161.784,0.000,62.165,4.403,0.289464,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2038,moderat,reform_mit_erwerbstaetigenbasis,692.327,2299.050,137.265,62.165,4.403,0.272181,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2038,moderat,reform_mit_erwerbstaetigenbasis,692.327,2297.925,136.141,62.165,4.403,0.272315,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2039,moderat,status_quo_bund_anteilig,711.765,2208.010,0.000,163.302,4.513,0.246353,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2039,moderat,reform_ohne_erweiterte_basis,711.765,2208.010,0.000,58.108,4.513,0.293995,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2039,moderat,reform_mit_erwerbstaetigenbasis,711.765,2350.253,142.243,58.108,4.513,0.276202,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2039,moderat,reform_mit_erwerbstaetigenbasis,711.765,2348.976,140.967,58.108,4.513,0.276352,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2040,moderat,status_quo_bund_anteilig,728.190,2255.195,0.000,167.071,4.626,0.246761,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2040,moderat,reform_ohne_erweiterte_basis,728.190,2255.195,0.000,54.176,4.626,0.296821,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2040,moderat,reform_mit_erwerbstaetigenbasis,728.190,2402.564,147.369,54.176,4.626,0.278614,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2040,moderat,reform_mit_erwerbstaetigenbasis,728.190,2401.130,145.935,54.176,4.626,0.278781,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2041,moderat,status_quo_bund_anteilig,744.994,2303.361,0.000,170.926,4.742,0.247172,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2041,moderat,reform_ohne_erweiterte_basis,744.994,2303.361,0.000,50.374,4.742,0.299510,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2041,moderat,reform_mit_erwerbstaetigenbasis,744.994,2456.008,152.647,50.374,4.742,0.280895,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2041,moderat,reform_mit_erwerbstaetigenbasis,744.994,2454.410,151.049,50.374,4.742,0.281077,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2042,moderat,status_quo_bund_anteilig,762.186,2352.524,0.000,174.871,4.860,0.247587,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2042,moderat,reform_ohne_erweiterte_basis,762.186,2352.524,0.000,46.704,4.860,0.302068,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2042,moderat,reform_mit_erwerbstaetigenbasis,762.186,2510.606,158.081,46.704,4.860,0.283048,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2042,moderat,reform_mit_erwerbstaetigenbasis,762.186,2508.837,156.313,46.704,4.860,0.283248,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2043,moderat,status_quo_bund_anteilig,779.775,2402.707,0.000,178.906,4.982,0.248007,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2043,moderat,reform_ohne_erweiterte_basis,779.775,2402.707,0.000,43.166,4.982,0.304501,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2043,moderat,reform_mit_erwerbstaetigenbasis,779.775,2566.383,163.676,43.166,4.982,0.285081,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2043,moderat,reform_mit_erwerbstaetigenbasis,779.775,2564.438,161.731,43.166,4.982,0.285297,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2044,moderat,status_quo_bund_anteilig,797.769,2453.928,0.000,183.035,5.106,0.248430,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2044,moderat,reform_ohne_erweiterte_basis,797.769,2453.928,0.000,39.759,5.106,0.306816,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2044,moderat,reform_mit_erwerbstaetigenbasis,797.769,2623.363,169.435,39.759,5.106,0.286999,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2044,moderat,reform_mit_erwerbstaetigenbasis,797.769,2621.235,167.307,39.759,5.106,0.287232,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2045,moderat,status_quo_bund_anteilig,816.179,2506.208,0.000,187.258,5.234,0.248857,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2045,moderat,reform_ohne_erweiterte_basis,816.179,2506.208,0.000,36.483,5.234,0.309017,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2045,moderat,reform_mit_erwerbstaetigenbasis,816.179,2681.572,175.363,36.483,5.234,0.288809,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2045,moderat,reform_mit_erwerbstaetigenbasis,816.179,2679.253,173.045,36.483,5.234,0.289059,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2046,moderat,status_quo_bund_anteilig,835.013,2559.569,0.000,191.580,5.365,0.249288,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2046,moderat,reform_ohne_erweiterte_basis,835.013,2559.569,0.000,33.337,5.365,0.311112,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2046,moderat,reform_mit_erwerbstaetigenbasis,835.013,2740.686,181.117,33.337,5.365,0.290552,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2046,moderat,reform_mit_erwerbstaetigenbasis,835.013,2738.193,178.623,33.337,5.365,0.290817,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2047,moderat,status_quo_bund_anteilig,854.282,2614.032,0.000,196.001,5.499,0.249723,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2047,moderat,reform_ohne_erweiterte_basis,854.282,2614.032,0.000,30.322,5.499,0.313103,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2047,moderat,reform_mit_erwerbstaetigenbasis,854.282,2801.066,187.034,30.322,5.499,0.292197,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2047,moderat,reform_mit_erwerbstaetigenbasis,854.282,2798.390,184.358,30.322,5.499,0.292476,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2048,moderat,status_quo_bund_anteilig,873.996,2669.618,0.000,200.524,5.636,0.250162,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2048,moderat,reform_ohne_erweiterte_basis,873.996,2669.618,0.000,27.441,5.636,0.314996,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2048,moderat,reform_mit_erwerbstaetigenbasis,873.996,2862.737,193.119,27.441,5.636,0.293746,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2048,moderat,reform_mit_erwerbstaetigenbasis,873.996,2859.872,190.254,27.441,5.636,0.294041,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2049,moderat,status_quo_bund_anteilig,894.165,2726.349,0.000,205.151,5.777,0.250605,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2049,moderat,reform_ohne_erweiterte_basis,894.165,2726.349,0.000,24.700,5.777,0.316793,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2049,moderat,reform_mit_erwerbstaetigenbasis,894.165,2925.724,199.375,24.700,5.777,0.295205,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2049,moderat,reform_mit_erwerbstaetigenbasis,894.165,2922.664,196.315,24.700,5.777,0.295514,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2050,moderat,status_quo_bund_anteilig,914.799,2784.249,0.000,209.885,5.921,0.251052,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2050,moderat,reform_ohne_erweiterte_basis,914.799,2784.249,0.000,22.104,5.921,0.318496,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2050,moderat,reform_mit_erwerbstaetigenbasis,914.799,2990.055,205.807,22.104,5.921,0.296574,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2050,moderat,reform_mit_erwerbstaetigenbasis,914.799,2986.793,202.544,22.104,5.921,0.296898,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2051,moderat,status_quo_bund_anteilig,935.909,2843.339,0.000,214.728,6.070,0.251504,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2051,moderat,reform_ohne_erweiterte_basis,935.909,2843.339,0.000,19.663,6.070,0.320109,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2051,moderat,reform_mit_erwerbstaetigenbasis,935.909,3055.758,212.419,19.663,6.070,0.297856,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2051,moderat,reform_mit_erwerbstaetigenbasis,935.909,3052.286,208.947,19.663,6.070,0.298195,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2052,moderat,status_quo_bund_anteilig,957.507,2903.644,0.000,219.684,6.221,0.251960,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2052,moderat,reform_ohne_erweiterte_basis,957.507,2903.644,0.000,17.384,6.221,0.321631,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2052,moderat,reform_mit_erwerbstaetigenbasis,957.507,3122.860,219.216,17.384,6.221,0.299053,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2052,moderat,reform_mit_erwerbstaetigenbasis,957.507,3119.172,215.527,17.384,6.221,0.299407,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2053,moderat,status_quo_bund_anteilig,979.602,2965.187,0.000,224.753,6.377,0.252420,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2053,moderat,reform_ohne_erweiterte_basis,979.602,2965.187,0.000,15.279,6.377,0.323064,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2053,moderat,reform_mit_erwerbstaetigenbasis,979.602,3191.390,226.203,15.279,6.377,0.300166,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2053,moderat,reform_mit_erwerbstaetigenbasis,979.602,3187.477,222.290,15.279,6.377,0.300534,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2054,moderat,status_quo_bund_anteilig,1002.208,3027.993,0.000,229.940,6.536,0.252884,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2054,moderat,reform_ohne_erweiterte_basis,1002.208,3027.993,0.000,13.356,6.536,0.324412,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2054,moderat,reform_mit_erwerbstaetigenbasis,1002.208,3261.377,233.384,13.356,6.536,0.301197,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2054,moderat,reform_mit_erwerbstaetigenbasis,1002.208,3257.231,229.239,13.356,6.536,0.301580,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2055,moderat,status_quo_bund_anteilig,1025.336,3092.085,0.000,235.246,6.700,0.253353,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2055,moderat,reform_ohne_erweiterte_basis,1025.336,3092.085,0.000,11.620,6.700,0.325675,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2055,moderat,reform_mit_erwerbstaetigenbasis,1025.336,3332.850,240.765,11.620,6.700,0.302149,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2055,moderat,reform_mit_erwerbstaetigenbasis,1025.336,3328.464,236.379,11.620,6.700,0.302547,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2056,moderat,status_quo_bund_anteilig,1048.997,3157.490,0.000,240.674,6.867,0.253827,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2056,moderat,reform_ohne_erweiterte_basis,1048.997,3157.490,0.000,10.073,6.867,0.326860,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2056,moderat,reform_mit_erwerbstaetigenbasis,1048.997,3405.840,248.350,10.073,6.867,0.303026,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2056,moderat,reform_mit_erwerbstaetigenbasis,1048.997,3401.205,243.716,10.073,6.867,0.303439,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2057,moderat,status_quo_bund_anteilig,1073.204,3224.232,0.000,246.228,7.039,0.254304,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2057,moderat,reform_ohne_erweiterte_basis,1073.204,3224.232,0.000,8.712,7.039,0.327970,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2057,moderat,reform_mit_erwerbstaetigenbasis,1073.204,3480.376,256.145,8.712,7.039,0.303833,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2057,moderat,reform_mit_erwerbstaetigenbasis,1073.204,3475.485,251.253,8.712,7.039,0.304260,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2058,moderat,status_quo_bund_anteilig,1097.969,3292.338,0.000,251.910,7.215,0.254787,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2058,moderat,reform_ohne_erweiterte_basis,1097.969,3292.338,0.000,7.533,7.215,0.329013,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2058,moderat,reform_mit_erwerbstaetigenbasis,1097.969,3556.492,264.154,7.533,7.215,0.304576,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2058,moderat,reform_mit_erwerbstaetigenbasis,1097.969,3551.335,258.997,7.533,7.215,0.305018,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2059,moderat,status_quo_bund_anteilig,1123.306,3361.834,0.000,257.724,7.395,0.255274,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2059,moderat,reform_ohne_erweiterte_basis,1123.306,3361.834,0.000,6.524,7.395,0.329995,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2059,moderat,reform_mit_erwerbstaetigenbasis,1123.306,3634.217,272.383,6.524,7.395,0.305262,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2059,moderat,reform_mit_erwerbstaetigenbasis,1123.306,3628.786,266.952,6.524,7.395,0.305719,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2060,moderat,status_quo_bund_anteilig,1149.228,3432.747,0.000,263.671,7.580,0.255765,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2060,moderat,reform_ohne_erweiterte_basis,1149.228,3432.747,0.000,5.670,7.580,0.330924,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2060,moderat,reform_mit_erwerbstaetigenbasis,1149.228,3713.586,280.839,5.670,7.580,0.305898,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2060,moderat,reform_mit_erwerbstaetigenbasis,1149.228,3707.870,275.123,5.670,7.580,0.306370,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2061,moderat,status_quo_bund_anteilig,1175.748,3505.105,0.000,269.755,7.770,0.256261,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2061,moderat,reform_ohne_erweiterte_basis,1175.748,3505.105,0.000,4.954,7.770,0.331809,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2061,moderat,reform_mit_erwerbstaetigenbasis,1175.748,3794.630,289.525,4.954,7.770,0.306492,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2061,moderat,reform_mit_erwerbstaetigenbasis,1175.748,3788.621,283.516,4.954,7.770,0.306978,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2062,moderat,status_quo_bund_anteilig,1202.880,3578.935,0.000,275.980,7.964,0.256762,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2062,moderat,reform_ohne_erweiterte_basis,1202.880,3578.935,0.000,4.358,7.964,0.332657,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2062,moderat,reform_mit_erwerbstaetigenbasis,1202.880,3877.383,298.449,4.358,7.964,0.307052,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2062,moderat,reform_mit_erwerbstaetigenbasis,1202.880,3871.071,292.136,4.358,7.964,0.307553,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2063,moderat,status_quo_bund_anteilig,1230.638,3654.266,0.000,282.349,8.163,0.257268,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2063,moderat,reform_ohne_erweiterte_basis,1230.638,3654.266,0.000,3.863,8.163,0.333477,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2063,moderat,reform_mit_erwerbstaetigenbasis,1230.638,3961.881,307.615,3.863,8.163,0.307584,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2063,moderat,reform_mit_erwerbstaetigenbasis,1230.638,3955.255,300.990,3.863,8.163,0.308100,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2064,moderat,status_quo_bund_anteilig,1259.037,3731.126,0.000,288.865,8.367,0.257779,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2064,moderat,reform_ohne_erweiterte_basis,1259.037,3731.126,0.000,3.452,8.367,0.334274,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2064,moderat,reform_mit_erwerbstaetigenbasis,1259.037,4048.156,317.030,3.452,8.367,0.308095,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2064,moderat,reform_mit_erwerbstaetigenbasis,1259.037,4041.208,310.081,3.452,8.367,0.308625,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2065,moderat,status_quo_bund_anteilig,1288.091,3809.546,0.000,295.531,8.576,0.258294,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2065,moderat,reform_ohne_erweiterte_basis,1288.091,3809.546,0.000,3.109,8.576,0.335055,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2065,moderat,reform_mit_erwerbstaetigenbasis,1288.091,4136.246,326.700,3.109,8.576,0.308590,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2065,moderat,reform_mit_erwerbstaetigenbasis,1288.091,4128.964,319.418,3.109,8.576,0.309135,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2066,moderat,status_quo_bund_anteilig,1317.815,3889.555,0.000,302.350,8.790,0.258815,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2066,moderat,reform_ohne_erweiterte_basis,1317.815,3889.555,0.000,2.821,8.790,0.335823,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2066,moderat,reform_mit_erwerbstaetigenbasis,1317.815,4226.187,336.632,2.821,8.790,0.309074,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2066,moderat,reform_mit_erwerbstaetigenbasis,1317.815,4218.559,329.004,2.821,8.790,0.309633,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2067,moderat,status_quo_bund_anteilig,1348.226,3971.183,0.000,309.327,9.010,0.259340,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2067,moderat,reform_ohne_erweiterte_basis,1348.226,3971.183,0.000,2.576,9.010,0.336585,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2067,moderat,reform_mit_erwerbstaetigenbasis,1348.226,4318.014,346.831,2.576,9.010,0.309549,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2067,moderat,reform_mit_erwerbstaetigenbasis,1348.226,4310.031,338.848,2.576,9.010,0.310123,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2068,moderat,status_quo_bund_anteilig,1379.338,4054.462,0.000,316.466,9.236,0.259871,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2068,moderat,reform_ohne_erweiterte_basis,1379.338,4054.462,0.000,2.366,9.236,0.337341,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2068,moderat,reform_mit_erwerbstaetigenbasis,1379.338,4411.767,357.305,2.366,9.236,0.310020,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2068,moderat,reform_mit_erwerbstaetigenbasis,1379.338,4403.416,348.954,2.366,9.236,0.310608,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2069,moderat,status_quo_bund_anteilig,1411.168,4139.422,0.000,323.768,9.466,0.260407,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2069,moderat,reform_ohne_erweiterte_basis,1411.168,4139.422,0.000,2.184,9.466,0.338095,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2069,moderat,reform_mit_erwerbstaetigenbasis,1411.168,4507.482,368.060,2.184,9.466,0.310488,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2069,moderat,reform_mit_erwerbstaetigenbasis,1411.168,4498.752,359.330,2.184,9.466,0.311090,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2070,moderat,status_quo_bund_anteilig,1443.732,4226.097,0.000,331.240,9.703,0.260947,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2070,moderat,reform_ohne_erweiterte_basis,1443.732,4226.097,0.000,2.024,9.703,0.338848,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2070,moderat,reform_mit_erwerbstaetigenbasis,1443.732,4605.199,379.102,2.024,9.703,0.310954,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2070,moderat,reform_mit_erwerbstaetigenbasis,1443.732,4596.078,369.981,2.024,9.703,0.311571,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2027,alt,status_quo_bund_anteilig,436.143,1771.589,0.000,100.066,3.356,0.187810,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2027,alt,reform_ohne_erweiterte_basis,436.143,1771.589,0.000,100.066,3.356,0.187810,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
 2027,alt,reform_mit_erwerbstaetigenbasis,436.143,1771.589,0.000,100.066,3.356,0.187810,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
@@ -274,124 +274,124 @@ jahr,szenario,variante,ausgaben_mrd_euro,beitragsbasis_mrd_euro,zusatzbasis_mrd_
 2029,alt,reform_mit_erwerbstaetigenbasis,477.163,1829.964,0.000,109.477,3.526,0.198999,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2030,alt,status_quo_bund_anteilig,498.879,1859.666,0.000,114.459,3.614,0.204771,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2030,alt,reform_ohne_erweiterte_basis,498.879,1859.666,0.000,97.858,3.614,0.213698,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2030,alt,reform_mit_erwerbstaetigenbasis,498.879,1878.486,18.820,97.858,3.614,0.211557,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2030,alt,reform_mit_erwerbstaetigenbasis,498.879,1878.379,18.713,97.858,3.614,0.211569,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2031,alt,status_quo_bund_anteilig,521.436,1889.709,0.000,119.635,3.704,0.210666,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2031,alt,reform_ohne_erweiterte_basis,521.436,1889.709,0.000,93.199,3.704,0.224655,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2031,alt,reform_mit_erwerbstaetigenbasis,521.436,1927.958,38.249,93.199,3.704,0.220198,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2031,alt,reform_mit_erwerbstaetigenbasis,521.436,1927.739,38.030,93.199,3.704,0.220223,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2032,alt,status_quo_bund_anteilig,544.865,1920.092,0.000,125.010,3.797,0.216687,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2032,alt,reform_ohne_erweiterte_basis,544.865,1920.092,0.000,88.574,3.797,0.235663,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2032,alt,reform_mit_erwerbstaetigenbasis,544.865,1978.388,58.295,88.574,3.797,0.228719,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2032,alt,reform_mit_erwerbstaetigenbasis,544.865,1978.055,57.962,88.574,3.797,0.228757,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2033,alt,status_quo_bund_anteilig,569.198,1950.814,0.000,130.593,3.892,0.222837,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2033,alt,reform_ohne_erweiterte_basis,569.198,1950.814,0.000,83.992,3.892,0.246725,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2033,alt,reform_mit_erwerbstaetigenbasis,569.198,2029.784,78.971,83.992,3.892,0.237126,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2033,alt,reform_mit_erwerbstaetigenbasis,569.198,2029.333,78.520,83.992,3.892,0.237179,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2034,alt,status_quo_bund_anteilig,594.466,1981.871,0.000,136.390,3.989,0.229121,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2034,alt,reform_ohne_erweiterte_basis,594.466,1981.871,0.000,79.464,3.989,0.257844,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2034,alt,reform_mit_erwerbstaetigenbasis,594.466,2082.156,100.285,79.464,3.989,0.245425,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2034,alt,reform_mit_erwerbstaetigenbasis,594.466,2081.583,99.712,79.464,3.989,0.245493,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2035,alt,status_quo_bund_anteilig,620.703,2013.262,0.000,142.410,4.089,0.235541,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2035,alt,reform_ohne_erweiterte_basis,620.703,2013.262,0.000,75.003,4.089,0.269022,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2035,alt,reform_mit_erwerbstaetigenbasis,620.703,2135.510,122.248,75.003,4.089,0.253622,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2035,alt,reform_mit_erwerbstaetigenbasis,620.703,2134.811,121.550,75.003,4.089,0.253705,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2036,alt,status_quo_bund_anteilig,647.943,2044.983,0.000,148.660,4.191,0.242101,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2036,alt,reform_ohne_erweiterte_basis,647.943,2044.983,0.000,70.625,4.191,0.280261,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2036,alt,reform_mit_erwerbstaetigenbasis,647.943,2171.049,126.066,70.625,4.191,0.263987,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2036,alt,reform_mit_erwerbstaetigenbasis,647.943,2170.221,125.238,70.625,4.191,0.264087,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2037,alt,status_quo_bund_anteilig,676.222,2077.033,0.000,155.148,4.296,0.248806,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2037,alt,reform_ohne_erweiterte_basis,676.222,2077.033,0.000,66.341,4.296,0.291563,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2037,alt,reform_mit_erwerbstaetigenbasis,676.222,2206.996,129.963,66.341,4.296,0.274394,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2037,alt,reform_mit_erwerbstaetigenbasis,676.222,2206.035,129.002,66.341,4.296,0.274513,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2038,alt,status_quo_bund_anteilig,705.577,2109.407,0.000,161.883,4.403,0.255660,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2038,alt,reform_ohne_erweiterte_basis,705.577,2109.407,0.000,62.165,4.403,0.302933,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2038,alt,reform_mit_erwerbstaetigenbasis,705.577,2243.346,133.940,62.165,4.403,0.284846,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2038,alt,reform_mit_erwerbstaetigenbasis,705.577,2242.249,132.842,62.165,4.403,0.284986,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2039,alt,status_quo_bund_anteilig,725.865,2149.888,0.000,166.537,4.513,0.258067,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2039,alt,reform_ohne_erweiterte_basis,725.865,2149.888,0.000,58.108,4.513,0.308502,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2039,alt,reform_mit_erwerbstaetigenbasis,725.865,2288.387,138.499,58.108,4.513,0.289831,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2039,alt,reform_mit_erwerbstaetigenbasis,725.865,2287.144,137.256,58.108,4.513,0.289988,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2040,alt,status_quo_bund_anteilig,743.105,2191.075,0.000,170.493,4.626,0.259227,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2040,alt,reform_ohne_erweiterte_basis,743.105,2191.075,0.000,54.176,4.626,0.312314,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2040,alt,reform_mit_erwerbstaetigenbasis,743.105,2334.253,143.179,54.176,4.626,0.293157,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2040,alt,reform_mit_erwerbstaetigenbasis,743.105,2332.860,141.785,54.176,4.626,0.293332,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2041,alt,status_quo_bund_anteilig,760.753,2232.977,0.000,174.542,4.742,0.260401,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2041,alt,reform_ohne_erweiterte_basis,760.753,2232.977,0.000,50.374,4.742,0.316008,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2041,alt,reform_mit_erwerbstaetigenbasis,760.753,2380.960,147.983,50.374,4.742,0.296367,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2041,alt,reform_mit_erwerbstaetigenbasis,760.753,2379.410,146.433,50.374,4.742,0.296560,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2042,alt,status_quo_bund_anteilig,778.820,2275.605,0.000,178.687,4.860,0.261589,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2042,alt,reform_ohne_erweiterte_basis,778.820,2275.605,0.000,46.704,4.860,0.319588,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2042,alt,reform_mit_erwerbstaetigenbasis,778.820,2428.518,152.913,46.704,4.860,0.299465,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2042,alt,reform_mit_erwerbstaetigenbasis,778.820,2426.807,151.202,46.704,4.860,0.299676,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2043,alt,status_quo_bund_anteilig,797.315,2318.969,0.000,182.930,4.982,0.262791,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2043,alt,reform_ohne_erweiterte_basis,797.315,2318.969,0.000,43.166,4.982,0.323061,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2043,alt,reform_mit_erwerbstaetigenbasis,797.315,2476.941,157.972,43.166,4.982,0.302457,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2043,alt,reform_mit_erwerbstaetigenbasis,797.315,2475.064,156.095,43.166,4.982,0.302686,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2044,alt,status_quo_bund_anteilig,816.250,2363.079,0.000,187.275,5.106,0.264007,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2044,alt,reform_ohne_erweiterte_basis,816.250,2363.079,0.000,39.759,5.106,0.326432,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2044,alt,reform_mit_erwerbstaetigenbasis,816.250,2526.241,163.162,39.759,5.106,0.305349,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2044,alt,reform_mit_erwerbstaetigenbasis,816.250,2524.192,161.113,39.759,5.106,0.305596,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2045,alt,status_quo_bund_anteilig,835.633,2407.945,0.000,191.722,5.234,0.265238,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2045,alt,reform_ohne_erweiterte_basis,835.633,2407.945,0.000,36.483,5.234,0.329707,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2045,alt,reform_mit_erwerbstaetigenbasis,835.633,2576.433,168.487,36.483,5.234,0.308146,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2045,alt,reform_mit_erwerbstaetigenbasis,835.633,2574.205,166.260,36.483,5.234,0.308412,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2046,alt,status_quo_bund_anteilig,855.477,2453.578,0.000,196.275,5.365,0.266483,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2046,alt,reform_ohne_erweiterte_basis,855.477,2453.578,0.000,33.337,5.365,0.332892,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2046,alt,reform_mit_erwerbstaetigenbasis,855.477,2627.195,173.617,33.337,5.365,0.310893,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2046,alt,reform_mit_erwerbstaetigenbasis,855.477,2624.804,171.227,33.337,5.365,0.311176,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2047,alt,status_quo_bund_anteilig,875.791,2499.987,0.000,200.935,5.499,0.267744,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2047,alt,reform_ohne_erweiterte_basis,875.791,2499.987,0.000,30.322,5.499,0.335990,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2047,alt,reform_mit_erwerbstaetigenbasis,875.791,2678.861,178.874,30.322,5.499,0.313555,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2047,alt,reform_mit_erwerbstaetigenbasis,875.791,2676.302,176.315,30.322,5.499,0.313855,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2048,alt,status_quo_bund_anteilig,896.587,2547.183,0.000,205.707,5.636,0.269020,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2048,alt,reform_ohne_erweiterte_basis,896.587,2547.183,0.000,27.441,5.636,0.339006,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2048,alt,reform_mit_erwerbstaetigenbasis,896.587,2731.445,184.262,27.441,5.636,0.316137,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2048,alt,reform_mit_erwerbstaetigenbasis,896.587,2728.711,181.529,27.441,5.636,0.316453,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2049,alt,status_quo_bund_anteilig,917.877,2595.176,0.000,210.591,5.777,0.270312,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2049,alt,reform_ohne_erweiterte_basis,917.877,2595.176,0.000,24.700,5.777,0.341942,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2049,alt,reform_mit_erwerbstaetigenbasis,917.877,2784.958,189.782,24.700,5.777,0.318640,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2049,alt,reform_mit_erwerbstaetigenbasis,917.877,2782.046,186.870,24.700,5.777,0.318974,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2050,alt,status_quo_bund_anteilig,939.671,2643.977,0.000,215.592,5.921,0.271620,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2050,alt,reform_ohne_erweiterte_basis,939.671,2643.977,0.000,22.104,5.921,0.344801,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2050,alt,reform_mit_erwerbstaetigenbasis,939.671,2839.415,195.438,22.104,5.921,0.321068,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2050,alt,reform_mit_erwerbstaetigenbasis,939.671,2836.317,192.340,22.104,5.921,0.321419,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2051,alt,status_quo_bund_anteilig,961.982,2693.596,0.000,220.711,6.070,0.272945,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2051,alt,reform_ohne_erweiterte_basis,961.982,2693.596,0.000,19.663,6.070,0.347584,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2051,alt,reform_mit_erwerbstaetigenbasis,961.982,2894.828,201.232,19.663,6.070,0.323422,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2051,alt,reform_mit_erwerbstaetigenbasis,961.982,2891.539,197.943,19.663,6.070,0.323790,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2052,alt,status_quo_bund_anteilig,984.823,2744.044,0.000,225.951,6.221,0.274285,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2052,alt,reform_ohne_erweiterte_basis,984.823,2744.044,0.000,17.384,6.221,0.350292,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2052,alt,reform_mit_erwerbstaetigenbasis,984.823,2951.210,207.167,17.384,6.221,0.325703,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2052,alt,reform_mit_erwerbstaetigenbasis,984.823,2947.725,203.681,17.384,6.221,0.326088,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2053,alt,status_quo_bund_anteilig,1008.206,2795.330,0.000,231.316,6.377,0.275643,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2053,alt,reform_ohne_erweiterte_basis,1008.206,2795.330,0.000,15.279,6.377,0.352928,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2053,alt,reform_mit_erwerbstaetigenbasis,1008.206,3008.575,213.245,15.279,6.377,0.327913,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2053,alt,reform_mit_erwerbstaetigenbasis,1008.206,3004.886,209.556,15.279,6.377,0.328315,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2054,alt,status_quo_bund_anteilig,1032.143,2847.466,0.000,236.808,6.536,0.277018,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2054,alt,reform_ohne_erweiterte_basis,1032.143,2847.466,0.000,13.356,6.536,0.355492,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2054,alt,reform_mit_erwerbstaetigenbasis,1032.143,3066.936,219.470,13.356,6.536,0.330053,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2054,alt,reform_mit_erwerbstaetigenbasis,1032.143,3063.038,215.572,13.356,6.536,0.330473,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2055,alt,status_quo_bund_anteilig,1056.648,2900.461,0.000,242.430,6.700,0.278410,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2055,alt,reform_ohne_erweiterte_basis,1056.648,2900.461,0.000,11.620,6.700,0.357987,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2055,alt,reform_mit_erwerbstaetigenbasis,1056.648,3126.306,225.844,11.620,6.700,0.332126,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2055,alt,reform_mit_erwerbstaetigenbasis,1056.648,3122.192,221.730,11.620,6.700,0.332564,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2056,alt,status_quo_bund_anteilig,1081.734,2954.327,0.000,248.185,6.867,0.279820,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2056,alt,reform_ohne_erweiterte_basis,1081.734,2954.327,0.000,10.073,6.867,0.360418,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2056,alt,reform_mit_erwerbstaetigenbasis,1081.734,3186.697,232.370,10.073,6.867,0.334137,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2056,alt,reform_mit_erwerbstaetigenbasis,1081.734,3182.361,228.034,10.073,6.867,0.334592,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2057,alt,status_quo_bund_anteilig,1107.415,3009.073,0.000,254.078,7.039,0.281249,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2057,alt,reform_ohne_erweiterte_basis,1107.415,3009.073,0.000,8.712,7.039,0.362791,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2057,alt,reform_mit_erwerbstaetigenbasis,1107.415,3248.125,239.052,8.712,7.039,0.336090,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2057,alt,reform_mit_erwerbstaetigenbasis,1107.415,3243.560,234.487,8.712,7.039,0.336563,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2058,alt,status_quo_bund_anteilig,1133.705,3064.710,0.000,260.109,7.215,0.282696,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2058,alt,reform_ohne_erweiterte_basis,1133.705,3064.710,0.000,7.533,7.215,0.365110,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2058,alt,reform_mit_erwerbstaetigenbasis,1133.705,3310.601,245.891,7.533,7.215,0.337992,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2058,alt,reform_mit_erwerbstaetigenbasis,1133.705,3305.800,241.090,7.533,7.215,0.338483,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2059,alt,status_quo_bund_anteilig,1160.619,3121.248,0.000,266.284,7.395,0.284162,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2059,alt,reform_ohne_erweiterte_basis,1160.619,3121.248,0.000,6.524,7.395,0.367385,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2059,alt,reform_mit_erwerbstaetigenbasis,1160.619,3374.139,252.891,6.524,7.395,0.339850,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2059,alt,reform_mit_erwerbstaetigenbasis,1160.619,3369.096,247.848,6.524,7.395,0.340358,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2060,alt,status_quo_bund_anteilig,1188.171,3178.698,0.000,272.606,7.580,0.285647,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2060,alt,reform_ohne_erweiterte_basis,1188.171,3178.698,0.000,5.670,7.580,0.369623,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2060,alt,reform_mit_erwerbstaetigenbasis,1188.171,3438.752,260.054,5.670,7.580,0.341671,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2060,alt,reform_mit_erwerbstaetigenbasis,1188.171,3433.459,254.762,5.670,7.580,0.342197,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2061,alt,status_quo_bund_anteilig,1216.376,3237.069,0.000,279.077,7.770,0.287152,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2061,alt,reform_ohne_erweiterte_basis,1216.376,3237.069,0.000,4.954,7.770,0.371834,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2061,alt,reform_mit_erwerbstaetigenbasis,1216.376,3504.454,267.385,4.954,7.770,0.343464,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2061,alt,reform_mit_erwerbstaetigenbasis,1216.376,3498.904,261.836,4.954,7.770,0.344008,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2062,alt,status_quo_bund_anteilig,1245.250,3296.372,0.000,285.702,7.964,0.288676,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2062,alt,reform_ohne_erweiterte_basis,1245.250,3296.372,0.000,4.358,7.964,0.374026,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2062,alt,reform_mit_erwerbstaetigenbasis,1245.250,3571.257,274.885,4.358,7.964,0.345237,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2062,alt,reform_mit_erwerbstaetigenbasis,1245.250,3565.444,269.072,4.358,7.964,0.345800,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2063,alt,status_quo_bund_anteilig,1274.809,3356.617,0.000,292.483,8.163,0.290222,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2063,alt,reform_ohne_erweiterte_basis,1274.809,3356.617,0.000,3.863,8.163,0.376207,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2063,alt,reform_mit_erwerbstaetigenbasis,1274.809,3639.176,282.559,3.863,8.163,0.346997,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2063,alt,reform_mit_erwerbstaetigenbasis,1274.809,3633.090,276.473,3.863,8.163,0.347578,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2064,alt,status_quo_bund_anteilig,1305.069,3417.814,0.000,299.426,8.367,0.291788,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2064,alt,reform_ohne_erweiterte_basis,1305.069,3417.814,0.000,3.452,8.367,0.378385,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2064,alt,reform_mit_erwerbstaetigenbasis,1305.069,3708.222,290.408,3.452,8.367,0.348752,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2064,alt,reform_mit_erwerbstaetigenbasis,1305.069,3701.857,284.043,3.452,8.367,0.349352,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2065,alt,status_quo_bund_anteilig,1336.047,3479.973,0.000,306.533,8.576,0.293375,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2065,alt,reform_ohne_erweiterte_basis,1336.047,3479.973,0.000,3.109,8.576,0.380567,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2065,alt,reform_mit_erwerbstaetigenbasis,1336.047,3778.410,298.437,3.109,8.576,0.350508,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2065,alt,reform_mit_erwerbstaetigenbasis,1336.047,3771.757,291.784,3.109,8.576,0.351126,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2066,alt,status_quo_bund_anteilig,1367.759,3543.104,0.000,313.809,8.790,0.294984,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2066,alt,reform_ohne_erweiterte_basis,1367.759,3543.104,0.000,2.821,8.790,0.382757,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2066,alt,reform_mit_erwerbstaetigenbasis,1367.759,3849.752,306.647,2.821,8.790,0.352269,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2066,alt,reform_mit_erwerbstaetigenbasis,1367.759,3842.803,299.699,2.821,8.790,0.352906,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2067,alt,status_quo_bund_anteilig,1400.224,3607.217,0.000,321.258,9.010,0.296615,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2067,alt,reform_ohne_erweiterte_basis,1400.224,3607.217,0.000,2.576,9.010,0.384961,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2067,alt,reform_mit_erwerbstaetigenbasis,1400.224,3922.260,315.044,2.576,9.010,0.354040,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2067,alt,reform_mit_erwerbstaetigenbasis,1400.224,3915.008,307.792,2.576,9.010,0.354696,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2068,alt,status_quo_bund_anteilig,1433.458,3672.320,0.000,328.882,9.236,0.298269,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2068,alt,reform_ohne_erweiterte_basis,1433.458,3672.320,0.000,2.366,9.236,0.387182,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2068,alt,reform_mit_erwerbstaetigenbasis,1433.458,3995.948,323.628,2.366,9.236,0.355824,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2068,alt,reform_mit_erwerbstaetigenbasis,1433.458,3988.385,316.064,2.366,9.236,0.356499,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2069,alt,status_quo_bund_anteilig,1467.480,3738.425,0.000,336.688,9.466,0.299946,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2069,alt,reform_ohne_erweiterte_basis,1467.480,3738.425,0.000,2.184,9.466,0.389423,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2069,alt,reform_mit_erwerbstaetigenbasis,1467.480,4070.829,332.405,2.184,9.466,0.357625,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2069,alt,reform_mit_erwerbstaetigenbasis,1467.480,4062.945,324.520,2.184,9.466,0.358319,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
 2070,alt,status_quo_bund_anteilig,1502.308,3805.539,0.000,344.679,9.703,0.301646,Referenz: Bundesmittel behalten 2025er Ausgabenanteil.
 2070,alt,reform_ohne_erweiterte_basis,1502.308,3805.539,0.000,2.024,9.703,0.391687,Bestandsschutz-Zuschuss schmilzt; Beitragsbasis unverändert.
-2070,alt,reform_mit_erwerbstaetigenbasis,1502.308,4146.915,341.376,2.024,9.703,0.359443,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.
+2070,alt,reform_mit_erwerbstaetigenbasis,1502.308,4138.701,333.162,2.024,9.703,0.360157,Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.

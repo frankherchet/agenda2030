@@ -14,5 +14,5 @@ social_insured_employees_2025_mio,34.885,Destatis Arbeitsmarkt-Eckzahlen,Sozialv
 public_service_exempt_2024_mio,1.9557,Destatis öffentlicher Dienst,Beamte/Richter plus Berufs-/Zeitsoldaten als Proxy fuer Neubeamte und neue Dienstherrenbeiträge
 self_employed_effective_coverage,0.75,Arbeitsannahme,Bis 2035 effektiv einbezogener Selbstständigenanteil ab Reformstart 2030
 self_employed_income_factor,0.70,Arbeitsannahme,Bemessungsbasis relativ zu SV-Beschäftigten
-public_service_replacement_ratio,0.80,Arbeitsannahme,"Je Ruhestand werden 0,8 Stellen nachbesetzt; die Nachbesetzung zahlt ab 2030 in die neue Rentenlogik ein"
+public_service_replacement_ratio,0.75,Arbeitsannahme,"Je Ruhestand werden 0,75 Stellen nachbesetzt; die Nachbesetzung zahlt ab 2030 in die neue Rentenlogik ein"
 public_service_income_factor,1.10,Arbeitsannahme,Bemessungsbasis relativ zu SV-Beschäftigten; Proxy für Neubeamte und Dienstherrnbeiträge ab 2030
