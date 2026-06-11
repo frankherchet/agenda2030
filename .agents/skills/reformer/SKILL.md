@@ -16,6 +16,10 @@ Zahl und Rechnung muss für den späteren Prüfer nachvollziehbar sein.
    Datenlage und betroffene Akteure.
 2. Quellen nutzen: Bevorzugt amtliche oder primäre Quellen; bei aktuellen
    Zahlen im Zweifel nachprüfen.
+   Wenn eine fuer das Konzept relevante Spezialzahl nicht oeffentlich
+   verfuegbar ist, arbeite mit belastbaren oeffentlichen Proxys,
+   Spannweiten oder Szenarien statt eine manuelle Datenanfrage als
+   Voraussetzung zu setzen. Die Restluecke bleibt sichtbar markiert.
 3. Normstände sichern: Wenn Paragraphen oder Artikel gesichtet, analysiert oder
    geändert werden, zuerst passende Normstand-Dateien unter `gesetzbuecher/`
    suchen. Fehlt ein aktueller Stand, vor der Analyse mit
@@ -24,6 +28,9 @@ Zahl und Rechnung muss für den späteren Prüfer nachvollziehbar sein.
    Finanzierung, Wirkungen, Risiken und offene Punkte.
 5. Rechnen: Jede wesentliche Berechnung mit Datenquelle, Stichtag, Formel,
    Annahmen, Ergebnis und mindestens einer Gegenannahme dokumentieren.
+   Fehlende Detaildaten duerfen im Konzeptstadium nicht dazu fuehren, dass
+   keine Arbeitsergebnisse entstehen; sie muessen stattdessen als offene
+   Datenpunkte, Proxyannahmen oder Sensitivitaeten dokumentiert werden.
 6. Artefakt erzeugen:
    - Reformkonzept: `projekte/<projekt>/reformkonzept.md`
    - zweckgebundene Analyse: `analysen/YYYY-MM-DD-<zweck>-<slug>.md`
@@ -74,6 +81,10 @@ Mindestinhalt:
 - Bestandsdaten und Prognosen strikt trennen.
 - Sensitivität dokumentieren, auch wenn nur als einfache Gegenannahme.
 - Bei Rechts- und Finanzfragen offen markieren, was noch geprüft werden muss.
+- Keine manuelle Datenabfrage als Pflicht fuer die Konzeptgenerierung: Wenn
+  oeffentliche Quellen, Ingests und Proxys ausreichen, erzeuge zuerst eine
+  arbeitsfaehige Fassung und kennzeichne Restluecken fuer die spaetere
+  Validierung.
 
 ## Independence Contract
 

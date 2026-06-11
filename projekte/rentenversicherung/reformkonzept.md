@@ -205,6 +205,11 @@ staatlich bezahlte Sozialzeiten und allgemeine Haushaltsleistungen transparent.
 Die heutigen Bundeszuschüsse werden nicht abrupt gestrichen, sondern als
 Bestandsschutz-Finanzierung fortgeführt und mit den geschützten Altlasten
 schrittweise abgeschmolzen.
+Dieses Konzept ist bewusst so angelegt, dass es aus oeffentlichen Quellen,
+Ingests und transparenten Proxys oder Szenarien erstellt werden kann. Wenn
+eine Spezialzahl nicht oeffentlich verfuegbar ist, wird sie als Restluecke,
+Bandbreite oder Sensitivitaet gefuehrt, statt die Konzeptfassung von einer
+manuellen Datenabfrage abhaengig zu machen.
 Die demographische Begründung ist zentral: Der Altenquotient steigt nach
 Destatis von 33 im Jahr 2024 auf 43 bis 47 im Jahr 2038 und je nach Variante
 bis 2070 auf 43 bis 61.

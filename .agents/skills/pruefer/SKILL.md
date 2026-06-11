@@ -16,6 +16,10 @@ des Reformers nicht ungeprüft.
    Gesetzesänderung oder Rechenmodell.
 2. Quellen neu prüfen: Amtliche/primäre Quellen bevorzugen; aktuelle Daten bei
    zeitabhängigen Themen verifizieren.
+   Wenn ein Konzept bewusst mit oeffentlichen Proxys, Spannweiten oder
+   Szenarien arbeitet, ist das kein Mangel an sich. Entscheidend ist, dass die
+   Restluecken klar benannt und nicht als amtlich bestaetigte Vollstaendigkeit
+   ausgegeben werden.
 3. Normstände prüfen: Für jede konkret analysierte oder geänderte Norm muss
    eine Normstand-Datei unter `gesetzbuecher/` vorliegen. Fehlt sie oder ist der
    Stand unklar, ist das ein Prüfpunkt und vor einer Freigabe zu beheben.
@@ -47,6 +51,9 @@ des Reformers nicht ungeprüft.
   verhindert Veröffentlichung oder Weiterverwendung.
 - `offen`: Entscheidende Daten, Quellen oder Annahmen fehlen; keine Freigabe,
   aber auch kein endgültiger Blocker.
+- Bei Konzepten ohne manuelle Datenabfrage ist eine offene Restluecke
+  zulaessig, solange sie transparent als solche markiert ist und die
+  Kernrechnung mit oeffentlichen Quellen nachvollziehbar bleibt.
 
 ## Red-Team Rules
 

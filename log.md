@@ -443,3 +443,17 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   Anfragebedarf auf die echte Restluecke: Einzelalter 70 bis 72, altersscharfe
   Abschlags- und Zugangsfaktordaten, EM-Zugaenge 67 bis 72 sowie die amtliche
   Bundesmittel-Ist-Zweckzerlegung 2024 bis 2026.
+
+## 2026-06-11 Regelpflege | Konzepte ohne manuelle Datenabfrage
+
+- Geaendert:
+  `.agents/skills/reformer/SKILL.md`, `.agents/skills/pruefer/SKILL.md`,
+  `projekte/rentenversicherung/README.md`,
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `projekte/rentenversicherung/2026-06-09-status-offene-pruefpunkte.md`
+- Wirkung: Konzeptarbeit im Rentenprojekt kann nun explizit aus oeffentlichen
+  Quellen, Ingests und transparenten Proxys oder Szenarien entstehen, ohne
+  dass eine manuelle Datenabfrage als Vorbedingung gilt. Fehlende Spezialdaten
+  werden als Restluecken fuer die spaetere Validierung gefuehrt; der Pruefer
+  bleibt fuer Freigaben streng, blockiert aber Konzeptfassungen nicht allein
+  wegen nicht oeffentlich verfuegbarer Detaildaten.

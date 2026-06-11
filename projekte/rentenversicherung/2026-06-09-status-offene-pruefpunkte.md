@@ -23,7 +23,11 @@ related_project:
 Status: offen extern.
 Maßnahme: Anfrageentwurf vorbereitet unter
 `projekte/rentenversicherung/2026-06-09-datenanfrage-drv.md`.
-Nächster Schritt: Versand dokumentieren, dann Antwort der DRV auswerten.
+Nächster Schritt: Nur fuer die Endvalidierung relevant; die
+Konzeptentwicklung kann bereits mit den oeffentlichen DRV-Proxys und der
+Analyse `analysen/2026-06-10-drv-rentenzugang-oeffentlich-verfuegbar.md`
+weiterlaufen. Ein Versand ist kein Vorbedingung fuer eine erste belastbare
+Konzeptfassung.
 
 ## 2. Bundesmittel-Ist-Zweckzerlegung 2024–2026
 
@@ -32,7 +36,10 @@ Maßnahme: Negativbefund dokumentiert unter
 `projekte/rentenversicherung/2026-06-09-bundesmittel-zweckzerlegung.md` und
 Anfrageentwurf vorbereitet unter
 `projekte/rentenversicherung/2026-06-09-datenanfrage-bundesmittel-zweckzerlegung.md`.
-Nächster Schritt: Versand dokumentieren und amtliche Rueckmeldung abwarten.
+Nächster Schritt: Nur fuer die Endvalidierung relevant; fuer Konzept- und
+Modellfassungen koennen die oeffentlich verfuegbaren Bundesmittel-Proxys und
+die bereits dokumentierte Restluecke verwendet werden. Ein Versand ist keine
+Voraussetzung fuer die Konzeptarbeit.
 
 ## 3. Konkretisierung des Rückgriffsmechanismus
 
@@ -54,7 +61,8 @@ Nächster Schritt: Heuristik durch echte DRV-Zugangsdaten ersetzen.
 
 - **§ 213a-Ausfallhaftung:** wesentlich verbessert, aber weiter Arbeitsfassung
 - **Rentenzugangskorridor 67-72:** heuristisch unterlegt, noch nicht amtlich validiert
-- **Datengrundlage:** Anfrageentwürfe vorbereitet; Antworten stehen aus
+- **Datengrundlage:** fuer die Konzeptarbeit reichen oeffentliche Quellen und
+  Proxys; Anfrageentwürfe bleiben nur fuer spaetere Endvalidierung relevant
 
 Empfehlung: Nach dokumentiertem Versand und Eingang der DRV-/BMF-Rueckmeldungen
 eine weitere Nachpruefung ausloesen.

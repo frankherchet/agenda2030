@@ -51,3 +51,7 @@ Analysen und spätere Umsetzungsartefakte.
 Neue Quellen werden zuerst unter `ingest/` erfasst. Neue Auswertungen landen
 unter `analysen/`. Projektdateien referenzieren diese Vorarbeiten
 repo-relativ.
+Konzepte werden zunaechst aus oeffentlichen Quellen, bestehenden Ingests und
+transparenten Proxys oder Szenarien gebaut. Fehlende nicht-oeffentliche
+Spezialdaten sind im Konzeptstadium als Restluecken zu markieren und nicht als
+Voraussetzung fuer die erste belastbare Fassung.
