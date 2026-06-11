@@ -51,7 +51,7 @@ RETIREMENT_AGE_SCENARIOS = {
     },
 }
 
-MILESTONES = [2035, 2039, 2040, 2050, 2060, 2070]
+MILESTONES = [2030, 2035, 2039, 2040, 2050, 2060, 2070]
 
 
 def q(value: Decimal, places: str = "0.001") -> Decimal:
@@ -97,7 +97,8 @@ def build_rows() -> list[dict[str, str]]:
             base_old = zukunft.interpolate(points, year, "old_age_m")
             base_expenses = zukunft.projected_expenses(points, year) * calibration
             base_payroll = zukunft.projected_payroll(points, year) + zukunft.expanded_payroll(points, year)
-            federal = abschmelzung[year]
+            status_federal = base_expenses * (zukunft.BASE_FEDERAL_BN / zukunft.BASE_EXPENSES_BN)
+            federal = zukunft.federal_support(year, status_federal, abschmelzung)
             other = zukunft.other_revenues(year)
 
             for age_scenario, schedule in RETIREMENT_AGE_SCENARIOS.items():
@@ -174,8 +175,8 @@ def write_assumptions() -> None:
     rows = [
         ("rentenalter_status_quo", "67", "SGB VI / Modellabgrenzung", "Basisgrenze wie in den bisherigen Demographieartefakten 20-66 zu 67+."),
         ("kohorte_nahe_rentenalter_mio", COHORT_NEAR_RETIREMENT_M, "Arbeitsannahme", "Pauschale Groesse je verschobenem Altersjahr; ersetzt keine Altersjahr-Kohortenrechnung."),
-        ("finnland_ratio_light", "68 ab 2035, 69 ab 2045, 70 ab 2055, 71 ab 2065", "Reformszenario nach finnischer Logik", "Stabilisiert grob das Verhaeltnis Erwerbs-/Rentenphase."),
-        ("daenemark_2040", "68 ab 2030, 69 ab 2035, 70 ab 2040, 72 bis 2070", "Reformszenario nach daenischer Logik", "Harte Vergleichsvariante, nicht als direkte Empfehlung zu lesen."),
+        ("finnland_ratio_light", "68 ab 2035, 69 ab 2045, 70 ab 2055, 71 ab 2065", "Reformszenario nach finnischer Logik", "Stabilisiert grob das Verhaeltnis Erwerbs-/Rentenphase; Reformstart im Modell 2030."),
+        ("daenemark_2040", "68 ab 2030, 69 ab 2035, 70 ab 2040, 72 bis 2070", "Reformszenario nach daenischer Logik", "Harte Vergleichsvariante, nicht als direkte Empfehlung zu lesen; im Modell ab 2030 wirksam."),
         ("kapitalmarkt_basis", AVERAGE_WAGE_2026, "BMAS Rechengroessen 2026", "Vorlaufiges Durchschnittsentgelt 2026."),
         ("kapitalmarkt_zusatzbeitraege", "1 %, 2 %, 3 %", "Arbeitsannahme", "Zusaetzlich zur Umlage, nicht als Umleitung bestehender Umlagebeitraege."),
         ("realrenditen", "1 %, 3 %, 5 %", "Sensitivitaet", "Reale Rendite vor Kosten-/Steuerdetails; Kapitalmarktrisiko bleibt beim System/Versicherten."),
@@ -249,6 +250,7 @@ def write_markdown(rows: list[dict[str, str]], capital_rows: list[dict[str, str]
         "Diese Analyse ergaenzt das Reformkonzept um zwei Szenarien: spaeterer",
         "Renteneintritt durch Kopplung an die Lebenserwartung und ein zusaetzlicher",
         "kapitalgedeckter Baustein nach schwedisch inspiriertem Default-Modell.",
+        "Die Modelljahre 2027 bis 2029 sind Brückenjahre; die Reform wirkt ab 1.1.2030.",
         "",
         "## Renteneintrittsalter-Szenarien",
         "",

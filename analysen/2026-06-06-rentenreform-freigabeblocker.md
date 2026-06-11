@@ -38,7 +38,8 @@ Diese Nachbesserung bearbeitet die im Prüferbericht vom 2026-06-06
 weiter offenen Freigabepunkte. Sie ergänzt eine SGB-VI-Mechanik zur
 Rentenwert-Budgetregel, trennt Brutto-Ausweis und Netto-Haushaltswirkung
 der öffentlichen Beiträge und macht die Grenzen der verfügbaren
-Bundesmittel-Zweckzerlegung explizit. Sie ist noch keine Prüferfreigabe.
+Bundesmittel-Zweckzerlegung explizit. Die Jahre 2027-2029 sind
+Brückenjahre; die Reform greift ab 1.1.2030. Sie ist noch keine Prüferfreigabe.
 
 ## Rentenwertformel
 
@@ -71,18 +72,24 @@ einem Senior-Wage-Faktor von 85 % bewertet.
 
 | Jahr | Szenario | Korridor | Rentenwert-Budgetfaktor | Budgetsaldo vs. Referenz |
 | ---: | --- | --- | ---: | ---: |
-| 2035 | status_quo_67 | 22 % | 89,4 % | -64,9 Mrd. Euro |
-| 2035 | lebenserwartung_gekoppelt_2zu1 | 22 % | 95,0 % | -28,6 Mrd. Euro |
-| 2035 | daenemarknah | 22 % | 100,0 % | 7,1 Mrd. Euro |
-| 2039 | status_quo_67 | 22 % | 80,1 % | -142,0 Mrd. Euro |
-| 2039 | lebenserwartung_gekoppelt_2zu1 | 22 % | 87,3 % | -83,1 Mrd. Euro |
-| 2039 | daenemarknah | 22 % | 95,8 % | -25,2 Mrd. Euro |
-| 2050 | status_quo_67 | 22 % | 74,5 % | -232,9 Mrd. Euro |
-| 2050 | lebenserwartung_gekoppelt_2zu1 | 22 % | 87,5 % | -98,5 Mrd. Euro |
-| 2050 | daenemarknah | 22 % | 94,9 % | -37,1 Mrd. Euro |
-| 2070 | status_quo_67 | 22 % | 71,5 % | -411,2 Mrd. Euro |
-| 2070 | lebenserwartung_gekoppelt_2zu1 | 22 % | 97,0 % | -32,6 Mrd. Euro |
-| 2070 | daenemarknah | 22 % | 100,0 % | 8,6 Mrd. Euro |
+| 2030 | status_quo_67 | 22 % | 100,0 % | 24,6 Mrd. Euro |
+| 2030 | lebenserwartung_gekoppelt_2zu1 | 22 % | 100,0 % | 35,6 Mrd. Euro |
+| 2030 | daenemarknah | 22 % | 100,0 % | 53,9 Mrd. Euro |
+| 2035 | status_quo_67 | 22 % | 91,4 % | -52,7 Mrd. Euro |
+| 2035 | lebenserwartung_gekoppelt_2zu1 | 22 % | 97,2 % | -16,4 Mrd. Euro |
+| 2035 | daenemarknah | 22 % | 100,0 % | 19,3 Mrd. Euro |
+| 2039 | status_quo_67 | 22 % | 81,6 % | -131,0 Mrd. Euro |
+| 2039 | lebenserwartung_gekoppelt_2zu1 | 22 % | 89,0 % | -72,1 Mrd. Euro |
+| 2039 | daenemarknah | 22 % | 97,6 % | -14,2 Mrd. Euro |
+| 2050 | status_quo_67 | 22 % | 75,3 % | -226,1 Mrd. Euro |
+| 2050 | lebenserwartung_gekoppelt_2zu1 | 22 % | 88,3 % | -91,7 Mrd. Euro |
+| 2050 | daenemarknah | 22 % | 95,8 % | -30,3 Mrd. Euro |
+| 2070 | status_quo_67 | 22 % | 71,5 % | -410,8 Mrd. Euro |
+| 2070 | lebenserwartung_gekoppelt_2zu1 | 22 % | 97,0 % | -32,3 Mrd. Euro |
+| 2070 | daenemarknah | 22 % | 100,0 % | 8,9 Mrd. Euro |
+
+Brückenjahre 2027-2029 bleiben im Modell noch status-quo-nah; ab 2030
+greifen die neuen Reformpfade.
 
 Interpretation: Die Lebenserwartungs-Kopplung entlastet weiterhin stark,
 aber weniger optimistisch als die erste Screeningrechnung, weil ältere
@@ -97,6 +104,7 @@ werden und dürfen nicht als kostenloser Entgeltpunkt erscheinen.
 
 | Jahr | Auszuweisende öffentliche Beiträge |
 | ---: | ---: |
+| 2030 | 36,0 Mrd. Euro |
 | 2035 | 40,7 Mrd. Euro |
 | 2039 | 44,9 Mrd. Euro |
 | 2050 | 59,0 Mrd. Euro |
@@ -117,6 +125,7 @@ Leistung oder höhere Bemessungsgrundlage beschlossen wird.
 
 | Jahr | Brutto-Ausweis | bereits in DRV-Finanzierung | Netto-Zusatzeffekt |
 | ---: | ---: | ---: | ---: |
+| 2030 | 36,0 Mrd. Euro | 36,0 Mrd. Euro | 0,0 Mrd. Euro |
 | 2035 | 40,7 Mrd. Euro | 40,7 Mrd. Euro | 0,0 Mrd. Euro |
 | 2039 | 44,9 Mrd. Euro | 44,9 Mrd. Euro | 0,0 Mrd. Euro |
 | 2050 | 59,0 Mrd. Euro | 59,0 Mrd. Euro | 0,0 Mrd. Euro |

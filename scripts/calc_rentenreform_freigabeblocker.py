@@ -74,7 +74,7 @@ SENIOR_EMPLOYMENT_RATES = {
     72: Decimal("0.04"),
 }
 
-MILESTONES = [2035, 2039, 2050, 2070]
+MILESTONES = [2030, 2035, 2039, 2050, 2070]
 
 
 def q(value: Decimal, places: str = "0.001") -> Decimal:
@@ -240,7 +240,8 @@ def build_rows() -> tuple[list[dict[str, str]], list[dict[str, str]]]:
             base_expenses = zukunft.projected_expenses(points, year) * calibration
             base_payroll = zukunft.projected_payroll(points, year) + zukunft.expanded_payroll(points, year)
             payroll_per_million = base_payroll / base_working
-            federal = abschmelzung[year]
+            status_federal = base_expenses * (zukunft.BASE_FEDERAL_BN / zukunft.BASE_EXPENSES_BN)
+            federal = zukunft.federal_support(year, status_federal, abschmelzung)
             other = zukunft.other_revenues(year)
 
             for age_scenario, schedule in RETIREMENT_AGE_SCENARIOS.items():
@@ -306,7 +307,7 @@ def write_assumptions() -> None:
         ("rentenwert_budgetformel", "min(1, Budget / Referenzausgaben)", "Reformformel", "Nominale Schutz- und Übergangsklauseln bleiben gesetzlich auszuformulieren."),
         ("budget", "Beitragsbasis x Beitragssatzkorridor + Bestandsschutz-Zuschuss + sonstige Einnahmen", "Reformformel", "Echte Staatsbeiträge werden separat ausgewiesen; finale Zahlungsströme dürfen nicht doppelt gezählt werden."),
         ("senior_wage_factor", SENIOR_WAGE_FACTOR, "Arbeitsannahme", "Personen oberhalb 67 werden mit 85 % der durchschnittlichen Beitragsbasis je Erwerbsalter-Person angesetzt."),
-        ("senior_employment_rates", "67:20 %, 68:14 %, 69:10 %, 70:7 %, 71:5 %, 72:4 %", "Arbeitsannahme", "Ersetzt die bisherige pauschale Vollverschiebung durch altersjahrspezifische Erwerbsquoten."),
+        ("senior_employment_rates", "67:20 %, 68:14 %, 69:10 %, 70:7 %, 71:5 %, 72:4 %", "Arbeitsannahme", "Ersetzt die bisherige pauschale Vollverschiebung durch altersjahrspezifische Erwerbsquoten; Reformstart 2030."),
         ("near_retirement_cohort", BASE_NEAR_RETIREMENT_COHORT_M, "Arbeitsannahme", "Synthetische Altersjahr-Kohorte, skaliert mit der Entwicklung der 67+-Population."),
         ("live_births_2024", LIVE_BIRTHS_2024, "Destatis", "Basis für Kindererziehungszeiten."),
         ("care_persons", "1,10 Mio.", "DRV", "Rund 1,1 Mio. rentenversicherte Pflegepersonen."),
@@ -393,7 +394,8 @@ def write_markdown(
         "weiter offenen Freigabepunkte. Sie ergänzt eine SGB-VI-Mechanik zur",
         "Rentenwert-Budgetregel, trennt Brutto-Ausweis und Netto-Haushaltswirkung",
         "der öffentlichen Beiträge und macht die Grenzen der verfügbaren",
-        "Bundesmittel-Zweckzerlegung explizit. Sie ist noch keine Prüferfreigabe.",
+        "Bundesmittel-Zweckzerlegung explizit. Die Jahre 2027-2029 sind",
+        "Brückenjahre; die Reform greift ab 1.1.2030. Sie ist noch keine Prüferfreigabe.",
         "",
         "## Rentenwertformel",
         "",
@@ -437,6 +439,9 @@ def write_markdown(
             )
     lines.extend(
         [
+            "",
+            "Brückenjahre 2027-2029 bleiben im Modell noch status-quo-nah; ab 2030",
+            "greifen die neuen Reformpfade.",
             "",
             "Interpretation: Die Lebenserwartungs-Kopplung entlastet weiterhin stark,",
             "aber weniger optimistisch als die erste Screeningrechnung, weil ältere",

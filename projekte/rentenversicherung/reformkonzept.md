@@ -491,6 +491,8 @@ Der Abschmelzpfad wird mit `scripts/calc_rente_bundeszuschuss_abschmelzung.py`
 aus dem DRV-Rentenbestand 2024 und der Destatis-Sterbetafel 2022/2024
 abgeleitet. Die Auswertung steht unter
 `analysen/2026-06-04-bundeszuschuss-abschmelzung.md`.
+Die Modelljahre 2027 bis 2029 sind Brückenjahre; die Reform greift ab
+1.1.2030.
 Politisch gesetzte Kürzungen ohne Bezug zum Versterben der Bestandsrentner sind
 ausgeschlossen, weil sie Bestandsschutz und Vertrauen in bereits erworbene
 Ansprüche verletzen würden.
@@ -505,13 +507,14 @@ Knappschaft-Bahn-See ist zusätzlich als eigene Trägergruppe mit 1.570.011
 Renten erfasst, wird aber im Abschmelzmodell nicht doppelt gezählt, weil diese
 Renten in `rv_gesamt` bereits enthalten sind.
 
-Im Arbeitsmodell bleibt der Bestandsschutz-Zuschuss 2027 vollständig erhalten
-und sinkt danach entsprechend der erwarteten Überlebendenquote der tatsächlichen
-DRV-Bestandsstruktur: von 97,858 Mrd. Euro im Startjahr auf 62,165 Mrd. Euro
-2035, 43,166 Mrd. Euro 2040 und 15,279 Mrd. Euro 2050. Offene Altersgruppen
-`100 und älter` und `105 und älter` werden mit einer expliziten Tail-Regel
-fortgeschrieben. 725 Renten ohne erfasstes Alter bleiben als Restzeilen
-ausgewiesen und werden nicht modelliert.
+Im Arbeitsmodell bleibt der Bestandsschutz-Zuschuss in den Brückenjahren
+2027 bis 2029 vollständig erhalten und startet ab 1.1.2030 auf dem
+Ausgangsniveau. Er sinkt danach entsprechend der erwarteten Überlebendenquote
+der tatsächlichen DRV-Bestandsstruktur: von 97,858 Mrd. Euro im Startjahr auf
+62,165 Mrd. Euro 2035, 43,166 Mrd. Euro 2040 und 15,279 Mrd. Euro 2050.
+Offene Altersgruppen `100 und älter` und `105 und älter` werden mit einer
+expliziten Tail-Regel fortgeschrieben. 725 Renten ohne erfasstes Alter bleiben
+als Restzeilen ausgewiesen und werden nicht modelliert.
 
 ### 2a. Zukunftswirkung bis 2070
 
@@ -657,7 +660,7 @@ Alle neuen Erwerbstätigen werden einbezogen. Für Bestandsgruppen gelten
 Übergangsregeln:
 
 - Bereits erworbene Ansprüche bleiben unangetastet.
-- Neu verbeamtete Personen werden ab Reformstichtag rentenversicherungspflichtig
+- Neu verbeamtete Personen werden ab Reformstichtag 1.1.2030 rentenversicherungspflichtig
   oder der Dienstherr zahlt äquivalente Beiträge in ein transparentes
   Versorgungskonto. Das entlastet die Beamtenpensionslast kurzfristig, weil
   Neubeamte sofort einzahlen und ihre Versorgung in die beitragsgedeckte
@@ -902,7 +905,8 @@ Rentenversicherung muss ohne Kapitalmarktbaustein rechnerisch tragfaehig sein.
   CSV bildet die Reformklassifikation ab. Öffentlich beschafft sind eine
   DRV-Schätzung für 2023 und Bundestagsdrucksache 21/1419; für 2024 bis 2026
   liegen danach keine öffentlichen amtlichen Fortschreibungen vor.
-- Vollständiges Neurentner-Kohortenmodell für die Jahre 2027 bis 2070.
+- Vollständiges Neurentner-Kohortenmodell für die Jahre 2027 bis 2070,
+  mit Brückenjahren 2027 bis 2029 und Reformwirksamkeit ab 1.1.2030.
 - Quantifizierung des Beamten-Neuzugangs als einmalige Entlastung plus
   spätere Rentenlast.
 - Quantifizierung der künftig wegfallenden unbezahlten Rentenpunkte nach Norm

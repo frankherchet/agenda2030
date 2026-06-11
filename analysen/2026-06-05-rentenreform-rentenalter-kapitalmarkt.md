@@ -42,6 +42,7 @@ python3 scripts/calc_rentenreform_rentenalter_kapital.py
 Diese Analyse ergaenzt das Reformkonzept um zwei Szenarien: spaeterer
 Renteneintritt durch Kopplung an die Lebenserwartung und ein zusaetzlicher
 kapitalgedeckter Baustein nach schwedisch inspiriertem Default-Modell.
+Die Modelljahre 2027 bis 2029 sind Brückenjahre; die Reform wirkt ab 1.1.2030.
 
 ## Renteneintrittsalter-Szenarien
 
@@ -55,11 +56,12 @@ kapitalgedeckter Baustein nach schwedisch inspiriertem Default-Modell.
 
 | Jahr | Status quo 67 | Finnland-nahe Kopplung | Daenemark-nahe Kopplung |
 | ---: | ---: | ---: | ---: |
-| 2035 | 25,0 % | 23,2 % | 21,5 % |
-| 2039 | 28,0 % | 25,4 % | 22,9 % |
-| 2040 | 28,2 % | 25,4 % | 22,7 % |
-| 2050 | 29,8 % | 25,0 % | 22,9 % |
-| 2060 | 30,5 % | 23,7 % | 22,3 % |
+| 2030 | 20,7 % | 20,1 % | 19,0 % |
+| 2035 | 24,4 % | 22,6 % | 20,9 % |
+| 2039 | 27,6 % | 24,9 % | 22,4 % |
+| 2040 | 27,8 % | 25,0 % | 22,3 % |
+| 2050 | 29,5 % | 24,7 % | 22,7 % |
+| 2060 | 30,4 % | 23,7 % | 22,2 % |
 | 2070 | 30,9 % | 23,1 % | 21,3 % |
 
 ## Kapitalmarktbaustein

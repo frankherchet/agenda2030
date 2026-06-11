@@ -2,7 +2,7 @@ parameter,wert,quelle,notiz
 rentenwert_budgetformel,"min(1, Budget / Referenzausgaben)",Reformformel,Nominale Schutz- und Übergangsklauseln bleiben gesetzlich auszuformulieren.
 budget,Beitragsbasis x Beitragssatzkorridor + Bestandsschutz-Zuschuss + sonstige Einnahmen,Reformformel,Echte Staatsbeiträge werden separat ausgewiesen; finale Zahlungsströme dürfen nicht doppelt gezählt werden.
 senior_wage_factor,0.85,Arbeitsannahme,Personen oberhalb 67 werden mit 85 % der durchschnittlichen Beitragsbasis je Erwerbsalter-Person angesetzt.
-senior_employment_rates,"67:20 %, 68:14 %, 69:10 %, 70:7 %, 71:5 %, 72:4 %",Arbeitsannahme,Ersetzt die bisherige pauschale Vollverschiebung durch altersjahrspezifische Erwerbsquoten.
+senior_employment_rates,"67:20 %, 68:14 %, 69:10 %, 70:7 %, 71:5 %, 72:4 %",Arbeitsannahme,Ersetzt die bisherige pauschale Vollverschiebung durch altersjahrspezifische Erwerbsquoten; Reformstart 2030.
 near_retirement_cohort,0.95,Arbeitsannahme,"Synthetische Altersjahr-Kohorte, skaliert mit der Entwicklung der 67+-Population."
 live_births_2024,677117,Destatis,Basis für Kindererziehungszeiten.
 care_persons,"1,10 Mio.",DRV,"Rund 1,1 Mio. rentenversicherte Pflegepersonen."

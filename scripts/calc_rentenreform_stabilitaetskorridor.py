@@ -25,7 +25,7 @@ CONTRIBUTION_CAPS = {
     "obergrenze_24_prozent": Decimal("0.24"),
 }
 
-MILESTONES = [2027, 2035, 2039, 2040, 2050, 2060, 2070]
+MILESTONES = [2027, 2030, 2035, 2039, 2040, 2050, 2060, 2070]
 
 
 def q(value: Decimal, places: str = "0.001") -> Decimal:
@@ -54,7 +54,8 @@ def build_rows() -> list[dict[str, str]]:
             payroll_base = zukunft.projected_payroll(points, year)
             payroll_extra = zukunft.expanded_payroll(points, year)
             payroll_total = payroll_base + payroll_extra
-            legacy_federal = abschmelzung[year]
+            status_federal = reference_expenses * (zukunft.BASE_FEDERAL_BN / zukunft.BASE_EXPENSES_BN)
+            legacy_federal = zukunft.federal_support(year, status_federal, abschmelzung)
             other = zukunft.other_revenues(year)
 
             for corridor, cap in CONTRIBUTION_CAPS.items():
@@ -101,9 +102,9 @@ def write_assumptions() -> None:
     rows = [
         ("modell", "Stabilitaetskorridor", "Arbeitsmodell", "Berechnet das maximal finanzierbare Ausgabenvolumen bei fixen Beitragssatz-Obergrenzen."),
         ("beitragssatz_korridore", "20 %, 22 %, 24 %", "Politische Arbeitsannahme", "20 % Zielkorridor, 22 % Stabilitaetskorridor, 24 % harte Obergrenze."),
-        ("beitragsbasis", "Status quo plus Erwerbstaetigenbasis", "scripts/calc_rentenreform_zukunft.py", "Selbststaendige und Neubeamte beziehungsweise neue Dienstherrenbeiträge werden schrittweise einbezogen."),
-        ("bestandsschutz_zuschuss", "abschmelzend", "analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv", "Altzuschuss sinkt proportional zum Bestandsrentner-Modell."),
-        ("referenzausgaben", "Status quo Ausgabenpfad", "scripts/calc_rentenreform_zukunft.py", "Ausgaben mit Demographie und Rentenanpassung, auf 2027 kalibriert."),
+        ("beitragsbasis", "Status quo plus Erwerbstaetigenbasis", "scripts/calc_rentenreform_zukunft.py", "Selbststaendige und Neubeamte beziehungsweise neue Dienstherrenbeiträge werden ab 2030 schrittweise einbezogen."),
+        ("bestandsschutz_zuschuss", "ab 2030 abschmelzend", "analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv", "Altzuschuss bleibt 2027-2029 als Brückenphase erhalten und sinkt ab 2030 proportional zum Bestandsrentner-Modell."),
+        ("referenzausgaben", "Status quo Ausgabenpfad", "scripts/calc_rentenreform_zukunft.py", "Ausgaben mit Demographie und Rentenanpassung, auf 2027 kalibriert; 2027-2029 sind Brückenjahre."),
         ("leistungsfaktor", "leistbares Ausgabenvolumen / Referenzausgaben", "Formel", "Wert 1,0 bedeutet Referenzpfad voll finanzierbar; darunter muss Rentenwert/Leistungsindexierung gedämpft oder externe Finanzierung geschaffen werden."),
     ]
     ASSUMPTIONS_CSV.parent.mkdir(parents=True, exist_ok=True)
@@ -163,11 +164,12 @@ def write_markdown(rows: list[dict[str, str]]) -> None:
         "## Modell",
         "",
         "- Beitragsbasis: Status quo plus schrittweise Erwerbstätigenbasis aus dem",
-        "  bestehenden Zukunftsmodell; Neubeamte wirken darin als zusätzliche Beitragsbasis und spätere Rentenlast.",
-        "- Bundesmittel: nur abschmelzender Bestandsschutz-Zuschuss für Altlasten.",
+        "  bestehenden Zukunftsmodell; Neubeamte wirken darin ab 2030 als zusätzliche Beitragsbasis und spätere Rentenlast.",
+        "- Bundesmittel: 2027-2029 Brückenphase, danach abschmelzender Bestandsschutz-Zuschuss für Altlasten.",
         "- Beitragssatz-Korridore: 20 %, 22 % und 24 %.",
         "- Leistungsfaktor: maximal finanzierbares Ausgabenvolumen geteilt durch",
         "  Referenzausgaben des bisherigen Rentenpfads.",
+        "- Brückenjahre 2027-2029 sind modelliert, aber noch nicht reformwirksam.",
         "",
         "## Kernergebnis moderate Variante",
         "",
@@ -176,7 +178,7 @@ def write_markdown(rows: list[dict[str, str]]) -> None:
     ]
 
     for corridor in CONTRIBUTION_CAPS:
-        for year in [2035, 2039, 2050, 2070]:
+        for year in [2030, 2035, 2039, 2050, 2070]:
             row = keyed[("moderat", corridor, year)]
             lines.append(
                 "| "

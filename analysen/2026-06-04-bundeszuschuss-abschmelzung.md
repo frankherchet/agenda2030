@@ -1,30 +1,3 @@
----
-title: Abschmelzmodell Bestandsschutz-Zuschuss Rentenversicherung
-date: 2026-06-04
-type: analyse
-status: offen
-source_urls:
-  - https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Publikationen/_publikationen-innen-periodensterbetafel.html
-  - https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/statistikband_rente.pdf?__blob=publicationFile&v=5
-  - https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Zahlen-und-Fakten/Kennzahlen-zur-Finanzentwicklung/kennzahlen-zur-finanzentwicklung_node.html?https=1
-  - https://rentenupdate.drv-bund.de/SharedDocs/Dokumente/2025/10_Bundeszuschuesse_nbL/rentenupdate_10_Bundeszuschuesse_nbL_lang.pdf?__blob=publicationFile&v=4
-  - https://dserver.bundestag.de/btd/21/014/2101419.pdf
-ingest_refs:
-  - ingest/links/2026-06-04-destatis-periodensterbetafeln-publikationen.md
-  - ingest/dokumente/2026-06-04-destatis-sterbetafeln-2022-2024.md
-  - ingest/dokumente/2026-06-04-drv-statistikband-rente-2024.md
-  - ingest/links/2026-06-04-drv-finanzkennzahlen-rentenversicherung.md
-  - ingest/dokumente/2026-06-05-drv-rentenupdate-bundeszuschuesse-nicht-beitragsgedeckte-leistungen-2025.md
-  - ingest/dokumente/2026-06-05-bundestag-drs-21-1419-nicht-beitragsgedeckte-leistungen.md
-data_artifacts:
-  - analysen/daten/2026-06-04-drv-rentenbestand-struktur.csv
-  - analysen/daten/2026-06-04-bundesmittel-zerlegung.csv
-  - analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv
-scripts:
-  - scripts/build_drv_renten_inputs.py
-  - scripts/calc_rente_bundeszuschuss_abschmelzung.py
----
-
 # Abschmelzmodell Bestandsschutz-Zuschuss Rentenversicherung
 
 Stand: 2026-06-04
@@ -44,7 +17,8 @@ Bestandskohorte abschmelzen kann.
 
 ## Eingaben
 
-- Reformstichtag: 2027
+- Reformstichtag: 2030
+- Brückenjahre 2027-2029 bleiben vor Reformstart als Status-quo-Phase erhalten.
 - Abschmelzbarer Startwert Bundesmittel 2025: 97,858 Mrd. Euro
 - Modellierte laufende Renten aus DRV-Rentenbestand 2024: 26.086.937 Renten
 - Nicht modellierte Restzeilen ohne Alter: 725 Renten
@@ -59,7 +33,7 @@ Bestandskohorte abschmelzen kann.
 
 ## Modellregel
 
-`Bestandsschutz-Zuschuss(t) = abschmelzbarer Startwert * erwartete Überlebendenzahl Bestandskohorte(t) / Bestandskohorte(2027)`
+`Bestandsschutz-Zuschuss(t) = abschmelzbarer Startwert * erwartete Überlebendenzahl Bestandskohorte(t) / Bestandskohorte(2030)`
 
 Politische Sonderkürzungen sind in diesem Modell ausgeschlossen. Der Zuschuss
 sinkt nur proportional zum erwarteten Versterben der geschützten
@@ -70,13 +44,15 @@ Bestandsrentner-Kohorte.
 | Jahr | Überlebensquote Bestandskohorte | Bestandsschutz-Zuschuss | Jährliche Abschmelzung |
 | --- | ---: | ---: | ---: |
 | 2027 | 100,0 % | 97,858 Mrd. Euro | 0,000 Mrd. Euro |
-| 2030 | 85,8 % | 83,992 Mrd. Euro | 4,582 Mrd. Euro |
-| 2035 | 63,5 % | 62,165 Mrd. Euro | 4,176 Mrd. Euro |
-| 2040 | 44,1 % | 43,166 Mrd. Euro | 3,538 Mrd. Euro |
-| 2045 | 28,0 % | 27,441 Mrd. Euro | 2,880 Mrd. Euro |
-| 2050 | 15,6 % | 15,279 Mrd. Euro | 2,105 Mrd. Euro |
-| 2060 | 3,9 % | 3,863 Mrd. Euro | 0,495 Mrd. Euro |
-| 2070 | 1,7 % | 1,648 Mrd. Euro | 0,111 Mrd. Euro |
+| 2028 | 100,0 % | 97,858 Mrd. Euro | 0,000 Mrd. Euro |
+| 2029 | 100,0 % | 97,858 Mrd. Euro | 0,000 Mrd. Euro |
+| 2030 | 100,0 % | 97,858 Mrd. Euro | 0,000 Mrd. Euro |
+| 2035 | 76,6 % | 75,003 Mrd. Euro | 4,461 Mrd. Euro |
+| 2040 | 55,4 % | 54,176 Mrd. Euro | 3,932 Mrd. Euro |
+| 2045 | 37,3 % | 36,483 Mrd. Euro | 3,276 Mrd. Euro |
+| 2050 | 22,6 % | 22,104 Mrd. Euro | 2,596 Mrd. Euro |
+| 2060 | 5,8 % | 5,670 Mrd. Euro | 0,854 Mrd. Euro |
+| 2070 | 2,1 % | 2,024 Mrd. Euro | 0,160 Mrd. Euro |
 
 Vollständige Jahreswerte:
 
@@ -84,15 +60,13 @@ Vollständige Jahreswerte:
 
 ## Interpretation
 
-- Der Zuschuss bleibt im Reformjahr vollständig erhalten.
+- Der Zuschuss bleibt in den Brückenjahren 2027-2029 vollständig erhalten und startet 2030 auf dem Ausgangsniveau.
 - Danach sinkt er nur mit der erwarteten Überlebendenquote des Altbestands.
-- Neue rentenwirksame Staatsleistungen ab 2027 sind zusätzlich als echte Beiträge zu finanzieren.
+- Neue rentenwirksame Staatsleistungen ab 2030 sind zusätzlich als echte Beiträge zu finanzieren.
 - Die frühere 70/30-Ersatzverteilung wurde durch DRV-Rentenbestandsdaten ersetzt.
 
 ## Restunsicherheiten
 
 - Die Zerlegung der Bundesmittel ist in dieser Fassung eine Reformklassifikation, keine amtliche Zweckzerlegung.
-- Öffentliche amtliche Fortschreibungen nicht beitragsgedeckter Leistungen für
-  2024 bis 2026 liegen nach Bundestagsdrucksache 21/1419 nicht vor.
 - Für Knappschaft-Bahn-See liegt im DRV-Tabellenband nur eine aggregierte Trägertrennung vor.
 - Sterblichkeitsverbesserungen nach 2022/2024 sind noch nicht als Sensitivität modelliert.

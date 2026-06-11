@@ -25,7 +25,8 @@ OUTPUT_CSV = (
     ROOT / "analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv"
 )
 
-REFORM_YEAR = 2027
+PROJECTION_START = 2027
+REFORM_YEAR = 2030
 END_YEAR = 2070
 
 NS = {
@@ -257,10 +258,15 @@ def build_rows() -> tuple[list[dict[str, Decimal | int]], Cohort, Decimal]:
     rows: list[dict[str, Decimal | int]] = []
     previous_zuschuss: Decimal | None = None
 
-    for year in range(REFORM_YEAR, END_YEAR + 1):
-        years_since_start = year - REFORM_YEAR
-        survival = cohort_survival(cohort, male_table, female_table, years_since_start)
-        zuschuss = start * survival
+    for year in range(PROJECTION_START, END_YEAR + 1):
+        if year < REFORM_YEAR:
+            years_since_start = 0
+            survival = Decimal("1")
+            zuschuss = start
+        else:
+            years_since_start = year - REFORM_YEAR
+            survival = cohort_survival(cohort, male_table, female_table, years_since_start)
+            zuschuss = start * survival
         if previous_zuschuss is not None and zuschuss > previous_zuschuss:
             raise ValueError("Bestandsschutz-Zuschuss must not increase")
         annual_decline = (
@@ -296,7 +302,7 @@ def write_csv(rows: list[dict[str, Decimal | int]]) -> None:
 
 
 def milestone_rows(rows: list[dict[str, Decimal | int]]) -> list[dict[str, Decimal | int]]:
-    milestones = {2027, 2030, 2035, 2040, 2045, 2050, 2060, 2070}
+    milestones = {2027, 2028, 2029, 2030, 2035, 2040, 2045, 2050, 2060, 2070}
     return [row for row in rows if row["jahr"] in milestones]
 
 
@@ -326,6 +332,7 @@ def write_markdown(
         "## Eingaben",
         "",
         f"- Reformstichtag: {REFORM_YEAR}",
+        "- Brückenjahre 2027-2029 bleiben vor Reformstart als Status-quo-Phase erhalten.",
         f"- Abschmelzbarer Startwert Bundesmittel 2025: {de(start, '0.001')} Mrd. Euro",
         f"- Modellierte laufende Renten aus DRV-Rentenbestand 2024: {de_int(cohort.included_count)} Renten",
         f"- Nicht modellierte Restzeilen ohne Alter: {de_int(cohort.excluded_count)} Renten",
@@ -355,7 +362,7 @@ def write_markdown(
         "",
         (
             "`Bestandsschutz-Zuschuss(t) = abschmelzbarer Startwert * erwartete "
-            "Überlebendenzahl Bestandskohorte(t) / Bestandskohorte(2027)`"
+            "Überlebendenzahl Bestandskohorte(t) / Bestandskohorte(2030)`"
         ),
         "",
         "Politische Sonderkürzungen sind in diesem Modell ausgeschlossen. Der Zuschuss",
@@ -387,9 +394,9 @@ def write_markdown(
             "",
             "## Interpretation",
             "",
-            "- Der Zuschuss bleibt im Reformjahr vollständig erhalten.",
-            "- Danach sinkt er nur mit der erwarteten Überlebendenquote des Altbestands.",
-            "- Neue rentenwirksame Staatsleistungen ab 2027 sind zusätzlich als echte Beiträge zu finanzieren.",
+        "- Der Zuschuss bleibt in den Brückenjahren 2027-2029 vollständig erhalten und startet 2030 auf dem Ausgangsniveau.",
+        "- Danach sinkt er nur mit der erwarteten Überlebendenquote des Altbestands.",
+        "- Neue rentenwirksame Staatsleistungen ab 2030 sind zusätzlich als echte Beiträge zu finanzieren.",
             "- Die frühere 70/30-Ersatzverteilung wurde durch DRV-Rentenbestandsdaten ersetzt.",
             "",
             "## Restunsicherheiten",

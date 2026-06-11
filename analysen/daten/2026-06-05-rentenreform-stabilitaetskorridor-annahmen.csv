@@ -1,7 +1,7 @@
 parameter,wert,quelle,notiz
 modell,Stabilitaetskorridor,Arbeitsmodell,Berechnet das maximal finanzierbare Ausgabenvolumen bei fixen Beitragssatz-Obergrenzen.
 beitragssatz_korridore,"20 %, 22 %, 24 %",Politische Arbeitsannahme,"20 % Zielkorridor, 22 % Stabilitaetskorridor, 24 % harte Obergrenze."
-beitragsbasis,Status quo plus Erwerbstaetigenbasis,scripts/calc_rentenreform_zukunft.py,Selbststaendige und Neubeamte beziehungsweise neue Dienstherrenbeiträge werden schrittweise einbezogen.
-bestandsschutz_zuschuss,abschmelzend,analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv,Altzuschuss sinkt proportional zum Bestandsrentner-Modell.
-referenzausgaben,Status quo Ausgabenpfad,scripts/calc_rentenreform_zukunft.py,"Ausgaben mit Demographie und Rentenanpassung, auf 2027 kalibriert."
+beitragsbasis,Status quo plus Erwerbstaetigenbasis,scripts/calc_rentenreform_zukunft.py,Selbststaendige und Neubeamte beziehungsweise neue Dienstherrenbeiträge werden ab 2030 schrittweise einbezogen.
+bestandsschutz_zuschuss,ab 2030 abschmelzend,analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv,Altzuschuss bleibt 2027-2029 als Brückenphase erhalten und sinkt ab 2030 proportional zum Bestandsrentner-Modell.
+referenzausgaben,Status quo Ausgabenpfad,scripts/calc_rentenreform_zukunft.py,"Ausgaben mit Demographie und Rentenanpassung, auf 2027 kalibriert; 2027-2029 sind Brückenjahre."
 leistungsfaktor,leistbares Ausgabenvolumen / Referenzausgaben,Formel,"Wert 1,0 bedeutet Referenzpfad voll finanzierbar; darunter muss Rentenwert/Leistungsindexierung gedämpft oder externe Finanzierung geschaffen werden."

@@ -24,6 +24,7 @@ OUTPUT_MD = (
 )
 
 START_YEAR = 2027
+REFORM_YEAR = 2030
 END_YEAR = 2070
 BASE_YEAR = 2025
 
@@ -114,20 +115,28 @@ def rent_index(year: int) -> Decimal:
     return result
 
 
-def ramp(year: int, start: int, end: int, target: Decimal) -> Decimal:
-    if year <= start:
+def phase_in(year: int, start: int, end: int, target: Decimal) -> Decimal:
+    if year < start:
         return Decimal("0")
     if year >= end:
         return target
-    return target * (Decimal(year - start) / Decimal(end - start))
+    span = Decimal(end - start + 1)
+    offset = Decimal(year - start + 1)
+    return target * (offset / span)
 
 
 def public_service_ramp(year: int) -> Decimal:
-    if year <= START_YEAR:
+    if year < REFORM_YEAR:
         return Decimal("0")
     if year <= 2045:
-        return ramp(year, START_YEAR, 2045, Decimal("0.30"))
-    return Decimal("0.30") + ramp(year, 2045, 2070, Decimal("0.40"))
+        return phase_in(year, REFORM_YEAR, 2045, Decimal("0.30"))
+    return Decimal("0.30") + phase_in(year, 2046, 2070, Decimal("0.40"))
+
+
+def federal_support(year: int, status_federal: Decimal, abschmelzung: dict[int, Decimal]) -> Decimal:
+    if year < REFORM_YEAR:
+        return status_federal
+    return abschmelzung[year]
 
 
 def read_abschmelzung() -> dict[int, Decimal]:
@@ -155,7 +164,7 @@ def expanded_payroll(scenario_points: list[ScenarioPoint], year: int) -> Decimal
     base = projected_payroll(scenario_points, year)
     self_ratio = SELF_EMPLOYED_M / SOCIAL_INSURED_EMPLOYEES_M
     public_ratio = PUBLIC_SERVICE_EXEMPT_M / SOCIAL_INSURED_EMPLOYEES_M
-    self_phase = ramp(year, START_YEAR, 2035, SELF_EMPLOYED_EFFECTIVE_COVERAGE)
+    self_phase = phase_in(year, REFORM_YEAR, 2035, SELF_EMPLOYED_EFFECTIVE_COVERAGE)
     public_phase = public_service_ramp(year)
     return base * (
         self_ratio * SELF_EMPLOYED_INCOME_FACTOR * self_phase
@@ -200,7 +209,7 @@ def build_rows() -> list[dict[str, str]]:
             payroll_extra = expanded_payroll(points, year)
             other = other_revenues(year)
             status_federal = expenses * federal_share
-            reform_federal = abschmelzung[year]
+            reform_federal = federal_support(year, status_federal, abschmelzung)
 
             variants = [
                 (
@@ -261,14 +270,14 @@ def write_assumptions() -> None:
         ("nominal_wage_growth", NOMINAL_WAGE_GROWTH, "Arbeitsannahme", "Lohn-/Beitragsbasiswachstum p.a."),
         ("rent_growth_to_2039", RENT_GROWTH_TO_2039, "BMAS Rentenversicherungsbericht 2025", "Plausibilisiert durch gut 45 % Rentenanstieg bis 2039"),
         ("rent_growth_after_2039", RENT_GROWTH_AFTER_2039, "Arbeitsannahme", "Fortschreibung nach 2039"),
-        ("status_quo_2027_rate_target", STATUS_QUO_2027_RATE_TARGET, "BMAS Rentenversicherungsbericht 2025", "Kalibrierung: Beitragssatz bleibt bis 2027 bei 18,6 %"),
-        ("expense_calibration_factor", expense_calibration(), "Modellkalibrierung", "Skaliert Ausgabenpfad auf moderates Status-quo-Szenario 2027"),
+        ("status_quo_2027_rate_target", STATUS_QUO_2027_RATE_TARGET, "BMAS Rentenversicherungsbericht 2025", "Kalibrierung des vorreformlichen Brückenpfads 2027-2029; Reformstart 1.1.2030"),
+        ("expense_calibration_factor", expense_calibration(), "Modellkalibrierung", "Skaliert Ausgabenpfad auf moderates Status-quo-Szenario 2027 und die Brückenjahre 2027-2029"),
         ("self_employed_2025_mio", SELF_EMPLOYED_M, "Destatis Arbeitsmarkt-Eckzahlen", "Selbstständige inkl. mithelfende Familienangehörige"),
         ("social_insured_employees_2025_mio", SOCIAL_INSURED_EMPLOYEES_M, "Destatis Arbeitsmarkt-Eckzahlen", "Sozialversicherungspflichtig Beschäftigte"),
         ("public_service_exempt_2024_mio", PUBLIC_SERVICE_EXEMPT_M, "Destatis öffentlicher Dienst", "Beamte/Richter plus Berufs-/Zeitsoldaten als Proxy fuer Neubeamte und neue Dienstherrenbeiträge"),
-        ("self_employed_effective_coverage", SELF_EMPLOYED_EFFECTIVE_COVERAGE, "Arbeitsannahme", "Bis 2035 effektiv einbezogener Selbstständigenanteil"),
+        ("self_employed_effective_coverage", SELF_EMPLOYED_EFFECTIVE_COVERAGE, "Arbeitsannahme", "Bis 2035 effektiv einbezogener Selbstständigenanteil ab Reformstart 2030"),
         ("self_employed_income_factor", SELF_EMPLOYED_INCOME_FACTOR, "Arbeitsannahme", "Bemessungsbasis relativ zu SV-Beschäftigten"),
-        ("public_service_income_factor", PUBLIC_SERVICE_INCOME_FACTOR, "Arbeitsannahme", "Bemessungsbasis relativ zu SV-Beschäftigten; Proxy für Neubeamte und Dienstherrnbeiträge"),
+        ("public_service_income_factor", PUBLIC_SERVICE_INCOME_FACTOR, "Arbeitsannahme", "Bemessungsbasis relativ zu SV-Beschäftigten; Proxy für Neubeamte und Dienstherrnbeiträge ab 2030"),
     ]
     ASSUMPTIONS_CSV.parent.mkdir(parents=True, exist_ok=True)
     with ASSUMPTIONS_CSV.open("w", encoding="utf-8", newline="") as handle:
@@ -286,7 +295,7 @@ def rows_by_key(rows: list[dict[str, str]]) -> dict[tuple[str, str, int], dict[s
 
 def write_markdown(rows: list[dict[str, str]]) -> None:
     by_key = rows_by_key(rows)
-    milestones = [2027, 2035, 2040, 2050, 2060, 2070]
+    milestones = [2027, 2030, 2035, 2040, 2050, 2060, 2070]
     variants = [
         "status_quo_bund_anteilig",
         "reform_ohne_erweiterte_basis",
@@ -308,7 +317,8 @@ def write_markdown(rows: list[dict[str, str]]) -> None:
         "",
         "Diese Analyse modelliert die Finanzierungswirkung des Reformprojekts",
         "Rentenversicherung bis 2070 und vergleicht Status quo, abschmelzende",
-        "Bundesmittel und erweiterte Erwerbstätigenbasis.",
+        "Bundesmittel und erweiterte Erwerbstätigenbasis. Die Jahre 2027 bis 2029",
+        "sind interpolierte Brückenjahre; die Reform greift ab 1.1.2030.",
         "",
         "## Quellen und Ingests",
         "",
@@ -354,9 +364,10 @@ def write_markdown(rows: list[dict[str, str]]) -> None:
             "",
             "- Bei anteilig fortgeschriebenen Bundesmitteln steigt der rechnerische Beitragssatz im moderaten Szenario bis 2070 auf rund "
             f"{pct(Decimal(by_key[('moderat', variants[0], 2070)]['erforderlicher_beitragssatz']))} %.",
+            "- Die Jahre 2027 bis 2029 sind reine Brückenjahre der Modellierung; die Reformkomponenten starten erst 2030.",
             "- Wenn heutige Bundesmittel wie beschlossen nur mit dem Altbestand abschmelzen und keine neue Beitragsbasis entsteht, steigt der Finanzierungsdruck deutlich stärker.",
             "- Die Erwerbstätigenbasis dämpft den Beitragssatzanstieg, kompensiert den demographischen Druck aber in v1 nicht vollständig.",
-            "- Neubeamte sind in v1 nur als Proxy fuer neue Dienstherrnbeiträge und späte Rentenansprüche modelliert; die kurzfristige Entlastung ist daher real, aber nicht dauerhaft.",
+            "- Neubeamte sind in v1 nur als Proxy fuer neue Dienstherrnbeiträge und späte Rentenansprüche modelliert; die kurzfristige Entlastung setzt ab 2030 ein und ist nicht dauerhaft.",
             "- Eine stabile Rente ist rechnerisch nur darstellbar, wenn Beitragssatz, echte staatliche Beiträge, Erwerbsbasis und Leistungsindexierung gemeinsam festgelegt werden.",
             "",
             "## Artefakte",

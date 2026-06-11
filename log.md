@@ -494,3 +494,33 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   temporär entlastende Beitragsbasis mit späterer Rentenlast. Die bestehende
   Erwerbstätigen- und Stabilitätsrechnung bleibt unverändert, aber ihre
   Annahmen und Begründung sind mit dem Zielbild synchronisiert.
+
+## 2026-06-11 Konzeptpflege | Reformstichtag auf 1.1.2030 verschoben
+
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `scripts/calc_rente_bundeszuschuss_abschmelzung.py`,
+  `scripts/calc_rentenreform_zukunft.py`,
+  `scripts/calc_rentenreform_stabilitaetskorridor.py`,
+  `scripts/calc_rentenreform_rentenalter_kapital.py`,
+  `scripts/calc_rentenreform_freigabeblocker.py`,
+  `analysen/2026-06-04-bundeszuschuss-abschmelzung.md`,
+  `analysen/2026-06-04-rentenreform-zukunft.md`,
+  `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md`,
+  `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md`,
+  `analysen/2026-06-06-rentenreform-freigabeblocker.md`
+- Daten neu geschrieben:
+  `analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv`,
+  `analysen/daten/2026-06-04-rentenreform-zukunft-annahmen.csv`,
+  `analysen/daten/2026-06-04-rentenreform-zukunft-modell.csv`,
+  `analysen/daten/2026-06-05-rentenreform-rentenalter-kapital-annahmen.csv`,
+  `analysen/daten/2026-06-05-rentenreform-rentenalter-kapital.csv`,
+  `analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor-annahmen.csv`,
+  `analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor.csv`,
+  `analysen/daten/2026-06-06-rentenalter-feinmodell-altersjahre.csv`,
+  `analysen/daten/2026-06-06-rentenreform-freigabeblocker-annahmen.csv`,
+  `analysen/daten/2026-06-06-rentenreform-freigabeblocker.csv`
+- Wirkung: Die Reformartefakte behandeln 2027 bis 2029 nun als interpolierte
+  Brückenjahre und starten die Reformwirksamkeit einheitlich ab 1.1.2030.
+  Bundesmittel-, Beitragsbasis- und Rentenalterpfade sind damit zeitlich
+  synchronisiert; der Repo-Check lief erfolgreich durch.

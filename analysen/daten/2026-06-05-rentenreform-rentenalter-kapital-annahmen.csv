@@ -1,8 +1,8 @@
 parameter,wert,quelle,notiz
 rentenalter_status_quo,67,SGB VI / Modellabgrenzung,Basisgrenze wie in den bisherigen Demographieartefakten 20-66 zu 67+.
 kohorte_nahe_rentenalter_mio,0.95,Arbeitsannahme,Pauschale Groesse je verschobenem Altersjahr; ersetzt keine Altersjahr-Kohortenrechnung.
-finnland_ratio_light,"68 ab 2035, 69 ab 2045, 70 ab 2055, 71 ab 2065",Reformszenario nach finnischer Logik,Stabilisiert grob das Verhaeltnis Erwerbs-/Rentenphase.
-daenemark_2040,"68 ab 2030, 69 ab 2035, 70 ab 2040, 72 bis 2070",Reformszenario nach daenischer Logik,"Harte Vergleichsvariante, nicht als direkte Empfehlung zu lesen."
+finnland_ratio_light,"68 ab 2035, 69 ab 2045, 70 ab 2055, 71 ab 2065",Reformszenario nach finnischer Logik,Stabilisiert grob das Verhaeltnis Erwerbs-/Rentenphase; Reformstart im Modell 2030.
+daenemark_2040,"68 ab 2030, 69 ab 2035, 70 ab 2040, 72 bis 2070",Reformszenario nach daenischer Logik,"Harte Vergleichsvariante, nicht als direkte Empfehlung zu lesen; im Modell ab 2030 wirksam."
 kapitalmarkt_basis,51944,BMAS Rechengroessen 2026,Vorlaufiges Durchschnittsentgelt 2026.
 kapitalmarkt_zusatzbeitraege,"1 %, 2 %, 3 %",Arbeitsannahme,"Zusaetzlich zur Umlage, nicht als Umleitung bestehender Umlagebeitraege."
 realrenditen,"1 %, 3 %, 5 %",Sensitivitaet,Reale Rendite vor Kosten-/Steuerdetails; Kapitalmarktrisiko bleibt beim System/Versicherten.
