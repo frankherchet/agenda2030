@@ -101,7 +101,7 @@ def write_assumptions() -> None:
     rows = [
         ("modell", "Stabilitaetskorridor", "Arbeitsmodell", "Berechnet das maximal finanzierbare Ausgabenvolumen bei fixen Beitragssatz-Obergrenzen."),
         ("beitragssatz_korridore", "20 %, 22 %, 24 %", "Politische Arbeitsannahme", "20 % Zielkorridor, 22 % Stabilitaetskorridor, 24 % harte Obergrenze."),
-        ("beitragsbasis", "Status quo plus Erwerbstaetigenbasis", "scripts/calc_rentenreform_zukunft.py", "Selbststaendige und Neuzugaenge oeffentlicher Dienst werden schrittweise einbezogen."),
+        ("beitragsbasis", "Status quo plus Erwerbstaetigenbasis", "scripts/calc_rentenreform_zukunft.py", "Selbststaendige und Neubeamte beziehungsweise neue Dienstherrenbeiträge werden schrittweise einbezogen."),
         ("bestandsschutz_zuschuss", "abschmelzend", "analysen/daten/2026-06-04-bundeszuschuss-abschmelzung.csv", "Altzuschuss sinkt proportional zum Bestandsrentner-Modell."),
         ("referenzausgaben", "Status quo Ausgabenpfad", "scripts/calc_rentenreform_zukunft.py", "Ausgaben mit Demographie und Rentenanpassung, auf 2027 kalibriert."),
         ("leistungsfaktor", "leistbares Ausgabenvolumen / Referenzausgaben", "Formel", "Wert 1,0 bedeutet Referenzpfad voll finanzierbar; darunter muss Rentenwert/Leistungsindexierung gedämpft oder externe Finanzierung geschaffen werden."),
@@ -163,7 +163,7 @@ def write_markdown(rows: list[dict[str, str]]) -> None:
         "## Modell",
         "",
         "- Beitragsbasis: Status quo plus schrittweise Erwerbstätigenbasis aus dem",
-        "  bestehenden Zukunftsmodell.",
+        "  bestehenden Zukunftsmodell; Neubeamte wirken darin als zusätzliche Beitragsbasis und spätere Rentenlast.",
         "- Bundesmittel: nur abschmelzender Bestandsschutz-Zuschuss für Altlasten.",
         "- Beitragssatz-Korridore: 20 %, 22 % und 24 %.",
         "- Leistungsfaktor: maximal finanzierbares Ausgabenvolumen geteilt durch",

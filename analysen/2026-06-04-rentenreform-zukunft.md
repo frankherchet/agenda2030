@@ -91,6 +91,7 @@ aber eine eigene Normen- und Volumenzerlegung.
 - Bei anteilig fortgeschriebenen Bundesmitteln steigt der rechnerische Beitragssatz im moderaten Szenario bis 2070 auf rund 26,1 %.
 - Wenn heutige Bundesmittel wie beschlossen nur mit dem Altbestand abschmelzen und keine neue Beitragsbasis entsteht, steigt der Finanzierungsdruck deutlich stärker.
 - Die Erwerbstätigenbasis dämpft den Beitragssatzanstieg, kompensiert den demographischen Druck aber in v1 nicht vollständig.
+- Neubeamte sind in v1 nur als Proxy fuer neue Dienstherrnbeiträge und spätere Rentenansprüche modelliert; die kurzfristige Entlastung ist daher real, aber nicht dauerhaft.
 - Eine stabile Rente ist rechnerisch nur darstellbar, wenn Beitragssatz, echte staatliche Beiträge, Erwerbsbasis und Leistungsindexierung gemeinsam festgelegt werden.
 
 ## Artefakte
@@ -104,5 +105,5 @@ aber eine eigene Normen- und Volumenzerlegung.
 - Keine amtliche Zweckzerlegung der nicht beitragsgedeckten Leistungen.
 - BMAS-Rentenversicherungsbericht 2025 reicht als amtliche Vergleichsbasis
   nur bis 2039; das Modell läuft bis 2070.
-- Einkommen von Selbstständigen und Neubeamten nur als Bemessungsfaktor modelliert.
+- Einkommen von Selbstständigen und Neubeamten nur als Bemessungsfaktor modelliert; die Beamten-Entlastung ist damit nur als Proxy abgebildet.
 - Sterblichkeitsverbesserungen nach 2022/2024 sind nicht enthalten.

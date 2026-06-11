@@ -38,7 +38,7 @@ werden soll.
 ## Modell
 
 - Beitragsbasis: Status quo plus schrittweise Erwerbstätigenbasis aus dem
-  bestehenden Zukunftsmodell.
+  bestehenden Zukunftsmodell; Neubeamte wirken darin als zusätzliche Beitragsbasis und spätere Rentenlast.
 - Bundesmittel: nur abschmelzender Bestandsschutz-Zuschuss für Altlasten.
 - Beitragssatz-Korridore: 20 %, 22 % und 24 %.
 - Leistungsfaktor: maximal finanzierbares Ausgabenvolumen geteilt durch

@@ -479,3 +479,18 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 - Wirkung: Das freigegebene Rentenkonzept hat nun `publish: true` und wird
   damit vom Pages-Builder als Report aufgenommen. Der öffentliche Report folgt
   damit automatisch aus der freigegebenen Konzeptfassung.
+
+## 2026-06-11 Konzeptpflege | Neubeamte als Beitragsbasis präzisiert
+
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `scripts/calc_rentenreform_zukunft.py`,
+  `scripts/calc_rentenreform_stabilitaetskorridor.py`,
+  `analysen/2026-06-04-rentenreform-zukunft.md`,
+  `analysen/2026-06-05-rentenreform-stabilitaetskorridor.md`,
+  `analysen/daten/2026-06-04-rentenreform-zukunft-annahmen.csv`,
+  `analysen/daten/2026-06-05-rentenreform-stabilitaetskorridor-annahmen.csv`
+- Wirkung: Der Rentenreform-Entwurf beschreibt Neubeamte jetzt explizit als
+  temporär entlastende Beitragsbasis mit späterer Rentenlast. Die bestehende
+  Erwerbstätigen- und Stabilitätsrechnung bleibt unverändert, aber ihre
+  Annahmen und Begründung sind mit dem Zielbild synchronisiert.

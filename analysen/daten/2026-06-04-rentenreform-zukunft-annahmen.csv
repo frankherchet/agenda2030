@@ -11,7 +11,7 @@ status_quo_2027_rate_target,0.186,BMAS Rentenversicherungsbericht 2025,"Kalibrie
 expense_calibration_factor,0.9164269524121726058917220355,Modellkalibrierung,Skaliert Ausgabenpfad auf moderates Status-quo-Szenario 2027
 self_employed_2025_mio,3.666,Destatis Arbeitsmarkt-Eckzahlen,Selbstständige inkl. mithelfende Familienangehörige
 social_insured_employees_2025_mio,34.885,Destatis Arbeitsmarkt-Eckzahlen,Sozialversicherungspflichtig Beschäftigte
-public_service_exempt_2024_mio,1.9557,Destatis öffentlicher Dienst,Beamte/Richter plus Berufs-/Zeitsoldaten
+public_service_exempt_2024_mio,1.9557,Destatis öffentlicher Dienst,Beamte/Richter plus Berufs-/Zeitsoldaten als Proxy fuer Neubeamte und neue Dienstherrenbeiträge
 self_employed_effective_coverage,0.75,Arbeitsannahme,Bis 2035 effektiv einbezogener Selbstständigenanteil
 self_employed_income_factor,0.70,Arbeitsannahme,Bemessungsbasis relativ zu SV-Beschäftigten
-public_service_income_factor,1.10,Arbeitsannahme,Bemessungsbasis relativ zu SV-Beschäftigten
+public_service_income_factor,1.10,Arbeitsannahme,Bemessungsbasis relativ zu SV-Beschäftigten; Proxy fuer Neubeamte und Dienstherrnbeiträge

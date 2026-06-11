@@ -219,7 +219,7 @@ def build_rows() -> list[dict[str, str]]:
                     "reform_mit_erwerbstaetigenbasis",
                     payroll_base + payroll_extra,
                     reform_federal,
-                    "Bestandsschutz schmilzt; Selbstständige und Neuzugänge öffentlicher Dienst erhöhen Beitragsbasis.",
+                    "Bestandsschutz schmilzt; Selbstständige und Neubeamte beziehungsweise neue Dienstherrenbeiträge erhöhen Beitragsbasis.",
                 ),
             ]
             for variant, payroll, federal, note in variants:
@@ -265,10 +265,10 @@ def write_assumptions() -> None:
         ("expense_calibration_factor", expense_calibration(), "Modellkalibrierung", "Skaliert Ausgabenpfad auf moderates Status-quo-Szenario 2027"),
         ("self_employed_2025_mio", SELF_EMPLOYED_M, "Destatis Arbeitsmarkt-Eckzahlen", "Selbstständige inkl. mithelfende Familienangehörige"),
         ("social_insured_employees_2025_mio", SOCIAL_INSURED_EMPLOYEES_M, "Destatis Arbeitsmarkt-Eckzahlen", "Sozialversicherungspflichtig Beschäftigte"),
-        ("public_service_exempt_2024_mio", PUBLIC_SERVICE_EXEMPT_M, "Destatis öffentlicher Dienst", "Beamte/Richter plus Berufs-/Zeitsoldaten"),
+        ("public_service_exempt_2024_mio", PUBLIC_SERVICE_EXEMPT_M, "Destatis öffentlicher Dienst", "Beamte/Richter plus Berufs-/Zeitsoldaten als Proxy fuer Neubeamte und neue Dienstherrenbeiträge"),
         ("self_employed_effective_coverage", SELF_EMPLOYED_EFFECTIVE_COVERAGE, "Arbeitsannahme", "Bis 2035 effektiv einbezogener Selbstständigenanteil"),
         ("self_employed_income_factor", SELF_EMPLOYED_INCOME_FACTOR, "Arbeitsannahme", "Bemessungsbasis relativ zu SV-Beschäftigten"),
-        ("public_service_income_factor", PUBLIC_SERVICE_INCOME_FACTOR, "Arbeitsannahme", "Bemessungsbasis relativ zu SV-Beschäftigten"),
+        ("public_service_income_factor", PUBLIC_SERVICE_INCOME_FACTOR, "Arbeitsannahme", "Bemessungsbasis relativ zu SV-Beschäftigten; Proxy für Neubeamte und Dienstherrnbeiträge"),
     ]
     ASSUMPTIONS_CSV.parent.mkdir(parents=True, exist_ok=True)
     with ASSUMPTIONS_CSV.open("w", encoding="utf-8", newline="") as handle:
@@ -356,6 +356,7 @@ def write_markdown(rows: list[dict[str, str]]) -> None:
             f"{pct(Decimal(by_key[('moderat', variants[0], 2070)]['erforderlicher_beitragssatz']))} %.",
             "- Wenn heutige Bundesmittel wie beschlossen nur mit dem Altbestand abschmelzen und keine neue Beitragsbasis entsteht, steigt der Finanzierungsdruck deutlich stärker.",
             "- Die Erwerbstätigenbasis dämpft den Beitragssatzanstieg, kompensiert den demographischen Druck aber in v1 nicht vollständig.",
+            "- Neubeamte sind in v1 nur als Proxy fuer neue Dienstherrnbeiträge und späte Rentenansprüche modelliert; die kurzfristige Entlastung ist daher real, aber nicht dauerhaft.",
             "- Eine stabile Rente ist rechnerisch nur darstellbar, wenn Beitragssatz, echte staatliche Beiträge, Erwerbsbasis und Leistungsindexierung gemeinsam festgelegt werden.",
             "",
             "## Artefakte",
@@ -367,7 +368,7 @@ def write_markdown(rows: list[dict[str, str]]) -> None:
             "",
             "- Keine vollständige Neurentner-Kohortenrechnung.",
             "- Keine amtliche Zweckzerlegung der nicht beitragsgedeckten Leistungen.",
-            "- Einkommen von Selbstständigen und Neubeamten nur als Bemessungsfaktor modelliert.",
+            "- Einkommen von Selbstständigen und Neubeamten nur als Bemessungsfaktor modelliert; die Beamten-Entlastung ist damit nur als Proxy abgebildet.",
             "- Sterblichkeitsverbesserungen nach 2022/2024 sind nicht enthalten.",
             "",
         ]

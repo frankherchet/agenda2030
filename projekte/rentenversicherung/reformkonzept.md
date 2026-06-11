@@ -258,6 +258,9 @@ Versorgungsdienststellen.
   System.
 - Der Versichertenkreis wird perspektivisch auf alle Erwerbstätigen erweitert:
   abhängig Beschäftigte, Selbständige, neu eintretende Beamte und Abgeordnete.
+  Neue Beamte erhalten keine neue Pension, sondern Rentenansprüche aus
+  Beiträgen; das entlastet die Pensionslast in der Übergangsphase zunächst und
+  verschiebt die Versorgung in die beitragsgedeckte Rentenlogik.
 - Rentenpunkte gibt es künftig nur für Zeiträume, in denen Beiträge tatsächlich
   gezahlt werden.
 - Der Rentenwert folgt einer Umlage-Budgetregel: Innerhalb des Korridors wird
@@ -519,8 +522,9 @@ Varianten:
 - Status quo als Referenz: Bundesmittel behalten ihren Ausgabenanteil von 2025.
 - Reform ohne erweiterte Beitragsbasis: heutige Bundesmittel schmelzen nur mit
   dem Altbestand ab.
-- Reform mit Erwerbstätigenbasis: Selbstständige und Neuzugänge im öffentlichen
-  Dienst erhöhen schrittweise die Beitragsbasis.
+- Reform mit Erwerbstätigenbasis: Selbstständige und Neubeamte beziehungsweise
+  andere Neuzugänge im öffentlichen Dienst erhöhen schrittweise die
+  Beitragsbasis.
 
 Die Ergebnisse stehen unter
 `analysen/2026-06-04-rentenreform-zukunft.md`, die
@@ -655,7 +659,9 @@ Alle neuen Erwerbstätigen werden einbezogen. Für Bestandsgruppen gelten
 - Bereits erworbene Ansprüche bleiben unangetastet.
 - Neu verbeamtete Personen werden ab Reformstichtag rentenversicherungspflichtig
   oder der Dienstherr zahlt äquivalente Beiträge in ein transparentes
-  Versorgungskonto.
+  Versorgungskonto. Das entlastet die Beamtenpensionslast kurzfristig, weil
+  Neubeamte sofort einzahlen und ihre Versorgung in die beitragsgedeckte
+  Rentenlogik verlagert wird.
 - Selbständige zahlen einkommensbezogene Beiträge bis zur
   Beitragsbemessungsgrenze; Mindest- und Übergangsbeiträge verhindern
   Überforderung in Gründungsphasen.
@@ -866,6 +872,9 @@ Rentenversicherung muss ohne Kapitalmarktbaustein rechnerisch tragfaehig sein.
   Beiträge zahlt.
 - Neuzugänge in bislang externe Systeme: Einbeziehung ab T mit klarer
   Beitrags- und Leistungslogik.
+- Neue Beamte: keine neue Pension, sondern Rentenanspruch aus Beiträgen oder
+  äquivalenten Dienstherrbeiträgen; die Übergangsphase bringt zunächst
+  Beitragsentlastung, bevor spätere Rentenansprüche einsetzen.
 - Rentenalter-Kopplung: fruehestens fuer juengere Kohorten und mit
   Vorlaufzeiten von mindestens 10 bis 15 Jahren; Bestandsrentner und
   rentennahe Jahrgaenge werden nicht kurzfristig verschoben.
@@ -894,6 +903,8 @@ Rentenversicherung muss ohne Kapitalmarktbaustein rechnerisch tragfaehig sein.
   DRV-Schätzung für 2023 und Bundestagsdrucksache 21/1419; für 2024 bis 2026
   liegen danach keine öffentlichen amtlichen Fortschreibungen vor.
 - Vollständiges Neurentner-Kohortenmodell für die Jahre 2027 bis 2070.
+- Quantifizierung des Beamten-Neuzugangs als einmalige Entlastung plus
+  spätere Rentenlast.
 - Quantifizierung der künftig wegfallenden unbezahlten Rentenpunkte nach Norm
   und jährlichem Volumen.
 - Politische Festlegung des Beitragssatzkorridors: 20/22/24 % ist weiterhin
