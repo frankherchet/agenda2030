@@ -664,7 +664,8 @@ Alle neuen Erwerbstätigen werden einbezogen. Für Bestandsgruppen gelten
   oder der Dienstherr zahlt äquivalente Beiträge in ein transparentes
   Versorgungskonto. Das entlastet die Beamtenpensionslast kurzfristig, weil
   Neubeamte sofort einzahlen und ihre Versorgung in die beitragsgedeckte
-  Rentenlogik verlagert wird.
+  Rentenlogik verlagert wird. Im Arbeitsmodell wird dafür unterstellt, dass
+  auf jeden Ruhestand 0,8 Nachbesetzungen folgen, die ebenfalls einzahlen.
 - Selbständige zahlen einkommensbezogene Beiträge bis zur
   Beitragsbemessungsgrenze; Mindest- und Übergangsbeiträge verhindern
   Überforderung in Gründungsphasen.
@@ -883,6 +884,9 @@ Rentenversicherung muss ohne Kapitalmarktbaustein rechnerisch tragfaehig sein.
   rentennahe Jahrgaenge werden nicht kurzfristig verschoben.
 - Kapitalmarktbaustein: nur fuer kuenftige Beitragsjahre; bestehende
   Rentenansprueche werden nicht in Kapitalmarktrisiko ueberfuehrt.
+- Öffentlicher Dienst: für jeden Ruhestand werden im Arbeitsmodell 0,8 Stellen
+  nachbesetzt; diese Nachbesetzungen tragen ab 1.1.2030 zur stabileren
+  Beitragsbasis der neuen Rentenlogik bei.
 - Echte öffentliche Beiträge: Bei Zahlungsverzug öffentlicher Träger werden
   Entgeltpunkte nach §-213a-Arbeitsfassung vorläufig gutgeschrieben; der
   Streit über Zahlung, Verzinsung und Ausgleich läuft im Innenverhältnis von

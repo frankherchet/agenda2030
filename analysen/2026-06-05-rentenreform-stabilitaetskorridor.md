@@ -38,7 +38,7 @@ werden soll.
 ## Modell
 
 - Beitragsbasis: Status quo plus schrittweise Erwerbstätigenbasis aus dem
-  bestehenden Zukunftsmodell; Neubeamte wirken darin ab 2030 als zusätzliche Beitragsbasis und spätere Rentenlast.
+  bestehenden Zukunftsmodell; Neubeamte wirken darin ab 2030 als zusätzliche Beitragsbasis und spätere Rentenlast, unterstellt mit 0,8-Nachbesetzungsquote.
 - Bundesmittel: 2027-2029 Brückenphase, danach abschmelzender Bestandsschutz-Zuschuss für Altlasten.
 - Beitragssatz-Korridore: 20 %, 22 % und 24 %.
 - Leistungsfaktor: maximal finanzierbares Ausgabenvolumen geteilt durch
@@ -49,29 +49,29 @@ werden soll.
 
 | Korridor | Jahr | leistbares Volumen | Referenzausgaben | Leistungsfaktor | Luecke vs. Referenz |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| ziel_20_prozent | 2030 | 481,0 Mrd. Euro | 494,3 Mrd. Euro | 97,3 % | 13,3 Mrd. Euro |
-| ziel_20_prozent | 2035 | 514,9 Mrd. Euro | 611,1 Mrd. Euro | 84,3 % | 96,3 Mrd. Euro |
-| ziel_20_prozent | 2039 | 533,7 Mrd. Euro | 711,8 Mrd. Euro | 75,0 % | 178,1 Mrd. Euro |
-| ziel_20_prozent | 2050 | 628,6 Mrd. Euro | 914,8 Mrd. Euro | 68,7 % | 286,2 Mrd. Euro |
-| ziel_20_prozent | 2070 | 940,1 Mrd. Euro | 1443,7 Mrd. Euro | 65,1 % | 503,7 Mrd. Euro |
-| stabil_22_prozent | 2030 | 518,9 Mrd. Euro | 494,3 Mrd. Euro | 105,0 % | -24,6 Mrd. Euro |
-| stabil_22_prozent | 2035 | 558,4 Mrd. Euro | 611,1 Mrd. Euro | 91,4 % | 52,7 Mrd. Euro |
-| stabil_22_prozent | 2039 | 580,8 Mrd. Euro | 711,8 Mrd. Euro | 81,6 % | 131,0 Mrd. Euro |
-| stabil_22_prozent | 2050 | 688,7 Mrd. Euro | 914,8 Mrd. Euro | 75,3 % | 226,1 Mrd. Euro |
-| stabil_22_prozent | 2070 | 1032,9 Mrd. Euro | 1443,7 Mrd. Euro | 71,5 % | 410,8 Mrd. Euro |
-| obergrenze_24_prozent | 2030 | 556,9 Mrd. Euro | 494,3 Mrd. Euro | 112,7 % | -62,6 Mrd. Euro |
-| obergrenze_24_prozent | 2035 | 602,0 Mrd. Euro | 611,1 Mrd. Euro | 98,5 % | 9,1 Mrd. Euro |
-| obergrenze_24_prozent | 2039 | 627,9 Mrd. Euro | 711,8 Mrd. Euro | 88,2 % | 83,9 Mrd. Euro |
-| obergrenze_24_prozent | 2050 | 748,8 Mrd. Euro | 914,8 Mrd. Euro | 81,9 % | 166,0 Mrd. Euro |
-| obergrenze_24_prozent | 2070 | 1125,7 Mrd. Euro | 1443,7 Mrd. Euro | 78,0 % | 318,0 Mrd. Euro |
+| ziel_20_prozent | 2030 | 480,9 Mrd. Euro | 494,3 Mrd. Euro | 97,3 % | 13,4 Mrd. Euro |
+| ziel_20_prozent | 2035 | 514,3 Mrd. Euro | 611,1 Mrd. Euro | 84,2 % | 96,8 Mrd. Euro |
+| ziel_20_prozent | 2039 | 532,7 Mrd. Euro | 711,8 Mrd. Euro | 74,8 % | 179,1 Mrd. Euro |
+| ziel_20_prozent | 2050 | 626,0 Mrd. Euro | 914,8 Mrd. Euro | 68,4 % | 288,8 Mrd. Euro |
+| ziel_20_prozent | 2070 | 932,8 Mrd. Euro | 1443,7 Mrd. Euro | 64,6 % | 511,0 Mrd. Euro |
+| stabil_22_prozent | 2030 | 518,8 Mrd. Euro | 494,3 Mrd. Euro | 105,0 % | -24,5 Mrd. Euro |
+| stabil_22_prozent | 2035 | 557,8 Mrd. Euro | 611,1 Mrd. Euro | 91,3 % | 53,3 Mrd. Euro |
+| stabil_22_prozent | 2039 | 579,7 Mrd. Euro | 711,8 Mrd. Euro | 81,4 % | 132,1 Mrd. Euro |
+| stabil_22_prozent | 2050 | 685,8 Mrd. Euro | 914,8 Mrd. Euro | 75,0 % | 229,0 Mrd. Euro |
+| stabil_22_prozent | 2070 | 1024,9 Mrd. Euro | 1443,7 Mrd. Euro | 71,0 % | 418,9 Mrd. Euro |
+| obergrenze_24_prozent | 2030 | 556,8 Mrd. Euro | 494,3 Mrd. Euro | 112,6 % | -62,4 Mrd. Euro |
+| obergrenze_24_prozent | 2035 | 601,3 Mrd. Euro | 611,1 Mrd. Euro | 98,4 % | 9,8 Mrd. Euro |
+| obergrenze_24_prozent | 2039 | 626,7 Mrd. Euro | 711,8 Mrd. Euro | 88,0 % | 85,1 Mrd. Euro |
+| obergrenze_24_prozent | 2050 | 745,6 Mrd. Euro | 914,8 Mrd. Euro | 81,5 % | 169,2 Mrd. Euro |
+| obergrenze_24_prozent | 2070 | 1117,0 Mrd. Euro | 1443,7 Mrd. Euro | 77,4 % | 326,8 Mrd. Euro |
 
 ## Szenariovergleich 2070
 
 | Szenario | 20 % | 22 % | 24 % |
 | --- | ---: | ---: | ---: |
-| jung | 74,5 % | 81,9 % | 89,3 % |
-| moderat | 65,1 % | 71,5 % | 78,0 % |
-| alt | 56,4 % | 62,0 % | 67,6 % |
+| jung | 74,0 % | 81,3 % | 88,6 % |
+| moderat | 64,6 % | 71,0 % | 77,4 % |
+| alt | 56,0 % | 61,5 % | 67,0 % |
 
 ## Interpretation
 

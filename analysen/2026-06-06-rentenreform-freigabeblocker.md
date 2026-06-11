@@ -72,21 +72,21 @@ einem Senior-Wage-Faktor von 85 % bewertet.
 
 | Jahr | Szenario | Korridor | Rentenwert-Budgetfaktor | Budgetsaldo vs. Referenz |
 | ---: | --- | --- | ---: | ---: |
-| 2030 | status_quo_67 | 22 % | 100,0 % | 24,6 Mrd. Euro |
-| 2030 | lebenserwartung_gekoppelt_2zu1 | 22 % | 100,0 % | 35,6 Mrd. Euro |
-| 2030 | daenemarknah | 22 % | 100,0 % | 53,9 Mrd. Euro |
-| 2035 | status_quo_67 | 22 % | 91,4 % | -52,7 Mrd. Euro |
-| 2035 | lebenserwartung_gekoppelt_2zu1 | 22 % | 97,2 % | -16,4 Mrd. Euro |
-| 2035 | daenemarknah | 22 % | 100,0 % | 19,3 Mrd. Euro |
-| 2039 | status_quo_67 | 22 % | 81,6 % | -131,0 Mrd. Euro |
-| 2039 | lebenserwartung_gekoppelt_2zu1 | 22 % | 89,0 % | -72,1 Mrd. Euro |
-| 2039 | daenemarknah | 22 % | 97,6 % | -14,2 Mrd. Euro |
-| 2050 | status_quo_67 | 22 % | 75,3 % | -226,1 Mrd. Euro |
-| 2050 | lebenserwartung_gekoppelt_2zu1 | 22 % | 88,3 % | -91,7 Mrd. Euro |
-| 2050 | daenemarknah | 22 % | 95,8 % | -30,3 Mrd. Euro |
-| 2070 | status_quo_67 | 22 % | 71,5 % | -410,8 Mrd. Euro |
-| 2070 | lebenserwartung_gekoppelt_2zu1 | 22 % | 97,0 % | -32,3 Mrd. Euro |
-| 2070 | daenemarknah | 22 % | 100,0 % | 8,9 Mrd. Euro |
+| 2030 | status_quo_67 | 22 % | 100,0 % | 24,5 Mrd. Euro |
+| 2030 | lebenserwartung_gekoppelt_2zu1 | 22 % | 100,0 % | 35,5 Mrd. Euro |
+| 2030 | daenemarknah | 22 % | 100,0 % | 53,8 Mrd. Euro |
+| 2035 | status_quo_67 | 22 % | 91,3 % | -53,3 Mrd. Euro |
+| 2035 | lebenserwartung_gekoppelt_2zu1 | 22 % | 97,1 % | -17,0 Mrd. Euro |
+| 2035 | daenemarknah | 22 % | 100,0 % | 18,7 Mrd. Euro |
+| 2039 | status_quo_67 | 22 % | 81,4 % | -132,1 Mrd. Euro |
+| 2039 | lebenserwartung_gekoppelt_2zu1 | 22 % | 88,8 % | -73,2 Mrd. Euro |
+| 2039 | daenemarknah | 22 % | 97,4 % | -15,3 Mrd. Euro |
+| 2050 | status_quo_67 | 22 % | 75,0 % | -229,0 Mrd. Euro |
+| 2050 | lebenserwartung_gekoppelt_2zu1 | 22 % | 88,0 % | -94,6 Mrd. Euro |
+| 2050 | daenemarknah | 22 % | 95,4 % | -33,2 Mrd. Euro |
+| 2070 | status_quo_67 | 22 % | 71,0 % | -418,9 Mrd. Euro |
+| 2070 | lebenserwartung_gekoppelt_2zu1 | 22 % | 96,3 % | -40,4 Mrd. Euro |
+| 2070 | daenemarknah | 22 % | 100,0 % | 0,8 Mrd. Euro |
 
 Brückenjahre 2027-2029 bleiben im Modell noch status-quo-nah; ab 2030
 greifen die neuen Reformpfade.

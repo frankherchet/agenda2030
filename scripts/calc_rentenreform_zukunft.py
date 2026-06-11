@@ -46,6 +46,7 @@ RENT_GROWTH_AFTER_2039 = Decimal("0.023")
 SELF_EMPLOYED_EFFECTIVE_COVERAGE = Decimal("0.75")
 SELF_EMPLOYED_INCOME_FACTOR = Decimal("0.70")
 PUBLIC_SERVICE_INCOME_FACTOR = Decimal("1.10")
+PUBLIC_SERVICE_REPLACEMENT_RATIO = Decimal("0.80")
 STATUS_QUO_2027_RATE_TARGET = Decimal("0.186")
 
 
@@ -165,7 +166,7 @@ def expanded_payroll(scenario_points: list[ScenarioPoint], year: int) -> Decimal
     self_ratio = SELF_EMPLOYED_M / SOCIAL_INSURED_EMPLOYEES_M
     public_ratio = PUBLIC_SERVICE_EXEMPT_M / SOCIAL_INSURED_EMPLOYEES_M
     self_phase = phase_in(year, REFORM_YEAR, 2035, SELF_EMPLOYED_EFFECTIVE_COVERAGE)
-    public_phase = public_service_ramp(year)
+    public_phase = public_service_ramp(year) * PUBLIC_SERVICE_REPLACEMENT_RATIO
     return base * (
         self_ratio * SELF_EMPLOYED_INCOME_FACTOR * self_phase
         + public_ratio * PUBLIC_SERVICE_INCOME_FACTOR * public_phase
@@ -277,6 +278,7 @@ def write_assumptions() -> None:
         ("public_service_exempt_2024_mio", PUBLIC_SERVICE_EXEMPT_M, "Destatis öffentlicher Dienst", "Beamte/Richter plus Berufs-/Zeitsoldaten als Proxy fuer Neubeamte und neue Dienstherrenbeiträge"),
         ("self_employed_effective_coverage", SELF_EMPLOYED_EFFECTIVE_COVERAGE, "Arbeitsannahme", "Bis 2035 effektiv einbezogener Selbstständigenanteil ab Reformstart 2030"),
         ("self_employed_income_factor", SELF_EMPLOYED_INCOME_FACTOR, "Arbeitsannahme", "Bemessungsbasis relativ zu SV-Beschäftigten"),
+        ("public_service_replacement_ratio", PUBLIC_SERVICE_REPLACEMENT_RATIO, "Arbeitsannahme", "Je Ruhestand werden 0,8 Stellen nachbesetzt; die Nachbesetzung zahlt ab 2030 in die neue Rentenlogik ein"),
         ("public_service_income_factor", PUBLIC_SERVICE_INCOME_FACTOR, "Arbeitsannahme", "Bemessungsbasis relativ zu SV-Beschäftigten; Proxy für Neubeamte und Dienstherrnbeiträge ab 2030"),
     ]
     ASSUMPTIONS_CSV.parent.mkdir(parents=True, exist_ok=True)
@@ -367,7 +369,7 @@ def write_markdown(rows: list[dict[str, str]]) -> None:
             "- Die Jahre 2027 bis 2029 sind reine Brückenjahre der Modellierung; die Reformkomponenten starten erst 2030.",
             "- Wenn heutige Bundesmittel wie beschlossen nur mit dem Altbestand abschmelzen und keine neue Beitragsbasis entsteht, steigt der Finanzierungsdruck deutlich stärker.",
             "- Die Erwerbstätigenbasis dämpft den Beitragssatzanstieg, kompensiert den demographischen Druck aber in v1 nicht vollständig.",
-            "- Neubeamte sind in v1 nur als Proxy fuer neue Dienstherrnbeiträge und späte Rentenansprüche modelliert; die kurzfristige Entlastung setzt ab 2030 ein und ist nicht dauerhaft.",
+            "- Neubeamte sind in v1 als Proxy fuer neue Dienstherrnbeiträge und späte Rentenansprüche modelliert; dabei wird eine 0,8-Nachbesetzungsquote je Ruhestand unterstellt. Die kurzfristige Entlastung setzt ab 2030 ein und ist nicht dauerhaft.",
             "- Eine stabile Rente ist rechnerisch nur darstellbar, wenn Beitragssatz, echte staatliche Beiträge, Erwerbsbasis und Leistungsindexierung gemeinsam festgelegt werden.",
             "",
             "## Artefakte",
@@ -380,6 +382,7 @@ def write_markdown(rows: list[dict[str, str]]) -> None:
             "- Keine vollständige Neurentner-Kohortenrechnung.",
             "- Keine amtliche Zweckzerlegung der nicht beitragsgedeckten Leistungen.",
             "- Einkommen von Selbstständigen und Neubeamten nur als Bemessungsfaktor modelliert; die Beamten-Entlastung ist damit nur als Proxy abgebildet.",
+            "- Die 0,8-Nachbesetzungsquote des öffentlichen Dienstes ist eine Arbeitsannahme und keine gemessene Fluktuationsrate.",
             "- Sterblichkeitsverbesserungen nach 2022/2024 sind nicht enthalten.",
             "",
         ]
