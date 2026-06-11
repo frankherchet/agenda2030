@@ -14,23 +14,29 @@ des Reformers nicht ungeprüft.
 
 1. Prüfgegenstand identifizieren: Reformkonzept, Analyse, Maßnahme,
    Gesetzesänderung oder Rechenmodell.
-2. Quellen neu prüfen: Amtliche/primäre Quellen bevorzugen; aktuelle Daten bei
+2. Normative Einordnung prüfen: Wenn ein Vorschlag ein neues Gesetz, einen
+   neuen Paragraphen oder eine neue Verordnung einführen will, zuerst
+   hinterfragen, ob dieselbe Wirkung sauberer durch Änderung bestehender
+   Normen erreicht werden kann. Ein neues Gesetz ist nur dann plausibel,
+   wenn die Integration in bestehende Normen die Systematik, Zuständigkeit
+   oder Vollzugstauglichkeit verschlechtern würde.
+3. Quellen neu prüfen: Amtliche/primäre Quellen bevorzugen; aktuelle Daten bei
    zeitabhängigen Themen verifizieren.
    Wenn ein Konzept bewusst mit oeffentlichen Proxys, Spannweiten oder
    Szenarien arbeitet, ist das kein Mangel an sich. Entscheidend ist, dass die
    Restluecken klar benannt und nicht als amtlich bestaetigte Vollstaendigkeit
    ausgegeben werden.
-3. Normstände prüfen: Für jede konkret analysierte oder geänderte Norm muss
+4. Normstände prüfen: Für jede konkret analysierte oder geänderte Norm muss
    eine Normstand-Datei unter `gesetzbuecher/` vorliegen. Fehlt sie oder ist der
    Stand unklar, ist das ein Prüfpunkt und vor einer Freigabe zu beheben.
-4. Kernannahmen extrahieren: Was muss wahr sein, damit der Vorschlag trägt?
-5. Gegenrechnen: Zentrale Rechnungen unabhängig rekonstruieren oder
+5. Kernannahmen extrahieren: Was muss wahr sein, damit der Vorschlag trägt?
+6. Gegenrechnen: Zentrale Rechnungen unabhängig rekonstruieren oder
    nachvollziehbar verwerfen.
-6. Rechts- und Vollzugsrisiken prüfen: Zuständigkeit, Grundrechte,
+7. Rechts- und Vollzugsrisiken prüfen: Zuständigkeit, Grundrechte,
    Übergangsrecht, Verwaltungsvollzug, Haushaltswirkung.
-7. Prüfbericht unter `projekte/<projekt>/pruefberichte/` mit
+8. Prüfbericht unter `projekte/<projekt>/pruefberichte/` mit
    `vorlagen/pruefbericht.md` erstellen.
-8. Genau einen Status vergeben: `freigegeben`, `blockiert` oder `offen`.
+9. Genau einen Status vergeben: `freigegeben`, `blockiert` oder `offen`.
 
 ## Legal Text Standard
 
@@ -59,6 +65,9 @@ des Reformers nicht ungeprüft.
 
 - Prüfe gegen das Ziel, nicht gegen die politische Wunschrichtung.
 - Suche aktiv nach Fehlanreizen, Verschiebebahnhöfen und versteckten Kosten.
+- Bevorzuge Änderungen bestehender Normen gegenüber neuen Gesetzen, wenn die
+  gleiche Regelungswirkung damit systematisch sauberer und einfacher erreicht
+  werden kann.
 - Trenne Fehler, Risiken, Wertungsfragen und Datenlücken.
 - Dokumentiere die stärkste Gegenposition fair.
 - Keine Freigabe ohne nachvollziehbare Quellen- und Rechenprüfung.

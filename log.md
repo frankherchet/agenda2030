@@ -622,3 +622,12 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   eine nicht existierende amtliche Norm. Zwei Legacy-Dateinamen tragen
   weiterhin `213a`, der Inhalt bezeichnet aber nur noch die geplante
   Änderung von § 213.
+
+## 2026-06-12 Prüfer-Skill | Normintegration vor neuen Gesetzen
+
+- Ergänzt: Der Prüfer-Skill hinterfragt nun ausdrücklich, ob eine Wirkung
+  durch Änderung bestehender Normen statt durch neue Gesetze, Paragraphen
+  oder Verordnungen erreicht werden kann.
+- Wirkung: Neue Rechtskonstrukte sollen künftig als Prüfpunkt markiert werden,
+  wenn sie nicht klar gegenüber einer einfacheren Änderung vorhandener Normen
+  begründet sind.
