@@ -25,5 +25,5 @@ Die Matrix steht unter
   Rentenwertfestsetzung, Beitragssatzbestimmung, Kindererziehungszeiten,
   Bundesmittel und Haltelinien-Erstattung.
 - `sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`:
-  Vollzugsmodell für echte öffentliche Beiträge mit Kontierung, Meldung,
-  Fälligkeit, Prüfung, Verzinsung und Zweckgliederung.
+  Arbeitsfassung für den vorgeschlagenen Ausbau von § 213 mit Kontierung,
+  Meldung, Fälligkeit, Prüfung, Verzinsung und Zweckgliederung.

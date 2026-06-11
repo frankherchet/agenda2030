@@ -66,7 +66,7 @@ sonstige Einnahmen und den festgesetzten aktuellen Rentenwert getrennt aus."
 2. § 158 wird um folgenden Absatz ergänzt:
 
 "Bei der Bestimmung des Beitragssatzes sind der Beitragssatzkorridor nach
-§ 68 Absatz 5a, die Nachhaltigkeitsrücklage und der nach § 213a ausgewiesene
+§ 68 Absatz 5a, die Nachhaltigkeitsrücklage und der nach § 213 ausgewiesene
 Bestandsschutz-Zuschuss getrennt zu berücksichtigen. Ein nicht durch Beiträge,
 echte öffentliche Beiträge, Bestandsschutz-Zuschuss oder sonstige Einnahmen
 gedeckter Mehrbedarf darf nicht durch eine Erhöhung des aktuellen Rentenwerts
@@ -75,7 +75,7 @@ vorweggenommen werden."
 3. § 177 wird um folgenden Satz ergänzt:
 
 "Die Beiträge des Bundes für Kindererziehungszeiten sind ab dem
-Reformstichtag als echte öffentliche Beiträge nach § 213a auszuweisen; sie
+Reformstichtag als echte öffentliche Beiträge nach § 213 auszuweisen; sie
 dürfen weder mit dem Bestandsschutz-Zuschuss noch mit sonstigen
 Steuertransfers saldiert werden."
 
@@ -83,7 +83,7 @@ Steuertransfers saldiert werden."
 
 "Die Zuschüsse des Bundes sind in der Rentenfinanzrechnung getrennt nach
 allgemeinem Bundeszuschuss, zusätzlichem Bundeszuschuss,
-Bestandsschutz-Zuschuss nach § 213a und sonstigen Steuertransfers
+Bestandsschutz-Zuschuss nach § 213 und sonstigen Steuertransfers
 auszuweisen. Zahlungen, die nach anderen Vorschriften als Beiträge für
 rentenwirksame Zeiten geschuldet sind, gelten nicht als Bundeszuschuss im
 Sinne dieser Vorschrift."
@@ -113,7 +113,7 @@ Budget tatsächlich gedeckt sind.
   Nachholbetrag und Zahlungsströme enthalten.
 - Rentenversicherungsbericht und Haushaltsplan müssen dieselbe Trennung von
   Bestandsschutz-Zuschuss, echten Beiträgen und Steuertransfers verwenden.
-- Buchungs- und Prüfverfahren werden in der §-213a-Vollzugsskizze geregelt.
+- Buchungs- und Prüfverfahren werden in der §-213-Vollzugsskizze geregelt.
 
 ## Verfassungsrechtliche Prüfung
 

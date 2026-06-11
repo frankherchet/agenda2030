@@ -41,7 +41,7 @@ Modellfassungen koennen die oeffentlich verfuegbaren Bundesmittel-Proxys und
 die bereits dokumentierte Restluecke verwendet werden. Ein Versand ist keine
 Voraussetzung fuer die Konzeptarbeit.
 
-## 3. Konkretisierung des Rückgriffsmechanismus
+## 3. Konkretisierung des Rückgriffsmechanismus in § 213
 
 Status: als Arbeitsfassung bearbeitet.
 Maßnahme: Entwurf einer Rechtsverordnung erstellt unter
@@ -59,7 +59,7 @@ Nächster Schritt: Heuristik durch echte DRV-Zugangsdaten ersetzen.
 
 ## Gesamtstatus des Reformvorhabens
 
-- **§ 213a-Ausfallhaftung:** wesentlich verbessert, aber weiter Arbeitsfassung
+- **§ 213-Ausfallhaftung:** wesentlich verbessert, aber weiter Arbeitsfassung
 - **Rentenzugangskorridor 67-72:** heuristisch unterlegt, noch nicht amtlich validiert
 - **Datengrundlage:** fuer die Konzeptarbeit reichen oeffentliche Quellen und
   Proxys; Anfrageentwürfe bleiben nur fuer spaetere Endvalidierung relevant

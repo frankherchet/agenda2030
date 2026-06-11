@@ -605,10 +605,20 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 - Aktualisiert:
   zahlreiche Normstand-Dateien unter `gesetzbuecher/` mit echten SGB IV,
   SGB VI, GG und BHO-Normständen aus der aktuellen XML-Fassung
-- Besonderheit: `gesetzbuecher/sgb/sgb-vi-paragraf-213a-stand-2026-06-09.md`
-  konnte nicht aus dem amtlichen XML erzeugt werden und blieb daher
-  unverändert
+- Besonderheit: Der fälschlich als Normstand geführte §-213a-Stand konnte
+  nicht aus dem amtlichen XML erzeugt werden und wurde daher als
+  Arbeitsfassung bereinigt
 - Wirkung: Die bereits lokal referenzierten Normstände tragen jetzt aktuelle
   XML-Download-URLs, Abrufdaten und die frisch extrahierten Normtexte aus dem
   neuen Skill. Die projektinternen Einordnungen ab `## Kurzeinordnung` blieben
   erhalten.
+
+## 2026-06-11 Korrektur | § 213 statt § 213a
+
+- Bereinigt: Der fälschlich als Normstand geführte §-213a-Stand wurde
+  entfernt.
+- Wirkung: Die Arbeitsfassungen wurden auf § 213 zurückgeführt; die
+  Verweise laufen nun auf den geltenden § 213-Normstand und nicht mehr auf
+  eine nicht existierende amtliche Norm. Zwei Legacy-Dateinamen tragen
+  weiterhin `213a`, der Inhalt bezeichnet aber nur noch die geplante
+  Änderung von § 213.

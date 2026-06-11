@@ -182,8 +182,9 @@ related_analyses:
   weil `12421-0002` die Geschlechtsdimension `männlich`, `weiblich` und
   `Insgesamt` enthält und nur `Insgesamt` summenfähig ist. Die Erwerbsbrücke
   nutzt nun `12211-0004` mit `65 bis unter 75 Jahre` statt nur `65 Jahre und
-  mehr`. § 213a enthält eine Ausfallhaftung zugunsten der Versicherten; die
-  Haushaltsfolgeänderung zur BHO ist als Arbeitsfassung angelegt.
+  mehr`. Der vorgeschlagene Ausbau von § 213 enthält eine Ausfallhaftung
+  zugunsten der Versicherten; die Haushaltsfolgeänderung zur BHO ist als
+  Arbeitsfassung angelegt.
 - Viertnachpruefung vom 2026-06-07: keine neuen arithmetischen oder
   Normstand-Blocker. Die Drittnachpruefungs-Kritikpunkte zur Doppelzaehlung,
   Ausfallhaftung und künftigen Haushaltsausweis-Mechanik sind als
@@ -846,8 +847,9 @@ Rentenversicherung muss ohne Kapitalmarktbaustein rechnerisch tragfaehig sein.
 - SGB VI § 213: Bundeszuschuss in abschmelzenden Bestandsschutz-Zuschuss,
   zweckgebundene Beitragszahlungen, Erstattungen und separat ausgewiesene
   Steuertransfers aufteilen.
-- Neuer SGB VI § 213a: Kontierung, Meldung, Prüfung, Fälligkeit, Verzinsung,
-  Sanktionierung und Zweckgliederung öffentlicher Zahlungspflichten regeln;
+- Vorgeschlagener Ausbau von SGB VI § 213: Kontierung, Meldung, Prüfung,
+  Fälligkeit, Verzinsung, Sanktionierung und Zweckgliederung öffentlicher
+  Zahlungspflichten regeln;
   Änderungsskizze:
   `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`.
 - SGB VI §§ 216-217: Nachhaltigkeitsrücklage als Demografie-Puffer neu
@@ -888,7 +890,8 @@ Rentenversicherung muss ohne Kapitalmarktbaustein rechnerisch tragfaehig sein.
   nachbesetzt; diese Nachbesetzungen tragen ab 1.1.2030 zur stabileren
   Beitragsbasis der neuen Rentenlogik bei.
 - Echte öffentliche Beiträge: Bei Zahlungsverzug öffentlicher Träger werden
-  Entgeltpunkte nach §-213a-Arbeitsfassung vorläufig gutgeschrieben; der
+  Entgeltpunkte nach der vorgeschlagenen § 213-Regelung vorläufig
+  gutgeschrieben; der
   Streit über Zahlung, Verzinsung und Ausgleich läuft im Innenverhältnis von
   Zahlungspflichtigem, Bund und Rentenversicherung.
 - Bestandsbeamte und bestehende berufsständische Anwartschaften: keine

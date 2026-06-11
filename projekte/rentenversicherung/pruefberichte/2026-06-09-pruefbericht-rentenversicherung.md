@@ -52,7 +52,7 @@ ingest_refs:
 | Fehlende Bundesmittel-Ist-Zweckzerlegung 2024-2026 bleibt ein Negativbefund | `2026-06-09-bundesmittel-zweckzerlegung.md` | Passt zur bisherigen Analyse `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md`; keine amtliche Zweckzerlegung im Repo beschafft. | ok |
 | Anfrage an die DRV ist vorbereitet | `2026-06-09-datenanfrage-drv.md` | Datei enthält sinnvolle Anforderungsstruktur, aber keinen Versandnachweis. | ok als Entwurf |
 | Szenariokorridor 67-72 ist nur Arbeitsfassung | `2026-06-09-szenariokorridor-67-72.md` | Die zugrunde liegende CSV ist heuristisch und keine amtliche Rentenzugangsstatistik. | ok |
-| Rückgriffsmechanismus unter § 213a ist weiter konkretisiert | Artikelgesetz und Rechtsverordnung | Beide Entwürfe konkretisieren Rückgriff und Haushaltsausweis, ersetzen aber keine abschließende Freigabe. | ok als Arbeitsfassung |
+| Rückgriffsmechanismus unter § 213 ist weiter konkretisiert | Artikelgesetz und Rechtsverordnung | Beide Entwürfe konkretisieren Rückgriff und Haushaltsausweis, ersetzen aber keine abschließende Freigabe. | ok als Arbeitsfassung |
 
 ## Gegenrechnung
 
@@ -74,7 +74,7 @@ ingest_refs:
 
 ## Rechtsprüfung
 
-- Zuständigkeit: Die neuen §-213a-Entwürfe bewegen sich weiterhin im
+- Zuständigkeit: Die neuen §-213-Entwürfe bewegen sich weiterhin im
   plausiblen Bundesrechtsrahmen.
 - Vollzug: Rückgriff und Haushaltsausweis sind konkreter als zuvor, aber
   weiter Arbeitsfassungen.

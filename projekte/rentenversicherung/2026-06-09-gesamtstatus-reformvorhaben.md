@@ -66,7 +66,7 @@ eigene Ist-Zweckzerlegung behaupten.
 
 ---
 
-### 1.3 Punkt 3: Rückgriffsmechanismus unter § 213a SGB VI
+### 1.3 Punkt 3: Rückgriffsmechanismus für den vorgeschlagenen Ausbau von § 213 SGB VI
 **Status:** als Arbeitsfassung bearbeitet
 **Datei:** `gesetzbuecher/sgb/sgb-vi-rechtsverordnung-213a-rueckgriff-stand-2026-06-09.md`  
 **Was wurde getan:**
@@ -130,8 +130,8 @@ abgleichen; Restpunkte zu Rueckgriff und Lastenverteilung offen halten.
 
 ## 3. Reformer-Artefakte im Repository
 
-### Normstand-Dateien
-- ✅ `gesetzbuecher/sgb/sgb-vi-paragraf-213a-stand-2026-06-09.md`
+### Arbeitsfassungen
+- ✅ `gesetzbuecher/sgb/sgb-vi-artikelgesetz-213a-stand-2026-06-09.md`
 - ✅ `gesetzbuecher/sgb/sgb-vi-rechtsverordnung-213a-rueckgriff-stand-2026-06-09.md`
 
 ### Reformkonzept und Maßnahmen
@@ -161,7 +161,7 @@ Nach der Reformer-SKILL.md (`.agents/skills/reformer/SKILL.md`):
 |---|---|---|
 | 1. Ziel & Status quo klären | ✅ | reformkonzept.md |
 | 2. Quellen nutzen | teilweise | Quellen vorhanden, Folgearbeiten mussten formal bereinigt werden |
-| 3. Normstände sichern | ✅ | sgb-vi-paragraf-213a, sgb-vi-rechtsverordnung-213a |
+| 3. Arbeitsfassungen sichern | ✅ | sgb-vi-artikelgesetz-213a, sgb-vi-rechtsverordnung-213a |
 | 4. Reformmodell ausarbeiten | teilweise | szenariokorridor als Arbeitsfassung, nicht als Endmodell |
 | 5. Rechnen | teilweise | heuristische CSV vorhanden, amtliche Validierung offen |
 | 6. Artefakt erzeugen | ✅ | Folgearbeiten und Statusdokumente angelegt |

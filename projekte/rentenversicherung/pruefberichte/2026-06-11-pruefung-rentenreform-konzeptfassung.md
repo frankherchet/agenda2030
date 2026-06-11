@@ -96,7 +96,7 @@ ingest_refs:
   und laufende Renten ist als tragendes Prinzip enthalten.
 - Übergangsrecht: Übergangslogik ist konzeptionell angelegt; die finale
   Kohorten- und Vertrauensschutzstaffel bleibt für Gesetzgebung auszuarbeiten.
-- Vollzug: §-213a-Mechanik, BHO-Ausweis und Rückgriff sind als Arbeitsfassungen
+- Vollzug: die § 213-Mechanik, BHO-Ausweis und Rückgriff sind als Arbeitsfassungen
   ausreichend konkret für die Konzeptfreigabe, aber noch nicht
   vollzugsabschließend.
 

@@ -1,10 +1,10 @@
 ---
-title: Entwurf einer Rechtsverordnung zur Ausgestaltung des Rückgriffs nach § 213a SGB VI
+title: Entwurf einer Rechtsverordnung zur Ausgestaltung des Rückgriffs nach § 213 SGB VI
 date: 2026-06-09
 type: gesetzesaenderung
 publish: false
 normstand_refs:
-  - gesetzbuecher/sgb/sgb-vi-paragraf-213a-stand-2026-06-09.md
+  - gesetzbuecher/sgb/sgb-vi-paragraf-213-stand-2026-06-05.md
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__213.html
 ingest_refs:
@@ -13,16 +13,16 @@ related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
 
-# Entwurf einer Rechtsverordnung zur Ausgestaltung des Rückgriffs nach § 213a SGB VI
+# Entwurf einer Rechtsverordnung zur Ausgestaltung des Rückgriffs nach § 213 SGB VI
 
 ## § 1 Anwendungsbereich
 
-Diese Verordnung regelt die Einzelheiten des Rückgriffs des Bundes gegen Träger der Rentenversicherung nach § 213a Absatz 3 SGB VI.
+Diese Verordnung regelt die Einzelheiten des Rückgriffs des Bundes gegen Träger der Rentenversicherung nach § 213 Absatz 8 SGB VI.
 
 ## § 2 Voraussetzungen des Rückgriffs
 
 Ein Rückgriff ist zulässig, wenn
-1. der Bund Leistungen nach § 213a Absatz 1 SGB VI erbracht hat und
+1. der Bund Leistungen nach § 213 Absatz 6 SGB VI erbracht hat und
 2. diese Leistungen auf einer pflichtwidrigen Handlung oder Unterlassung eines Trägers der Rentenversicherung beruhen.
 
 ## § 3 Umfang des Rückgriffs

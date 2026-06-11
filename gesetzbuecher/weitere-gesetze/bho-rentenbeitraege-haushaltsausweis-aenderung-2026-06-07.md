@@ -38,7 +38,7 @@ Steuertransfers spiegelbildlich zur Rentenfinanzrechnung auszuweisen.
 
 ## Änderungsbedarf
 
-§ 213a SGB VI trennt Zahlungsströme in der Rentenversicherung. Ohne
+§ 213 SGB VI trennt Zahlungsströme in der Rentenversicherung. Ohne
 korrespondierende Haushaltsabbildung bliebe der Prüferpunkt teilweise offen:
 Der Bundeshaushalt könnte weiter pauschale Titel verwenden, obwohl die
 Rentenversicherung getrennte Konten führt. Die Reform braucht deshalb eine
@@ -63,7 +63,7 @@ und in den Erläuterungen getrennt auszuweisen nach
 Die Erläuterungen sind für verbindlich zu erklären. Sie müssen Rechtsgrundlage,
 zuständigen Zahlungspflichtigen, Fälligkeit, Abrechnungszeitraum,
 Bemessungsgrundlage, erwartete Beitragshöhe und Verknüpfung zur
-Rentenfinanzrechnung nach § 213a des Sechsten Buches Sozialgesetzbuch
+Rentenfinanzrechnung nach § 213 des Sechsten Buches Sozialgesetzbuch
 ausweisen. Zahlungen nach Satz 1 dürfen nicht in einem Titel zusammengefasst
 werden, wenn dadurch ihre Zuordnung zu den Nummern 1 bis 5 nicht mehr
 prüffähig ist."
@@ -102,7 +102,7 @@ Neue Zahlungspflichten selbst entstehen erst aus den jeweiligen Fachnormen.
 
 - Vorbereitende Haushaltssystematik: Haushaltsaufstellung 2028.
 - Verbindliche Erläuterungen und Parallelbericht: Haushaltsjahr 2029.
-- Bindende Spiegelung zu § 213a SGB VI: Haushaltsjahr 2032.
+- Bindende Spiegelung zu § 213 SGB VI: Haushaltsjahr 2032.
 
 ## Bezug zu Maßnahmen
 
