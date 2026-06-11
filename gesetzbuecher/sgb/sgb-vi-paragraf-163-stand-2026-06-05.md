@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB VI § 163
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__163.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,20 +14,23 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB VI
+- Gesetz: SGB 6
 - Norm: § 163
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Normtitel: Sonderregelung für beitragspflichtige Einnahmen Beschäftigter
+- Fassung/Stand: 1989-12-18
+- Builddate: 20260531215527
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_6/__163.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__163.html
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Sozialgesetzbuch (SGB) Sechstes Buch (VI) - Gesetzliche Rentenversicherung - (Artikel 1 des Gesetzes v. 18. Dezember 1989, BGBl. I S. 2261, 1990 I S. 1337)§ 163 Sonderregelung für beitragspflichtige Einnahmen Beschäftigter
+Sonderregelung für beitragspflichtige Einnahmen Beschäftigter
 
 ## Normtext
 

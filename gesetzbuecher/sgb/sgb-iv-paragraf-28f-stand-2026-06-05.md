@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB IV § 28f
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_4/__28f.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
+  - https://www.gesetze-im-internet.de/sgb_4/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,25 +14,29 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB IV
+- Gesetz: SGB 4
 - Norm: § 28f
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Normtitel: Aufzeichnungspflicht, Nachweise der Beitragsabrechnung und der Beitragszahlung
+- Fassung/Stand: 1976-12-23
+- Builddate: 20260506175438
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_4/__28f.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_4/__28f.html
+  - https://www.gesetze-im-internet.de/sgb_4/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Sozialgesetzbuch (SGB) Viertes Buch (IV) - Gemeinsame Vorschriften für die Sozialversicherung - (Artikel I des Gesetzes vom 23. Dezember 1976, BGBl. I S. 3845)§ 28f Aufzeichnungspflicht, Nachweise der Beitragsabrechnung und der Beitragszahlung
+Aufzeichnungspflicht, Nachweise der Beitragsabrechnung und der Beitragszahlung
 
 ## Normtext
 
 ```text
-(1) Der Arbeitgeber hat für jeden Beschäftigten, getrennt nach Kalenderjahren, Entgeltunterlagen im Geltungsbereich dieses Gesetzes in deutscher Sprache zu führen und bis zum Ablauf des auf die letzte Prüfung (§ 28p) folgenden Kalenderjahres geordnet aufzubewahren. Satz 1 gilt nicht hinsichtlich der Beschäftigten in privaten Haushalten. Die landwirtschaftliche Krankenkasse kann wegen der mitarbeitenden Familienangehörigen Ausnahmen zulassen. Für die Aufbewahrung der Beitragsabrechnungen und der Beitragsnachweise gilt Satz 1.
+(1) Der Arbeitgeber hat für jeden Beschäftigten, getrennt nach Kalenderjahren, Entgeltunterlagen im Geltungsbereich dieses Gesetzes in deutscher Sprache zu führen und bis zum Ablauf des auf die letzte Prüfung (§ 28p) folgenden Kalenderjahres geordnet aufzubewahren. Satz 1 gilt nicht hinsichtlich der Beschäftigten in privaten Haushalten. Die landwirtschaftliche Krankenkasse kann wegen der mitarbeitenden Familienangehörigen Ausnahmen zulassen. Für die Aufbewahrung der Beitragsabrechnungen und der Beitragsnachweise gilt Satz
+1.
 
 (1a) Bei der Ausführung eines Dienst- oder Werkvertrages im Baugewerbe oder durch Unternehmer im Speditions-, Transport- und damit verbundenen Logistikgewerbe, die im Bereich der Kurier-, Express- und Paketdienste tätig sind und im Auftrag eines anderen Unternehmers Pakete befördern, hat der Unternehmer die Entgeltunterlagen und die Beitragsabrechnung so zu gestalten, dass eine Zuordnung der Arbeitnehmer, des Arbeitsentgelts und des darauf entfallenden Gesamtsozialversicherungsbeitrags zu dem jeweiligen Dienst- oder Werkvertrag möglich ist. Die Pflicht nach Satz 1 ruht für einen Unternehmer im Speditions-, Transport- und damit verbundenen Logistikgewerbe, der im Bereich der Kurier-, Express- und Paketdienste tätig ist, solange er eine Präqualifikation oder eine Unbedenklichkeitsbescheinigung im Sinne von § 28e Absatz 3f Satz 1 und 2 oder eine Unbedenklichkeitsbescheinigung nach § 150 Absatz 3 Satz 2 des Siebten Buches vorlegen kann.
 

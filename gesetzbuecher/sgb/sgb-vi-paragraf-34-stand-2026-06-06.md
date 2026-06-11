@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB VI § 34
-date: 2026-06-06
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__34.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,13 +14,16 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB VI
+- Gesetz: SGB 6
 - Norm: § 34
-- Fassung/Stand: amtliche XML-Fassung bei Gesetze im Internet, builddate 20260531215528, abgerufen am 2026-06-06
-- Abrufdatum: 2026-06-06
+- Normtitel: Voraussetzungen für einen Rentenanspruch
+- Fassung/Stand: 1989-12-18
+- Builddate: 20260531215527
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_6/__34.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__34.html
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
 - Status: geltender Normstand
@@ -33,13 +35,9 @@ Voraussetzungen für einen Rentenanspruch
 ## Normtext
 
 ```text
-(1) Versicherte und ihre Hinterbliebenen haben Anspruch auf Rente, wenn die für die
-jeweilige Rente erforderliche Mindestversicherungszeit (Wartezeit) erfüllt ist und die
-jeweiligen besonderen versicherungsrechtlichen und persönlichen Voraussetzungen
-vorliegen.
+(1) Versicherte und ihre Hinterbliebenen haben Anspruch auf Rente, wenn die für die jeweilige Rente erforderliche Mindestversicherungszeit (Wartezeit) erfüllt ist und die jeweiligen besonderen versicherungsrechtlichen und persönlichen Voraussetzungen vorliegen.
 
-(2) Nach bindender Bewilligung einer Rente wegen Alters oder für Zeiten des Bezugs einer
-solchen Rente ist der Wechsel ausgeschlossen in eine
+(2) Nach bindender Bewilligung einer Rente wegen Alters oder für Zeiten des Bezugs einer solchen Rente ist der Wechsel ausgeschlossen in eine
 1. Rente wegen verminderter Erwerbsfähigkeit,
 2. Erziehungsrente oder
 3. andere Rente wegen Alters.

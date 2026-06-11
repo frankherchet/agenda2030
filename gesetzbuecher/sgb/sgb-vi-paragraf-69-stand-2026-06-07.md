@@ -1,12 +1,13 @@
 ---
 title: SGB VI § 69 Normstand
-date: 2026-06-07
+date: 2026-06-11
 type: normstand
 gesetz: SGB VI
 norm: § 69
 status: geltender_normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__69.html
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
 ---

@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB IV § 28q
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_4/__28q.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
+  - https://www.gesetze-im-internet.de/sgb_4/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,34 +14,36 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB IV
+- Gesetz: SGB 4
 - Norm: § 28q
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Normtitel: Prüfung bei den Einzugsstellen und den Trägern der Rentenversicherung
+- Fassung/Stand: 1976-12-23
+- Builddate: 20260506175438
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_4/__28q.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_4/__28q.html
+  - https://www.gesetze-im-internet.de/sgb_4/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Sozialgesetzbuch (SGB) Viertes Buch (IV) - Gemeinsame Vorschriften für die Sozialversicherung - (Artikel I des Gesetzes vom 23. Dezember 1976, BGBl. I S. 3845)§ 28q Prüfung bei den Einzugsstellen und den Trägern der Rentenversicherung
+Prüfung bei den Einzugsstellen und den Trägern der Rentenversicherung
 
 ## Normtext
 
 ```text
 (1) Die Träger der Rentenversicherung und die Bundesagentur für Arbeit prüfen bei den Einzugsstellen die Durchführung der Aufgaben, für die die Einzugsstellen eine Vergütung nach § 28l Absatz 1 erhalten, mindestens alle vier Jahre. Satz 1 gilt auch im Verhältnis der Deutschen Rentenversicherung Bund zur Künstlersozialkasse. Die Deutsche Rentenversicherung Bund speichert in dem in § 28p Absatz 8 Satz 1 genannten Dateisystem Daten aus dem Bescheid des Trägers der Rentenversicherung nach § 28p Absatz 1 Satz 5, soweit dies für die Prüfung bei den Einzugsstellen nach Satz 1 erforderlich ist. Sie darf diese Daten nur für die Prüfung bei den Einzugsstellen speichern, verändern, nutzen, übermitteln oder in der Verarbeitung einschränken. Die Datenstelle der Träger der Rentenversicherung hat auf Anforderung des prüfenden Trägers der Rentenversicherung die folgenden Angaben zu übermitteln, soweit dies für die Prüfung nach Satz 1 erforderlich ist:
-1.
-die in dem Dateisystem nach § 28p Absatz 8 Satz 3 gespeicherten Daten,
-2.
-die in dem Dateisystem nach § 212a Absatz 5 Satz 3 des Sechsten Buches gespeicherten Daten und
-3.
-die in den Versicherungskonten der Rentenversicherung gespeicherten Daten der sonstigen Versicherten, für die Pflichtbeiträge zu zahlen waren oder zu zahlen sind.
+1. die in dem Dateisystem nach § 28p Absatz 8 Satz 3 gespeicherten Daten,
+2. die in dem Dateisystem nach § 212a Absatz 5 Satz 3 des Sechsten Buches gespeicherten Daten und
+3. die in den Versicherungskonten der Rentenversicherung gespeicherten Daten der sonstigen Versicherten, für die Pflichtbeiträge zu zahlen waren oder zu zahlen sind.
+
 Die Übermittlung darf auch durch Abruf im automatisierten Verfahren erfolgen, ohne dass es einer Genehmigung nach § 79 Absatz 1 des Zehnten Buches bedarf.
 
-(1a) Die Träger der Rentenversicherung und die Bundesagentur für Arbeit prüfen bei den Einzugsstellen für das Bundesamt für Soziale Sicherung als Verwalter des Gesundheitsfonds im Hinblick auf die Krankenversicherungsbeiträge im Sinne des § 28d Absatz 1 Satz 1 die Geltendmachung der Beitragsansprüche, den Einzug, die Verwaltung, die Weiterleitung und die Abrechnung der Beiträge entsprechend § 28l Absatz 1 Satz 1 Nummer 1 und 2. Absatz 1 Satz 3 und 4 gilt entsprechend. Die mit der Prüfung nach Satz 1 befassten Stellen übermitteln dem Bundesamt für Soziale Sicherung als Verwalter des Gesundheitsfonds die zur Geltendmachung der in § 28r Absatz 1 und 2 bezeichneten Rechte erforderlichen Prüfungsergebnisse. Die durch die Aufgabenübertragung und -wahrnehmung entstehenden Kosten sind den Trägern der Rentenversicherung und der Bundesagentur für Arbeit aus den Einnahmen des Gesundheitsfonds zu erstatten. Die Einzelheiten des Verfahrens und der Vergütung vereinbaren die Träger der Rentenversicherung und die Bundesagentur für Arbeit mit dem Bundesamt für Soziale Sicherung als Verwalter des Gesundheitsfonds.
+(1a) Die Träger der Rentenversicherung und die Bundesagentur für Arbeit prüfen bei den Einzugsstellen für das Bundesamt für Soziale Sicherung als Verwalter des Gesundheitsfonds im Hinblick auf die Krankenversicherungsbeiträge im Sinne des § 28d Absatz 1 Satz 1 die Geltendmachung der Beitragsansprüche, den Einzug, die Verwaltung, die Weiterleitung und die Abrechnung der Beiträge entsprechend § 28l Absatz 1 Satz 1 Nummer 1 und
+2. Absatz 1 Satz 3 und 4 gilt entsprechend. Die mit der Prüfung nach Satz 1 befassten Stellen übermitteln dem Bundesamt für Soziale Sicherung als Verwalter des Gesundheitsfonds die zur Geltendmachung der in § 28r Absatz 1 und 2 bezeichneten Rechte erforderlichen Prüfungsergebnisse. Die durch die Aufgabenübertragung und -wahrnehmung entstehenden Kosten sind den Trägern der Rentenversicherung und der Bundesagentur für Arbeit aus den Einnahmen des Gesundheitsfonds zu erstatten. Die Einzelheiten des Verfahrens und der Vergütung vereinbaren die Träger der Rentenversicherung und die Bundesagentur für Arbeit mit dem Bundesamt für Soziale Sicherung als Verwalter des Gesundheitsfonds.
 
 (2) Die Einzugsstellen haben die für die Prüfung erforderlichen Unterlagen bis zur nächsten Einzugsstellenprüfung aufzubewahren und bei der Prüfung bereitzuhalten.
 

@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB VI § 36
-date: 2026-06-06
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__36.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,13 +14,16 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB VI
+- Gesetz: SGB 6
 - Norm: § 36
-- Fassung/Stand: amtliche XML-Fassung bei Gesetze im Internet, builddate 20260531215528, abgerufen am 2026-06-06
-- Abrufdatum: 2026-06-06
+- Normtitel: Altersrente für langjährig Versicherte
+- Fassung/Stand: 1989-12-18
+- Builddate: 20260531215527
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_6/__36.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__36.html
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
 - Status: geltender Normstand
@@ -34,10 +36,12 @@ Altersrente für langjährig Versicherte
 
 ```text
 Versicherte haben Anspruch auf Altersrente für langjährig Versicherte, wenn sie
-1. das 67. Lebensjahr vollendet und
+1. das
+67. Lebensjahr vollendet und
 2. die Wartezeit von 35 Jahren erfüllt
-haben. Die vorzeitige Inanspruchnahme dieser Altersrente ist nach Vollendung des 63.
-Lebensjahres möglich.
+
+haben. Die vorzeitige Inanspruchnahme dieser Altersrente ist nach Vollendung des
+63. Lebensjahres möglich.
 ```
 
 ## Kurzeinordnung

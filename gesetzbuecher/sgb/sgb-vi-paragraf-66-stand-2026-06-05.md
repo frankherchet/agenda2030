@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB VI § 66
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__66.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,60 +14,52 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB VI
+- Gesetz: SGB 6
 - Norm: § 66
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Normtitel: Persönliche Entgeltpunkte
+- Fassung/Stand: 1989-12-18
+- Builddate: 20260531215527
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_6/__66.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__66.html
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Sozialgesetzbuch (SGB) Sechstes Buch (VI) - Gesetzliche Rentenversicherung - (Artikel 1 des Gesetzes v. 18. Dezember 1989, BGBl. I S. 2261, 1990 I S. 1337)§ 66 Persönliche Entgeltpunkte
+Persönliche Entgeltpunkte
 
 ## Normtext
 
 ```text
 (1) Die persönlichen Entgeltpunkte für die Ermittlung des Monatsbetrags der Rente ergeben sich, indem die Summe aller Entgeltpunkte für
-1.
-Beitragszeiten,
-2.
-beitragsfreie Zeiten,
-3.
-Zuschläge für beitragsgeminderte Zeiten,
-4.
-Zuschläge oder Abschläge aus einem durchgeführten Versorgungsausgleich oder Rentensplitting,
-5.
-Zuschläge aus Zahlung von Beiträgen bei vorzeitiger Inanspruchnahme einer Rente wegen Alters oder bei Abfindungen von Anwartschaften auf betriebliche Altersversorgung oder von Anrechten bei der Versorgungsausgleichskasse,
-6.
-Zuschläge an Entgeltpunkten für Arbeitsentgelt aus geringfügiger Beschäftigung,
-7.
-Arbeitsentgelt aus nach § 23b Abs. 2 Satz 1 bis 4 des Vierten Buches aufgelösten Wertguthaben,
-8.
-Zuschläge an Entgeltpunkten aus Beiträgen nach Beginn einer Rente wegen Alters,
-9.
-Zuschläge an Entgeltpunkten für Zeiten einer besonderen Auslandsverwendung,
-10.
-Zuschläge an Entgeltpunkten für nachversicherte Soldaten auf Zeit und
-11.
-Zuschläge an Entgeltpunkten für langjährige Versicherung
+1. Beitragszeiten,
+2. beitragsfreie Zeiten,
+3. Zuschläge für beitragsgeminderte Zeiten,
+4. Zuschläge oder Abschläge aus einem durchgeführten Versorgungsausgleich oder Rentensplitting,
+5. Zuschläge aus Zahlung von Beiträgen bei vorzeitiger Inanspruchnahme einer Rente wegen Alters oder bei Abfindungen von Anwartschaften auf betriebliche Altersversorgung oder von Anrechten bei der Versorgungsausgleichskasse,
+6. Zuschläge an Entgeltpunkten für Arbeitsentgelt aus geringfügiger Beschäftigung,
+7. Arbeitsentgelt aus nach § 23b Abs. 2 Satz 1 bis 4 des Vierten Buches aufgelösten Wertguthaben,
+8. Zuschläge an Entgeltpunkten aus Beiträgen nach Beginn einer Rente wegen Alters,
+9. Zuschläge an Entgeltpunkten für Zeiten einer besonderen Auslandsverwendung,
+10. Zuschläge an Entgeltpunkten für nachversicherte Soldaten auf Zeit und
+11. Zuschläge an Entgeltpunkten für langjährige Versicherung
+
 mit dem Zugangsfaktor vervielfältigt und bei Witwenrenten und Witwerrenten sowie bei Waisenrenten um einen Zuschlag erhöht wird. Persönliche Entgeltpunkte nach Satz 1 Nummer 11 sind für die Anwendung von § 97a von den übrigen persönlichen Entgeltpunkten getrennt zu ermitteln, indem der Zuschlag an Entgeltpunkten für langjährige Versicherung mit dem Zugangsfaktor vervielfältigt wird.
 
 (2) Grundlage für die Ermittlung der persönlichen Entgeltpunkte sind die Entgeltpunkte
-1.
-des Versicherten bei einer Rente wegen Alters, wegen verminderter Erwerbsfähigkeit und bei einer Erziehungsrente,
-2.
-des verstorbenen Versicherten bei einer Witwenrente, Witwerrente und Halbwaisenrente,
-3.
-der zwei verstorbenen Versicherten mit den höchsten Renten bei einer Vollwaisenrente.
+1. des Versicherten bei einer Rente wegen Alters, wegen verminderter Erwerbsfähigkeit und bei einer Erziehungsrente,
+2. des verstorbenen Versicherten bei einer Witwenrente, Witwerrente und Halbwaisenrente,
+3. der zwei verstorbenen Versicherten mit den höchsten Renten bei einer Vollwaisenrente.
 
 (3) Bei einer Teilrente (§ 42 Absatz 1) ergeben sich die in Anspruch genommenen Entgeltpunkte aus der Summe aller Entgeltpunkte entsprechend dem Verhältnis der Teilrente zu der Vollrente.
 
-(3a) Zuschläge an Entgeltpunkten aus Beiträgen nach Beginn einer Rente wegen Alters werden mit Ablauf des Kalendermonats des Erreichens der Regelaltersgrenze und anschließend jährlich zum 1. Juli berücksichtigt. Dabei sind für die jährliche Berücksichtigung zum 1. Juli die für das vergangene Kalenderjahr ermittelten Zuschläge maßgebend.
+(3a) Zuschläge an Entgeltpunkten aus Beiträgen nach Beginn einer Rente wegen Alters werden mit Ablauf des Kalendermonats des Erreichens der Regelaltersgrenze und anschließend jährlich zum
+1. Juli berücksichtigt. Dabei sind für die jährliche Berücksichtigung zum
+1. Juli die für das vergangene Kalenderjahr ermittelten Zuschläge maßgebend.
 
 (4) Bei einer nur teilweise zu leistenden Rente wegen verminderter Erwerbsfähigkeit ergeben sich die jeweils in Anspruch genommenen Entgeltpunkte aus dem Monatsbetrag der Rente nach Anrechnung des Hinzuverdienstes im Wege einer Rückrechnung unter Berücksichtigung des maßgeblichen aktuellen Rentenwerts, des Rentenartfaktors und des jeweiligen Zugangsfaktors.
 ```

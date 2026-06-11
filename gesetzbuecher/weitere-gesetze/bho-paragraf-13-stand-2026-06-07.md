@@ -1,14 +1,13 @@
 ---
 title: BHO § 13 Normstand
-date: 2026-06-07
+date: 2026-06-11
 type: normstand
 gesetz: BHO
 norm: § 13
 status: geltender_normstand
 source_urls:
   - https://www.gesetze-im-internet.de/bho/__13.html
-ingest_refs:
-  - ingest/links/2026-06-07-gesetze-im-internet-bho.md
+  - https://www.gesetze-im-internet.de/bho/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---

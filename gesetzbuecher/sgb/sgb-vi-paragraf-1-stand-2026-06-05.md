@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB VI § 1
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__1.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,46 +14,39 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB VI
+- Gesetz: SGB 6
 - Norm: § 1
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Normtitel: Beschäftigte
+- Fassung/Stand: 1989-12-18
+- Builddate: 20260531215527
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_6/__1.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__1.html
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Sozialgesetzbuch (SGB) Sechstes Buch (VI) - Gesetzliche Rentenversicherung - (Artikel 1 des Gesetzes v. 18. Dezember 1989, BGBl. I S. 2261, 1990 I S. 1337)§ 1 Beschäftigte
+Beschäftigte
 
 ## Normtext
 
 ```text
 Versicherungspflichtig sind
-1.
-Personen, die gegen Arbeitsentgelt oder zu ihrer Berufsausbildung beschäftigt sind; während des Bezuges von Kurzarbeitergeld oder von Qualifizierungsgeld nach dem Dritten Buch besteht die Versicherungspflicht fort,
-2.
-behinderte Menschen, die
-a)
-in anerkannten Werkstätten für behinderte Menschen oder in Blindenwerkstätten im Sinne des § 226 des Neunten Buches oder für diese Einrichtungen in Heimarbeit oder bei einem anderen Leistungsanbieter nach § 60 des Neunten Buches tätig sind,
-b)
-in Anstalten, Heimen oder gleichartigen Einrichtungen in gewisser Regelmäßigkeit eine Leistung erbringen, die einem Fünftel der Leistung eines voll erwerbsfähigen Beschäftigten in gleichartiger Beschäftigung entspricht; hierzu zählen auch Dienstleistungen für den Träger der Einrichtung,
-3.
-Personen, die in Einrichtungen der Jugendhilfe oder in Berufsbildungswerken oder ähnlichen Einrichtungen für behinderte Menschen für eine Erwerbstätigkeit befähigt werden sollen; dies gilt auch für Personen während der individuellen betrieblichen Qualifizierung im Rahmen der Unterstützten Beschäftigung nach § 55 des Neunten Buches,
-3a.
-(weggefallen)
-4.
-Mitglieder geistlicher Genossenschaften, Diakonissen und Angehörige ähnlicher Gemeinschaften während ihres Dienstes für die Gemeinschaft und während der Zeit ihrer außerschulischen Ausbildung.
-Personen, die Wehrdienst leisten und nicht in einem Dienstverhältnis als Berufssoldat oder Soldat auf Zeit stehen, sind in dieser Beschäftigung nicht nach Satz 1 Nr. 1 versicherungspflichtig; sie gelten als Wehrdienstleistende im Sinne des § 3 Satz 1 Nr. 2 oder 2a und Satz 4. Mitglieder des Vorstandes einer Aktiengesellschaft sind in dem Unternehmen, dessen Vorstand sie angehören, nicht versicherungspflichtig beschäftigt, wobei Konzernunternehmen im Sinne des § 18 des Aktiengesetzes als ein Unternehmen gelten. Die in Satz 1 Nr. 2 bis 4 genannten Personen gelten als Beschäftigte im Sinne des Rechts der Rentenversicherung. Die folgenden Personen stehen den Beschäftigten zur Berufsausbildung im Sinne des Satzes 1 Nummer 1 gleich:
-1.
-Auszubildende, die in einer außerbetrieblichen Einrichtung im Rahmen eines Berufsausbildungsvertrages nach dem Berufsbildungsgesetz ausgebildet werden,
-2.
-Teilnehmer an dualen Studiengängen und
-3.
-Teilnehmer an Ausbildungen mit Abschnitten des schulischen Unterrichts und der praktischen Ausbildung, für die ein Ausbildungsvertrag und Anspruch auf Ausbildungsvergütung besteht (praxisintegrierte Ausbildungen).
+1. Personen, die gegen Arbeitsentgelt oder zu ihrer Berufsausbildung beschäftigt sind; während des Bezuges von Kurzarbeitergeld oder von Qualifizierungsgeld nach dem Dritten Buch besteht die Versicherungspflicht fort,
+2. behinderte Menschen, diea)in anerkannten Werkstätten für behinderte Menschen oder in Blindenwerkstätten im Sinne des § 226 des Neunten Buches oder für diese Einrichtungen in Heimarbeit oder bei einem anderen Leistungsanbieter nach § 60 des Neunten Buches tätig sind,b)in Anstalten, Heimen oder gleichartigen Einrichtungen in gewisser Regelmäßigkeit eine Leistung erbringen, die einem Fünftel der Leistung eines voll erwerbsfähigen Beschäftigten in gleichartiger Beschäftigung entspricht; hierzu zählen auch Dienstleistungen für den Träger der Einrichtung,
+3. Personen, die in Einrichtungen der Jugendhilfe oder in Berufsbildungswerken oder ähnlichen Einrichtungen für behinderte Menschen für eine Erwerbstätigkeit befähigt werden sollen; dies gilt auch für Personen während der individuellen betrieblichen Qualifizierung im Rahmen der Unterstützten Beschäftigung nach § 55 des Neunten Buches,
+3a. (weggefallen)
+4. Mitglieder geistlicher Genossenschaften, Diakonissen und Angehörige ähnlicher Gemeinschaften während ihres Dienstes für die Gemeinschaft und während der Zeit ihrer außerschulischen Ausbildung.
+
+Personen, die Wehrdienst leisten und nicht in einem Dienstverhältnis als Berufssoldat oder Soldat auf Zeit stehen, sind in dieser Beschäftigung nicht nach Satz 1 Nr. 1 versicherungspflichtig; sie gelten als Wehrdienstleistende im Sinne des § 3 Satz 1 Nr. 2 oder 2a und Satz
+4. Mitglieder des Vorstandes einer Aktiengesellschaft sind in dem Unternehmen, dessen Vorstand sie angehören, nicht versicherungspflichtig beschäftigt, wobei Konzernunternehmen im Sinne des § 18 des Aktiengesetzes als ein Unternehmen gelten. Die in Satz 1 Nr. 2 bis 4 genannten Personen gelten als Beschäftigte im Sinne des Rechts der Rentenversicherung. Die folgenden Personen stehen den Beschäftigten zur Berufsausbildung im Sinne des Satzes 1 Nummer 1 gleich:
+1. Auszubildende, die in einer außerbetrieblichen Einrichtung im Rahmen eines Berufsausbildungsvertrages nach dem Berufsbildungsgesetz ausgebildet werden,
+2. Teilnehmer an dualen Studiengängen und
+3. Teilnehmer an Ausbildungen mit Abschnitten des schulischen Unterrichts und der praktischen Ausbildung, für die ein Ausbildungsvertrag und Anspruch auf Ausbildungsvergütung besteht (praxisintegrierte Ausbildungen).
 ```
 
 ## Kurzeinordnung

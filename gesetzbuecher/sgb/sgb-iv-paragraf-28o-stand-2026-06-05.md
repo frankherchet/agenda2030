@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB IV § 28o
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_4/__28o.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
+  - https://www.gesetze-im-internet.de/sgb_4/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,20 +14,23 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB IV
+- Gesetz: SGB 4
 - Norm: § 28o
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Normtitel: Auskunfts- und Vorlagepflicht des Beschäftigten
+- Fassung/Stand: 1976-12-23
+- Builddate: 20260506175438
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_4/__28o.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_4/__28o.html
+  - https://www.gesetze-im-internet.de/sgb_4/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Sozialgesetzbuch (SGB) Viertes Buch (IV) - Gemeinsame Vorschriften für die Sozialversicherung - (Artikel I des Gesetzes vom 23. Dezember 1976, BGBl. I S. 3845)§ 28o Auskunfts- und Vorlagepflicht des Beschäftigten
+Auskunfts- und Vorlagepflicht des Beschäftigten
 
 ## Normtext
 

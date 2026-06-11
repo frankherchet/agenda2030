@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB VI § 177
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__177.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,20 +14,23 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB VI
+- Gesetz: SGB 6
 - Norm: § 177
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Normtitel: Beitragszahlung für Kindererziehungszeiten
+- Fassung/Stand: 1989-12-18
+- Builddate: 20260531215527
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_6/__177.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__177.html
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Sozialgesetzbuch (SGB) Sechstes Buch (VI) - Gesetzliche Rentenversicherung - (Artikel 1 des Gesetzes v. 18. Dezember 1989, BGBl. I S. 2261, 1990 I S. 1337)§ 177 Beitragszahlung für Kindererziehungszeiten
+Beitragszahlung für Kindererziehungszeiten
 
 ## Normtext
 
@@ -36,12 +38,9 @@ Sozialgesetzbuch (SGB) Sechstes Buch (VI) - Gesetzliche Rentenversicherung - (Ar
 (1) Die Beiträge für Kindererziehungszeiten werden vom Bund gezahlt.
 
 (2) Der Bund zahlt zur pauschalen Abgeltung für die Beitragszahlung für Kindererziehungszeiten an die allgemeine Rentenversicherung für das Jahr 2000 einen Betrag in Höhe von 22,4 Milliarden Deutsche Mark. Dieser Betrag verändert sich im jeweils folgenden Kalenderjahr in dem Verhältnis, in dem
-1.
-die Bruttolöhne und -gehälter je Arbeitnehmer (§ 68 Abs. 2 Satz 1) im vergangenen Kalenderjahr zu den entsprechenden Bruttolöhnen und -gehältern im vorvergangenen Kalenderjahr stehen,
-2.
-bei Veränderungen des Beitragssatzes der Beitragssatz des Jahres, für das er bestimmt wird, zum Beitragssatz des laufenden Kalenderjahres steht,
-3.
-die Anzahl der unter Dreijährigen im vorvergangenen Kalenderjahr zur entsprechenden Anzahl der unter Dreijährigen in dem dem vorvergangenen vorausgehenden Kalenderjahr steht.
+1. die Bruttolöhne und -gehälter je Arbeitnehmer (§ 68 Abs. 2 Satz 1) im vergangenen Kalenderjahr zu den entsprechenden Bruttolöhnen und -gehältern im vorvergangenen Kalenderjahr stehen,
+2. bei Veränderungen des Beitragssatzes der Beitragssatz des Jahres, für das er bestimmt wird, zum Beitragssatz des laufenden Kalenderjahres steht,
+3. die Anzahl der unter Dreijährigen im vorvergangenen Kalenderjahr zur entsprechenden Anzahl der unter Dreijährigen in dem dem vorvergangenen vorausgehenden Kalenderjahr steht.
 
 (3) Bei der Bestimmung der Bruttolöhne und -gehälter je Arbeitnehmer sind für das vergangene Kalenderjahr und für das vorvergangene Kalenderjahr die Daten zugrunde zu legen, die dem Statistischen Bundesamt zu Beginn des Kalenderjahres, in dem die Bestimmung erfolgt, vorliegen. Bei der Anzahl der unter Dreijährigen in einem Kalenderjahr sind die für das jeweilige Kalenderjahr zum Jahresende vorliegenden Daten des Statistischen Bundesamtes zugrunde zu legen.
 

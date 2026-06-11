@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB VI § 159
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__159.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,25 +14,29 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB VI
+- Gesetz: SGB 6
 - Norm: § 159
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Normtitel: Beitragsbemessungsgrenzen
+- Fassung/Stand: 1989-12-18
+- Builddate: 20260531215527
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_6/__159.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/__159.html
+  - https://www.gesetze-im-internet.de/sgb_6/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Sozialgesetzbuch (SGB) Sechstes Buch (VI) - Gesetzliche Rentenversicherung - (Artikel 1 des Gesetzes v. 18. Dezember 1989, BGBl. I S. 2261, 1990 I S. 1337)§ 159 Beitragsbemessungsgrenzen
+Beitragsbemessungsgrenzen
 
 ## Normtext
 
 ```text
-Die Beitragsbemessungsgrenzen in der allgemeinen Rentenversicherung sowie in der knappschaftlichen Rentenversicherung ändern sich zum 1. Januar eines jeden Jahres in dem Verhältnis, in dem die Bruttolöhne und -gehälter je Arbeitnehmer (§ 68 Abs. 2 Satz 1) im vergangenen zu den entsprechenden Bruttolöhnen und -gehältern im vorvergangenen Kalenderjahr stehen. Die veränderten Beträge werden nur für das Kalenderjahr, für das die Beitragsbemessungsgrenze bestimmt wird, auf das nächsthöhere Vielfache von 600 aufgerundet.
+Die Beitragsbemessungsgrenzen in der allgemeinen Rentenversicherung sowie in der knappschaftlichen Rentenversicherung ändern sich zum
+1. Januar eines jeden Jahres in dem Verhältnis, in dem die Bruttolöhne und -gehälter je Arbeitnehmer (§ 68 Abs. 2 Satz 1) im vergangenen zu den entsprechenden Bruttolöhnen und -gehältern im vorvergangenen Kalenderjahr stehen. Die veränderten Beträge werden nur für das Kalenderjahr, für das die Beitragsbemessungsgrenze bestimmt wird, auf das nächsthöhere Vielfache von 600 aufgerundet.
 ```
 
 ## Kurzeinordnung

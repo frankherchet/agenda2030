@@ -1,12 +1,11 @@
 ---
 title: Normstand Grundgesetz Art. 3
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/gg/art_3.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-grundgesetz.md
+  - https://www.gesetze-im-internet.de/gg/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,20 +14,23 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: Grundgesetz
-- Norm: Art. 3
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Gesetz: GG
+- Norm: Art 3
+- Normtitel: Art 3
+- Fassung/Stand: 1949-05-23
+- Builddate: 20260506174650
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/gg/art_3.html
 - source_urls:
   - https://www.gesetze-im-internet.de/gg/art_3.html
+  - https://www.gesetze-im-internet.de/gg/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-grundgesetz.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Grundgesetz für die Bundesrepublik DeutschlandArt 3
+Art 3
 
 ## Normtext
 

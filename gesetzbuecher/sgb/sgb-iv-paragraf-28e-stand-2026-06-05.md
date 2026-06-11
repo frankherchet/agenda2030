@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB IV § 28e
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_4/__28e.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
+  - https://www.gesetze-im-internet.de/sgb_4/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,20 +14,23 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB IV
+- Gesetz: SGB 4
 - Norm: § 28e
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Normtitel: Zahlungspflicht, Vorschuss
+- Fassung/Stand: 1976-12-23
+- Builddate: 20260506175438
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_4/__28e.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_4/__28e.html
+  - https://www.gesetze-im-internet.de/sgb_4/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Sozialgesetzbuch (SGB) Viertes Buch (IV) - Gemeinsame Vorschriften für die Sozialversicherung - (Artikel I des Gesetzes vom 23. Dezember 1976, BGBl. I S. 3845)§ 28e Zahlungspflicht, Vorschuss
+Zahlungspflicht, Vorschuss
 
 ## Normtext
 
@@ -43,28 +45,31 @@ Sozialgesetzbuch (SGB) Viertes Buch (IV) - Gemeinsame Vorschriften für die Sozi
 
 (3a) Ein Unternehmer des Baugewerbes, der einen anderen Unternehmer mit der Erbringung von Bauleistungen im Sinne des § 101 Absatz 2 des Dritten Buches beauftragt, haftet für die Erfüllung der Zahlungspflicht dieses Unternehmers oder eines von diesem Unternehmer beauftragten Verleihers wie ein selbstschuldnerischer Bürge. Satz 1 gilt entsprechend für die vom Nachunternehmer gegenüber ausländischen Sozialversicherungsträgern abzuführenden Beiträge. Absatz 2 Satz 2 gilt entsprechend.
 
-(3b) Die Haftung nach Absatz 3a entfällt, wenn der Unternehmer nachweist, dass er ohne eigenes Verschulden davon ausgehen konnte, dass der Nachunternehmer oder ein von ihm beauftragter Verleiher seine Zahlungspflicht erfüllt. Ein Verschulden des Unternehmers ist ausgeschlossen, soweit und solange er Fachkunde, Zuverlässigkeit und Leistungsfähigkeit des Nachunternehmers oder des von diesem beauftragten Verleihers durch eine Präqualifikation nachweist, die die Eignungsvoraussetzungen nach § 6a der Vergabe- und Vertragsordnung für Bauleistungen Teil A in der Fassung der Bekanntmachung vom 31. Januar 2019 (BAnz. AT 19.02.2019 B2) erfüllt.
+(3b) Die Haftung nach Absatz 3a entfällt, wenn der Unternehmer nachweist, dass er ohne eigenes Verschulden davon ausgehen konnte, dass der Nachunternehmer oder ein von ihm beauftragter Verleiher seine Zahlungspflicht erfüllt. Ein Verschulden des Unternehmers ist ausgeschlossen, soweit und solange er Fachkunde, Zuverlässigkeit und Leistungsfähigkeit des Nachunternehmers oder des von diesem beauftragten Verleihers durch eine Präqualifikation nachweist, die die Eignungsvoraussetzungen nach § 6a der Vergabe- und Vertragsordnung für Bauleistungen Teil A in der Fassung der Bekanntmachung vom
+31. Januar 2019 (BAnz. AT
+19.
+02.2019 B2) erfüllt.
 
 (3c) Ein Unternehmer, der Bauleistungen im Auftrag eines anderen Unternehmers erbringt, ist verpflichtet, auf Verlangen der Einzugstelle Firma und Anschrift dieses Unternehmers mitzuteilen. Kann der Auskunftsanspruch nach Satz 1 nicht durchgesetzt werden, hat ein Unternehmer, der einen Gesamtauftrag für die Erbringung von Bauleistungen für ein Bauwerk erhält, der Einzugsstelle auf Verlangen Firma und Anschrift aller Unternehmer, die von ihm mit der Erbringung von Bauleistungen beauftragt wurden, zu benennen.
 
-(3d) Absatz 3a gilt ab einem geschätzten Gesamtwert aller für ein Bauwerk in Auftrag gegebenen Bauleistungen von 275 000 Euro, wobei für Schätzungen die Vergabeverordnung vom 12. April 2016 (BGBl. I S. 624) in der jeweils geltenden Fassung gilt.
+(3d) Absatz 3a gilt ab einem geschätzten Gesamtwert aller für ein Bauwerk in Auftrag gegebenen Bauleistungen von 275 000 Euro, wobei für Schätzungen die Vergabeverordnung vom
+12. April 2016 (BGBl. I S. 624) in der jeweils geltenden Fassung gilt.
 
-(3e) Die Haftung des Unternehmers nach Absatz 3a erstreckt sich in Abweichung von der dort getroffenen Regelung auf das von dem Nachunternehmer beauftragte nächste Unternehmen, wenn die Beauftragung des unmittelbaren Nachunternehmers bei verständiger Würdigung der Gesamtumstände als ein Rechtsgeschäft anzusehen ist, dessen Ziel vor allem die Auflösung der Haftung nach Absatz 3a ist. Maßgeblich für die Würdigung ist die Verkehrsanschauung im Baubereich. Ein Rechtsgeschäft im Sinne dieser Vorschrift, das als Umgehungstatbestand anzusehen ist, ist in der Regel anzunehmen,
-a)
-wenn der unmittelbare Nachunternehmer weder selbst eigene Bauleistungen noch planerische oder kaufmännische Leistungen erbringt oder
-b)
-wenn der unmittelbare Nachunternehmer weder technisches noch planerisches oder kaufmännisches Fachpersonal in nennenswertem Umfang beschäftigt oder
-c)
-wenn der unmittelbare Nachunternehmer in einem gesellschaftsrechtlichen Abhängigkeitsverhältnis zum Hauptunternehmer steht.
+(3e) Die Haftung des Unternehmers nach Absatz 3a erstreckt sich in Abweichung von der dort getroffenen Regelung auf das von dem Nachunternehmer beauftragte nächste Unternehmen, wenn die Beauftragung des unmittelbaren Nachunternehmers bei verständiger Würdigung der Gesamtumstände als ein Rechtsgeschäft anzusehen ist, dessen Ziel vor allem die Auflösung der Haftung nach Absatz 3a ist. Maßgeblich für die Würdigung ist die Verkehrsanschauung im Baubereich. Ein Rechtsgeschäft im Sinne dieser Vorschrift, das als Umgehungstatbestand anzusehen ist, ist in der Regel anzunehmen, a) wenn der unmittelbare Nachunternehmer weder selbst eigene Bauleistungen noch planerische oder kaufmännische Leistungen erbringt oder
+b) wenn der unmittelbare Nachunternehmer weder technisches noch planerisches oder kaufmännisches Fachpersonal in nennenswertem Umfang beschäftigt oder
+c) wenn der unmittelbare Nachunternehmer in einem gesellschaftsrechtlichen Abhängigkeitsverhältnis zum Hauptunternehmer steht.
+
 Besonderer Prüfung bedürfen die Umstände des Einzelfalles vor allem in den Fällen, in denen der unmittelbare Nachunternehmer seinen handelsrechtlichen Sitz außerhalb des Europäischen Wirtschaftsraums hat.
 
 (3f) Der Unternehmer kann den Nachweis nach Absatz 3b Satz 2 anstelle der Präqualifikation auch für den Zeitraum des Auftragsverhältnisses durch Vorlage von lückenlosen Unbedenklichkeitsbescheinigungen der zuständigen Einzugsstellen für den Nachunternehmer oder den von diesem beauftragten Verleiher erbringen. Die Unbedenklichkeitsbescheinigung enthält Angaben über die ordnungsgemäße Zahlung der Sozialversicherungsbeiträge und die Zahl der gemeldeten Beschäftigten.
 
-(3g) Für einen Unternehmer im Speditions-, Transport- und damit verbundenen Logistikgewerbe, der im Bereich der Kurier-, Express- und Paketdienste tätig ist und der einen anderen Unternehmer mit der Beförderung von Paketen beauftragt, gelten die Absätze 3a, 3b Satz 1, 3e und 3f entsprechend. Absatz 3b Satz 2 gilt entsprechend mit der Maßgabe, dass die Präqualifikation die Voraussetzung erfüllt, dass der Nachunternehmer in einem amtlichen Verzeichnis eingetragen ist oder über eine Zertifizierung verfügt, die jeweils den Anforderungen des Artikels 64 der Richtlinie 2014/24/EU des Europäischen Parlaments und des Rates vom 26. Februar 2014 über die öffentliche Auftragsvergabe und zur Aufhebung der Richtlinie 2004/18/EG (ABl. L 94 vom 28.3.2014, S. 65), die zuletzt durch die Delegierte Verordnung (EU) 2017/2365 (ABl. L 337 vom 19.12.2017, S. 19) geändert worden ist, entsprechen. Für einen Unternehmer, der im Auftrag eines anderen Unternehmers Pakete befördert, gilt Absatz 3c entsprechend. Beförderung von Paketen im Sinne dieses Buches ist
-a)
-die Beförderung adressierter Pakete mit einem Einzelgewicht von bis zu 32 Kilogramm, soweit diese mit Kraftfahrzeugen mit einem zulässigen Gesamtgewicht von bis zu 3,5 Tonnen erfolgt,
-b)
-die stationäre Bearbeitung von adressierten Paketen bis zu 32 Kilogramm mit Ausnahme der Bearbeitung im Filialbereich.
+(3g) Für einen Unternehmer im Speditions-, Transport- und damit verbundenen Logistikgewerbe, der im Bereich der Kurier-, Express- und Paketdienste tätig ist und der einen anderen Unternehmer mit der Beförderung von Paketen beauftragt, gelten die Absätze 3a, 3b Satz 1, 3e und 3f entsprechend. Absatz 3b Satz 2 gilt entsprechend mit der Maßgabe, dass die Präqualifikation die Voraussetzung erfüllt, dass der Nachunternehmer in einem amtlichen Verzeichnis eingetragen ist oder über eine Zertifizierung verfügt, die jeweils den Anforderungen des Artikels 64 der Richtlinie 2014/24/EU des Europäischen Parlaments und des Rates vom
+26. Februar 2014 über die öffentliche Auftragsvergabe und zur Aufhebung der Richtlinie 2004/18/EG (ABl. L 94 vom
+28.
+3.2014, S. 65), die zuletzt durch die Delegierte Verordnung (EU) 2017/2365 (ABl. L 337 vom
+19.
+12.2017, S. 19) geändert worden ist, entsprechen. Für einen Unternehmer, der im Auftrag eines anderen Unternehmers Pakete befördert, gilt Absatz 3c entsprechend. Beförderung von Paketen im Sinne dieses Buches ist a) die Beförderung adressierter Pakete mit einem Einzelgewicht von bis zu 32 Kilogramm, soweit diese mit Kraftfahrzeugen mit einem zulässigen Gesamtgewicht von bis zu 3,5 Tonnen erfolgt,
+b) die stationäre Bearbeitung von adressierten Paketen bis zu 32 Kilogramm mit Ausnahme der Bearbeitung im Filialbereich.
 
 (4) Die Haftung umfasst die Beiträge und Säumniszuschläge, die infolge der Pflichtverletzung zu zahlen sind, sowie die Zinsen für gestundete Beiträge (Beitragsansprüche).
 

@@ -599,3 +599,16 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   aktuellen XML-Download-URLs, Builddates und einen expliziten
   Aktualisierungsvermerk. Die kuratierten Normstands-Dateien blieben bewusst
   unverändert.
+
+## 2026-06-11 Normstand-Refresh | Gesetze im Internet
+
+- Aktualisiert:
+  zahlreiche Normstand-Dateien unter `gesetzbuecher/` mit echten SGB IV,
+  SGB VI, GG und BHO-Normständen aus der aktuellen XML-Fassung
+- Besonderheit: `gesetzbuecher/sgb/sgb-vi-paragraf-213a-stand-2026-06-09.md`
+  konnte nicht aus dem amtlichen XML erzeugt werden und blieb daher
+  unverändert
+- Wirkung: Die bereits lokal referenzierten Normstände tragen jetzt aktuelle
+  XML-Download-URLs, Abrufdaten und die frisch extrahierten Normtexte aus dem
+  neuen Skill. Die projektinternen Einordnungen ab `## Kurzeinordnung` blieben
+  erhalten.

@@ -1,12 +1,11 @@
 ---
 title: Normstand SGB IV § 28h
-date: 2026-06-05
+date: 2026-06-11
 type: normstand
 status: geltender-normstand
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_4/__28h.html
-ingest_refs:
-  - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
+  - https://www.gesetze-im-internet.de/sgb_4/xml.zip
 related_project:
   - projekte/rentenversicherung/reformkonzept.md
 ---
@@ -15,20 +14,23 @@ related_project:
 
 ## Metadaten
 
-- Gesetz: SGB IV
+- Gesetz: SGB 4
 - Norm: § 28h
-- Fassung/Stand: amtliche Einzelnormfassung bei Gesetze im Internet, abgerufen am 2026-06-05
-- Abrufdatum: 2026-06-05
+- Normtitel: Einzugsstellen
+- Fassung/Stand: 1976-12-23
+- Builddate: 20260506175438
+- Abrufdatum: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_4/__28h.html
 - source_urls:
   - https://www.gesetze-im-internet.de/sgb_4/__28h.html
+  - https://www.gesetze-im-internet.de/sgb_4/xml.zip
 - ingest_refs:
   - ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md
 - Status: geltender Normstand
 
 ## Normtitel
 
-Sozialgesetzbuch (SGB) Viertes Buch (IV) - Gemeinsame Vorschriften für die Sozialversicherung - (Artikel I des Gesetzes vom 23. Dezember 1976, BGBl. I S. 3845)§ 28h Einzugsstellen
+Einzugsstellen
 
 ## Normtext
 
@@ -42,12 +44,9 @@ Sozialgesetzbuch (SGB) Viertes Buch (IV) - Gemeinsame Vorschriften für die Sozi
 (3) Bei Verwendung eines Haushaltsschecks vergibt die Einzugsstelle im Auftrag der Bundesagentur für Arbeit die Betriebsnummer des Arbeitgebers, berechnet den Gesamtsozialversicherungsbeitrag und die Umlagen nach dem Aufwendungsausgleichsgesetz und zieht diese vom Arbeitgeber im Wege des Lastschriftverfahrens ein. Die Einzugsstelle meldet bei Beginn und Ende der Beschäftigung und zum Jahresende der Datenstelle der Rentenversicherung die für die Rentenversicherung und die Bundesagentur für Arbeit erforderlichen Daten eines jeden Beschäftigten. Die Einzugsstelle teilt dem Beschäftigten den Inhalt der abgegebenen Meldung schriftlich oder durch gesicherte Datenübertragung mit.
 
 (4) Bei Verwendung eines Haushaltsschecks bescheinigt die Einzugsstelle dem Arbeitgeber zum Jahresende
-1.
-den Zeitraum, für den Beiträge zur Rentenversicherung gezahlt wurden,
-2.
-die Höhe des Arbeitsentgelts (§ 14 Absatz 3), des von ihm getragenen Gesamtsozialversicherungsbeitrags und der Umlagen und
-3.
-die Höhe der in diesem Jahr erfolgten Erstattungen nach dem Aufwendungsausgleichsgesetz.
+1. den Zeitraum, für den Beiträge zur Rentenversicherung gezahlt wurden,
+2. die Höhe des Arbeitsentgelts (§ 14 Absatz 3), des von ihm getragenen Gesamtsozialversicherungsbeitrags und der Umlagen und
+3. die Höhe der in diesem Jahr erfolgten Erstattungen nach dem Aufwendungsausgleichsgesetz.
 ```
 
 ## Kurzeinordnung
