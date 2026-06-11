@@ -59,3 +59,7 @@ Analysen referenziert werden.
   Varianten moderat, alt und jung; korrigiert auf die GENESIS-Zeile
   `Insgesamt` und mit Erwerbsbrücke `65 bis unter 75 Jahre`, bleibt mangels
   öffentlicher feinjähriger Erwerbsdaten aber Sensitivität.
+- `2026-06-10-drv-rentenzugang-oeffentlich-verfuegbar.md`: öffentlich
+  verfügbare DRV-Rentenzugangsdaten für Altersrenten 67 bis 69 sowie
+  `70 und älter`, inklusive Abschlagstabellen nach Rentenart und Abgrenzung
+  der verbleibenden Datenlücken.

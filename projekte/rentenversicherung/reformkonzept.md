@@ -750,10 +750,13 @@ Senior-Wage-Faktor abgeleitete effektive zusaetzliche Beitragszahler. Die
 Bevoelkerungskohorten sind damit empirisch; die Erwerbswirkung bleibt eine
 Sensitivität, keine Freigabegrundlage. Fuer eine finale Freigabe fehlen
 weiterhin altersscharfe Erwerbsbeteiligung, DRV-Rentenzugaenge, Zugangsfaktoren,
-Abschlaege, Erwerbsminderung und Schutzgruppen. Der DRV-Statistikband 2024
-enthaelt Rentenzugangstabellen nach Alter/Rentenart und ist als naechste
-Auswertungsquelle markiert, ersetzt aber in dieser Fassung noch kein
-vollstaendiges Neurentner-Kohortenmodell.
+Abschlaege, Erwerbsminderung und Schutzgruppen. Aus dem DRV-Statistikband 2024
+sind inzwischen oeffentliche Rentenzugangstabellen fuer Altersrenten mit
+Einzelaltern 67, 68 und 69 sowie einer Sammelkategorie `70 und aelter`
+extrahiert. Damit ist der Korridor 67 bis 69 empirisch besser belegt; ein
+vollstaendiges Neurentner-Kohortenmodell fehlt aber weiter, weil 70, 71 und 72
+nicht getrennt ausgewiesen sind und altersscharfe Abschlags-, Zugangsfaktor-
+und EM-Zugangsdaten oeffentlich nicht vorliegen.
 
 ### 6. Zusaetzlicher Kapitalmarktbaustein
 

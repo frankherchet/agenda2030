@@ -1,0 +1,8 @@
+rentenart;anzahl_insgesamt;anzahl_mit_abschlaegen;durchschnittlicher_rentenzahlbetrag_mit_abschlaegen_eur;durchschnittliche_anzahl_abschlagsmonate;anzahl_ohne_abschlaege_vertrauensschutz;durchschnittlicher_rentenzahlbetrag_ohne_abschlaege_vertrauensschutz_eur;anzahl_ohne_abschlaege_nichtbetroffene_oder_aufschieber;durchschnittlicher_rentenzahlbetrag_ohne_abschlaege_nichtbetroffene_oder_aufschieber_eur
+Renten_wegen_voller_Erwerbsminderung;150070;143101;1.088,07;32,30;0;;6969;1.326,91
+Renten_wegen_teilweiser_Erwerbsminderung;19741;18615;606,45;31,90;0;;1126;719,33
+Renten_wegen_Alters;892440;251013;1.239,72;32,15;0;;641427;1.109,83
+Regelaltersrenten;367119;314;960,40;13,90;0;;366805;741,81
+Altersrenten_fuer_besonders_langjaehrig_Versicherte;251473;65;1.638,92;9,00;0;;251408;1.625,60
+Altersrenten_fuer_langjaehrig_Versicherte;213530;211540;1.222,97;33,82;0;;1990;1.100,10
+Altersrenten_fuer_schwerbehinderte_Menschen;60211;39083;1.332,16;23,28;21128;1.363,23;0;

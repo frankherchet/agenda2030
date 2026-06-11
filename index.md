@@ -30,6 +30,7 @@ Prüfarbeitsstände.
 | Rentenalter und Kapitalmarkt | `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md` | Szenarioanalyse zur Lebenserwartungs-Kopplung des Rentenalters und zu einem zusätzlichen kapitalgedeckten Baustein. | Rente, Rentenalter, Kapitalmarkt |
 | Rentenreform Blocker-Nachbesserung | `analysen/2026-06-06-rentenreform-freigabeblocker.md` | Rentenwert-Budgetformel, feineres Altersjahrmodell und Haushaltswirkung echter öffentlicher Beitragszahlungen. | Rente, Prüferblocker, Staatsbeiträge |
 | Empirisches Rentenaltermodell | `analysen/2026-06-07-rentenalter-genesis-empirisch.md` | GENESIS-basierte Altersjahrrechnung für Rentenalter-Kopplung 2027 bis 2070 mit Varianten moderat, alt und jung. | Rente, Rentenalter, Destatis |
+| Öffentliche DRV-Rentenzugänge | `analysen/2026-06-10-drv-rentenzugang-oeffentlich-verfuegbar.md` | Öffentliche DRV-Zugangstabellen für Altersrenten 67 bis 69 sowie `70 und älter` und aggregierte Abschläge nach Rentenart. | Rente, DRV, Rentenzugang |
 
 ## Projekte und Prüfung
 

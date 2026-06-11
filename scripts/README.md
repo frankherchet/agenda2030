@@ -44,3 +44,6 @@ Aktuelle Skripte:
   Rentenalter-Kohorte durch GENESIS-Altersjahrgänge aus Bevölkerungsstand und
   Bevölkerungsvorausberechnung; die Erwerbsseite bleibt als transparente
   Brücke aus Mikrozensus `65 bis unter 75 Jahre` markiert.
+- `extract_drv_rentenzugang_public.py`: extrahiert aus dem DRV-Statistikband
+  2024 die oeffentlich verfuegbaren Rentenzugangstabellen fuer 67, 68, 69 und
+  `70 und aelter` sowie die aggregierten Abschlagstabellen nach Rentenart.

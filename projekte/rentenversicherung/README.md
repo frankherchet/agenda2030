@@ -18,6 +18,7 @@ Analysen und spätere Umsetzungsartefakte.
 - Bundesmittel-Zweckzerlegung: `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md`
 - Blocker-Nachbesserung: `analysen/2026-06-06-rentenreform-freigabeblocker.md`
 - Empirisches Rentenaltermodell: `analysen/2026-06-07-rentenalter-genesis-empirisch.md`
+- Öffentliche DRV-Rentenzugänge 67 bis 70+: `analysen/2026-06-10-drv-rentenzugang-oeffentlich-verfuegbar.md`
 - Gesamtstatus Folgearbeiten 2026-06-09: `projekte/rentenversicherung/2026-06-09-gesamtstatus-reformvorhaben.md`
 - Status offene Prüfpunkte 2026-06-09: `projekte/rentenversicherung/2026-06-09-status-offene-pruefpunkte.md`
 - Rentenzugangskorridor 67-72: `projekte/rentenversicherung/2026-06-09-szenariokorridor-67-72.md`
@@ -43,6 +44,7 @@ Analysen und spätere Umsetzungsartefakte.
 - `analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md`
 - `analysen/2026-06-06-rentenreform-freigabeblocker.md`
 - `analysen/2026-06-07-rentenalter-genesis-empirisch.md`
+- `analysen/2026-06-10-drv-rentenzugang-oeffentlich-verfuegbar.md`
 
 ## Arbeitsregel
 

@@ -425,3 +425,21 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   fuehren Entwurfs- statt Erledigt-Status, unterscheiden heuristische
   Arbeitsdaten von amtlichen Eingangsdaten und sind sauber in Projekt,
   Index und Pruefpfad verankert.
+
+## 2026-06-10 Analyse | Oeffentliche DRV-Rentenzugaenge weiter ausgeschopft
+
+- Neu:
+  `analysen/2026-06-10-drv-rentenzugang-oeffentlich-verfuegbar.md`,
+  `analysen/daten/2026-06-10-drv-rentenzugang-oeffentlich-alter-rentenart.csv`,
+  `analysen/daten/2026-06-10-drv-rentenzugang-oeffentlich-abschlaege.csv`,
+  `scripts/extract_drv_rentenzugang_public.py`
+- Geaendert:
+  `scripts/README.md`, `analysen/README.md`,
+  `projekte/rentenversicherung/README.md`, `projekte/rentenversicherung/reformkonzept.md`,
+  `index.md`
+- Wirkung: Aus dem oeffentlichen DRV-Statistikband sind nun belastbare
+  Altersrentenzugaenge fuer 67, 68, 69 sowie `70 und aelter` und aggregierte
+  Abschlagstabellen nach Rentenart extrahiert. Damit schrumpft der
+  Anfragebedarf auf die echte Restluecke: Einzelalter 70 bis 72, altersscharfe
+  Abschlags- und Zugangsfaktordaten, EM-Zugaenge 67 bis 72 sowie die amtliche
+  Bundesmittel-Ist-Zweckzerlegung 2024 bis 2026.
