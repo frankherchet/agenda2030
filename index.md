@@ -47,6 +47,7 @@ Prüfarbeitsstände.
 | Folgearbeiten Rente 2026-06-09 | `projekte/rentenversicherung/2026-06-09-gesamtstatus-reformvorhaben.md` | Bereinigter Gesamtstatus der Folgearbeiten zu Datenanfragen, Bundesmittel-Negativbefund und 67-72-Arbeitskorridor. | Rente, Status |
 | Rentenzugangskorridor Rente | `projekte/rentenversicherung/2026-06-09-szenariokorridor-67-72.md` | Heuristische Arbeitsfassung für Rentenzugangsarten und Abschläge 67 bis 72 Jahre. | Rente, Modell |
 | Prüfbericht Rente 2026-06-09 | `projekte/rentenversicherung/pruefberichte/2026-06-09-pruefbericht-rentenversicherung.md` | Prüft die Folgearbeiten vom 2026-06-09 und hält den Status wegen externer Daten offen. | Prüfung, Rente |
+| Konzeptprüfung Rente 2026-06-11 | `projekte/rentenversicherung/pruefberichte/2026-06-11-pruefung-rentenreform-konzeptfassung.md` | Gibt die Rentenreform als öffentliche Konzeptfassung auf Basis öffentlicher Quellen, Proxys und Restlücken frei. | Prüfung, Rente |
 | Normstand-Bedarf Rente | `projekte/rentenversicherung/normstand-bedarf.md` | Matrix der vor Rechtsanalyse und Freigabe lokal abzulegenden Normstände. | Recht, Rente |
 | SGB-Normstände Rente | `gesetzbuecher/sgb/README.md` | Normstand-Paket zu SGB VI und SGB IV für das Rentenprojekt. | Recht, SGB, Rente |
 | Rentenwert-Budgetregel | `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md` | Gesetzesänderungsskizze für § 68 SGB VI, Nominalschutz, Nachholbetrag und getrennte Bundesmittel-Systematik. | Recht, Rente |

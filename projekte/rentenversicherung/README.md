@@ -14,6 +14,7 @@ Analysen und spätere Umsetzungsartefakte.
 - Drittnachprüfung Freigabeblocker: `projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md`
 - Viertnachprüfung Freigabeblocker: `projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md`
 - Prüfbericht Folgearbeiten 2026-06-09: `projekte/rentenversicherung/pruefberichte/2026-06-09-pruefbericht-rentenversicherung.md`
+- Prüfung öffentliche Konzeptfassung 2026-06-11: `projekte/rentenversicherung/pruefberichte/2026-06-11-pruefung-rentenreform-konzeptfassung.md`
 - Normstand-Bedarf: `projekte/rentenversicherung/normstand-bedarf.md`
 - Bundesmittel-Zweckzerlegung: `analysen/2026-06-05-bundesmittel-zweckzerlegung-rente.md`
 - Blocker-Nachbesserung: `analysen/2026-06-06-rentenreform-freigabeblocker.md`
@@ -29,8 +30,8 @@ Analysen und spätere Umsetzungsartefakte.
 - Folgeänderungen Rentenwert-Budgetregel: `gesetzbuecher/sgb/sgb-vi-folgeaenderungen-rentenwert-budgetregel-2026-06-07.md`
 - Vollzug öffentlicher Zahlungspflichten: `gesetzbuecher/sgb/sgb-vi-paragraf-213a-vollzug-rechnungslegung-aenderung-2026-06-07.md`
 - Haushaltsausweis echter Rentenbeiträge: `gesetzbuecher/weitere-gesetze/bho-rentenbeitraege-haushaltsausweis-aenderung-2026-06-07.md`
-- Veröffentlichungsstatus: intern, weil der Prüfbericht den Status `offen`
-  trägt.
+- Prüfstatus: als öffentliche Konzeptfassung freigegeben; finale Gesetzes- und
+  Haushaltsvollzugsfreigabe bleibt ein späterer Schritt.
 
 ## Relevante Analysen
 

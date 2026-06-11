@@ -11,7 +11,7 @@ tags:
   - SGB VI
   - Demographie
   - Beitragssatzstabilitaet
-review_status: offen
+review_status: freigegeben
 review_reports:
   - projekte/rentenversicherung/pruefberichte/2026-06-04-abschmelzmodell-bundeszuschuss.md
   - projekte/rentenversicherung/pruefberichte/2026-06-05-gesamtpruefung-reformkonzept.md
@@ -20,6 +20,7 @@ review_reports:
   - projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md
   - projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md
   - projekte/rentenversicherung/pruefberichte/2026-06-09-pruefbericht-rentenversicherung.md
+  - projekte/rentenversicherung/pruefberichte/2026-06-11-pruefung-rentenreform-konzeptfassung.md
 source_urls:
   - https://www.gesetze-im-internet.de/sgb_6/
   - https://www.gesetze-im-internet.de/sgb_4/
@@ -110,6 +111,8 @@ data_artifacts:
   - analysen/daten/2026-06-06-rentenreform-freigabeblocker-annahmen.csv
   - analysen/daten/2026-06-07-rentenalter-genesis-empirisch-altersjahre.csv
   - analysen/daten/2026-06-07-rentenalter-genesis-empirisch-summary.csv
+  - analysen/daten/2026-06-10-drv-rentenzugang-oeffentlich-alter-rentenart.csv
+  - analysen/daten/2026-06-10-drv-rentenzugang-oeffentlich-abschlaege.csv
 scripts:
   - scripts/calc_demographie_rente.py
   - scripts/calc_rentenreform_zukunft.py
@@ -118,12 +121,14 @@ scripts:
   - scripts/calc_rentenreform_rentenalter_kapital.py
   - scripts/calc_rentenreform_freigabeblocker.py
   - scripts/calc_rentenalter_genesis_empirisch.py
+  - scripts/extract_drv_rentenzugang_public.py
 related_analyses:
   - analysen/2026-06-05-rentenproblem-deutschland-ursachen-auswirkungen.md
   - analysen/2026-06-05-rentenreform-stabilitaetskorridor.md
   - analysen/2026-06-05-rentenreform-rentenalter-kapitalmarkt.md
   - analysen/2026-06-06-rentenreform-freigabeblocker.md
   - analysen/2026-06-07-rentenalter-genesis-empirisch.md
+  - analysen/2026-06-10-drv-rentenzugang-oeffentlich-verfuegbar.md
 ---
 
 # Rentenversicherung reformieren: Beitragsklarheit und reine Umlage
@@ -137,8 +142,10 @@ related_analyses:
   `projekte/rentenversicherung/pruefberichte/2026-06-06-zweitnachpruefung-reformkonzept.md`,
   `projekte/rentenversicherung/pruefberichte/2026-06-07-drittnachpruefung-reformkonzept.md`,
   `projekte/rentenversicherung/pruefberichte/2026-06-07-viertnachpruefung-reformkonzept.md`,
-  `projekte/rentenversicherung/pruefberichte/2026-06-09-pruefbericht-rentenversicherung.md`
-- Status Gesamtprüfung: offen
+  `projekte/rentenversicherung/pruefberichte/2026-06-09-pruefbericht-rentenversicherung.md`,
+  `projekte/rentenversicherung/pruefberichte/2026-06-11-pruefung-rentenreform-konzeptfassung.md`
+- Status Gesamtprüfung: freigegeben als öffentliche Konzeptfassung; nicht als
+  finale Gesetzes- oder Haushaltsvollzugsfreigabe.
 - Normstände: `projekte/rentenversicherung/normstand-bedarf.md`; das
   ursprüngliche Normstand-Paket wurde am 2026-06-06 um SGB VI §§ 34-38, 77,
   235, 236, 236a, 237 und 237a für Altersgrenzen, vorzeitige Altersrenten und
@@ -147,9 +154,7 @@ related_analyses:
   `analysen/2026-06-06-rentenreform-freigabeblocker.md`
 - Gesetzesänderungsskizze Rentenwert-Budgetregel:
   `gesetzbuecher/sgb/sgb-vi-paragraf-68-rentenwert-budgetregel-aenderung-2026-06-06.md`
-- Konsequenz: Das Konzept bleibt interne Arbeitsfassung und ist nicht
-  veroeffentlichungsfaehig, solange kein freigegebener Prueferbericht vorliegt.
-  Die Nachpruefung vom 2026-06-06 bewertet die nachgereichten Rechnungen als
+- Historie: Die Nachpruefung vom 2026-06-06 bewertet die nachgereichten Rechnungen als
   arithmetisch nachvollziehbar, laesst die Freigabe aber wegen noch offener
   Rechts-, Kohorten- und Haushaltsabgrenzungen offen. Die Zweitnachpruefung
   bewertet §-68-Skizze, doppelfreie Haushaltsbruecke und Normstandglaettung
@@ -191,6 +196,10 @@ related_analyses:
   Nachpruefung hierzu bleibt offen, weil weder der Versand der Anfragen noch
   die beschafften Daten dokumentiert sind und der Korridor nur als
   Arbeitsfassung gilt.
+- Pruefung vom 2026-06-11: Die Konzeptfassung ist freigegeben, weil
+  oeffentliche Quellen, reproduzierbare Rechnungen und transparent markierte
+  Restluecken fuer die Konzeptarbeit ausreichen. Die frueheren externen
+  Datenluecken bleiben nur fuer eine spaetere Endvalidierung relevant.
 
 ## Kurzfassung
 

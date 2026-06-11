@@ -457,3 +457,17 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   werden als Restluecken fuer die spaetere Validierung gefuehrt; der Pruefer
   bleibt fuer Freigaben streng, blockiert aber Konzeptfassungen nicht allein
   wegen nicht oeffentlich verfuegbarer Detaildaten.
+
+## 2026-06-11 Prüfer | Rentenreform als Konzeptfassung freigegeben
+
+- Neuer Prüfbericht:
+  `projekte/rentenversicherung/pruefberichte/2026-06-11-pruefung-rentenreform-konzeptfassung.md`
+- Geändert:
+  `projekte/rentenversicherung/reformkonzept.md`,
+  `projekte/rentenversicherung/README.md`, `index.md`
+- Status: freigegeben als öffentliche Konzeptfassung
+- Wirkung: Die früheren externen Datenlücken zu DRV-Feindaten und
+  Bundesmittel-Ist-Zweckzerlegung blockieren die Konzeptarbeit nicht mehr,
+  weil sie transparent als Restlücken für spätere Endvalidierung markiert
+  sind. Rechenartefakte, öffentliche DRV-Auswertung und Normstand-/Quellenkette
+  reichen für die Konzeptfreigabe aus.
