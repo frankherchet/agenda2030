@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gesetze im Internet"
+  short_description: "Gesetze-im-Internet suchen und als Markdown sichern"
+  default_prompt: "Use $gesetze-im-internet to search gesetze-im-internet.de, download official law XML, and export compact ingest or normstand Markdown files."

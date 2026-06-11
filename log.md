@@ -570,3 +570,20 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
   abgesenkt. Der Beitragssatzpfad wird damit konservativer modelliert; die
   Entlastungswirkung des öffentlichen Dienstes bleibt sichtbar, aber kleiner
   als in der vorherigen Arbeitsannahme.
+
+## 2026-06-11 Skill-Erweiterung | Gesetze im Internet
+
+- Neu angelegt:
+  `.agents/skills/gesetze-im-internet/SKILL.md`,
+  `.agents/skills/gesetze-im-internet/references/gesetze-im-internet.md`,
+  `.agents/skills/gesetze-im-internet/scripts/gii_fetch.py`,
+  `.agents/skills/gesetze-im-internet/agents/openai.yaml`
+- Zweck: Offizielle Gesetze-im-Internet-Recherche mit Titelsuche,
+  Volltextsuche, XML-Download und Markdown-Export als Ingest oder Normstand.
+- Verifikation: `python3 -B -m py_compile` mit externem Pycache-Pfad,
+  `quick_validate.py`, Live-Test gegen `gii-toc.xml`, Volltextsuche,
+  Ingest-Export für `sgb_6`, Normstand-Export für `§ 213 SGB VI` und
+  `Art. 3 GG`.
+- Wirkung: Bundesrecht kann jetzt reproduzierbar lokal gesucht und als `.md`
+  abgelegt werden, ohne dass der Arbeitsfluss auf manuelle HTML-Abschriften
+  angewiesen ist.
