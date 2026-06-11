@@ -7,6 +7,7 @@ source_urls:
   - https://www.gesetze-im-internet.de/bho/
   - https://www.gesetze-im-internet.de/bho/__13.html
   - https://www.gesetze-im-internet.de/bho/__17.html
+  - https://www.gesetze-im-internet.de/bho/xml.zip
 ingest_refs: []
 ---
 
@@ -16,7 +17,14 @@ ingest_refs: []
 
 - Typ: Link/Rechtsquelle
 - Datum: 2026-06-07
+- Aktualisiert am: 2026-06-11
 - Quelle: Gesetze im Internet
+- XML-Download: https://www.gesetze-im-internet.de/bho/xml.zip
+- Builddate: 20260518215518
+- Ausfertigung: 1969-08-19
+- Fundstelle: BGBl I 1969, 1284
+- Standangaben:
+  - Zuletzt geändert durch Art. 3 G v. 12.5.2026 I Nr. 137
 - Status: erfasst
 
 ## Kurzfassung

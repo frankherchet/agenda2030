@@ -4,7 +4,14 @@
 
 - Typ: Link
 - Datum: 2026-06-04
+- Aktualisiert am: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/gg/
+- XML-Download: https://www.gesetze-im-internet.de/gg/xml.zip
+- Builddate: 20260506174650
+- Ausfertigung: 1949-05-23
+- Fundstelle: BGBl 1949, 1
+- Standangaben:
+  - Zuletzt geändert durch Art. 1 G v. 22.3.2025 I Nr. 94
 - Status: geprüft
 - Index: `ingest/index/README.md`
 

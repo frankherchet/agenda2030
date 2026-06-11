@@ -4,7 +4,16 @@
 
 - Typ: Link
 - Datum: 2026-06-04
+- Aktualisiert am: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_6/
+- XML-Download: https://www.gesetze-im-internet.de/sgb_6/xml.zip
+- Builddate: 20260531215527
+- Ausfertigung: 1989-12-18
+- Fundstelle: BGBl I 1989, 2261 (1990 I 1337)
+- Standangaben:
+  - Neugefasst durch Bek. v. 19.2.2002 I 754, 1404, 3384;
+  - zuletzt geändert durch Art. 2 Abs. 10 G v. 12.5.2026 I Nr. 143
+  - Ergänzung aufgrund der Sozialversicherungsrechengrößen-Verordnung 2026 v. 24.11.2025 I Nr. 278 ist berücksichtigt
 - Status: geprüft
 - Index: `ingest/index/README.md`
 

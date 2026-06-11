@@ -4,7 +4,15 @@
 
 - Typ: Link
 - Datum: 2026-06-04
+- Aktualisiert am: 2026-06-11
 - Quelle: https://www.gesetze-im-internet.de/sgb_4/
+- XML-Download: https://www.gesetze-im-internet.de/sgb_4/xml.zip
+- Builddate: 20260506175438
+- Ausfertigung: 1976-12-23
+- Fundstelle: BGBl I 1976, 3845
+- Standangaben:
+  - Neugefasst durch Bek. v. 12.11.2009 I 3710, 3973; 2011 I 363;
+  - zuletzt geändert durch Art. 8 G v. 27.4.2026 I Nr. 119
 - Status: geprüft
 - Index: `ingest/index/README.md`
 

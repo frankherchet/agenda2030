@@ -587,3 +587,15 @@ Analysen. Das Log ist append-only: neue Einträge werden unten ergänzt.
 - Wirkung: Bundesrecht kann jetzt reproduzierbar lokal gesucht und als `.md`
   abgelegt werden, ohne dass der Arbeitsfluss auf manuelle HTML-Abschriften
   angewiesen ist.
+
+## 2026-06-11 Quellenpflege | Gesetze-im-Internet-Ingests aktualisiert
+
+- Aktualisiert:
+  `ingest/links/2026-06-04-gesetze-im-internet-sgb-vi.md`,
+  `ingest/links/2026-06-04-gesetze-im-internet-grundgesetz.md`,
+  `ingest/links/2026-06-04-gesetze-im-internet-sgb-iv.md`,
+  `ingest/links/2026-06-07-gesetze-im-internet-bho.md`
+- Wirkung: Die bereits im Repo abgelegten Rohquellen tragen jetzt die
+  aktuellen XML-Download-URLs, Builddates und einen expliziten
+  Aktualisierungsvermerk. Die kuratierten Normstands-Dateien blieben bewusst
+  unverändert.
